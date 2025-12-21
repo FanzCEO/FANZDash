@@ -161,7 +161,6 @@
     "@cloudflare/workers-types": "^4.20251014.0",
     "@replit/vite-plugin-cartographer": "^0.2.8",
     "@replit/vite-plugin-runtime-error-modal": "^0.0.3",
-    "@rollup/rollup-linux-x64-gnu": "^4.52.5",
     "@tailwindcss/typography": "^0.5.19",
     "@types/connect-pg-simple": "^7.0.3",
     "@types/express": "4.17.21",
@@ -202,6 +201,20 @@
       "passport": "^0.7.0",
       "passport-oauth": "npm:passport-oauth@latest",
       "glob": ">=10.5.0"
+    }
+  },
+  "overrides": {
+    "drizzle-kit": {
+      "esbuild": "$esbuild",
+      "@esbuild-kit/core-utils": {
+        "esbuild": "$esbuild"
+      }
+    },
+    "wrangler": {
+      "esbuild": "$esbuild"
+    },
+    "passport-oauth": {
+      "passport": "$passport"
     }
   }
 }
