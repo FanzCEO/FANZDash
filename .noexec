@@ -1,0 +1,13 @@
+# DO NOT EXECUTE FROM THIS DIRECTORY
+# This is a development/sync copy only.
+# 
+# All production execution happens on the server at:
+#   /opt/fanzdash/
+#
+# Deployment process:
+#   1. Make changes locally
+#   2. Run: npm run build
+#   3. Deploy via: scp/rsync to fanz:/opt/fanzdash/
+#   4. Restart: pm2 restart fanzdash
+#
+# NEVER run npm start, node, or any server process from this directory.
