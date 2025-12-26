@@ -1,0 +1,211 @@
+{
+  "moduleId": "module-4",
+  "courseId": "compliance-101",
+  "title": "Reporting Violations",
+  "duration": 10,
+  "order": 4,
+  "learningObjectives": [
+    "Learn how to report prohibited content",
+    "Understand what happens after reporting",
+    "Recognize your role in platform safety",
+    "Know when and how to report different types of violations"
+  ],
+  "videoScript": {
+    "duration": "10 minutes",
+    "sections": [
+      {
+        "title": "Why Reporting Matters",
+        "duration": "2:00",
+        "script": "Welcome to the final module of Compliance 101: Reporting Violations. This module covers one of the most important contributions you can make to platform safety – reporting content that violates our guidelines.\n\nYou might wonder: 'Why is it my responsibility to report?' Here's why:\n\n**Scale**: With millions of pieces of content uploaded, our automated systems and moderation team can't catch everything. User reports are a critical safety layer.\n\n**Context**: You understand nuances that AI might miss. A performer's distress signals, context that indicates coercion, or subtle violations that slip past automated detection.\n\n**Community**: When you report violations, you protect other users, creators, and the entire platform. Non-compliance by anyone threatens everyone.\n\n**Legal obligation**: For certain content – particularly CSAM – there may be legal obligations to report. Knowingly failing to report certain illegal content could have legal consequences.\n\nReporting isn't about policing other users – it's about keeping our community safe and legal. Every legitimate platform depends on community participation in safety."
+      },
+      {
+        "title": "How to Report Content",
+        "duration": "3:00",
+        "script": "Reporting content on Fanz is straightforward. Here's the step-by-step process:\n\n**Step 1: Locate the Report Button**\nEvery piece of content has a report option:\n- On posts: Click the three-dot menu (...) and select 'Report'\n- On profiles: Click 'Report Profile' in the profile menu\n- On messages: Click the flag icon or 'Report Message'\n\n**Step 2: Select the Violation Type**\nChoose the category that best matches the violation:\n- CSAM / Minor safety concern\n- Non-consensual content\n- Prohibited content category (incest, violence, etc.)\n- Spam or scam\n- Harassment\n- Other violation\n\n**Step 3: Provide Details (Optional but Helpful)**\nAdd any context that helps moderators:\n- Specific timestamps in videos\n- Why you believe this violates policies\n- Any additional concerning details\n\n**Step 4: Submit**\nClick 'Submit Report' to send your report to the moderation team.\n\n**What to Report:**\n- Any of the 9 prohibited content categories\n- Suspected minors in content\n- Non-consensual content or apparent coercion\n- Harassment or threats\n- Spam, scams, or impersonation\n- Copyright infringement\n- Any content that makes you concerned for someone's safety\n\n**When to Report:**\nReport immediately when you see concerning content. Don't investigate or gather more evidence – that's the moderation team's job."
+      },
+      {
+        "title": "What Happens After You Report",
+        "duration": "3:00",
+        "script": "Here's what happens once you submit a report:\n\n**Immediate (Automated):**\n- Report is logged in our system\n- Content may be temporarily hidden pending review\n- For CSAM reports, content is immediately blocked and preserved for law enforcement\n\n**Within 24 Hours:**\n- A human moderator reviews the report\n- Additional automated scans may be triggered\n- Priority reports (CSAM, trafficking, violence) are escalated immediately\n\n**Review Process:**\n1. Moderator assesses the content against our policies\n2. If needed, additional team members review\n3. Decision is made: remove content, warn creator, or find no violation\n\n**Actions Taken:**\n- **No violation found**: Content remains, you're notified\n- **Minor violation**: Content removed, creator warned\n- **Serious violation**: Content removed, account suspended\n- **Criminal content**: Content removed, law enforcement notified\n\n**You'll Be Notified:**\nYou'll receive a notification about the outcome of your report. Note that for privacy reasons, we can't always share specific actions taken against another user.\n\n**Response Times:**\n- Standard reports: 24-48 hours\n- Priority reports (CSAM, trafficking): 1-4 hours\n- EU DSA complaints: 14 days maximum (legal requirement)"
+      },
+      {
+        "title": "Special Reporting Situations",
+        "duration": "2:00",
+        "script": "Some situations require special attention:\n\n**CSAM / Minor Safety:**\nIf you suspect content involves a minor:\n- Report immediately using the 'CSAM/Minor Safety' option\n- DO NOT download, screenshot, or share the content\n- DO NOT confront the uploader\n- Your report triggers mandatory NCMEC reporting\n- This is the highest priority – reviewed within hours\n\n**Suspected Trafficking:**\nIf you see signs of human trafficking:\n- Use the 'Non-consensual/Trafficking' report option\n- Note any indicators: coercion language, distress, third-party control\n- Your report may trigger FBI notification\n- You can also call the National Human Trafficking Hotline: 1-888-373-7888\n\n**False Reporting:**\nReporting is a responsibility, not a weapon:\n- False reports waste moderator resources\n- Pattern of false reporting results in warnings\n- Repeated false reporting leads to account restrictions\n- Malicious reporting to harm competitors is prohibited\n\n**Anonymous Reporting:**\n- Your identity is protected from the reported user\n- The reported user never sees who reported them\n- Only moderators and compliance team can see reporter identity\n- This protection encourages honest reporting\n\n**Emergency Situations:**\nIf you believe someone is in immediate danger:\n- Contact local law enforcement immediately\n- Then report on platform for documentation\n- Do not attempt to intervene directly"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "reportingSimulator",
+      "title": "Practice Reporting Content",
+      "scenarios": [
+        {
+          "content": "Video with concerning title suggesting underage content",
+          "correctCategory": "CSAM / Minor safety concern",
+          "priority": "Immediate",
+          "feedback": "Correct! Any content suggesting minors should be reported with highest priority using the CSAM/Minor safety option."
+        },
+        {
+          "content": "Post with title containing 'step-sister' scenario",
+          "correctCategory": "Prohibited content category",
+          "priority": "Standard",
+          "feedback": "Correct! Incest-related content, including step-family, falls under prohibited content categories."
+        },
+        {
+          "content": "Creator posting same promotional content repeatedly",
+          "correctCategory": "Spam or scam",
+          "priority": "Low",
+          "feedback": "Correct! Repetitive promotional content is spam, though this is lower priority than safety concerns."
+        },
+        {
+          "content": "Content showing performer who appears distressed and mentions 'having to' do this",
+          "correctCategory": "Non-consensual/Trafficking",
+          "priority": "Immediate",
+          "feedback": "Correct! Coercion language and distress are trafficking indicators requiring immediate attention."
+        }
+      ]
+    },
+    {
+      "type": "decisionTree",
+      "title": "Should You Report This?",
+      "nodes": [
+        {
+          "id": "start",
+          "question": "Does the content concern you?",
+          "yes": "category",
+          "no": "noReport"
+        },
+        {
+          "id": "category",
+          "question": "Does it fall into one of the 9 prohibited categories?",
+          "yes": "report",
+          "no": "safety"
+        },
+        {
+          "id": "safety",
+          "question": "Does it raise safety concerns (harassment, threats, distress)?",
+          "yes": "report",
+          "no": "terms"
+        },
+        {
+          "id": "terms",
+          "question": "Does it violate other platform terms (spam, scams, etc.)?",
+          "yes": "report",
+          "no": "noReport"
+        },
+        {
+          "id": "report",
+          "result": "YES - Report this content using the appropriate category"
+        },
+        {
+          "id": "noReport",
+          "result": "This may not require a report, but trust your instincts - when in doubt, report"
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "What Happens After You Report",
+      "steps": [
+        {
+          "time": "Immediately",
+          "action": "Report logged, content may be hidden pending review"
+        },
+        {
+          "time": "1-4 hours",
+          "action": "Priority reports (CSAM, trafficking) reviewed by human moderator"
+        },
+        {
+          "time": "24 hours",
+          "action": "Standard reports assigned to moderator queue"
+        },
+        {
+          "time": "24-48 hours",
+          "action": "Moderator reviews and makes decision"
+        },
+        {
+          "time": "After decision",
+          "action": "You receive notification of outcome"
+        },
+        {
+          "time": "If violation confirmed",
+          "action": "Content removed, creator warned/suspended, law enforcement notified if required"
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 4 Knowledge Check",
+    "questions": [
+      {
+        "id": "m4q1",
+        "question": "Where do you find the report button on a post?",
+        "options": [
+          "At the bottom of every page",
+          "In the three-dot menu (...) on the content",
+          "Only in settings",
+          "You must email support"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The report option is found in the three-dot menu (...) on each piece of content, making it easy to report specific items."
+      },
+      {
+        "id": "m4q2",
+        "question": "What happens if you falsely report content repeatedly?",
+        "options": [
+          "Nothing, reporting is always encouraged",
+          "Warning and potential account restrictions",
+          "Immediate permanent ban",
+          "Fine of $100 per false report"
+        ],
+        "correctAnswer": 1,
+        "explanation": "False reporting wastes moderator resources. Patterns of false reporting result in warnings, and repeated false reporting leads to account restrictions."
+      },
+      {
+        "id": "m4q3",
+        "question": "True or False: Reports are anonymous to the reported user.",
+        "options": ["True", "False"],
+        "correctAnswer": 0,
+        "explanation": "True. Your identity is protected from the reported user. Only moderators and the compliance team can see who submitted the report."
+      },
+      {
+        "id": "m4q4",
+        "question": "How long does it typically take for standard reports to be reviewed?",
+        "options": ["1 hour", "24-48 hours", "1 week", "30 days"],
+        "correctAnswer": 1,
+        "explanation": "Standard reports are typically reviewed within 24-48 hours. Priority reports (CSAM, trafficking) are reviewed within 1-4 hours."
+      },
+      {
+        "id": "m4q5",
+        "question": "If you see suspected CSAM, what should you do?",
+        "options": [
+          "Download it as evidence before reporting",
+          "Report immediately using the CSAM/Minor Safety option and do not download/share",
+          "Message the uploader first",
+          "Wait to see if anyone else reports it"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Report immediately and do NOT download, screenshot, or share the content. Do not confront the uploader. Let the moderation team and law enforcement handle it."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Reporting Quick Reference Card",
+      "type": "pdf",
+      "url": "/resources/reporting-quick-reference.pdf"
+    },
+    {
+      "title": "National Human Trafficking Hotline",
+      "type": "external",
+      "url": "https://humantraffickinghotline.org/",
+      "phone": "1-888-373-7888"
+    },
+    {
+      "title": "NCMEC CyberTipline (for reporting CSAM outside platform)",
+      "type": "external",
+      "url": "https://www.missingkids.org/gethelpnow/cybertipline"
+    }
+  ]
+}

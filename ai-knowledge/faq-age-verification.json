@@ -1,0 +1,758 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-12-23",
+  "category": "age_verification",
+  "total_questions": 75,
+  "questions": [
+    {
+      "id": "age_001",
+      "question": "Why do I need to verify my age?",
+      "answer": "Age verification is required by law in the UK (Online Safety Act 2023), 8 US states (Louisiana, Utah, Virginia, Texas, Arkansas, Mississippi, Montana, Kansas), and various EU countries. These laws require adult content platforms to verify users are 18+ before granting access. Fanz uses IP geolocation to determine if verification is required based on your location.",
+      "category": "requirements",
+      "tags": ["age-verification", "legal", "requirements"],
+      "related": ["age_002", "age_003", "comp_001"],
+      "url": "/kb/age-verification-guide",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_002",
+      "question": "What verification methods are available?",
+      "answer": "Fanz offers 4 verification methods: (1) VerifyMy (third-party service, $0.50-$1.50, recommended), (2) ID document upload (free, manual review within 24 hours), (3) Credit card verification (free, instant), and (4) AI age estimation (free, instant, privacy-focused). Choose the method that works best for your preferences.",
+      "category": "methods",
+      "tags": ["verification-methods", "verifymyage", "id-upload"],
+      "related": ["age_003", "age_010", "age_015"],
+      "url": "/kb/age-verification-guide#4-verification-methods",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_003",
+      "question": "How much does age verification cost?",
+      "answer": "Costs vary by method: VerifyMy costs $0.50-$1.50 (one-time fee, varies by region). ID document upload is free but requires 24-hour review. Credit card verification is free and instant. AI age estimation is free and instant. The platform subsidizes verification costs to reduce barriers while maintaining compliance.",
+      "category": "costs",
+      "tags": ["pricing", "costs", "free"],
+      "related": ["age_002", "age_004"],
+      "url": "/kb/age-verification-guide#costs",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_004",
+      "question": "How long does verification take?",
+      "answer": "Verification time depends on method: VerifyMy is instant to 5 minutes. Credit card verification is instant. AI age estimation is instant. ID document upload takes up to 24 hours (manual review). Most users are verified within minutes using automated methods.",
+      "category": "timing",
+      "tags": ["timing", "duration", "instant"],
+      "related": ["age_002", "age_005"],
+      "url": "/kb/age-verification-guide#timing",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_005",
+      "question": "Which verification method is fastest?",
+      "answer": "Credit card verification and AI age estimation are both instant. VerifyMy takes 2-5 minutes. ID document upload takes up to 24 hours. For immediate access, use credit card verification or AI estimation. Choose based on your privacy preferences and what credentials you have available.",
+      "category": "methods",
+      "tags": ["fastest", "instant", "methods"],
+      "related": ["age_002", "age_004"],
+      "url": "/kb/age-verification-guide#fastest-method",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_006",
+      "question": "Which verification method is most private?",
+      "answer": "AI age estimation is most privacy-focused: no ID required, no personal data stored, uses facial analysis to estimate age without identifying you. VerifyMy is also privacy-oriented: third-party processing, Fanz only receives yes/no verification. ID upload stores data but with encryption. Credit card links to your identity but doesn't require document images.",
+      "category": "privacy",
+      "tags": ["privacy", "data", "methods"],
+      "related": ["age_002", "age_012"],
+      "url": "/kb/age-verification-guide#privacy",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_007",
+      "question": "What is VerifyMy?",
+      "answer": "VerifyMy is a third-party age verification service. They verify your age using various methods (ID scan, database checks, digital identity) and return only a yes/no result to Fanz. Benefits: independent processing (Fanz doesn't see your ID), multiple verification options, widely accepted, and fast processing. Cost is $0.50-$1.50 depending on region and method.",
+      "category": "methods",
+      "tags": ["verifymyage", "third-party", "service"],
+      "related": ["age_002", "age_008"],
+      "url": "/kb/age-verification-guide#verifymyage",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_008",
+      "question": "Is VerifyMy safe to use?",
+      "answer": "Yes, VerifyMy is a reputable age verification provider. They: comply with GDPR and UK age verification standards, use encryption for all data, delete verification data after completion, don't share data with Fanz beyond age confirmation, and have been audited by independent security firms. They're certified under UK Age Check Certification Scheme (ACCS).",
+      "category": "security",
+      "tags": ["verifymyage", "security", "safe"],
+      "related": ["age_007", "age_012"],
+      "url": "/kb/age-verification-guide#verifymyage-security",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_009",
+      "question": "Can I use someone else's ID to verify?",
+      "answer": "No, absolutely not. Using another person's ID is identity fraud - a criminal offense. Verification must be done with your own valid identification. Systems detect mismatches between ID photos and live selfies. Fraudulent verification attempts result in: immediate account termination, permanent ban, potential criminal referral, and you may face legal consequences.",
+      "category": "fraud",
+      "tags": ["fraud", "identity", "prohibited"],
+      "related": ["age_001", "comp_078"],
+      "url": "/kb/age-verification-guide#fraud",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_010",
+      "question": "What happens if my verification fails?",
+      "answer": "If verification fails: (1) You'll see an error message explaining why, (2) You can try again with correct information, (3) Try a different verification method, (4) Contact support if you believe it's an error. Common reasons: blurry ID photo, expired ID, information mismatch, AI estimation uncertain. Most failures can be resolved by trying again carefully.",
+      "category": "troubleshooting",
+      "tags": ["failed", "troubleshooting", "retry"],
+      "related": ["age_011", "age_018"],
+      "url": "/kb/troubleshooting-compliance#verification-failed",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_011",
+      "question": "Why was my ID rejected?",
+      "answer": "Common ID rejection reasons: Blurry or unclear image (retake with better lighting), Expired document (use valid ID), Glare obscuring information (avoid flash), Cropped or cut-off edges (show full document), Damaged or worn document (use better condition ID), Unsupported document type (check accepted list), Information mismatch (ensure details match your profile).",
+      "category": "troubleshooting",
+      "tags": ["rejected", "id", "troubleshooting"],
+      "related": ["age_010", "age_018"],
+      "url": "/kb/troubleshooting-compliance#id-rejected",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_012",
+      "question": "What data does Fanz store after verification?",
+      "answer": "Data stored depends on method: VerifyMy - only verification status and timestamp (no ID data). AI estimation - only verification status (no images stored). ID upload - encrypted ID image for 2257 compliance (7 years). Credit card - last 4 digits and verification status. All data is encrypted and access-controlled. View your verification data in Settings > Privacy > My Data.",
+      "category": "privacy",
+      "tags": ["data-storage", "privacy", "retention"],
+      "related": ["age_006", "age_013"],
+      "url": "/kb/privacy-compliance#verification-data",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_013",
+      "question": "How long is my verification data stored?",
+      "answer": "Retention periods: Verification status (that you verified) - duration of account + 3 years. ID document images (if uploaded) - 7 years (2257 requirement for creators, 3 years for viewers). VerifyMy/AI data - they delete after verification; we only keep yes/no result. Financial data - 7 years (tax/legal). Request deletion of non-required data anytime via GDPR request.",
+      "category": "privacy",
+      "tags": ["retention", "data", "duration"],
+      "related": ["age_012", "comp_020"],
+      "url": "/kb/privacy-compliance#verification-retention",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_014",
+      "question": "Can I use a VPN during verification?",
+      "answer": "VPNs may cause issues: Some verification methods detect VPNs and block them. Verification may fail due to IP/location mismatch. If you're in a required jurisdiction, using VPN to appear elsewhere is evasion (against ToS). Recommendation: disable VPN during verification, re-enable after. If you legitimately need VPN, contact support for assistance.",
+      "category": "technical",
+      "tags": ["vpn", "technical", "troubleshooting"],
+      "related": ["age_010", "comp_046"],
+      "url": "/kb/troubleshooting-compliance#vpn-verification",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_015",
+      "question": "What if I'm not in a jurisdiction that requires verification?",
+      "answer": "If your location doesn't legally require verification, you'll see a soft age-gate (self-declaration 'I am 18+'). You can still voluntarily complete full verification if you prefer. Benefits of voluntary verification: access to all content, no future interruptions if laws change, and some features may require it. Location is determined by IP address.",
+      "category": "requirements",
+      "tags": ["jurisdiction", "optional", "self-declaration"],
+      "related": ["age_001", "age_025"],
+      "url": "/kb/age-verification-guide#optional-verification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_016",
+      "question": "Do I need to verify again if I move to a different country?",
+      "answer": "Depends on the situation: If you've completed full verification once, it typically carries across locations. If you only self-declared and move to a required jurisdiction, you'll need to verify. If verification requirements change in your new location, you may need additional verification. We'll notify you if re-verification is needed when your location changes.",
+      "category": "requirements",
+      "tags": ["relocation", "international", "re-verification"],
+      "related": ["age_001", "age_017"],
+      "url": "/kb/age-verification-guide#location-changes",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_017",
+      "question": "What if I'm verified on one Fanz platform and visit another?",
+      "answer": "FanzSSO (Single Sign-On) means one verification works across all Fanz platforms. Once you verify on any Fanz property (boyfanz, girlfanz, transfanz, etc.), your verification status automatically applies to all others. No need to re-verify on each platform. Your verification and compliance status syncs across the ecosystem.",
+      "category": "ecosystem",
+      "tags": ["sso", "cross-platform", "fanz"],
+      "related": ["comp_083", "comp_082"],
+      "url": "/kb/fanz-ecosystem#sso-verification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_018",
+      "question": "What documents are accepted for ID upload?",
+      "answer": "Accepted documents: Government-issued photo ID (passport, driver's license, national ID card), must be valid (not expired), must clearly show: full name, date of birth, photo, and document number. Not accepted: Student IDs, work IDs, library cards, or any non-government ID. Document must be from a recognized country/state.",
+      "category": "documents",
+      "tags": ["documents", "id", "accepted"],
+      "related": ["age_002", "age_019"],
+      "url": "/kb/age-verification-guide#accepted-documents",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_019",
+      "question": "Can I use an expired ID?",
+      "answer": "No, expired IDs are not accepted. The document must be valid at the time of verification. This is a legal requirement - expired documents no longer serve as valid proof of identity. If your only ID has recently expired, renew it first. Some methods (credit card, AI estimation) don't require ID if you prefer alternatives.",
+      "category": "documents",
+      "tags": ["expired", "id", "validity"],
+      "related": ["age_018", "age_011"],
+      "url": "/kb/age-verification-guide#document-validity",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_020",
+      "question": "What if I'm under 18?",
+      "answer": "If you're under 18, you cannot access Fanz - this is non-negotiable and legally required. Attempting to verify with false information is fraud. If you accidentally created an account while underage, it will be terminated. Fanz is exclusively for adults 18 and over. There are no exceptions.",
+      "category": "minors",
+      "tags": ["minors", "prohibited", "age-requirement"],
+      "related": ["comp_047", "age_009"],
+      "url": "/kb/age-verification-guide#minors",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_021",
+      "question": "How does AI age estimation work?",
+      "answer": "AI age estimation analyzes facial features to estimate age without identifying you. Process: (1) Take a live selfie, (2) AI analyzes facial features (not identity), (3) Estimates if you're over 18, (4) Result returned (pass/fail). No images are stored after processing. Most accurate for adults 25+; may require alternative method for those 18-24 where estimation is less certain.",
+      "category": "methods",
+      "tags": ["ai", "estimation", "facial-analysis"],
+      "related": ["age_002", "age_022"],
+      "url": "/kb/age-verification-guide#ai-estimation",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_022",
+      "question": "Is AI age estimation accurate?",
+      "answer": "AI age estimation is highly accurate for clearly adult faces (25+): 95%+ accuracy. For ages 18-24, accuracy is lower (85-90%) due to facial similarity between teens and young adults. If AI estimation fails or is uncertain, you'll be asked to use an alternative method. This protects against false positives while maintaining privacy for most users.",
+      "category": "methods",
+      "tags": ["ai", "accuracy", "estimation"],
+      "related": ["age_021", "age_023"],
+      "url": "/kb/age-verification-guide#ai-accuracy",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_023",
+      "question": "What if AI estimation says I'm under 18 but I'm not?",
+      "answer": "AI estimation can produce false negatives (incorrectly estimating under 18). If this happens: (1) Don't worry - it doesn't mean you're banned, (2) Use an alternative verification method (ID upload or credit card), (3) AI will offer alternatives automatically, (4) Your accurate age will be confirmed by document/payment. This is a known limitation, especially for younger-looking adults.",
+      "category": "troubleshooting",
+      "tags": ["ai", "false-negative", "troubleshooting"],
+      "related": ["age_021", "age_022"],
+      "url": "/kb/troubleshooting-compliance#ai-estimation-failed",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_024",
+      "question": "How does credit card verification work?",
+      "answer": "Credit card verification uses the fact that you must be 18+ to hold a credit card. Process: (1) Enter credit card details, (2) Small temporary hold placed (not charged), (3) Card verified as valid and in your name, (4) Age confirmed, (5) Hold released. No charge is made. This is instant and widely available.",
+      "category": "methods",
+      "tags": ["credit-card", "payment", "verification"],
+      "related": ["age_002", "age_025"],
+      "url": "/kb/age-verification-guide#credit-card",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_025",
+      "question": "Will my credit card be charged for verification?",
+      "answer": "No, your credit card is NOT charged for verification. A temporary authorization hold (typically $0.00 or $1.00) may appear and will be released within 24-48 hours. This is just to verify the card is valid. You will not be billed. The only payments are if you choose to purchase content or subscriptions later.",
+      "category": "costs",
+      "tags": ["credit-card", "charges", "free"],
+      "related": ["age_024", "age_003"],
+      "url": "/kb/age-verification-guide#credit-card-charges",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_026",
+      "question": "Can I use a debit card for verification?",
+      "answer": "Yes, debit cards with Visa/Mastercard logos are accepted for verification. The same process applies - a temporary hold verifies the card, then releases. Prepaid cards may not work depending on issuer. The card must be in your name. If your debit card fails, try credit card or another verification method.",
+      "category": "methods",
+      "tags": ["debit-card", "payment", "verification"],
+      "related": ["age_024", "age_027"],
+      "url": "/kb/age-verification-guide#debit-card",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_027",
+      "question": "Can I use a prepaid card for verification?",
+      "answer": "Prepaid cards have limited support for verification. Issues: many prepaid cards don't verify age of holder, some don't support authorization holds, anonymous prepaid cards are not accepted. If your prepaid card fails, use another verification method. This isn't a Fanz restriction - it's because prepaid cards don't reliably confirm age.",
+      "category": "methods",
+      "tags": ["prepaid", "payment", "limitations"],
+      "related": ["age_024", "age_026"],
+      "url": "/kb/age-verification-guide#prepaid-cards",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_028",
+      "question": "What information is shared with verification providers?",
+      "answer": "Information shared varies by method: VerifyMy - your ID details (they process, return only yes/no to us). AI estimation - facial image (processed, not stored). Credit card - card details (processed by payment provider, not stored on Fanz). ID upload - document image (stored encrypted on Fanz for compliance). Each method has different privacy tradeoffs.",
+      "category": "privacy",
+      "tags": ["data-sharing", "privacy", "providers"],
+      "related": ["age_012", "age_006"],
+      "url": "/kb/privacy-compliance#verification-data-sharing",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_029",
+      "question": "Can I delete my verification data?",
+      "answer": "Depends on data type and your role: Viewer verification (AI, credit card, VerifyMy) - deletable after 3 years. Viewer ID upload - deletable after 3 years. Creator verification - must retain for 7 years (2257 legal requirement). Request deletion via Settings > Privacy > Data Requests. We'll explain any legally-required retention.",
+      "category": "privacy",
+      "tags": ["deletion", "data", "gdpr"],
+      "related": ["age_012", "comp_021"],
+      "url": "/kb/privacy-compliance#verification-deletion",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_030",
+      "question": "Is my verification valid for purchases?",
+      "answer": "Age verification and payment are separate. Verification confirms you're 18+ to view content. Purchasing requires adding a payment method (which may also verify age). Some payment methods (credit card) serve both purposes. If you verified via AI or ID, you'll still need to add payment details separately for purchases.",
+      "category": "payments",
+      "tags": ["payment", "verification", "purchasing"],
+      "related": ["age_024", "comp_137"],
+      "url": "/kb/payments#verification-vs-payment",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_031",
+      "question": "Why does the site still ask my age after I verified?",
+      "answer": "If you're seeing age prompts after verification: (1) Try logging in again (verification is account-linked), (2) Clear browser cookies and cache, (3) Ensure you're on the same account, (4) Check Settings > Verification to confirm status, (5) Contact support if issue persists. Verification status should persist across sessions when logged in.",
+      "category": "troubleshooting",
+      "tags": ["troubleshooting", "persistent", "login"],
+      "related": ["age_010", "age_035"],
+      "url": "/kb/troubleshooting-compliance#verification-not-saving",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_032",
+      "question": "Do I need to verify on every device?",
+      "answer": "No, verification is account-based, not device-based, in most cases. Log into your verified account on any device to maintain verified status. Exception: some jurisdictions require device-binding where each device needs verification. If device binding applies to you, you'll be prompted when accessing from a new device.",
+      "category": "devices",
+      "tags": ["devices", "multi-device", "account"],
+      "related": ["age_017", "comp_144"],
+      "url": "/kb/age-verification-guide#devices",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_033",
+      "question": "Can I verify if I don't have a smartphone?",
+      "answer": "Yes, verification is available on desktop: ID upload works via webcam or file upload, Credit card verification works on any device, VerifyMy has desktop options, AI estimation works with any camera-enabled device. You can also verify on a friend's phone and access via desktop using your account. All methods accessible without smartphone.",
+      "category": "accessibility",
+      "tags": ["desktop", "no-smartphone", "accessibility"],
+      "related": ["age_002", "age_034"],
+      "url": "/kb/age-verification-guide#desktop-verification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_034",
+      "question": "Is verification accessible for users with disabilities?",
+      "answer": "We strive for accessible verification: Screen reader compatible interfaces, Keyboard navigation support, Clear text instructions (not just visual), Multiple method options for different needs, Extended time for ID photo capture, Support team available for assistance. If you face accessibility barriers, contact accessibility@fanz.com for help completing verification.",
+      "category": "accessibility",
+      "tags": ["accessibility", "disabilities", "support"],
+      "related": ["age_033", "comp_098"],
+      "url": "/kb/accessibility#verification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_035",
+      "question": "How do I check my verification status?",
+      "answer": "Check verification status: Settings > Account > Verification Status. You'll see: verification method used, date verified, expiration (if any), and linked platforms (FanzSSO). Status types: Verified (full access), Pending (under review), Not Verified (verification needed), Expired (re-verification needed). You can also see this on your profile page.",
+      "category": "status",
+      "tags": ["status", "check", "account"],
+      "related": ["age_031", "age_036"],
+      "url": "/kb/account-management#verification-status",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_036",
+      "question": "Does my verification expire?",
+      "answer": "Verification validity: Most verifications are valid indefinitely while account is active. Some jurisdictions require annual re-verification. Creator verification requires periodic refresh. If expiring, you'll be notified 30 days, 7 days, and 1 day before. Check expiration in Settings > Verification. Re-verification uses same methods as initial verification.",
+      "category": "duration",
+      "tags": ["expiration", "renewal", "validity"],
+      "related": ["age_035", "comp_143"],
+      "url": "/kb/age-verification-guide#expiration",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_037",
+      "question": "What if my name on ID doesn't match my profile?",
+      "answer": "Legal name on ID doesn't need to match display name/username. Verification confirms your legal identity. You can use any display name you want (within policy). If verification fails due to name mismatch with other records, contact support. Legal name changes: update via Settings > Account > Legal Name with documentation.",
+      "category": "names",
+      "tags": ["name", "mismatch", "legal-name"],
+      "related": ["age_011", "age_018"],
+      "url": "/kb/age-verification-guide#name-matching",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_038",
+      "question": "Can I verify with a name change pending?",
+      "answer": "Use your current legal name as shown on valid ID. If you're mid-name-change: use document with your current legal name, once you have new ID with new name, you can update verification. Pending court orders or name change documents are not accepted - must be reflected on government ID. Contact support for complex situations.",
+      "category": "names",
+      "tags": ["name-change", "legal", "documents"],
+      "related": ["age_037", "age_018"],
+      "url": "/kb/age-verification-guide#name-changes",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_039",
+      "question": "What happens to my content if verification expires?",
+      "answer": "If creator verification expires: content may be hidden from public view, monetization paused, you'll be notified with re-verification deadline. For viewers: access to age-gated content blocked until re-verified. Re-verification restores full access. Content is not deleted - just temporarily restricted. Complete verification promptly to minimize disruption.",
+      "category": "consequences",
+      "tags": ["expiration", "content", "access"],
+      "related": ["age_036", "comp_069"],
+      "url": "/kb/age-verification-guide#expiration-consequences",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_040",
+      "question": "Why is my country/state showing incorrectly?",
+      "answer": "Location detection uses IP address, which isn't perfect. Reasons for incorrect location: VPN active, ISP routing through different region, mobile network location variance. To resolve: disable VPN, check actual location settings, contact support with proof of actual location. We can manually adjust if IP detection is wrong.",
+      "category": "troubleshooting",
+      "tags": ["location", "geolocation", "incorrect"],
+      "related": ["age_014", "comp_054"],
+      "url": "/kb/troubleshooting-compliance#wrong-location",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_041",
+      "question": "What are the UK age verification requirements?",
+      "answer": "The UK Online Safety Act 2023 requires robust age verification for pornographic content. Requirements: verification before viewing any sexually explicit content, approved methods (ID, credit card, digital identity services), regulator is Ofcom with enforcement powers. Fanz uses multiple approved methods. UK users must verify to access any adult content.",
+      "category": "jurisdictions",
+      "tags": ["uk", "online-safety-act", "requirements"],
+      "related": ["age_001", "comp_024"],
+      "url": "/kb/age-verification-guide#uk-requirements",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_042",
+      "question": "What are the Louisiana age verification requirements?",
+      "answer": "Louisiana Act 440 requires age verification for websites with 33.3%+ adult content. Requirements: reasonable age verification (ID preferred), platforms must verify or face liability, law took effect January 2023. Fanz requires full verification for Louisiana users. Other US states have followed with similar laws.",
+      "category": "jurisdictions",
+      "tags": ["louisiana", "us-state", "requirements"],
+      "related": ["age_001", "comp_025"],
+      "url": "/kb/age-verification-guide#louisiana",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_043",
+      "question": "What is digital identity verification?",
+      "answer": "Digital identity services verify your identity using existing trusted sources (bank accounts, mobile carrier records, government databases). Benefits: no need to upload ID photos, fast verification, uses data you've already verified elsewhere. VerifyMy offers digital identity options. Availability varies by country/region.",
+      "category": "methods",
+      "tags": ["digital-identity", "verification", "methods"],
+      "related": ["age_007", "age_002"],
+      "url": "/kb/age-verification-guide#digital-identity",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_044",
+      "question": "Can my parents/guardians verify for me?",
+      "answer": "No. If you need parental permission, you're under 18 and cannot access Fanz. There is no parental consent option for adult content platforms. The minimum age is 18, no exceptions. Verification must be done by the actual user with their own identity. Any attempt to use another's identity is fraud.",
+      "category": "minors",
+      "tags": ["parents", "minors", "prohibited"],
+      "related": ["age_020", "age_009"],
+      "url": "/kb/age-verification-guide#minors",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_045",
+      "question": "What if I lost access to my verified account?",
+      "answer": "To recover a verified account: (1) Use account recovery via email/phone, (2) Complete identity verification if additional security required, (3) Your verification status will be restored once account access is recovered. If you can't recover the account, you'll need to create a new account and verify again. Previous verification doesn't transfer to new accounts.",
+      "category": "account",
+      "tags": ["account-recovery", "lost-access", "verification"],
+      "related": ["age_035", "comp_051"],
+      "url": "/kb/account-management#recovery",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_046",
+      "question": "Can I appeal a verification rejection?",
+      "answer": "If verification was rejected and you believe it's in error: (1) Try again with clearer documentation, (2) Use a different verification method, (3) Contact support with explanation and supporting documents, (4) Support can manually review edge cases. Most rejections are due to image quality or expired documents - easily fixed by retry.",
+      "category": "appeals",
+      "tags": ["appeal", "rejection", "support"],
+      "related": ["age_010", "age_011"],
+      "url": "/kb/troubleshooting-compliance#verification-appeal",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_047",
+      "question": "How secure is the verification process?",
+      "answer": "Verification security measures: TLS encryption for all data transmission, Encrypted storage for documents, Access controls limiting staff access, Audit logging of all access, Regular security assessments, Third-party verification providers with independent security, Compliance with industry standards (SOC 2, ISO 27001). Your verification data is protected.",
+      "category": "security",
+      "tags": ["security", "encryption", "protection"],
+      "related": ["age_008", "age_012"],
+      "url": "/kb/age-verification-guide#security",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_048",
+      "question": "What if I'm verified but still can't access content?",
+      "answer": "If verified but access blocked: (1) Confirm verification status in Settings, (2) Check if content has additional restrictions (creator blocks, geo-restrictions), (3) Ensure you're logged in, (4) Clear browser cache, (5) Check for account restrictions (compliance hold), (6) Contact support if none of above apply. Verification should grant access to all age-gated content.",
+      "category": "troubleshooting",
+      "tags": ["access", "troubleshooting", "content"],
+      "related": ["age_031", "age_035"],
+      "url": "/kb/troubleshooting-compliance#access-after-verification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_049",
+      "question": "Do creators need additional verification?",
+      "answer": "Yes, creators have enhanced verification requirements: Standard age verification PLUS government ID verification (always required), Address verification, Tax documentation (W-9/W-8BEN), Profile photo matching ID, Phone verification, and Creator Compliance certification. This is for 2257 compliance and fraud prevention. Creator verification takes 24-48 hours.",
+      "category": "creators",
+      "tags": ["creator", "enhanced", "verification"],
+      "related": ["comp_121", "comp_007"],
+      "url": "/kb/creator-verification",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_050",
+      "question": "What is performer verification?",
+      "answer": "Performer verification confirms identity for anyone appearing in content. Requirements under 2257: legal name, date of birth, valid government ID copy, all aliases used. Required for: the creator, any collaborators, anyone appearing in sexual content. Creator is responsible for verifying all performers before content creation. Records kept for 7 years.",
+      "category": "creators",
+      "tags": ["performer", "2257", "verification"],
+      "related": ["age_049", "comp_007"],
+      "url": "/kb/2257-recordkeeping#performer-verification",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_051",
+      "question": "How do I verify collaborators in my content?",
+      "answer": "Collaborator verification process: (1) Before production, verify each performer's ID, (2) Record legal name, DOB, and take ID copy, (3) Document aliases they'll use, (4) Have them sign consent form, (5) Upload their verification to your records, (6) Link content to their verification. Fanz provides tools for this in Creator Dashboard > Collaborators.",
+      "category": "creators",
+      "tags": ["collaborator", "verification", "process"],
+      "related": ["age_050", "comp_056"],
+      "url": "/kb/creator-compliance#collaborator-verification",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_052",
+      "question": "What if my collaborator won't verify?",
+      "answer": "Without verified collaborators, you cannot publish content featuring them. Options: (1) Explain 2257 legal requirements to collaborator, (2) Content with unverified performers will be blocked, (3) Edit content to remove unverified performers, (4) For professional collaborators, this should be standard practice. Never publish content with unverified performers - it's illegal.",
+      "category": "creators",
+      "tags": ["collaborator", "refusal", "requirements"],
+      "related": ["age_051", "comp_007"],
+      "url": "/kb/creator-compliance#unverified-collaborators",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_053",
+      "question": "How do I update my verification information?",
+      "answer": "To update verification info: Settings > Verification > Update Information. Reasons to update: name change, new ID document, address change, phone number change. Some updates require re-verification (new ID). Changes processed within 24-48 hours. Keep information current to avoid verification expiration issues.",
+      "category": "maintenance",
+      "tags": ["update", "information", "maintenance"],
+      "related": ["age_037", "age_036"],
+      "url": "/kb/account-management#update-verification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_054",
+      "question": "What happens during a verification audit?",
+      "answer": "Verification audits verify integrity of records. Process: (1) Random or triggered selection, (2) Request to re-confirm identity, (3) May require fresh ID upload, (4) Comparison to original records. Audits happen: randomly (compliance sampling), if suspicious activity detected, or as part of regulatory requirements. Failing audit may require re-verification or account review.",
+      "category": "compliance",
+      "tags": ["audit", "compliance", "verification"],
+      "related": ["comp_060", "age_036"],
+      "url": "/kb/verification#audits",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "age_055",
+      "question": "Can I see what verification data you have about me?",
+      "answer": "Yes, under GDPR you can access your verification data: Settings > Privacy > My Data > Verification Data. Shows: method used, date, data retained, retention period. For full export including raw data, submit GDPR access request via Settings > Privacy > Data Requests. Response within 30 days.",
+      "category": "privacy",
+      "tags": ["data-access", "gdpr", "transparency"],
+      "related": ["age_012", "comp_087"],
+      "url": "/kb/privacy-compliance#access-verification-data",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_056",
+      "question": "What is age assurance vs age verification?",
+      "answer": "Age assurance is the broad category; age verification is one method. Age assurance includes: Age verification (confirming exact identity/age), Age estimation (AI facial analysis), Age inference (credit card ownership implies 18+). Fanz offers multiple age assurance methods. Regulators typically accept any robust age assurance method.",
+      "category": "concepts",
+      "tags": ["assurance", "verification", "terminology"],
+      "related": ["age_021", "age_024"],
+      "url": "/kb/age-verification-guide#terminology",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_057",
+      "question": "Why do some features require additional verification?",
+      "answer": "Enhanced features require additional verification for: Creator monetization (tax/fraud prevention), Live streaming (real-time identity), Messaging (prevent minor contact), High-value purchases (fraud prevention). Basic viewing may only need age confirmation, but interactive features need identity confirmation. This protects you and the community.",
+      "category": "features",
+      "tags": ["features", "enhanced", "requirements"],
+      "related": ["age_049", "comp_133"],
+      "url": "/kb/verification#feature-requirements",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_058",
+      "question": "How does verification protect me?",
+      "answer": "Verification benefits for you: Prevents minors from accessing your content (legal protection), Reduces fake accounts and harassment, Enables chargebacks protection (verified buyers), Protects your content from underage access, Creates trust in the community, and meets legal requirements that keep the platform operating. Your verification also helps create a safer environment.",
+      "category": "benefits",
+      "tags": ["protection", "benefits", "safety"],
+      "related": ["age_001", "comp_016"],
+      "url": "/kb/age-verification-guide#benefits",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_059",
+      "question": "Can employers see that I verified on Fanz?",
+      "answer": "No, verification is confidential. Your employer cannot see: that you have a Fanz account, that you verified, or any verification details. Information is not shared with employers, background check companies, or third parties (except legal requirements). Your profile is separate from your legal identity - use whatever display name you want.",
+      "category": "privacy",
+      "tags": ["employer", "confidential", "privacy"],
+      "related": ["age_006", "age_012"],
+      "url": "/kb/privacy-compliance#confidentiality",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_060",
+      "question": "What if I share a device with minors?",
+      "answer": "If minors have access to your device: Use private browsing (doesn't retain login), Log out after each session, Enable device-level parental controls, Don't save passwords, Consider separate user profiles on the device. We recommend not accessing adult content on shared devices. Device-binding in some jurisdictions means your verification won't apply to other profiles.",
+      "category": "safety",
+      "tags": ["shared-device", "minors", "safety"],
+      "related": ["age_032", "age_020"],
+      "url": "/kb/age-verification-guide#shared-devices",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_061",
+      "question": "What biometric data is collected during verification?",
+      "answer": "Biometric data depends on method: AI estimation - facial geometry analyzed (not stored after processing), ID upload - face compared to selfie (face data deleted after match, ID retained), VerifyMy - they may use facial matching (their retention policy applies). No fingerprints, retina scans, or ongoing biometric monitoring. See privacy policy for full details.",
+      "category": "privacy",
+      "tags": ["biometric", "facial", "data"],
+      "related": ["age_021", "comp_089"],
+      "url": "/kb/privacy-compliance#biometric-data",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "age_062",
+      "question": "Can I verify anonymously?",
+      "answer": "Truly anonymous verification isn't possible - the point is confirming real identity/age. However, privacy-preserving options exist: AI estimation (no ID, image not stored), VerifyMy (third-party processes, we only see result), Credit card (we don't see full details, just verification). Your identity is confirmed but display name and activity can be anonymous.",
+      "category": "privacy",
+      "tags": ["anonymous", "privacy", "options"],
+      "related": ["age_006", "age_021"],
+      "url": "/kb/age-verification-guide#privacy-options",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_063",
+      "question": "What verification is required for different content types?",
+      "answer": "Content access requirements: Non-sexual content - self-declaration sufficient. Sexually explicit content - full age verification required in regulated jurisdictions. Purchasing content - payment method verification. Creating content - full creator verification. Messaging - verified account. Live streams - enhanced verification. Requirements may vary by your location.",
+      "category": "content",
+      "tags": ["content-types", "requirements", "access"],
+      "related": ["age_057", "age_015"],
+      "url": "/kb/age-verification-guide#content-types",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_064",
+      "question": "How do I help someone report verification fraud?",
+      "answer": "If you know someone using fake ID or someone else's identity: Report via Settings > Report > Verification Fraud, or email trust@fanz.com. Provide: username, why you believe it's fraud, any evidence. We investigate all reports. Verification fraud is taken seriously and results in permanent ban plus potential legal referral.",
+      "category": "reporting",
+      "tags": ["fraud", "reporting", "help"],
+      "related": ["age_009", "comp_041"],
+      "url": "/kb/safety#report-fraud",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_065",
+      "question": "What's the difference between viewer and creator verification?",
+      "answer": "Viewer verification confirms you're 18+ to view content. Methods: AI, credit card, ID, VerifyMy. Minimal data retained. Creator verification confirms identity for 2257 compliance. Always requires: government ID, address, tax docs, photo match. Data retained 7 years. Creators face more verification because they're legally responsible for content they produce.",
+      "category": "comparison",
+      "tags": ["viewer", "creator", "comparison"],
+      "related": ["age_049", "comp_055"],
+      "url": "/kb/verification#viewer-vs-creator",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_066",
+      "question": "Can verification be bypassed with browser extensions?",
+      "answer": "No. Verification is server-side, not browser-based. Attempting to bypass verification: violates Terms of Service, results in account termination, may constitute fraud, doesn't actually work (we detect manipulation attempts). Age verification is required by law - there's no legitimate bypass. Don't trust tools claiming to bypass verification.",
+      "category": "security",
+      "tags": ["bypass", "prohibited", "security"],
+      "related": ["age_009", "comp_078"],
+      "url": "/kb/age-verification-guide#bypass-attempts",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_067",
+      "question": "Why is my face verification failing?",
+      "answer": "Face verification failure reasons: Poor lighting (use well-lit area), Face not centered (follow on-screen guide), Wearing glasses/hats (remove if possible), Low camera quality (try different device), Face partially obscured, Significant difference from ID photo. Try: better lighting, removing accessories, following on-screen positioning exactly. Alternative methods available if face verification continues to fail.",
+      "category": "troubleshooting",
+      "tags": ["face", "selfie", "troubleshooting"],
+      "related": ["age_011", "age_021"],
+      "url": "/kb/troubleshooting-compliance#face-verification-failed",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_068",
+      "question": "What happens to verification if I change citizenship?",
+      "answer": "Citizenship changes: Update verification with new documentation when you receive new ID. Old verification remains valid until expiration. Nationality doesn't affect age verification (you're still verified as 18+). If moving between countries with different requirements, you may need to re-verify based on new location's laws.",
+      "category": "international",
+      "tags": ["citizenship", "international", "changes"],
+      "related": ["age_016", "age_053"],
+      "url": "/kb/verification#citizenship-changes",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_069",
+      "question": "Are there verification requirements for trans/non-binary users?",
+      "answer": "Verification uses your legal identity as shown on government ID. We verify age, not gender. Display name and gender presentation are separate from legal identity. If your ID shows a different name/gender than you use, that's fine - legal name is only for age verification records. Update legal info when you have updated government ID.",
+      "category": "inclusivity",
+      "tags": ["trans", "non-binary", "inclusivity"],
+      "related": ["age_037", "age_053"],
+      "url": "/kb/verification#inclusivity",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_070",
+      "question": "What verification is needed for international creators?",
+      "answer": "International creators need: Government ID from any recognized country, Proof of residence (utility bill, bank statement), Tax documentation (W-8BEN for non-US), Local equivalent of ID verification. US 2257 applies to content distributed in US regardless of creator location. Some countries have additional requirements - check creator documentation for your country.",
+      "category": "international",
+      "tags": ["international", "creator", "requirements"],
+      "related": ["age_049", "comp_093"],
+      "url": "/kb/creator-verification#international",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_071",
+      "question": "How do open banking verification methods work?",
+      "answer": "Open banking uses your bank's verification: (1) You authorize connection to your bank, (2) Bank confirms your identity/age to verification service, (3) Service confirms to Fanz you're 18+, (4) No banking details shared with Fanz. Benefits: fast, no document upload, uses existing trusted verification. Available through VerifyMy in supported regions.",
+      "category": "methods",
+      "tags": ["open-banking", "verification", "methods"],
+      "related": ["age_043", "age_007"],
+      "url": "/kb/age-verification-guide#open-banking",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_072",
+      "question": "What's the verification process for business accounts?",
+      "answer": "Business accounts (studios, agencies) require: Business registration documents, Authorized representative verification, Address verification, Tax documents (EIN/VAT number), All individual performers still need individual 2257 verification. Business verification takes 2-5 business days. Contact business@fanz.com for business account setup.",
+      "category": "business",
+      "tags": ["business", "studio", "verification"],
+      "related": ["age_049", "comp_145"],
+      "url": "/kb/business-verification",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "age_073",
+      "question": "Can I verify using a passport from any country?",
+      "answer": "Passports from most countries are accepted. Requirements: valid (not expired), from a recognized country, readable with clear photo. Some countries' passports may require additional verification due to document security variations. If your passport isn't accepted, try another document type or verification method.",
+      "category": "documents",
+      "tags": ["passport", "international", "documents"],
+      "related": ["age_018", "age_070"],
+      "url": "/kb/age-verification-guide#international-documents",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "age_074",
+      "question": "What if verification requirements change in my area?",
+      "answer": "When laws change: We monitor legislation and update requirements proactively. You'll be notified if verification is newly required or requirements change. Existing verification may grandfather you in, or re-verification may be required. We provide reasonable time (typically 30 days) to complete any newly required verification.",
+      "category": "legal",
+      "tags": ["legal-changes", "requirements", "updates"],
+      "related": ["age_001", "comp_099"],
+      "url": "/kb/age-verification-guide#requirement-changes",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "age_075",
+      "question": "Where can I get help with verification issues?",
+      "answer": "Verification help: In-app chat support (fastest), Email verification@fanz.com (detailed issues), Knowledge Base kb.fanz.website/verification (self-help), Settings > Help > Verification (guided troubleshooting). Provide: your username, verification method attempted, error message received, screenshots if possible. Most issues resolved within 24 hours.",
+      "category": "support",
+      "tags": ["help", "support", "contact"],
+      "related": ["age_010", "comp_100"],
+      "url": "/kb/getting-help#verification",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "moduleId": "cc-module-2",
+  "courseId": "creator-compliance",
+  "title": "2257 Record Keeping",
+  "duration": 30,
+  "order": 2,
+  "learningObjectives": [
+    "Understand 18 U.S.C. § 2257 requirements in depth",
+    "Learn what records must be kept and for how long",
+    "Create compliant model release forms",
+    "Distinguish solo vs. collaboration record keeping",
+    "Understand penalties for non-compliance"
+  ],
+  "videoScript": {
+    "duration": "30 minutes",
+    "sections": [
+      {
+        "title": "What is 18 U.S.C. § 2257?",
+        "duration": "5:00",
+        "script": "This module is arguably the most important for content creators. 18 U.S.C. § 2257 is a federal law that requires producers of sexually explicit content to verify and maintain records proving all performers are 18 or older.\n\n**Why This Law Exists:**\nThis law was created to prevent child exploitation in the adult industry. Before 2257, there were cases of minors appearing in adult content because producers didn't verify ages. The law ensures every person in sexually explicit content is legally an adult.\n\n**Who Does 2257 Apply To?**\n- Anyone who produces sexually explicit visual content (photos, videos)\n- This includes solo creators, couples, and studios\n- If you film yourself, you're the producer\n- If you film with others, you're responsible for their records too\n\n**What is 'Sexually Explicit Conduct'?**\nUnder 2257, sexually explicit conduct includes:\n- Actual or simulated intercourse\n- Genital or pubic area displayed for sexual purposes\n- Graphic sexual stimulation\n\nNote: Nudity alone isn't necessarily covered, but to be safe, treat all adult content as covered by 2257.\n\n**The Basic Requirement:**\nFor every person appearing in your sexually explicit content, you must:\n1. Verify they are 18+ by examining valid government ID\n2. Create and maintain records documenting this verification\n3. Keep these records for 7 years\n4. Make records available for FBI inspection\n5. Include a Custodian of Records statement on content"
+      },
+      {
+        "title": "Primary vs. Secondary Producer",
+        "duration": "5:00",
+        "script": "2257 distinguishes between two types of producers:\n\n**Primary Producer:**\nYou are the PRIMARY producer if you:\n- Personally film the content\n- Directly employ performers\n- Have control over production\n\nPrimary producers have the strictest requirements:\n- Must personally verify ID before filming\n- Must create original records\n- Must maintain complete records\n\n**Secondary Producer:**\nYou are a SECONDARY producer if you:\n- License or purchase content from others\n- Distribute content you didn't produce\n- Operate a platform hosting third-party content\n\nSecondary producers can rely on primary producer records, but must:\n- Obtain a copy of records from primary producer\n- Verify the primary producer maintains compliant records\n- Keep records of where they obtained content\n\n**As a Fanz Creator, You Are:**\nFor solo content: You are the primary producer\nFor collaboration content: You are the primary producer for yourself, and need records from collaborators\nFor purchased content: You are a secondary producer\n\n**When Using Content from Others:**\nIf you purchase content or collaborate:\n- Obtain 2257 records from the original producer\n- Keep copies of their ID verification\n- Document the chain of custody\n- You're responsible even if they provided false info (so verify carefully)"
+      },
+      {
+        "title": "Required Records",
+        "duration": "8:00",
+        "script": "Here's exactly what records you must keep for each performer:\n\n**1. Legal Name**\nThe performer's full legal name as it appears on their government ID. Not stage names or nicknames – the actual legal name.\n\n**2. Date of Birth**\nThe performer's date of birth from their ID. This proves they were 18+ at the time of production.\n\n**3. Government-Issued ID Copy**\nA copy of at least one valid government-issued photo ID:\n- Driver's license\n- Passport\n- State/national ID card\n- Military ID\n\nThe ID must be:\n- Valid (not expired) at time of production\n- Readable photo copy (can be digital)\n- Show name, date of birth, and photo\n\n**4. All Stage Names and Aliases**\nDocument every name the performer uses in content:\n- Stage names\n- Screen names\n- Social media handles used in content\n- Any alias they perform under\n\n**5. URLs/Locations of Content**\nRecord where the content featuring this performer appears:\n- Fanz profile URLs\n- Specific content URLs\n- External platform links\n- Any location where content is distributed\n\n**6. Date of Production**\nThe date when the content was created.\n\n**Record Format:**\nRecords can be maintained:\n- Digitally (encrypted storage recommended)\n- Physically (secure filing cabinet)\n- Hybrid (original IDs verified in person, digital copies kept)\n\nDigital records must be:\n- Organized by performer\n- Searchable\n- Backed up\n- Available for inspection within 20 minutes\n\n**Retention Period:**\nRecords must be kept for 7 years from:\n- Date of last publication of content, OR\n- Date performer's last content was produced\n\nEven if you delete content, keep the records for 7 years from when it was last live."
+      },
+      {
+        "title": "Model Release Forms",
+        "duration": "5:00",
+        "script": "While not strictly required by 2257, model release forms are essential for legal protection:\n\n**What a Model Release Should Include:**\n\n1. **Performer Information:**\n   - Legal name (matching ID)\n   - Date of birth\n   - Address\n   - Phone number\n   - Email\n\n2. **Production Information:**\n   - Date of production\n   - Location of production\n   - Description of content\n   - Platforms where content will appear\n\n3. **Rights Granted:**\n   - Right to use content commercially\n   - Right to distribute on specified platforms\n   - Duration of rights (perpetual or time-limited)\n   - Exclusivity terms (if any)\n\n4. **Compensation:**\n   - Payment amount (can be 'no compensation' for collaborations)\n   - Payment method and timing\n   - Revenue share terms (if applicable)\n\n5. **Legal Declarations:**\n   - Performer confirms they are 18+\n   - Performer confirms they have valid ID\n   - Performer consents to the specific acts performed\n   - Performer confirms they are not coerced\n   - Performer confirms they have not ingested substances that impair consent\n\n6. **Signatures:**\n   - Performer signature\n   - Witness signature (recommended)\n   - Date\n\n**Why Model Releases Matter:**\n- Prove consent was given\n- Protect you from claims of unauthorized use\n- Document compensation agreements\n- Demonstrate compliance with consent requirements"
+      },
+      {
+        "title": "Custodian of Records and FBI Inspections",
+        "duration": "4:00",
+        "script": "2257 requires you to designate a Custodian of Records and be prepared for FBI inspection.\n\n**Custodian of Records:**\nThe Custodian of Records is the person responsible for maintaining and producing 2257 records. For solo creators, this is usually yourself.\n\n**Required Statement:**\nAll sexually explicit content must include a statement with:\n- Name and address of Custodian of Records\n- Statement that records are maintained per 2257\n\nExample:\n'Records required pursuant to 18 U.S.C. § 2257 are maintained by: [Your Name or Business Name], [Address], [City, State, ZIP]'\n\nThis must appear:\n- On your profile/website\n- In content descriptions (or linked)\n- Accessible from any content page\n\n**FBI Inspection Rights:**\nThe FBI can inspect your records:\n- With 48-hour notice (usually)\n- Without notice in some circumstances\n- During business hours\n- At the location listed in your Custodian statement\n\n**What to Expect in an Inspection:**\n- Inspector will identify themselves\n- They'll request access to 2257 records\n- They may look at specific performer records\n- They'll verify your system is organized\n- They may copy records\n\n**Preparing for Inspection:**\n- Keep records organized and accessible\n- Know where everything is (within 20 minutes)\n- Have a system for quick retrieval\n- Keep your Custodian address current\n- If you move, update your records location\n\n**If You're Inspected:**\n- Cooperate fully\n- Provide requested records\n- Do NOT attempt to hide or alter records\n- You can have an attorney present\n- Document what was inspected and copied"
+      },
+      {
+        "title": "Solo vs. Collaboration Content",
+        "duration": "3:00",
+        "script": "Your record-keeping responsibilities differ based on who's in your content:\n\n**Solo Content (Just You):**\n- You are the only performer\n- You need only your own records\n- Self-verification documentation\n- Simpler record keeping\n\nEven for solo content, maintain:\n- Copy of your own ID\n- Production dates\n- Content URLs\n- Your stage names/aliases\n\n**Collaboration Content (With Others):**\nWhen you film with other performers, you need COMPLETE records for each person:\n\n- Verify their ID IN PERSON before filming\n- Take a clear copy of their ID\n- Complete a model release form\n- Record their stage names\n- Document the content produced together\n\n**Before Every Collaboration:**\n1. Request ID before arrival\n2. Verify ID in person (no fakes)\n3. Ensure ID matches the person\n4. Complete model release\n5. Keep copies of everything\n\n**Red Flags to Watch For:**\n- Person looks younger than ID shows\n- ID appears altered or fake\n- Person seems coached or controlled\n- Third party doing all the talking\n- Person can't answer basic questions about themselves\n- Reluctance to sign documents\n\nIf something feels wrong, DO NOT PROCEED. It's not worth the risk.\n\n**Fan Collaboration Content:**\nIf you meet fans for content:\n- SAME rules apply\n- No exceptions because they're 'just a fan'\n- ID verification and model release REQUIRED\n- Their excitement doesn't replace compliance"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "recordChecklistGenerator",
+      "title": "2257 Record Keeping Checklist",
+      "categories": [
+        {
+          "category": "Performer Information",
+          "items": [
+            "Legal name (as on government ID)",
+            "Date of birth",
+            "All stage names and aliases used",
+            "Contact information"
+          ]
+        },
+        {
+          "category": "ID Documentation",
+          "items": [
+            "Clear copy of government-issued photo ID",
+            "ID was valid (not expired) at production",
+            "ID verified in person (not just uploaded)",
+            "ID photo matches performer"
+          ]
+        },
+        {
+          "category": "Content Documentation",
+          "items": [
+            "Date of production",
+            "Location of production",
+            "Description of content",
+            "URLs where content appears"
+          ]
+        },
+        {
+          "category": "Consent Documentation",
+          "items": [
+            "Signed model release form",
+            "Age declaration signed",
+            "Consent to specific acts documented",
+            "Non-coercion declaration signed"
+          ]
+        },
+        {
+          "category": "Custodian of Records",
+          "items": [
+            "Custodian name designated",
+            "Custodian address on file",
+            "2257 statement on profile/content",
+            "Records accessible within 20 minutes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "modelReleaseGenerator",
+      "title": "Model Release Form Generator",
+      "formFields": [
+        {"section": "Performer Information", "fields": ["legalName", "dob", "address", "phone", "email"]},
+        {"section": "Production Information", "fields": ["productionDate", "location", "contentDescription", "platforms"]},
+        {"section": "Rights Granted", "fields": ["commercialUse", "distributionPlatforms", "duration", "exclusivity"]},
+        {"section": "Compensation", "fields": ["paymentAmount", "paymentMethod", "revenueShare"]},
+        {"section": "Legal Declarations", "fields": ["ageConfirmation", "idConfirmation", "consentConfirmation", "noCoercion", "noImpairment"]},
+        {"section": "Signatures", "fields": ["performerSignature", "witnessSignature", "date"]}
+      ],
+      "outputFormat": "PDF"
+    },
+    {
+      "type": "custodianTemplate",
+      "title": "Custodian of Records Statement Template",
+      "templates": [
+        {
+          "type": "Individual Creator",
+          "template": "Records required pursuant to 18 U.S.C. § 2257 Record-Keeping Requirements Compliance Statement are maintained by:\n\n[YOUR LEGAL NAME]\n[YOUR ADDRESS]\n[CITY, STATE ZIP]"
+        },
+        {
+          "type": "LLC/Business",
+          "template": "Records required pursuant to 18 U.S.C. § 2257 Record-Keeping Requirements Compliance Statement are maintained by:\n\n[YOUR BUSINESS NAME]\nCustodian of Records: [CUSTODIAN NAME]\n[BUSINESS ADDRESS]\n[CITY, STATE ZIP]"
+        }
+      ]
+    },
+    {
+      "type": "inspectionPreparationChecklist",
+      "title": "FBI Inspection Preparation",
+      "items": [
+        {"task": "Verify all records are current and complete", "priority": "high"},
+        {"task": "Ensure records can be retrieved within 20 minutes", "priority": "high"},
+        {"task": "Confirm Custodian address is accurate", "priority": "high"},
+        {"task": "2257 statement visible on all content", "priority": "high"},
+        {"task": "Backup copies of all records secured", "priority": "medium"},
+        {"task": "Contact information for attorney available", "priority": "medium"},
+        {"task": "Know where physical records are stored", "priority": "high"},
+        {"task": "Digital records are organized and searchable", "priority": "high"}
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 2 Knowledge Check",
+    "questions": [
+      {
+        "id": "cc-m2q1",
+        "question": "What federal law requires age verification records for adult content?",
+        "options": ["DMCA", "18 U.S.C. § 2257", "FOSTA-SESTA", "Section 230"],
+        "correctAnswer": 1,
+        "explanation": "18 U.S.C. § 2257 specifically requires producers of sexually explicit content to verify and maintain records proving all performers are 18 or older."
+      },
+      {
+        "id": "cc-m2q2",
+        "question": "How long must 2257 records be retained?",
+        "options": ["1 year", "3 years", "5 years", "7 years"],
+        "correctAnswer": 3,
+        "explanation": "2257 requires records to be maintained for 7 years from the date of last publication or the performer's last content production."
+      },
+      {
+        "id": "cc-m2q3",
+        "question": "Who is the PRIMARY producer of content?",
+        "options": [
+          "The person who distributes content",
+          "The person who films/creates the content",
+          "The platform hosting the content",
+          "The viewer purchasing the content"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The primary producer is the person who directly films or creates the sexually explicit content. They have the strictest record-keeping requirements."
+      },
+      {
+        "id": "cc-m2q4",
+        "question": "What must be included in performer records?",
+        "options": [
+          "Just their stage name",
+          "Legal name, date of birth, ID copy, stage names, content URLs",
+          "Only their photo",
+          "Just their signature"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Complete 2257 records require: legal name, date of birth, government ID copy, all stage names/aliases, and URLs where content appears."
+      },
+      {
+        "id": "cc-m2q5",
+        "question": "How quickly must records be produced for FBI inspection?",
+        "options": [
+          "Immediately",
+          "Within 20 minutes",
+          "Within 24 hours",
+          "Within 1 week"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Records must be retrievable and producible within 20 minutes of an FBI inspection request during business hours."
+      },
+      {
+        "id": "cc-m2q6",
+        "question": "What is the maximum penalty for first-offense 2257 violations?",
+        "options": [
+          "Fine only",
+          "1 year imprisonment",
+          "5 years imprisonment",
+          "10 years imprisonment"
+        ],
+        "correctAnswer": 2,
+        "explanation": "First offense 2257 violations can result in up to 5 years imprisonment. Second and subsequent offenses can result in up to 10 years."
+      },
+      {
+        "id": "cc-m2q7",
+        "question": "What information must be in your Custodian of Records statement?",
+        "options": [
+          "Just your email address",
+          "Name and address of Custodian",
+          "Social Security number",
+          "Bank account details"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Your 2257 statement must include the name and physical address of the Custodian of Records where records are maintained."
+      },
+      {
+        "id": "cc-m2q8",
+        "question": "When filming collaboration content, when should you verify the other performer's ID?",
+        "options": [
+          "After filming is complete",
+          "Within 30 days of filming",
+          "Before filming begins (in person)",
+          "When they request payment"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ID verification must occur BEFORE filming begins, in person, to ensure the person matches the ID and is of legal age."
+      },
+      {
+        "id": "cc-m2q9",
+        "question": "Which types of ID are acceptable for 2257 verification?",
+        "options": [
+          "Social media profile only",
+          "Library card",
+          "Government-issued photo ID (passport, driver's license)",
+          "Student ID"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Only valid government-issued photo IDs are acceptable: driver's license, passport, state/national ID, or military ID."
+      },
+      {
+        "id": "cc-m2q10",
+        "question": "How much notice does the FBI typically give before a 2257 inspection?",
+        "options": [
+          "No notice required",
+          "24 hours",
+          "48 hours",
+          "1 week"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The FBI typically provides 48 hours notice, though they can conduct inspections without notice in some circumstances."
+      },
+      {
+        "id": "cc-m2q11",
+        "question": "For solo content (just yourself), what records do you still need to maintain?",
+        "options": [
+          "No records needed for solo content",
+          "Only production dates",
+          "Your own ID copy, production dates, content URLs, stage names",
+          "Only your stage name"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Even for solo content, you must maintain self-verification records including your ID, production dates, content URLs, and all stage names used."
+      },
+      {
+        "id": "cc-m2q12",
+        "question": "What should a model release form include?",
+        "options": [
+          "Only the performer's signature",
+          "Performer info, production info, rights granted, compensation, consent declarations, signatures",
+          "Just the payment amount",
+          "Only the date"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A comprehensive model release includes performer information, production details, rights granted, compensation terms, legal consent declarations, and signatures."
+      },
+      {
+        "id": "cc-m2q13",
+        "question": "What is a red flag when verifying a collaborator's ID?",
+        "options": [
+          "They provide a passport",
+          "They seem nervous about filming",
+          "Their ID appears altered or they look younger than the ID shows",
+          "They want to use a stage name"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Red flags include: ID appearing altered or fake, person looking younger than ID shows, third party control, coached behavior, or reluctance to answer questions."
+      },
+      {
+        "id": "cc-m2q14",
+        "question": "Where should your 2257 statement appear?",
+        "options": [
+          "Only in private records",
+          "On your profile and accessible from content pages",
+          "Only if requested",
+          "Nowhere - it's private information"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Your 2257 Custodian of Records statement must be publicly visible on your profile and accessible from any content page."
+      },
+      {
+        "id": "cc-m2q15",
+        "question": "If you purchase content from another creator, what are your obligations?",
+        "options": [
+          "No obligations - they already did the verification",
+          "Obtain 2257 records from the original producer and keep copies",
+          "Just trust their statement",
+          "Delete the records after 1 year"
+        ],
+        "correctAnswer": 1,
+        "explanation": "As a secondary producer, you must obtain 2257 records from the primary producer and maintain copies. You can't just trust their word."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "2257 Record Template Package",
+      "type": "zip",
+      "url": "/resources/2257-record-templates.zip",
+      "contents": ["performer-record-form.pdf", "model-release.pdf", "id-verification-checklist.pdf"]
+    },
+    {
+      "title": "18 U.S.C. § 2257 Full Text",
+      "type": "external",
+      "url": "https://www.law.cornell.edu/uscode/text/18/2257"
+    },
+    {
+      "title": "Digital Record Organization Guide",
+      "type": "pdf",
+      "url": "/resources/digital-record-organization.pdf"
+    },
+    {
+      "title": "FBI Inspection Preparation Guide",
+      "type": "pdf",
+      "url": "/resources/fbi-inspection-preparation.pdf"
+    }
+  ]
+}

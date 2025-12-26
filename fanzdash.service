@@ -1,0 +1,49 @@
+# FanzDash Systemd Service File
+# Copy to: /etc/systemd/system/fanzdash.service
+# Enable: sudo systemctl enable fanzdash
+# Start: sudo systemctl start fanzdash
+
+[Unit]
+Description=FanzDash Application Server
+Documentation=https://FanzDash.Fanz.website
+After=network.target postgresql.service
+Wants=postgresql.service
+
+[Service]
+Type=simple
+User=fanzdash
+Group=fanzdash
+WorkingDirectory=/opt/fanzdash
+EnvironmentFile=/opt/fanzdash/.env.production
+
+# Node.js application
+ExecStart=/usr/bin/node /opt/fanzdash/dist/index.js
+ExecReload=/bin/kill -HUP $MAINPID
+
+# Restart policy
+Restart=always
+RestartSec=10
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=fanzdash
+
+# Security hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+PrivateDevices=true
+ReadWritePaths=/opt/fanzdash/logs /var/log/fanzdash
+
+# Resource limits
+LimitNOFILE=65535
+LimitNPROC=4096
+
+# Environment
+Environment=NODE_ENV=production
+Environment=PORT=3000
+
+[Install]
+WantedBy=multi-user.target

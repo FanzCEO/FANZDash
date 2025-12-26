@@ -1,0 +1,275 @@
+{
+  "moduleId": "module-2",
+  "courseId": "compliance-101",
+  "title": "Age Verification Basics",
+  "duration": 15,
+  "order": 2,
+  "learningObjectives": [
+    "Understand why age verification is legally required",
+    "Learn about the 4 verification methods available",
+    "Complete age verification successfully",
+    "Understand privacy protections for your verification data"
+  ],
+  "videoScript": {
+    "duration": "15 minutes",
+    "sections": [
+      {
+        "title": "Why Age Verification is Required",
+        "duration": "3:00",
+        "script": "Welcome to Module 2: Age Verification Basics. This module will walk you through everything you need to know about age verification on the Fanz platform.\n\nLet's start with why age verification exists. It's simple: adult content is for adults only. Laws around the world require platforms to verify that users are 18 or older before accessing sexually explicit content.\n\n**Legal Requirements by Jurisdiction:**\n\n**United Kingdom**: The Online Safety Act 2023 requires 'highly effective' age verification for all pornographic content. Failure to comply can result in fines up to £18 million or blocking of the platform in the UK.\n\n**United States**: Eight states now require age verification: Louisiana, Utah, Arkansas, Virginia, Mississippi, Texas, Montana, and North Carolina. These laws require government ID verification or age-assurance technology.\n\n**European Union**: While the DSA doesn't mandate specific age verification, platforms must protect minors. The upcoming AI Act and member state laws are increasing requirements.\n\n**Australia**: The proposed Online Safety (Basic Online Safety Expectations) rules are moving toward mandatory verification.\n\nAge verification isn't optional – it's the law. And on Fanz, we use VerifyMy to ensure compliance while protecting your privacy."
+      },
+      {
+        "title": "The 4 Verification Methods",
+        "duration": "6:00",
+        "script": "Fanz offers four methods to verify your age. Let's walk through each one:\n\n**Method 1: VerifyMy (Recommended)**\nVerifyMy is our recommended verification partner. Here's how it works:\n- You scan your government ID using your phone camera\n- VerifyMy verifies the ID is real and matches your face\n- Fanz receives a 'verified 18+' confirmation – NOT your actual ID documents\n- The process takes 2-5 minutes\n- One verification works across all Fanz ecosystem platforms\n\nThis is the most privacy-preserving option because Fanz never sees your ID directly.\n\n**Method 2: ID Document Upload**\nIf VerifyMy isn't available in your region:\n- Upload a clear photo of your government ID\n- Our team manually verifies your age\n- ID is securely stored per 2257 requirements (7 years)\n- Processing takes 24-48 hours\n\n**Method 3: Credit Card Verification**\nFor users 18+ with a valid credit card:\n- Enter your credit card details\n- A small authorization is made and immediately reversed\n- Credit cards in most jurisdictions are only issued to 18+\n- Instant verification\n- Note: This is not accepted in jurisdictions requiring document-based verification\n\n**Method 4: AI Age Estimation**\nFor quick access before full verification:\n- Take a selfie\n- AI estimates your age from facial features\n- Provides temporary 24-hour access if estimated 25+\n- Must complete full verification within 24 hours\n- Not accepted in UK or states requiring document verification"
+      },
+      {
+        "title": "Privacy and Data Protection",
+        "duration": "3:00",
+        "script": "We know privacy is crucial when it comes to age verification. Here's exactly what happens to your data:\n\n**With VerifyMy:**\n- Your ID is processed by VerifyMy, not Fanz\n- Fanz only receives: verification status (yes/no), age bracket (18+), and verification ID\n- Your actual ID documents are NOT stored by Fanz\n- VerifyMy's retention policy complies with GDPR and can be deleted on request\n\n**With ID Upload:**\n- Your ID is stored securely with AES-256 encryption\n- Access is limited to compliance team members\n- Stored for 7 years per 18 U.S.C. § 2257 requirements\n- You can request deletion after the retention period\n\n**What We Store:**\n- Verification status (verified/not verified)\n- Verification date\n- Verification method used\n- Jurisdiction of verification\n\n**What We Don't Store (with VerifyMy):**\n- Your ID document images\n- Your ID number\n- Your exact date of birth\n- Your address\n\nYour privacy is protected by both our policies and laws like GDPR. If you're concerned about privacy, use VerifyMy – it's specifically designed to verify your age without exposing your personal information."
+      },
+      {
+        "title": "Common Issues and Solutions",
+        "duration": "3:00",
+        "script": "Let's address some common issues users encounter during verification:\n\n**'My ID was rejected'**\n- Ensure your ID is not expired\n- Take a clear, well-lit photo\n- Make sure all four corners are visible\n- Try a different ID type if available\n\n**'The selfie doesn't match'**\n- Remove glasses, hats, and masks\n- Ensure good lighting on your face\n- Look directly at the camera\n- If you've significantly changed appearance since ID photo, contact support\n\n**'Verification is taking too long'**\n- VerifyMy: Usually instant, max 5 minutes\n- Manual review: 24-48 hours during business hours\n- Contact support if it exceeds these times\n\n**'I'm using VPN and can't verify'**\n- Disable VPN during verification\n- Your real location is needed to apply correct jurisdiction rules\n- After verification, you can use VPN normally\n\n**'I verified on another Fanz platform but need to verify again'**\n- If using FanzSSO, your verification carries across all platforms\n- If you used a different login method, you may need to link accounts\n- Contact support to connect verification to your account\n\nRemember: Verification is required by law. Attempting to bypass it using someone else's ID or false information is fraud and will result in permanent ban and potential legal action."
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "methodComparison",
+      "title": "Choose Your Verification Method",
+      "methods": [
+        {
+          "name": "VerifyMy",
+          "recommended": true,
+          "speed": "2-5 minutes",
+          "privacyLevel": "Highest",
+          "acceptedEverywhere": true,
+          "dataStored": "Verification status only",
+          "pros": ["Instant", "Most private", "Works everywhere"],
+          "cons": ["Requires smartphone", "Needs good lighting"]
+        },
+        {
+          "name": "ID Upload",
+          "recommended": false,
+          "speed": "24-48 hours",
+          "privacyLevel": "Medium",
+          "acceptedEverywhere": true,
+          "dataStored": "ID copy (7 years)",
+          "pros": ["Works from any device", "Always available"],
+          "cons": ["Slower", "ID stored"]
+        },
+        {
+          "name": "Credit Card",
+          "recommended": false,
+          "speed": "Instant",
+          "privacyLevel": "Medium",
+          "acceptedEverywhere": false,
+          "dataStored": "Card verification record",
+          "pros": ["Instant", "Easy"],
+          "cons": ["Not accepted everywhere", "Requires credit card"]
+        },
+        {
+          "name": "AI Estimation",
+          "recommended": false,
+          "speed": "Instant",
+          "privacyLevel": "High",
+          "acceptedEverywhere": false,
+          "dataStored": "Selfie (deleted after)",
+          "pros": ["Quick temporary access"],
+          "cons": ["24-hour limit", "Not accepted in UK/strict states"]
+        }
+      ]
+    },
+    {
+      "type": "privacyCalculator",
+      "title": "What Data Is Stored?",
+      "scenarios": [
+        {
+          "method": "VerifyMy",
+          "dataPoints": [
+            {"item": "Verification Status", "stored": true},
+            {"item": "Verification Date", "stored": true},
+            {"item": "ID Document Image", "stored": false},
+            {"item": "ID Number", "stored": false},
+            {"item": "Date of Birth", "stored": false},
+            {"item": "Address", "stored": false},
+            {"item": "Full Name", "stored": false}
+          ]
+        },
+        {
+          "method": "ID Upload",
+          "dataPoints": [
+            {"item": "Verification Status", "stored": true},
+            {"item": "Verification Date", "stored": true},
+            {"item": "ID Document Image", "stored": true, "retention": "7 years"},
+            {"item": "ID Number", "stored": true, "retention": "7 years"},
+            {"item": "Date of Birth", "stored": true, "retention": "7 years"},
+            {"item": "Address", "stored": false},
+            {"item": "Full Name", "stored": true, "retention": "7 years"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "liveDemo",
+      "title": "VerifyMy Walkthrough",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Select Verification",
+          "description": "Click 'Verify Age' and select 'VerifyMy' option",
+          "image": "/demo/verify-step-1.png"
+        },
+        {
+          "step": 2,
+          "title": "Choose ID Type",
+          "description": "Select your ID type: passport, driver's license, or national ID",
+          "image": "/demo/verify-step-2.png"
+        },
+        {
+          "step": 3,
+          "title": "Scan Front of ID",
+          "description": "Position your ID in the camera frame. Ensure good lighting and all corners visible",
+          "image": "/demo/verify-step-3.png"
+        },
+        {
+          "step": 4,
+          "title": "Scan Back (if required)",
+          "description": "Some IDs require scanning the back as well",
+          "image": "/demo/verify-step-4.png"
+        },
+        {
+          "step": 5,
+          "title": "Take Selfie",
+          "description": "Take a clear selfie to match against your ID photo. Remove glasses/hats",
+          "image": "/demo/verify-step-5.png"
+        },
+        {
+          "step": 6,
+          "title": "Verification Complete",
+          "description": "You'll see a success message and can now access adult content",
+          "image": "/demo/verify-step-6.png"
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 2 Knowledge Check",
+    "questions": [
+      {
+        "id": "m2q1",
+        "question": "Which verification method is recommended for the best privacy protection?",
+        "options": ["ID Upload", "Credit Card", "VerifyMy", "AI Estimation"],
+        "correctAnswer": 2,
+        "explanation": "VerifyMy is recommended because Fanz only receives verification status, not your actual ID documents, providing the highest privacy protection."
+      },
+      {
+        "id": "m2q2",
+        "question": "What is the cost of VerifyMy age verification?",
+        "options": ["$5", "$10", "Free", "$1"],
+        "correctAnswer": 2,
+        "explanation": "VerifyMy verification is free for users. The platform covers the verification cost."
+      },
+      {
+        "id": "m2q3",
+        "question": "How long are age verification records kept per 18 U.S.C. § 2257?",
+        "options": ["1 year", "3 years", "5 years", "7 years"],
+        "correctAnswer": 3,
+        "explanation": "18 U.S.C. § 2257 requires age verification and identity records to be kept for 7 years from the date the content was produced or the performer's last activity."
+      },
+      {
+        "id": "m2q4",
+        "question": "Can you use a VPN to bypass age verification requirements?",
+        "options": [
+          "Yes, VPNs allow you to skip verification",
+          "No, attempting to bypass verification is prohibited",
+          "Yes, but only in certain states",
+          "Yes, if you're already verified elsewhere"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Using a VPN to bypass age verification is prohibited and may violate both platform terms of service and applicable laws. It can result in permanent ban."
+      },
+      {
+        "id": "m2q5",
+        "question": "What happens if your age verification fails?",
+        "options": [
+          "You're permanently banned",
+          "You can retry with a different method or contact support",
+          "You must wait 30 days",
+          "Your account is deleted"
+        ],
+        "correctAnswer": 1,
+        "explanation": "If verification fails, you can retry with a different method, ensure your ID is valid and clearly photographed, or contact support for assistance."
+      },
+      {
+        "id": "m2q6",
+        "question": "Which verification method provides the fastest access?",
+        "options": ["ID Upload", "Credit Card", "VerifyMy", "All take the same time"],
+        "correctAnswer": 1,
+        "explanation": "Credit card verification is instant, though VerifyMy is nearly as fast (2-5 minutes) and offers better privacy protection."
+      },
+      {
+        "id": "m2q7",
+        "question": "Is age verification required in California?",
+        "options": [
+          "Yes, California has strict verification laws",
+          "No, California has not passed age verification legislation yet",
+          "Only for creators, not viewers",
+          "Only for users under 21"
+        ],
+        "correctAnswer": 1,
+        "explanation": "As of 2024, California has not passed mandatory age verification legislation for adult content viewers, though other laws may apply."
+      },
+      {
+        "id": "m2q8",
+        "question": "True or False: Your ID documents are stored forever when using VerifyMy.",
+        "options": ["True", "False"],
+        "correctAnswer": 1,
+        "explanation": "False. When using VerifyMy, Fanz only receives verification status, not your actual ID documents. VerifyMy's own data retention follows GDPR and can be deleted on request."
+      },
+      {
+        "id": "m2q9",
+        "question": "Can you request deletion of your age verification record?",
+        "options": [
+          "Yes, at any time",
+          "Yes, but only after the required retention period",
+          "No, it's permanent",
+          "Only EU users can request deletion"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Due to legal record-keeping requirements (18 U.S.C. § 2257), age verification records must be kept for 7 years. After this period, you can request deletion."
+      },
+      {
+        "id": "m2q10",
+        "question": "If you're verified on one Fanz platform, what happens when you visit another Fanz platform?",
+        "options": [
+          "You must verify again",
+          "Your verification carries over if using FanzSSO",
+          "You get temporary access for 24 hours",
+          "You need to pay again for verification"
+        ],
+        "correctAnswer": 1,
+        "explanation": "When using FanzSSO (single sign-on), your age verification status carries across all Fanz ecosystem platforms automatically."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "VerifyMy Quick Start Guide",
+      "type": "pdf",
+      "url": "/resources/verifyme-quick-start.pdf"
+    },
+    {
+      "title": "Supported ID Types by Country",
+      "type": "interactive",
+      "url": "/resources/supported-id-types"
+    },
+    {
+      "title": "Verification Troubleshooting FAQ",
+      "type": "article",
+      "url": "/kb/age-verification-troubleshooting"
+    }
+  ]
+}

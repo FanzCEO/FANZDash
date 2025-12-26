@@ -1,0 +1,305 @@
+{
+  "moduleId": "cc-module-5",
+  "courseId": "creator-compliance",
+  "title": "External Platform Rules",
+  "duration": 20,
+  "order": 5,
+  "learningObjectives": [
+    "Understand external platform upload compliance",
+    "Learn platform-specific restrictions",
+    "Understand pre-upload screening requirements",
+    "Navigate platform-specific risk scores"
+  ],
+  "videoScript": {
+    "duration": "20 minutes",
+    "sections": [
+      {
+        "title": "Fanz MediaHub and External Platforms",
+        "duration": "5:00",
+        "script": "Welcome to Module 5. Many Fanz creators cross-post content to external platforms like OnlyFans, Fansly, and ManyVids. This module covers compliance requirements when uploading outside the Fanz ecosystem.\n\n**Fanz MediaHub Integration:**\n\nFanz MediaHub allows you to manage and distribute content across multiple platforms from one dashboard. When you use MediaHub to post to external platforms, we add a compliance layer.\n\n**Why This Matters:**\n\nExternal platforms have their OWN policies, which may be similar to or different from Fanz. Content that's allowed on one platform may be prohibited on another. Using MediaHub helps ensure your content is checked against each platform's policies before upload.\n\n**Compliance Screening Before External Upload:**\n\nWhen you use MediaHub to post to external platforms, your content is screened for:\n\n1. **CSAM Detection** - PhotoDNA hash matching against known CSAM databases\n2. **Payment Processor Compliance** - Checking against the 9 prohibited categories\n3. **Trafficking Assessment** - Analyzing for trafficking indicators\n4. **Platform-Specific Rules** - Checking against destination platform policies\n\nIf any check fails, the upload is blocked with an explanation of why."
+      },
+      {
+        "title": "Platform-Specific Restrictions",
+        "duration": "7:00",
+        "script": "Each external platform has different content policies. Here's what you need to know:\n\n**OnlyFans (Strictest)**\n\nOnlyFans has some of the strictest policies in the industry due to past payment processor issues:\n\n- All 9 prohibited categories apply strictly\n- No incest themes including step-family\n- No blood, violence, or extreme BDSM\n- No 'barely legal' marketing\n- Strict verification requirements\n- Content metadata scanned\n- High risk of account termination for violations\n\n**Fansly (Similar to OnlyFans)**\n\nFansly follows similar policies:\n\n- Same 9 prohibited categories\n- Slightly more lenient on BDSM (but still limits)\n- Step-family content prohibited\n- Age-related marketing prohibited\n- Active content moderation\n\n**ManyVids (More Permissive)**\n\nManyVids has historically been more permissive:\n\n- Core prohibited categories apply\n- Some niche content allowed that isn't elsewhere\n- Still subject to payment processor requirements\n- Review policies before assuming content is allowed\n\n**Pornhub/MindGeek (Strict Post-2020)**\n\nAfter the 2020 crisis:\n\n- Only verified uploaders\n- All content human-reviewed\n- Strict prohibited content enforcement\n- Rapid takedown of flagged content\n\n**Patreon (No Explicit Content)**\n\nPatreon does NOT allow sexually explicit content:\n\n- Nudity allowed in artistic context\n- No pornographic content\n- No sexual acts\n- Do NOT upload explicit content to Patreon\n\n**Key Differences:**\n- Each platform interprets policies differently\n- What's allowed on Fansly might fail on OnlyFans\n- Always check destination platform policies\n- MediaHub flags platform-specific issues"
+      },
+      {
+        "title": "Pre-Upload Screening Process",
+        "duration": "4:00",
+        "script": "Here's exactly what happens when you upload content through MediaHub for external distribution:\n\n**Step 1: Content Analysis**\n\nYour content is analyzed by:\n- AI image/video recognition\n- Keyword analysis of titles/descriptions\n- Hash matching against known prohibited content\n- Metadata review\n\n**Step 2: CSAM Screening**\n\nBefore any content leaves the platform:\n- PhotoDNA hash matching runs\n- PDQ hash matching runs\n- If match detected: BLOCKED and reported\n- No exceptions, no manual override\n\n**Step 3: Payment Processor Check**\n\nContent is evaluated against Visa/Mastercard GBPP:\n- 9 prohibited category scan\n- Risk score calculation\n- If score exceeds threshold: BLOCKED\n\n**Step 4: Trafficking Assessment**\n\n13 trafficking indicators are checked:\n- Language analysis\n- Pattern analysis\n- If high risk: BLOCKED for review\n\n**Step 5: Platform-Specific Check**\n\nBefore upload to specific platform:\n- Checked against that platform's known policies\n- Keyword blacklist for that platform applied\n- If likely to fail: WARNING or BLOCKED\n\n**If Content is Blocked:**\n- You receive notification explaining why\n- Specific issue is identified\n- Suggestions for modification provided\n- You can appeal if you believe it's an error\n\n**If Content Passes:**\n- Uploaded to destination platform(s)\n- Confirmation received\n- Monitoring continues for platform feedback"
+      },
+      {
+        "title": "Handling Upload Failures",
+        "duration": "4:00",
+        "script": "Sometimes content fails screening or external upload. Here's how to handle it:\n\n**Understanding Failure Messages:**\n\n'CSAM_DETECTED' - Content matched known CSAM hash\n- Immediate account flag\n- Cannot proceed\n- NCMEC report filed\n- Contact compliance team\n\n'PAYMENT_PROCESSOR_VIOLATION' - Failed 9-category check\n- Specific category identified\n- Content cannot be posted as-is\n- Modification required\n- May need different platforms\n\n'RISK_SCORE_EXCEEDED' - Risk score too high\n- Score and contributing factors shown\n- May need title/description changes\n- May need content edits\n- Can request manual review\n\n'PLATFORM_POLICY_VIOLATION' - Fails destination platform rules\n- Specific platform and issue identified\n- May work on different platform\n- Check alternative platforms\n\n**Resolving Issues:**\n\n1. **Read the error message carefully** - It tells you what's wrong\n2. **Make targeted changes** - Don't guess, address the specific issue\n3. **Re-screen** - Run through screening again\n4. **Consider alternatives** - Different platform, different content format\n5. **Contact support** - If you believe it's an error\n\n**Keywords That Often Cause Issues:**\n\nThe following keywords frequently trigger failures:\n- 'Teen,' 'young,' 'barely legal,' 'innocent'\n- 'Step-mom,' 'step-sis,' or any family terms\n- 'Force,' 'rape,' 'unwilling,' 'drunk'\n- 'School,' 'dorm,' 'cheerleader'\n- 'Blood,' 'torture,' 'extreme'\n\n**Alternative Terms:**\n- 'Amateur,' 'new,' 'petite' instead of age-related\n- 'Couple,' 'partner' instead of relationship terms\n- 'Roleplay,' 'scene' for fantasy content\n- 'Office,' 'home' instead of school settings"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "platformComparisonChart",
+      "title": "Platform Policy Comparison",
+      "platforms": [
+        {
+          "name": "Fanz",
+          "policies": {
+            "incest": "prohibited",
+            "stepFamily": "prohibited",
+            "bdsm": "allowed with consent docs",
+            "barelyLegal": "prohibited",
+            "waterSports": "prohibited",
+            "blood": "prohibited",
+            "verification": "required"
+          }
+        },
+        {
+          "name": "OnlyFans",
+          "policies": {
+            "incest": "prohibited",
+            "stepFamily": "prohibited",
+            "bdsm": "limited",
+            "barelyLegal": "prohibited",
+            "waterSports": "prohibited",
+            "blood": "prohibited",
+            "verification": "required"
+          }
+        },
+        {
+          "name": "Fansly",
+          "policies": {
+            "incest": "prohibited",
+            "stepFamily": "prohibited",
+            "bdsm": "allowed with limits",
+            "barelyLegal": "prohibited",
+            "waterSports": "some allowed",
+            "blood": "prohibited",
+            "verification": "required"
+          }
+        },
+        {
+          "name": "ManyVids",
+          "policies": {
+            "incest": "prohibited",
+            "stepFamily": "some allowed",
+            "bdsm": "allowed",
+            "barelyLegal": "prohibited",
+            "waterSports": "allowed",
+            "blood": "prohibited",
+            "verification": "required"
+          }
+        },
+        {
+          "name": "Patreon",
+          "policies": {
+            "incest": "prohibited",
+            "stepFamily": "prohibited",
+            "bdsm": "no explicit",
+            "barelyLegal": "prohibited",
+            "waterSports": "no explicit",
+            "blood": "no explicit",
+            "verification": "not required",
+            "note": "No sexually explicit content allowed"
+          }
+        }
+      ]
+    },
+    {
+      "type": "uploadSimulator",
+      "title": "External Platform Upload Simulator",
+      "scenarios": [
+        {
+          "content": {
+            "title": "Amateur Couple's First Video Together",
+            "tags": ["amateur", "couple", "romantic"]
+          },
+          "platforms": ["OnlyFans", "Fansly", "ManyVids"],
+          "result": "PASS",
+          "explanation": "Clean title with no prohibited keywords, all platforms accept"
+        },
+        {
+          "content": {
+            "title": "Stepmom Teaches New Techniques",
+            "tags": ["taboo", "mature", "teaching"]
+          },
+          "platforms": ["OnlyFans", "Fansly"],
+          "result": "BLOCKED",
+          "reason": "Step-family content prohibited",
+          "explanation": "Step-family themes are prohibited on OnlyFans and Fansly regardless of framing"
+        },
+        {
+          "content": {
+            "title": "BDSM Session with Full Negotiation",
+            "tags": ["bdsm", "consensual", "domination"]
+          },
+          "platforms": ["OnlyFans", "Fansly"],
+          "result": "PASS with warning",
+          "warning": "Ensure consent clearly visible",
+          "explanation": "BDSM is allowed but may receive additional review"
+        }
+      ]
+    },
+    {
+      "type": "keywordAlternativeFinder",
+      "title": "Safe Keyword Alternative Finder",
+      "problematicKeywords": [
+        {
+          "keyword": "teen",
+          "alternatives": ["amateur", "new", "petite", "independent"],
+          "reason": "Age-related terms prohibited"
+        },
+        {
+          "keyword": "barely legal",
+          "alternatives": ["amateur", "new creator", "first content"],
+          "reason": "Emphasizes youth, prohibited by processors"
+        },
+        {
+          "keyword": "stepmom",
+          "alternatives": ["cougar", "mature", "experienced", "milf"],
+          "reason": "Family terms prohibited"
+        },
+        {
+          "keyword": "forced",
+          "alternatives": ["roleplay", "scene", "intense"],
+          "reason": "Non-consent language prohibited"
+        },
+        {
+          "keyword": "school",
+          "alternatives": ["office", "gym", "bedroom", "studio"],
+          "reason": "School settings suggest minors"
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 5 Knowledge Check",
+    "questions": [
+      {
+        "id": "cc-m5q1",
+        "question": "What compliance checks run before external platform uploads via MediaHub?",
+        "options": [
+          "Only basic file size check",
+          "CSAM detection, payment processor compliance, trafficking assessment, platform-specific rules",
+          "Just age verification",
+          "No checks - platforms handle their own"
+        ],
+        "correctAnswer": 1,
+        "explanation": "MediaHub runs CSAM detection (PhotoDNA/PDQ), payment processor compliance checks, trafficking assessment, and platform-specific policy checks before external uploads."
+      },
+      {
+        "id": "cc-m5q2",
+        "question": "Which external platform has the strictest content policies?",
+        "options": ["ManyVids", "Fansly", "OnlyFans", "Patreon"],
+        "correctAnswer": 2,
+        "explanation": "OnlyFans has some of the strictest policies in the industry, particularly after their 2021 payment processor issues."
+      },
+      {
+        "id": "cc-m5q3",
+        "question": "Is sexually explicit content allowed on Patreon?",
+        "options": [
+          "Yes, all content allowed",
+          "No, sexually explicit content is prohibited",
+          "Only with age verification",
+          "Only for subscribers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Patreon does NOT allow sexually explicit content. Nudity may be allowed in artistic contexts, but pornographic content is prohibited."
+      },
+      {
+        "id": "cc-m5q4",
+        "question": "What should you do if content is blocked with 'PAYMENT_PROCESSOR_VIOLATION'?",
+        "options": [
+          "Upload anyway using different method",
+          "Identify the specific issue, make changes, and re-screen",
+          "Create new account and try again",
+          "Contact payment processor directly"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Read the error message to identify the specific violation, make targeted changes to address that issue, and run through screening again."
+      },
+      {
+        "id": "cc-m5q5",
+        "question": "Which keyword should you use instead of 'teen' in content titles?",
+        "options": ["Young", "Fresh", "Amateur", "Barely legal"],
+        "correctAnswer": 2,
+        "explanation": "'Amateur' is a safe alternative that doesn't emphasize youth in sexual context."
+      },
+      {
+        "id": "cc-m5q6",
+        "question": "If 'CSAM_DETECTED' is the error message, what happens?",
+        "options": [
+          "You can appeal and retry",
+          "Immediate account flag, cannot proceed, NCMEC report filed",
+          "Just try a different platform",
+          "Reduce file quality and retry"
+        ],
+        "correctAnswer": 1,
+        "explanation": "CSAM detection triggers immediate account flagging, content blocking, and mandatory NCMEC reporting. There is no retry or appeal for this."
+      },
+      {
+        "id": "cc-m5q7",
+        "question": "What platform might allow step-family themed content that OnlyFans blocks?",
+        "options": [
+          "No platforms allow it",
+          "ManyVids has historically been more permissive",
+          "Patreon",
+          "All platforms allow it"
+        ],
+        "correctAnswer": 1,
+        "explanation": "ManyVids has historically been more permissive than OnlyFans or Fansly, though policies change and you should always verify."
+      },
+      {
+        "id": "cc-m5q8",
+        "question": "What setting should you use instead of 'school' in content?",
+        "options": ["Dorm room", "Classroom", "Office or gym", "Playground"],
+        "correctAnswer": 2,
+        "explanation": "Office, gym, bedroom, or studio are safe alternatives that don't suggest underage settings."
+      },
+      {
+        "id": "cc-m5q9",
+        "question": "What happens if your risk score exceeds the threshold?",
+        "options": [
+          "Content posts with warning",
+          "Content is blocked and you're shown contributing factors",
+          "Nothing, scores are just guidelines",
+          "Account is immediately terminated"
+        ],
+        "correctAnswer": 1,
+        "explanation": "When risk score exceeds threshold, content is blocked. You're shown the score and factors contributing to it so you can make changes."
+      },
+      {
+        "id": "cc-m5q10",
+        "question": "Why do external platforms like OnlyFans have strict content policies?",
+        "options": [
+          "Government regulation only",
+          "Payment processor requirements and past compliance issues",
+          "User preference surveys",
+          "Technical limitations"
+        ],
+        "correctAnswer": 1,
+        "explanation": "OnlyFans and similar platforms have strict policies primarily due to payment processor requirements (Visa/Mastercard GBPP) and past compliance crises."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Platform Policy Quick Reference",
+      "type": "pdf",
+      "url": "/resources/platform-policy-reference.pdf"
+    },
+    {
+      "title": "Safe Keyword Alternatives Database",
+      "type": "searchable",
+      "url": "/resources/safe-keywords"
+    },
+    {
+      "title": "External Platform Integration Guide",
+      "type": "article",
+      "url": "/kb/external-platform-integration"
+    },
+    {
+      "title": "MediaHub User Guide",
+      "type": "pdf",
+      "url": "/resources/mediahub-guide.pdf"
+    }
+  ]
+}

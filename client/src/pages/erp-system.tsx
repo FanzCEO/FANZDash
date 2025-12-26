@@ -224,20 +224,23 @@ export default function ERPSystem() {
   });
 
   // Fetch templates (from CRM endpoints)
-  const { data: emailTemplates = [] } = useQuery<any[]>({
+  const { data: emailTemplatesData } = useQuery<{ templates: any[], total: number }>({
     queryKey: ["/api/crm/templates/email"],
     refetchInterval: 30000,
   });
+  const emailTemplates = emailTemplatesData?.templates || [];
 
-  const { data: proposalTemplates = [] } = useQuery<any[]>({
+  const { data: proposalTemplatesData } = useQuery<{ templates: any[], total: number }>({
     queryKey: ["/api/crm/templates/proposals"],
     refetchInterval: 30000,
   });
+  const proposalTemplates = proposalTemplatesData?.templates || [];
 
-  const { data: workflowTemplates = [] } = useQuery<any[]>({
+  const { data: workflowTemplatesData } = useQuery<{ templates: any[], total: number }>({
     queryKey: ["/api/crm/templates/workflows"],
     refetchInterval: 30000,
   });
+  const workflowTemplates = workflowTemplatesData?.templates || [];
 
   // Create inventory item mutation
   const createInventoryMutation = useMutation({

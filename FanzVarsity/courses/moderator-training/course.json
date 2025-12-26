@@ -1,0 +1,74 @@
+{
+  "courseId": "moderator-training",
+  "title": "Moderator Training",
+  "subtitle": "Advanced Content Moderation & Compliance Enforcement",
+  "description": "Comprehensive training for platform moderators covering CSAM detection, trafficking identification, payment processor compliance, GDPR/DSA handling, and escalation procedures. Required certification for all moderation team members.",
+  "targetAudience": "Platform Moderators",
+  "duration": "4-5 hours",
+  "certification": "Moderator Certification",
+  "passRateRequired": 90,
+  "required": true,
+  "requiredFor": ["moderation_access", "compliance_dashboard_moderator", "content_review"],
+  "prerequisites": ["compliance-101"],
+  "version": "1.0",
+  "lastUpdated": "2024-12-23",
+  "modules": [
+    {
+      "moduleId": "mod-module-1",
+      "title": "CSAM Detection and Response",
+      "duration": 45,
+      "order": 1
+    },
+    {
+      "moduleId": "mod-module-2",
+      "title": "Trafficking Indicators",
+      "duration": 45,
+      "order": 2
+    },
+    {
+      "moduleId": "mod-module-3",
+      "title": "Payment Processor Violations",
+      "duration": 40,
+      "order": 3
+    },
+    {
+      "moduleId": "mod-module-4",
+      "title": "GDPR Data Requests",
+      "duration": 40,
+      "order": 4
+    },
+    {
+      "moduleId": "mod-module-5",
+      "title": "DSA Notice Handling",
+      "duration": 40,
+      "order": 5
+    },
+    {
+      "moduleId": "mod-module-6",
+      "title": "Escalation Procedures",
+      "duration": 30,
+      "order": 6
+    }
+  ],
+  "finalExam": {
+    "questionCount": 75,
+    "passRate": 90,
+    "timeLimit": 90
+  },
+  "completionBenefits": [
+    "Moderator Certification issued",
+    "Moderation queue access granted",
+    "Compliance Dashboard (moderator view) access",
+    "Access to moderation tools",
+    "Mental health support resources provided"
+  ],
+  "mentalHealthResources": {
+    "note": "Content moderation involves exposure to disturbing material. Support is available.",
+    "resources": [
+      {"name": "Pineapple Support", "url": "https://pineapplesupport.org/", "description": "Free mental health support for adult industry workers"},
+      {"name": "SWOP", "url": "https://swopusa.org/", "description": "Sex Workers Outreach Project"},
+      {"name": "Platform EAP", "description": "Employee assistance program for counseling"},
+      {"name": "Burnout Prevention Training", "description": "Included in onboarding"}
+    ]
+  }
+}

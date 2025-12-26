@@ -1,0 +1,273 @@
+{
+  "examId": "compliance-101-final",
+  "courseId": "compliance-101",
+  "title": "Compliance 101 Final Exam",
+  "description": "Demonstrate your understanding of platform compliance, age verification, prohibited content, and reporting procedures.",
+  "questionCount": 20,
+  "passRate": 80,
+  "timeLimit": 30,
+  "attemptsAllowed": "unlimited",
+  "retakeWaitPeriod": 24,
+  "questions": [
+    {
+      "id": "final-q1",
+      "category": "Legal Requirements",
+      "question": "Which law requires mandatory CSAM reporting to NCMEC within 24 hours?",
+      "options": [
+        "GDPR",
+        "18 U.S.C. § 2258A",
+        "UK Online Safety Act",
+        "FOSTA-SESTA"
+      ],
+      "correctAnswer": 1,
+      "explanation": "18 U.S.C. § 2258A requires electronic service providers to report apparent CSAM to NCMEC within 24 hours of detection."
+    },
+    {
+      "id": "final-q2",
+      "category": "Legal Requirements",
+      "question": "What is the maximum penalty for UK Online Safety Act violations?",
+      "options": [
+        "£1 million",
+        "£5 million",
+        "£18 million or 10% of global revenue",
+        "Unlimited"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The UK Online Safety Act 2023 allows for fines up to £18 million or 10% of worldwide annual revenue, whichever is higher."
+    },
+    {
+      "id": "final-q3",
+      "category": "Legal Requirements",
+      "question": "How many US states currently require age verification for adult content?",
+      "options": ["4", "6", "8", "12"],
+      "correctAnswer": 2,
+      "explanation": "As of 2024, 8 US states require age verification: Louisiana, Utah, Arkansas, Virginia, Mississippi, Texas, Montana, and North Carolina."
+    },
+    {
+      "id": "final-q4",
+      "category": "Legal Requirements",
+      "question": "What federal law addresses platform liability for facilitating trafficking?",
+      "options": [
+        "Section 230",
+        "FOSTA-SESTA",
+        "18 U.S.C. § 2257",
+        "GDPR"
+      ],
+      "correctAnswer": 1,
+      "explanation": "FOSTA-SESTA (Allow States and Victims to Fight Online Sex Trafficking Act) was enacted in 2018 and makes platforms potentially liable for facilitating sex trafficking."
+    },
+    {
+      "id": "final-q5",
+      "category": "Legal Requirements",
+      "question": "What is the EU's comprehensive data protection law called?",
+      "options": [
+        "Digital Services Act",
+        "GDPR",
+        "Data Protection Directive",
+        "Privacy Shield"
+      ],
+      "correctAnswer": 1,
+      "explanation": "GDPR (General Data Protection Regulation) is the EU's comprehensive data protection law that came into effect in 2018, with penalties up to €20 million or 4% of global revenue."
+    },
+    {
+      "id": "final-q6",
+      "category": "Age Verification",
+      "question": "Which age verification method is recommended for best privacy protection?",
+      "options": [
+        "ID Upload",
+        "Credit Card",
+        "VerifyMy",
+        "AI Estimation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "VerifyMy is recommended because Fanz only receives verification status (yes/no), not your actual ID documents, providing the highest privacy protection."
+    },
+    {
+      "id": "final-q7",
+      "category": "Age Verification",
+      "question": "How long must age verification records be kept under 18 U.S.C. § 2257?",
+      "options": [
+        "1 year",
+        "3 years",
+        "5 years",
+        "7 years"
+      ],
+      "correctAnswer": 3,
+      "explanation": "18 U.S.C. § 2257 requires age verification and performer identity records to be retained for 7 years from the last use or activity."
+    },
+    {
+      "id": "final-q8",
+      "category": "Age Verification",
+      "question": "What is the typical processing time for VerifyMy verification?",
+      "options": [
+        "24-48 hours",
+        "2-5 minutes",
+        "1 week",
+        "Instant with no processing"
+      ],
+      "correctAnswer": 1,
+      "explanation": "VerifyMy verification typically takes 2-5 minutes to complete and process."
+    },
+    {
+      "id": "final-q9",
+      "category": "Age Verification",
+      "question": "True or False: You can use someone else's ID for age verification.",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "False. Using someone else's ID is fraud and will result in permanent ban and potential legal action. Verification must use your own valid ID."
+    },
+    {
+      "id": "final-q10",
+      "category": "Age Verification",
+      "question": "If you're verified on one Fanz platform using FanzSSO, what happens on other Fanz platforms?",
+      "options": [
+        "You must verify again",
+        "Your verification carries over automatically",
+        "You get temporary 24-hour access",
+        "You need to pay for each platform"
+      ],
+      "correctAnswer": 1,
+      "explanation": "When using FanzSSO (single sign-on), your age verification status carries across all Fanz ecosystem platforms automatically."
+    },
+    {
+      "id": "final-q11",
+      "category": "Prohibited Content",
+      "question": "How many prohibited content categories are there on Fanz platforms?",
+      "options": ["5", "7", "9", "12"],
+      "correctAnswer": 2,
+      "explanation": "There are 9 prohibited content categories: CSAM, appearing to depict minors, incest, bestiality, non-consensual content, necrophilia, bodily waste, extreme violence, and human trafficking."
+    },
+    {
+      "id": "final-q12",
+      "category": "Prohibited Content",
+      "question": "What risk score threshold triggers automatic content blocking?",
+      "options": ["40", "60", "80", "100"],
+      "correctAnswer": 2,
+      "explanation": "Content with a risk score of 80 or higher is automatically blocked from upload and requires immediate review."
+    },
+    {
+      "id": "final-q13",
+      "category": "Prohibited Content",
+      "question": "True or False: Incest roleplay is allowed if all participants are verified 18+.",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "False. All incest content, including roleplay and step-family scenarios, is prohibited by payment processors regardless of participant ages."
+    },
+    {
+      "id": "final-q14",
+      "category": "Prohibited Content",
+      "question": "What happens after a third content violation?",
+      "options": [
+        "Final written warning",
+        "30-day suspension",
+        "Permanent ban",
+        "Mandatory training course"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The third strike results in permanent account termination, potential forfeiture of earnings, and reporting to authorities if legally required."
+    },
+    {
+      "id": "final-q15",
+      "category": "Prohibited Content",
+      "question": "Which organization enforces payment processor content requirements?",
+      "options": [
+        "FBI",
+        "FTC",
+        "Visa/Mastercard (payment processors)",
+        "NCMEC"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Payment processors like Visa and Mastercard enforce their Global Brand Protection Program (GBPP) requirements. Platforms that violate these rules lose payment processing."
+    },
+    {
+      "id": "final-q16",
+      "category": "Reporting",
+      "question": "How do you report concerning content on Fanz?",
+      "options": [
+        "Email the CEO directly",
+        "Post about it on social media",
+        "Click the three-dot menu and select 'Report'",
+        "File a police report first"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Every piece of content has a report option in the three-dot menu (...). Click it and select 'Report' to submit your report."
+    },
+    {
+      "id": "final-q17",
+      "category": "Reporting",
+      "question": "What happens if you repeatedly submit false reports?",
+      "options": [
+        "Nothing, all reports are welcome",
+        "Warning and potential account restrictions",
+        "Immediate permanent ban",
+        "Monetary fine"
+      ],
+      "correctAnswer": 1,
+      "explanation": "False reporting wastes moderator resources. Patterns of false reporting result in warnings, and repeated false reporting leads to account restrictions."
+    },
+    {
+      "id": "final-q18",
+      "category": "Reporting",
+      "question": "If you see suspected CSAM, what should you do?",
+      "options": [
+        "Download it as evidence",
+        "Report immediately without downloading or sharing",
+        "Message the uploader first",
+        "Wait to see if it's removed"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Report immediately using the CSAM/Minor Safety option. Do NOT download, screenshot, or share the content. Do not confront the uploader."
+    },
+    {
+      "id": "final-q19",
+      "category": "Reporting",
+      "question": "True or False: The person you report can see that you reported them.",
+      "options": ["True", "False"],
+      "correctAnswer": 1,
+      "explanation": "False. Reports are anonymous to the reported user. Only moderators and the compliance team can see reporter identity."
+    },
+    {
+      "id": "final-q20",
+      "category": "Reporting",
+      "question": "How long does GDPR give platforms to respond to data subject requests?",
+      "options": [
+        "7 days",
+        "14 days",
+        "30 days",
+        "90 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "GDPR Article 12 requires platforms to respond to data subject requests (access, erasure, etc.) within 30 days of receipt."
+    }
+  ],
+  "passingCriteria": {
+    "minimumScore": 80,
+    "requiredCategories": {
+      "Legal Requirements": 3,
+      "Age Verification": 3,
+      "Prohibited Content": 3,
+      "Reporting": 3
+    }
+  },
+  "certificateDetails": {
+    "name": "Basic Compliance Certificate",
+    "validityPeriod": "1 year",
+    "renewalRequired": true,
+    "displayOnProfile": true,
+    "pdfDownload": true,
+    "verificationLink": true
+  },
+  "uponPassing": [
+    "Basic Compliance Certificate issued",
+    "Certificate PDF available for download",
+    "Optional profile badge display enabled",
+    "Recommended to complete Creator Compliance course before posting content",
+    "Annual recertification reminder set"
+  ],
+  "uponFailing": [
+    "Detailed feedback on missed topics",
+    "Can retake exam after 24 hours",
+    "Unlimited attempts allowed",
+    "Recommended to review specific modules before retaking"
+  ]
+}

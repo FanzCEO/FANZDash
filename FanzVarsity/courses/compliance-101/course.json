@@ -1,0 +1,51 @@
+{
+  "courseId": "compliance-101",
+  "title": "Compliance 101",
+  "subtitle": "Essential Platform Safety & Legal Requirements",
+  "description": "Master the fundamentals of adult content platform compliance. Learn about age verification, prohibited content, reporting violations, and legal requirements that protect both users and creators.",
+  "targetAudience": "All Users",
+  "duration": "45-60 minutes",
+  "certification": "Basic Compliance Certificate",
+  "passRateRequired": 80,
+  "required": false,
+  "recommendedBefore": ["monetization", "content_upload"],
+  "version": "1.0",
+  "lastUpdated": "2024-12-23",
+  "modules": [
+    {
+      "moduleId": "module-1",
+      "title": "Why Compliance Matters",
+      "duration": 10,
+      "order": 1
+    },
+    {
+      "moduleId": "module-2",
+      "title": "Age Verification Basics",
+      "duration": 15,
+      "order": 2
+    },
+    {
+      "moduleId": "module-3",
+      "title": "Prohibited Content",
+      "duration": 15,
+      "order": 3
+    },
+    {
+      "moduleId": "module-4",
+      "title": "Reporting Violations",
+      "duration": 10,
+      "order": 4
+    }
+  ],
+  "finalExam": {
+    "questionCount": 20,
+    "passRate": 80,
+    "timeLimit": 30
+  },
+  "completionBenefits": [
+    "Basic Compliance Certificate",
+    "Certificate PDF downloadable",
+    "Optional profile badge display",
+    "Recommended for Creator Compliance course"
+  ]
+}

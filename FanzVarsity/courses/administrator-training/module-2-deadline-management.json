@@ -1,0 +1,122 @@
+{
+  "moduleId": "admin-module-2",
+  "courseId": "administrator-training",
+  "title": "Legal Deadline Management",
+  "duration": 50,
+  "order": 2,
+  "learningObjectives": [
+    "Track GDPR 30-day deadline compliance",
+    "Track DSA 14-day complaint response",
+    "Track NCMEC immediate reporting requirement",
+    "Track 2257 48-hour FBI inspection deadline",
+    "Set up automated deadline alerts"
+  ],
+  "videoScript": {
+    "duration": "50 minutes",
+    "sections": [
+      {
+        "title": "Critical Legal Deadlines Overview",
+        "duration": "10:00",
+        "script": "As an administrator, you're responsible for ensuring the platform meets all legal deadlines. Missing these deadlines can result in significant penalties and legal liability.\n\n**The Four Critical Deadlines:**\n\n1. **NCMEC Reporting: 24 Hours**\n   - Triggered by: CSAM detection\n   - Clock starts: Detection confirmation\n   - Consequence: Federal crime, $300K/violation\n\n2. **DSA Response: 14 Days**\n   - Triggered by: EU user complaint\n   - Clock starts: Complaint submission\n   - Consequence: Up to 6% global revenue\n\n3. **GDPR Response: 30 Days**\n   - Triggered by: Data subject request\n   - Clock starts: Request verification\n   - Consequence: Up to €20M or 4% revenue\n\n4. **2257 Record Availability: 48 Hours**\n   - Triggered by: FBI inspection request\n   - Clock starts: Notice received\n   - Consequence: 5-10 years imprisonment\n\n**Why Deadline Management Matters:**\n- Legal compliance is non-negotiable\n- Penalties are severe\n- Reputation damage can be worse than fines\n- Creates audit trail for regulators\n- Demonstrates good faith compliance"
+      },
+      {
+        "title": "NCMEC 24-Hour Reporting",
+        "duration": "10:00",
+        "script": "NCMEC reporting has the shortest deadline and highest stakes.\n\n**Requirement:**\n18 U.S.C. § 2258A requires reports within 24 hours of detection.\n\n**Workflow:**\n\n**Hour 0: Detection**\n- PhotoDNA/PDQ hash match\n- Content automatically blocked\n- Alert to Compliance team\n\n**Hours 0-2: Verification**\n- Confirm hash match\n- Verify not false positive\n- Gather required information\n\n**Hours 2-8: Report Preparation**\n- Compile upload information\n- Gather account details\n- Prepare evidence package\n\n**Hours 8-16: Report Filing**\n- File CyberTipline report\n- Include all required fields\n- Attach evidence\n\n**Hours 16-24: Confirmation**\n- Confirm submission receipt\n- Document report number\n- Note any follow-up required\n\n**Automation:**\n- Detection triggers automatic alert\n- Report template pre-populated\n- Countdown clock visible\n- Escalation if approaching deadline\n\n**Monitoring:**\n- Dashboard shows open CSAM cases\n- Time remaining for each\n- Assigned handler\n- Status tracking\n\n**What Can Go Wrong:**\n- Weekend/holiday detection (staff needed 24/7)\n- System issues (manual backup process)\n- Missing information (gather immediately)\n- Volume spikes (additional resources)"
+      },
+      {
+        "title": "DSA 14-Day Response",
+        "duration": "10:00",
+        "script": "DSA complaints from EU users require response within 14 calendar days.\n\n**Requirement:**\nDigital Services Act Article 20 requires internal complaint handling with response within 14 days.\n\n**Workflow:**\n\n**Day 0: Receipt**\n- Complaint logged in system\n- Automatic acknowledgment sent\n- 14-day clock starts\n- Assigned to handler\n\n**Days 1-3: Initial Review**\n- Review complaint content\n- Identify relevant content/decision\n- Gather context\n\n**Days 4-7: Assessment**\n- Review original decision\n- Assess complaint arguments\n- Consult policy if needed\n\n**Days 8-10: Decision**\n- Make decision (uphold/overturn)\n- Draft Statement of Reasons\n- Quality check\n\n**Days 11-13: Response**\n- Send response to complainant\n- Notify affected parties\n- Document completion\n\n**Day 14: Deadline**\n- Must be completed by end of day\n- No extension available\n\n**Tracking:**\n- Dashboard shows all open DSA complaints\n- Days remaining color-coded\n- Red flag at 3 days remaining\n- Escalation at 1 day remaining\n\n**Volume Management:**\n- Monitor complaint volume trends\n- Staff appropriately\n- Have backup handlers identified\n- Cross-train team members"
+      },
+      {
+        "title": "GDPR 30-Day Response",
+        "duration": "10:00",
+        "script": "GDPR requests have 30 days for response, with limited extension options.\n\n**Requirement:**\nGDPR Article 12(3) requires response within one month (30 days).\n\n**Extension Possible:**\n- Can extend by 2 months for complex requests\n- MUST notify user within initial 30 days\n- Explain why extension needed\n- Common for: large data sets, verification issues\n\n**Workflow:**\n\n**Day 0: Receipt**\n- Request logged\n- Request type identified\n- Identity verification initiated\n\n**Days 1-5: Verification**\n- Verify requester identity\n- Clock starts when verified\n- If can't verify, clock paused\n\n**Days 6-15: Data Gathering**\n- Collect data from all sources\n- Apply exceptions (2257, legal holds)\n- Prepare response\n\n**Days 16-25: Quality Review**\n- Review data package\n- Ensure completeness\n- Redact third-party data\n\n**Days 26-30: Response**\n- Send response to user\n- Document completion\n- Note any retention exceptions\n\n**Extension Process:**\n- Identify need for extension early\n- Notify user by day 25\n- Document reason\n- Set new deadline (max 60 more days)\n- Track new deadline\n\n**Tracking:**\n- Dashboard shows all open GDPR requests\n- Days remaining\n- Extension status\n- Assigned handler"
+      },
+      {
+        "title": "2257 FBI Inspection",
+        "duration": "10:00",
+        "script": "2257 requires records available for FBI inspection, typically with 48-hour notice.\n\n**Requirement:**\n18 U.S.C. § 2257 requires records available during business hours, with 48-hour notice typical (can be less).\n\n**What FBI Inspects:**\n- Age verification records\n- Performer identification\n- ID document copies\n- Stage name cross-references\n- Content URL records\n- Custodian of Records statement\n\n**Preparation (Ongoing):**\n- Records organized and indexed\n- Searchable database\n- Can retrieve any record in 20 minutes\n- Backup copies secured\n- Custodian identified and trained\n\n**When Notice Received:**\n\n**Immediately:**\n- Acknowledge receipt\n- Notify Legal and Custodian\n- Begin preparation\n\n**Within 24 Hours:**\n- Verify all records accessible\n- Test retrieval system\n- Prepare workspace for inspectors\n- Brief Custodian of Records\n\n**Inspection Day:**\n- Custodian present and available\n- Records accessible\n- Legal may be present\n- Cooperate fully\n- Document what is inspected\n\n**After Inspection:**\n- Document any findings\n- Address any deficiencies\n- Update procedures if needed\n\n**Continuous Readiness:**\n- Monthly record audits\n- Quarterly system tests\n- Annual full review\n- Updated training"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "deadlineCalendar",
+      "title": "Deadline Calendar Tool",
+      "features": [
+        "Visual calendar view",
+        "Color-coded urgency",
+        "Alert configuration",
+        "Assignment tracking",
+        "Extension management"
+      ]
+    },
+    {
+      "type": "alertConfigurator",
+      "title": "Alert Configuration",
+      "deadlines": [
+        {"type": "NCMEC", "alerts": ["8 hours", "4 hours", "2 hours", "1 hour"]},
+        {"type": "DSA", "alerts": ["7 days", "3 days", "1 day", "4 hours"]},
+        {"type": "GDPR", "alerts": ["14 days", "7 days", "3 days", "1 day"]},
+        {"type": "2257", "alerts": ["24 hours", "12 hours", "4 hours"]}
+      ]
+    },
+    {
+      "type": "escalationTree",
+      "title": "Deadline Escalation Paths",
+      "paths": [
+        {"deadline": "NCMEC approaching", "escalation": "Immediate to Compliance Officer, then CEO"},
+        {"deadline": "DSA 3 days remaining", "escalation": "Senior moderator, then Compliance"},
+        {"deadline": "GDPR 7 days remaining", "escalation": "Assign backup, notify manager"},
+        {"deadline": "2257 notice received", "escalation": "Immediate to Legal and Custodian"}
+      ]
+    },
+    {
+      "type": "extensionRequestTemplate",
+      "title": "GDPR Extension Template",
+      "template": "Dear [User],\n\nWe have received your data subject request dated [Date]. Due to the complexity of your request [explain reason], we require additional time to process it fully.\n\nUnder GDPR Article 12(3), we are extending our response period by [X] months. You can expect our complete response by [New Date].\n\nIf you have questions, please contact [Contact].\n\nSincerely,\n[Data Protection Officer]"
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 2 Knowledge Check",
+    "questions": [
+      {
+        "id": "adm-m2q1",
+        "question": "What is the NCMEC reporting deadline?",
+        "options": ["Immediately", "24 hours", "48 hours", "7 days"],
+        "correctAnswer": 1,
+        "explanation": "CSAM must be reported to NCMEC within 24 hours of detection per 18 U.S.C. § 2258A."
+      },
+      {
+        "id": "adm-m2q2",
+        "question": "Can the DSA 14-day deadline be extended?",
+        "options": ["Yes, by 14 days", "Yes, by 30 days", "No, it's strict", "Only with user consent"],
+        "correctAnswer": 2,
+        "explanation": "Unlike GDPR, the DSA 14-day deadline has no extension mechanism. It's a strict requirement."
+      },
+      {
+        "id": "adm-m2q3",
+        "question": "How long can GDPR response be extended?",
+        "options": ["30 days", "60 days", "2 months maximum", "Unlimited"],
+        "correctAnswer": 2,
+        "explanation": "GDPR allows extension by up to 2 months for complex requests, with notification required within initial 30 days."
+      },
+      {
+        "id": "adm-m2q4",
+        "question": "How quickly must 2257 records be retrievable?",
+        "options": ["Immediately", "20 minutes", "24 hours", "48 hours"],
+        "correctAnswer": 1,
+        "explanation": "2257 records must be retrievable within 20 minutes during an FBI inspection."
+      },
+      {
+        "id": "adm-m2q5",
+        "question": "When should DSA deadline alerts escalate?",
+        "options": ["Only at deadline", "At 7 days, 3 days, 1 day remaining", "Weekly", "Never"],
+        "correctAnswer": 1,
+        "explanation": "DSA deadline alerts should escalate at 7 days, 3 days, and 1 day remaining to ensure timely response."
+      }
+    ]
+  }
+}

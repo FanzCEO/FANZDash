@@ -1,0 +1,249 @@
+{
+  "moduleId": "cc-module-6",
+  "courseId": "creator-compliance",
+  "title": "What Happens If You Violate",
+  "duration": 20,
+  "order": 6,
+  "learningObjectives": [
+    "Understand the complete warning and strike system",
+    "Learn about temporary suspensions and their impact",
+    "Recognize permanent ban triggers",
+    "Navigate the appeal process effectively"
+  ],
+  "videoScript": {
+    "duration": "20 minutes",
+    "sections": [
+      {
+        "title": "Strike System Overview",
+        "duration": "4:00",
+        "script": "No one plans to violate policies, but understanding consequences helps you avoid them. Let's walk through our complete enforcement system.\n\n**The Three-Strike Philosophy:**\n\nOur system is designed to be:\n- Educational first - we want you to learn and improve\n- Graduated - consequences increase with repeated issues\n- Fair - clear processes and appeal rights\n- Protective - serious violations don't get second chances\n\n**Strike Categories:**\n\n**Minor Violations:**\n- Borderline content that's unclear\n- First-time keyword issues\n- Documentation gaps\n→ Education and warning\n\n**Moderate Violations:**\n- Clear policy violations\n- Payment processor category content\n- Repeated minor violations\n→ Strike and potential suspension\n\n**Severe Violations:**\n- CSAM (immediate termination)\n- Trafficking (immediate termination)\n- Fraud/identity issues (immediate termination)\n- Repeated moderate violations\n→ Immediate action, no strikes\n\n**Your Strike Record:**\n- Visible in your Creator Dashboard\n- Shows violation history\n- Impacts future content review (higher scrutiny after strikes)\n- Clears after 12 months of clean compliance"
+      },
+      {
+        "title": "Strike 1: Warning",
+        "duration": "4:00",
+        "script": "**What Triggers a First Warning:**\n- Content with prohibited keywords\n- Borderline category content\n- Missing documentation\n- Age-ambiguous marketing\n- First-time policy violation (non-severe)\n\n**What Happens:**\n\n1. **Content Action:**\n   - Content is removed from platform\n   - Not uploaded to external platforms (if via MediaHub)\n   - May be recoverable if you delete/edit and re-submit\n\n2. **Notification:**\n   - Email sent explaining violation\n   - In-app notification\n   - Specific policy cited\n   - Explanation of what was wrong\n\n3. **Account Impact:**\n   - No restrictions on uploading\n   - No restrictions on earnings\n   - No suspension\n   - Strike recorded in your history\n\n4. **Educational Requirements:**\n   - Links to relevant training provided\n   - Encouraged to review modules\n   - No mandatory training required (for first warning)\n\n**After a First Warning:**\n- Take it seriously\n- Review the cited policy\n- Check similar content you've posted\n- Make corrections proactively\n- Consider scheduling compliance review\n\n**Duration:**\n- First strike remains on record for 12 months\n- After 12 months of clean compliance, it clears\n- If second violation occurs within 12 months → Strike 2"
+      },
+      {
+        "title": "Strike 2: Temporary Suspension",
+        "duration": "5:00",
+        "script": "**What Triggers Strike 2:**\n- Second policy violation within 12 months\n- More serious violation on first offense\n- Ignoring previous warning and repeating same violation\n\n**Suspension Details:**\n\n**Duration:**\n- Minor repeat violation: 7 days\n- Moderate violation: 14 days\n- Serious violation: 30 days\n- Duration shown in notification\n\n**What's Suspended:**\n\n1. **Upload Restrictions:**\n   - Cannot upload new content\n   - Cannot modify existing content\n   - MediaHub access disabled\n\n2. **Monetization Pause:**\n   - New purchases/subscriptions paused\n   - Tips disabled\n   - PPV sales disabled\n   - Existing subscriber access may continue\n\n3. **Earnings:**\n   - Pending payouts delayed until after suspension\n   - Earnings during suspension held\n   - Released after reinstatement (if no further issues)\n\n4. **Visibility:**\n   - Profile may be hidden from search\n   - Existing content may remain visible or be hidden\n   - Depends on violation severity\n\n**Mandatory Training:**\n\nBefore reinstatement, you MUST:\n- Complete relevant compliance module(s)\n- Pass module quiz with 80%+ score\n- Acknowledge updated policies\n- Agree to enhanced monitoring\n\n**Reinstatement Process:**\n1. Suspension period ends\n2. Complete mandatory training\n3. Acknowledge reinstatement terms\n4. Account restored with monitoring period\n5. Enhanced content screening for 90 days"
+      },
+      {
+        "title": "Strike 3: Permanent Ban",
+        "duration": "4:00",
+        "script": "**What Triggers Permanent Ban:**\n- Third policy violation within 12 months\n- Any CSAM violation (no prior strikes needed)\n- Any trafficking violation (no prior strikes needed)\n- Fraud or identity theft\n- Severe violence\n- Multiple simultaneous violations\n- Circumventing previous suspension\n\n**Permanent Ban Consequences:**\n\n**Account Termination:**\n- Account permanently closed\n- Cannot create new account\n- ID flagged in verification system\n- Ban shared with partner platforms (in some cases)\n\n**Content Removal:**\n- All content removed from platform\n- External platform connections severed\n- MediaHub access revoked permanently\n\n**Financial Impact:**\n- Pending earnings may be forfeited (if legal hold applies)\n- Subscriber subscriptions canceled/refunded\n- Payment information flagged\n- Future payment processing on platform impossible\n\n**Legal Reporting:**\nFor certain violations, we are required to report:\n- CSAM → NCMEC CyberTipline + FBI\n- Trafficking → FBI\n- Identity fraud → May involve law enforcement\n- Severe content crimes → Relevant authorities\n\n**No New Accounts:**\n- Our verification system flags banned IDs\n- Attempting to create new account is detected\n- Results in immediate re-ban\n- May extend ban to associated accounts\n\n**Finality:**\nFor CSAM, trafficking, and fraud - there is NO APPEAL. These decisions are final."
+      },
+      {
+        "title": "The Appeal Process",
+        "duration": "3:00",
+        "script": "**Appeal Rights:**\n\nYou can appeal:\n- First warnings (within 7 days)\n- Second strike suspensions (within 14 days)\n- Third strike bans (limited - within 30 days)\n- Content removal decisions\n\nYou CANNOT appeal:\n- CSAM violations\n- Trafficking violations\n- Identity fraud\n- Decisions after appeal already completed\n\n**How to File an Appeal:**\n\n1. **Go to Compliance Dashboard**\n   - Navigate to 'Violations' section\n   - Click 'Appeal' on relevant violation\n\n2. **Explain Your Position**\n   - Why you believe decision was wrong\n   - What context was missed\n   - Any evidence supporting your case\n\n3. **Provide Documentation**\n   - 2257 records (if age verification question)\n   - Model releases (if consent question)\n   - Context for misunderstood content\n   - Original intent explanation\n\n4. **Submit and Wait**\n   - Appeals reviewed in order received\n   - Standard review: 24-48 hours\n   - EU DSA complaints: 14 days maximum\n\n**Appeal Outcomes:**\n\n**Upheld (You Win):**\n- Violation removed from record\n- Content may be restored\n- Suspension lifted early\n- Earnings released\n\n**Denied (Decision Stands):**\n- Violation remains\n- You're notified with reasoning\n- For EU users: External dispute option provided\n\n**EU Users: External Dispute Resolution**\nUnder DSA, EU users can escalate to certified dispute resolution bodies if unsatisfied with internal appeal outcome."
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "violationScenarioAnalyzer",
+      "title": "Violation Consequence Analyzer",
+      "scenarios": [
+        {
+          "violation": "Content with 'step-mom' in title uploaded for first time",
+          "consequence": "Strike 1: Warning",
+          "details": "Content removed, warning issued, educational resources provided. No account restrictions.",
+          "prevention": "Review prohibited keyword list before uploading"
+        },
+        {
+          "violation": "Second family-themed content uploaded 2 months after first warning",
+          "consequence": "Strike 2: 14-day suspension",
+          "details": "Uploads disabled, monetization paused, mandatory training required for reinstatement.",
+          "prevention": "Take first warning seriously and review all existing content"
+        },
+        {
+          "violation": "CSAM hash detected in uploaded content",
+          "consequence": "Immediate permanent ban + law enforcement",
+          "details": "Immediate account termination, NCMEC report, FBI notification, evidence preserved.",
+          "prevention": "Verify ALL performers, never work with minors under any circumstances"
+        },
+        {
+          "violation": "Third policy violation within 12 months",
+          "consequence": "Permanent ban",
+          "details": "Account terminated, content removed, earnings potentially forfeited, ID flagged.",
+          "prevention": "After Strike 2, complete full compliance training and have content reviewed before posting"
+        }
+      ]
+    },
+    {
+      "type": "appealLetterTemplate",
+      "title": "Appeal Letter Templates",
+      "templates": [
+        {
+          "type": "Content Misunderstanding",
+          "template": "Dear Compliance Team,\n\nI am appealing the [Strike/Warning] issued on [Date] regarding [Content Title].\n\nI believe this decision was made in error because:\n[Explain why content doesn't violate policy]\n\nSupporting context:\n[Provide relevant details, performer verification, intent]\n\nI have attached:\n- [2257 documentation if applicable]\n- [Model release if applicable]\n- [Other supporting evidence]\n\nI respectfully request review of this decision.\n\nSincerely,\n[Your Name]\n[Account ID]"
+        },
+        {
+          "type": "Keyword False Positive",
+          "template": "Dear Compliance Team,\n\nI am appealing the [Strike/Warning] for keyword violation on [Content Title].\n\nThe flagged term '[keyword]' was used in the context of:\n[Explain non-violating context]\n\nThis is different from prohibited use because:\n[Explain distinction]\n\nI request reconsideration and suggest alternative phrasing of:\n[Offer alternative title/description]\n\nSincerely,\n[Your Name]\n[Account ID]"
+        }
+      ]
+    },
+    {
+      "type": "complianceChecklist",
+      "title": "Stay Compliant Checklist",
+      "categories": [
+        {
+          "category": "Before Every Upload",
+          "items": [
+            "Review title for prohibited keywords",
+            "Check description for policy issues",
+            "Verify all performers have 2257 documentation",
+            "Confirm content doesn't fall in prohibited categories",
+            "Use Content Pre-Screener tool"
+          ]
+        },
+        {
+          "category": "After a Warning",
+          "items": [
+            "Read violation notice carefully",
+            "Review cited policy section",
+            "Audit existing content for similar issues",
+            "Remove or modify problematic content",
+            "Complete recommended training",
+            "Consider compliance review before next upload"
+          ]
+        },
+        {
+          "category": "After Suspension Ends",
+          "items": [
+            "Complete mandatory training modules",
+            "Pass required quizzes",
+            "Acknowledge reinstatement terms",
+            "Understand enhanced monitoring period",
+            "Have next content reviewed before posting",
+            "Set reminders for compliance checks"
+          ]
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 6 Knowledge Check",
+    "questions": [
+      {
+        "id": "cc-m6q1",
+        "question": "How long does a first-strike warning remain on your record?",
+        "options": ["30 days", "6 months", "12 months", "Permanently"],
+        "correctAnswer": 2,
+        "explanation": "First strikes remain on record for 12 months. After 12 months of clean compliance, they clear from your record."
+      },
+      {
+        "id": "cc-m6q2",
+        "question": "What is the suspension length for a second-strike moderate violation?",
+        "options": ["3 days", "7 days", "14 days", "30 days"],
+        "correctAnswer": 2,
+        "explanation": "Moderate second-strike violations result in 14-day suspension. Minor repeats get 7 days, serious violations get 30 days."
+      },
+      {
+        "id": "cc-m6q3",
+        "question": "What happens to your earnings during a suspension?",
+        "options": [
+          "Immediately forfeited",
+          "Held until reinstatement, then released if no further issues",
+          "Donated to charity",
+          "Continue as normal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Earnings during suspension are held and released after reinstatement if there are no further issues."
+      },
+      {
+        "id": "cc-m6q4",
+        "question": "Which violation type has NO appeal option?",
+        "options": [
+          "Keyword violations",
+          "Missing documentation",
+          "CSAM violations",
+          "First-time policy violations"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CSAM violations, trafficking violations, and identity fraud have no appeal option. These decisions are final."
+      },
+      {
+        "id": "cc-m6q5",
+        "question": "How long do you have to appeal a first warning?",
+        "options": ["24 hours", "7 days", "14 days", "30 days"],
+        "correctAnswer": 1,
+        "explanation": "First warnings can be appealed within 7 days. Second strike suspensions have 14 days for appeal."
+      },
+      {
+        "id": "cc-m6q6",
+        "question": "What is required before reinstatement after a suspension?",
+        "options": [
+          "Just wait for time to pass",
+          "Pay a reinstatement fee",
+          "Complete mandatory training, pass quiz, acknowledge terms",
+          "Submit new ID verification"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Reinstatement requires completing relevant compliance modules, passing with 80%+ score, and acknowledging updated policies."
+      },
+      {
+        "id": "cc-m6q7",
+        "question": "How long is the enhanced monitoring period after reinstatement?",
+        "options": ["30 days", "60 days", "90 days", "12 months"],
+        "correctAnswer": 2,
+        "explanation": "After reinstatement from suspension, your content receives enhanced screening for 90 days."
+      },
+      {
+        "id": "cc-m6q8",
+        "question": "What happens if you try to create a new account after being permanently banned?",
+        "options": [
+          "New account works normally",
+          "ID is flagged, detected, and immediately re-banned",
+          "You get one fresh start",
+          "Allowed after 1 year waiting period"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Banned IDs are flagged in the verification system. Attempting to create a new account is detected and results in immediate re-ban."
+      },
+      {
+        "id": "cc-m6q9",
+        "question": "What is the maximum response time for EU DSA complaint appeals?",
+        "options": ["24 hours", "7 days", "14 days", "30 days"],
+        "correctAnswer": 2,
+        "explanation": "Under the EU Digital Services Act, platforms must respond to internal complaints within 14 days maximum."
+      },
+      {
+        "id": "cc-m6q10",
+        "question": "What should you include in an appeal for a keyword false positive?",
+        "options": [
+          "Just say you disagree",
+          "Explain the non-violating context and offer alternative phrasing",
+          "Threaten legal action",
+          "Create new account and reupload"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Effective appeals explain the context in which the keyword was used (showing it wasn't violating) and offer alternative phrasing if content is modified."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Appeal Process Guide",
+      "type": "pdf",
+      "url": "/resources/appeal-process-guide.pdf"
+    },
+    {
+      "title": "Appeal Letter Templates",
+      "type": "pdf",
+      "url": "/resources/appeal-letter-templates.pdf"
+    },
+    {
+      "title": "Compliance Dashboard Quick Start",
+      "type": "video",
+      "url": "/resources/compliance-dashboard-tutorial"
+    },
+    {
+      "title": "EU DSA Rights Information",
+      "type": "article",
+      "url": "/kb/eu-dsa-user-rights"
+    }
+  ]
+}

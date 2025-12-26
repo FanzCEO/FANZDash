@@ -1,0 +1,498 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-12-23",
+  "category": "errors",
+  "total_errors": 50,
+  "errors": [
+    {
+      "error_code": "AGE_VERIFICATION_REQUIRED",
+      "error_message": "Age verification required to access this content",
+      "explanation": "You're attempting to access age-restricted content but haven't completed age verification. This is required by law in your location (UK, US state, or EU).",
+      "solution": "Complete age verification by visiting Settings > Age Verification. Choose from 4 methods: VerifyMy ($0.50-$1.50), ID upload (free), credit card (free), or AI estimation (free).",
+      "severity": "blocking",
+      "category": "age-verification",
+      "related_kb": "/kb/age-verification-guide",
+      "user_action_required": true
+    },
+    {
+      "error_code": "AGE_VERIFICATION_FAILED",
+      "error_message": "Age verification could not be completed",
+      "explanation": "Your verification attempt was unsuccessful. Common causes: blurry ID image, expired document, VPN interference, or information mismatch.",
+      "solution": "Try again with clearer documentation, disable VPN, or use a different verification method. If ID expired, use credit card or AI estimation instead.",
+      "severity": "warning",
+      "category": "age-verification",
+      "related_kb": "/kb/troubleshooting-compliance#verification-failed",
+      "user_action_required": true
+    },
+    {
+      "error_code": "AGE_VERIFICATION_PENDING",
+      "error_message": "Your verification is being reviewed",
+      "explanation": "Your ID document upload is in the manual review queue. This typically takes up to 24 hours for processing.",
+      "solution": "Wait for review completion. You'll receive an email when verified. If urgent, try an instant method (VerifyMy, credit card, or AI estimation).",
+      "severity": "info",
+      "category": "age-verification",
+      "related_kb": "/kb/age-verification-guide#timing",
+      "user_action_required": false
+    },
+    {
+      "error_code": "AGE_VERIFICATION_EXPIRED",
+      "error_message": "Your age verification has expired",
+      "explanation": "Your verification has passed its validity period. Some jurisdictions require periodic re-verification.",
+      "solution": "Complete re-verification via Settings > Age Verification. The process is the same as initial verification.",
+      "severity": "blocking",
+      "category": "age-verification",
+      "related_kb": "/kb/age-verification-guide#expiration",
+      "user_action_required": true
+    },
+    {
+      "error_code": "CONTENT_BLOCKED_CSAM",
+      "error_message": "Content blocked - Severe policy violation detected",
+      "explanation": "Your content was flagged by our CSAM detection system (PhotoDNA/PDQ hash matching). This indicates the content matches known CSAM signatures. This violation has been automatically reported to NCMEC and law enforcement as required by federal law (18 U.S.C. 2258A).",
+      "solution": "Your account has been permanently banned. No appeal is available. Law enforcement has been notified. Do not attempt to create a new account.",
+      "severity": "critical",
+      "category": "csam-violation",
+      "related_kb": "/kb/prohibited-content#csam",
+      "user_action_required": false
+    },
+    {
+      "error_code": "CONTENT_RISK_SCORE_HIGH",
+      "error_message": "Content blocked - High risk score detected",
+      "explanation": "Your content was flagged by our payment processor compliance system with a risk score of 80 or above (out of 100). This indicates potential violation of Visa/Mastercard prohibited content categories.",
+      "solution": "Review your content against our prohibited content list. Remove prohibited elements and try uploading again. You can appeal this decision via Compliance Dashboard if you believe it's a false positive.",
+      "severity": "warning",
+      "category": "content-moderation",
+      "related_kb": "/kb/prohibited-content",
+      "user_action_required": true
+    },
+    {
+      "error_code": "CONTENT_FLAGGED_REVIEW",
+      "error_message": "Content held for moderator review",
+      "explanation": "Your content has been flagged for human review before publication. This happens when our systems detect elements requiring verification, but it's not necessarily a violation.",
+      "solution": "Wait for moderator review (typically 24-72 hours). You'll be notified of the outcome via email. No action required unless you want to remove the content.",
+      "severity": "info",
+      "category": "content-moderation",
+      "related_kb": "/kb/content-moderation#review",
+      "user_action_required": false
+    },
+    {
+      "error_code": "CONTENT_REMOVED_VIOLATION",
+      "error_message": "Content removed - Policy violation",
+      "explanation": "Your content has been removed for violating our content policy. A Statement of Reasons has been sent to your email explaining the specific violation.",
+      "solution": "Check your email for the Statement of Reasons. You can appeal via Compliance Dashboard within 30 days if you believe this is an error. Review our content guidelines before uploading similar content.",
+      "severity": "warning",
+      "category": "content-moderation",
+      "related_kb": "/kb/troubleshooting-compliance#content-removed",
+      "user_action_required": true
+    },
+    {
+      "error_code": "TRAFFICKING_INDICATORS_DETECTED",
+      "error_message": "Content blocked - Safety review required",
+      "explanation": "Your content or account has been flagged due to the presence of multiple trafficking indicators. This has been escalated for specialized review.",
+      "solution": "Your account may be temporarily restricted during review. If this is a false positive, you'll be contacted for verification. Genuine trafficking is reported to law enforcement.",
+      "severity": "critical",
+      "category": "trafficking",
+      "related_kb": "/kb/trafficking-detection",
+      "user_action_required": false
+    },
+    {
+      "error_code": "ACCOUNT_SUSPENDED_STRIKE_1",
+      "error_message": "Warning: First policy violation recorded",
+      "explanation": "You have received your first strike for a policy violation. The violating content has been removed and a warning has been issued.",
+      "solution": "Complete the mandatory refresher training in FanzVarsity. Your account remains active. Review our content guidelines to avoid future violations. Two more strikes will result in permanent ban.",
+      "severity": "warning",
+      "category": "enforcement",
+      "related_kb": "/kb/enforcement#first-violation",
+      "user_action_required": true
+    },
+    {
+      "error_code": "ACCOUNT_SUSPENDED_STRIKE_2",
+      "error_message": "Account suspended - Second policy violation",
+      "explanation": "You have received your second strike. Your account is suspended for 7 days. Violating content has been removed.",
+      "solution": "Wait for the 7-day suspension period to end. Complete required additional training. Upon reinstatement, one more violation will result in permanent ban.",
+      "severity": "warning",
+      "category": "enforcement",
+      "related_kb": "/kb/enforcement#second-violation",
+      "user_action_required": true
+    },
+    {
+      "error_code": "ACCOUNT_BANNED_PERMANENT",
+      "error_message": "Account permanently banned",
+      "explanation": "Your account has been permanently banned due to repeated policy violations (third strike) or a severe violation that warranted immediate ban.",
+      "solution": "Check your email for the full explanation. You may appeal within 30 days via compliance@fanz.com (except for CSAM violations, which cannot be appealed). Do not create new accounts.",
+      "severity": "critical",
+      "category": "enforcement",
+      "related_kb": "/kb/enforcement#permanent-ban",
+      "user_action_required": true
+    },
+    {
+      "error_code": "GDPR_REQUEST_PENDING",
+      "error_message": "Your data request is being processed",
+      "explanation": "Your GDPR data subject request has been received and is in the processing queue. GDPR requires response within 30 days.",
+      "solution": "No action required. You'll receive an email when your request is complete. For complex requests, we may extend by up to 2 months (with notification).",
+      "severity": "info",
+      "category": "privacy",
+      "related_kb": "/kb/privacy-compliance#data-requests",
+      "user_action_required": false
+    },
+    {
+      "error_code": "GDPR_REQUEST_REJECTED",
+      "error_message": "Data request could not be fulfilled",
+      "explanation": "Your GDPR request was partially or fully rejected. Common reasons: legal retention requirements (2257, tax records), data needed for legal proceedings, or request exceeds scope.",
+      "solution": "Check the response email for specific reasons and which data was retained with legal basis. You may contact dpo@fanz.com for clarification or escalate to your local Data Protection Authority.",
+      "severity": "info",
+      "category": "privacy",
+      "related_kb": "/kb/privacy-compliance#request-rejected",
+      "user_action_required": false
+    },
+    {
+      "error_code": "2257_RECORDS_MISSING",
+      "error_message": "Performer records incomplete",
+      "explanation": "Required 2257 records are missing for one or more performers in your content. Content cannot be published without complete performer verification.",
+      "solution": "Go to Creator Dashboard > Collaborators and complete verification for all performers. Required: legal name, DOB, valid ID copy, and consent documentation. Upload content again after verification.",
+      "severity": "blocking",
+      "category": "compliance",
+      "related_kb": "/kb/2257-recordkeeping",
+      "user_action_required": true
+    },
+    {
+      "error_code": "2257_RECORDS_EXPIRED",
+      "error_message": "Performer verification has expired",
+      "explanation": "The verification for a performer in your content has expired or is no longer valid. Content featuring this performer may be restricted.",
+      "solution": "Request the performer to update their verification via Creator Dashboard > Collaborators. Once they re-verify, content will be restored.",
+      "severity": "warning",
+      "category": "compliance",
+      "related_kb": "/kb/2257-recordkeeping#expiration",
+      "user_action_required": true
+    },
+    {
+      "error_code": "EXTERNAL_UPLOAD_BLOCKED",
+      "error_message": "Content blocked for external platform",
+      "explanation": "Your content meets Fanz policies but was blocked from distribution to an external platform (OnlyFans, Fansly, etc.) due to their stricter policies.",
+      "solution": "This is not a Fanz violation. Review the external platform's specific requirements. You can still publish on Fanz. Remove the external distribution for this content or modify to meet their guidelines.",
+      "severity": "info",
+      "category": "integration",
+      "related_kb": "/kb/creator-compliance#external-platforms",
+      "user_action_required": true
+    },
+    {
+      "error_code": "PAYMENT_PROCESSOR_VIOLATION",
+      "error_message": "Content violates payment processor policies",
+      "explanation": "Your content violates Visa/Mastercard GBPP (Global Brand Protection Program) requirements. This is separate from legal violations but equally enforced to maintain payment processing.",
+      "solution": "Review the 9 prohibited categories in our content policy. Remove the violating content and avoid similar content in the future. Repeated violations affect payment processing ability.",
+      "severity": "warning",
+      "category": "payments",
+      "related_kb": "/kb/payment-processor-requirements",
+      "user_action_required": true
+    },
+    {
+      "error_code": "MONETIZATION_DISABLED",
+      "error_message": "Monetization features are not available",
+      "explanation": "You cannot access monetization features (selling content, receiving payments) because Creator Compliance certification has not been completed.",
+      "solution": "Complete the Creator Compliance course in FanzVarsity (Settings > Training). Pass with 85% to unlock monetization. Course takes approximately 2-3 hours.",
+      "severity": "blocking",
+      "category": "monetization",
+      "related_kb": "/kb/creator-compliance#certification",
+      "user_action_required": true
+    },
+    {
+      "error_code": "PAYOUT_BLOCKED_VERIFICATION",
+      "error_message": "Payout pending verification",
+      "explanation": "Your payout is on hold because creator verification is incomplete or expired. Required: ID verification, address verification, and tax documentation.",
+      "solution": "Go to Settings > Verification and complete any missing steps. Once verified, payouts will process on the next payout cycle.",
+      "severity": "warning",
+      "category": "payments",
+      "related_kb": "/kb/payments#verification-required",
+      "user_action_required": true
+    },
+    {
+      "error_code": "PAYOUT_BELOW_THRESHOLD",
+      "error_message": "Balance below minimum payout amount",
+      "explanation": "Your current balance is below the minimum payout threshold of $50. Earnings accumulate until the threshold is reached.",
+      "solution": "Continue creating content to accumulate earnings. Once you reach $50 in cleared earnings, payout will process on the next scheduled date (Fridays).",
+      "severity": "info",
+      "category": "payments",
+      "related_kb": "/kb/payments#threshold",
+      "user_action_required": false
+    },
+    {
+      "error_code": "TAX_FORM_REQUIRED",
+      "error_message": "Tax documentation required",
+      "explanation": "You've reached earning thresholds requiring tax documentation. US creators earning $600+ need W-9. Non-US creators need W-8BEN.",
+      "solution": "Submit required tax forms via Settings > Payments > Tax Documents. Payouts are held until documentation is complete.",
+      "severity": "blocking",
+      "category": "taxes",
+      "related_kb": "/kb/creator-compliance#taxes",
+      "user_action_required": true
+    },
+    {
+      "error_code": "UPLOAD_SIZE_EXCEEDED",
+      "error_message": "File size exceeds maximum limit",
+      "explanation": "Your upload exceeds the maximum file size: videos up to 4GB, images up to 50MB. The file was not uploaded.",
+      "solution": "Compress your file to reduce size, or split large videos into parts. Many free tools can compress video without significant quality loss.",
+      "severity": "warning",
+      "category": "technical",
+      "related_kb": "/kb/content-management#limits",
+      "user_action_required": true
+    },
+    {
+      "error_code": "UPLOAD_FORMAT_UNSUPPORTED",
+      "error_message": "File format not supported",
+      "explanation": "The file format you uploaded is not supported. Supported formats: Video (MP4, MOV, AVI), Image (JPG, PNG, GIF), Audio (MP3, WAV).",
+      "solution": "Convert your file to a supported format using video/audio conversion software, then try uploading again.",
+      "severity": "warning",
+      "category": "technical",
+      "related_kb": "/kb/content-management#formats",
+      "user_action_required": true
+    },
+    {
+      "error_code": "UPLOAD_FAILED_NETWORK",
+      "error_message": "Upload failed - Network error",
+      "explanation": "The upload was interrupted due to a network connectivity issue. The file was not fully received.",
+      "solution": "Check your internet connection, try a different network if available, and attempt the upload again. Large files need stable connections.",
+      "severity": "warning",
+      "category": "technical",
+      "related_kb": "/kb/troubleshooting-technical#upload",
+      "user_action_required": true
+    },
+    {
+      "error_code": "LOGIN_FAILED_CREDENTIALS",
+      "error_message": "Invalid email or password",
+      "explanation": "The email or password you entered doesn't match our records. This could be a typo or incorrect credentials.",
+      "solution": "Check your email for typos, ensure caps lock is off, and try again. Use 'Forgot Password' if you can't remember your password. Contact support if issues persist.",
+      "severity": "warning",
+      "category": "authentication",
+      "related_kb": "/kb/troubleshooting-technical#login",
+      "user_action_required": true
+    },
+    {
+      "error_code": "LOGIN_FAILED_SUSPENDED",
+      "error_message": "Account access temporarily restricted",
+      "explanation": "Your account is currently suspended due to a policy violation. You cannot log in during the suspension period.",
+      "solution": "Check your email for suspension details and duration. Complete any required training. Access will be restored automatically after the suspension period ends.",
+      "severity": "blocking",
+      "category": "authentication",
+      "related_kb": "/kb/enforcement#suspension",
+      "user_action_required": true
+    },
+    {
+      "error_code": "LOGIN_FAILED_BANNED",
+      "error_message": "Account access permanently restricted",
+      "explanation": "Your account has been permanently banned. You cannot log in or create new accounts.",
+      "solution": "Check your email for the ban reason. If eligible, appeal within 30 days via compliance@fanz.com. Creating new accounts to evade the ban will result in immediate ban of those accounts.",
+      "severity": "critical",
+      "category": "authentication",
+      "related_kb": "/kb/enforcement#permanent-ban",
+      "user_action_required": true
+    },
+    {
+      "error_code": "2FA_REQUIRED",
+      "error_message": "Two-factor authentication required",
+      "explanation": "This action requires two-factor authentication. Creator accounts with monetization must have 2FA enabled for security.",
+      "solution": "Complete 2FA verification using your registered authenticator app or SMS code. If you've lost access to 2FA, contact support with identity verification.",
+      "severity": "blocking",
+      "category": "security",
+      "related_kb": "/kb/account-security#2fa",
+      "user_action_required": true
+    },
+    {
+      "error_code": "2FA_INVALID_CODE",
+      "error_message": "Invalid verification code",
+      "explanation": "The 2FA code you entered is incorrect or expired. Codes are valid for 30 seconds.",
+      "solution": "Wait for a new code to generate and enter it immediately. Ensure your device clock is accurate (2FA codes are time-based). Contact support if codes consistently fail.",
+      "severity": "warning",
+      "category": "security",
+      "related_kb": "/kb/account-security#2fa-troubleshooting",
+      "user_action_required": true
+    },
+    {
+      "error_code": "SESSION_EXPIRED",
+      "error_message": "Your session has expired",
+      "explanation": "For security, sessions expire after a period of inactivity. You need to log in again to continue.",
+      "solution": "Log in again with your credentials. Enable 'Remember Me' for longer sessions on personal devices. This is a security feature, not an error.",
+      "severity": "info",
+      "category": "authentication",
+      "related_kb": "/kb/account-security#sessions",
+      "user_action_required": true
+    },
+    {
+      "error_code": "RATE_LIMITED",
+      "error_message": "Too many requests - Please wait",
+      "explanation": "You've made too many requests in a short period. This protection prevents abuse and ensures fair platform access for everyone.",
+      "solution": "Wait a few minutes before trying again. If you're using automation or scripts, reduce request frequency. Contact support if you need higher limits for legitimate purposes.",
+      "severity": "warning",
+      "category": "technical",
+      "related_kb": "/kb/troubleshooting-technical#rate-limits",
+      "user_action_required": true
+    },
+    {
+      "error_code": "REGION_BLOCKED",
+      "error_message": "Content not available in your region",
+      "explanation": "This content is geo-restricted and not available in your current location. This may be due to local laws or creator preferences.",
+      "solution": "This content is legally unavailable to you based on your location. Using VPN to circumvent geo-restrictions violates Terms of Service.",
+      "severity": "info",
+      "category": "access",
+      "related_kb": "/kb/content-distribution#geo",
+      "user_action_required": false
+    },
+    {
+      "error_code": "CREATOR_BLOCKED_YOU",
+      "error_message": "Content not available",
+      "explanation": "The creator has blocked you from viewing their content. You cannot access their profile or content.",
+      "solution": "You cannot appeal blocks by individual creators. This is their choice. Do not create new accounts to circumvent blocks.",
+      "severity": "info",
+      "category": "access",
+      "related_kb": "/kb/safety#blocking",
+      "user_action_required": false
+    },
+    {
+      "error_code": "SUBSCRIPTION_REQUIRED",
+      "error_message": "Subscription required to view this content",
+      "explanation": "This content is available only to subscribers of this creator. You need an active subscription to access it.",
+      "solution": "Subscribe to this creator via the Subscribe button on their profile. Once subscribed, you'll have access to all their subscription-tier content.",
+      "severity": "info",
+      "category": "access",
+      "related_kb": "/kb/subscriptions",
+      "user_action_required": true
+    },
+    {
+      "error_code": "PURCHASE_REQUIRED",
+      "error_message": "Purchase required to view this content",
+      "explanation": "This is pay-per-view content that requires individual purchase even if you're subscribed.",
+      "solution": "Click the purchase button and complete payment to unlock this content. Once purchased, you have permanent access.",
+      "severity": "info",
+      "category": "access",
+      "related_kb": "/kb/monetization#ppv",
+      "user_action_required": true
+    },
+    {
+      "error_code": "PAYMENT_FAILED",
+      "error_message": "Payment could not be processed",
+      "explanation": "Your payment was declined. Common causes: insufficient funds, card expired, bank blocking the transaction, or incorrect details.",
+      "solution": "Check your payment details, ensure sufficient funds, and try again. If your bank is blocking, contact them to authorize the transaction. Try a different payment method if available.",
+      "severity": "warning",
+      "category": "payments",
+      "related_kb": "/kb/payments#troubleshooting",
+      "user_action_required": true
+    },
+    {
+      "error_code": "CARD_VERIFICATION_FAILED",
+      "error_message": "Card verification unsuccessful",
+      "explanation": "Your credit/debit card could not be verified for age verification purposes. This is different from a payment failure.",
+      "solution": "Try a different card, ensure the card is in your name, or use an alternative verification method (VerifyMy, ID upload, AI estimation).",
+      "severity": "warning",
+      "category": "age-verification",
+      "related_kb": "/kb/age-verification-guide#credit-card",
+      "user_action_required": true
+    },
+    {
+      "error_code": "REPORT_SUBMITTED",
+      "error_message": "Thank you - Your report has been received",
+      "explanation": "Your report has been submitted and will be reviewed by our Trust & Safety team.",
+      "solution": "No further action required. You'll receive an update when the report is resolved. For urgent matters (CSAM, imminent threats), we prioritize immediate review.",
+      "severity": "info",
+      "category": "reporting",
+      "related_kb": "/kb/troubleshooting-compliance#reporting",
+      "user_action_required": false
+    },
+    {
+      "error_code": "APPEAL_SUBMITTED",
+      "error_message": "Your appeal has been received",
+      "explanation": "Your appeal has been submitted and will be reviewed by a different moderator than the original decision-maker.",
+      "solution": "Wait for review (typically 7 days). You'll receive the outcome via email. No additional appeals can be submitted for the same content until this one is resolved.",
+      "severity": "info",
+      "category": "appeals",
+      "related_kb": "/kb/troubleshooting-compliance#appeals",
+      "user_action_required": false
+    },
+    {
+      "error_code": "APPEAL_DENIED",
+      "error_message": "Your appeal was not successful",
+      "explanation": "After review, the original moderation decision has been upheld. The content remains removed.",
+      "solution": "Review the decision explanation in your email. EU users may escalate to Out-of-Court Dispute Resolution (ODR). Otherwise, avoid similar content in future uploads.",
+      "severity": "info",
+      "category": "appeals",
+      "related_kb": "/kb/troubleshooting-compliance#appeal-denied",
+      "user_action_required": false
+    },
+    {
+      "error_code": "APPEAL_APPROVED",
+      "error_message": "Your appeal was successful",
+      "explanation": "After review, the original decision has been reversed. Your content is being restored.",
+      "solution": "Content should reappear within 24 hours. If this was a false positive, we've improved our detection to reduce similar errors.",
+      "severity": "info",
+      "category": "appeals",
+      "related_kb": "/kb/troubleshooting-compliance#appeal-approved",
+      "user_action_required": false
+    },
+    {
+      "error_code": "TRAINING_INCOMPLETE",
+      "error_message": "Required training not completed",
+      "explanation": "You're trying to access a feature that requires completion of compliance training. The required certification has not been earned.",
+      "solution": "Complete the required FanzVarsity course via Settings > Training. Pass the exam to unlock the feature. Course requirements vary by feature/role.",
+      "severity": "blocking",
+      "category": "training",
+      "related_kb": "/kb/compliance-training",
+      "user_action_required": true
+    },
+    {
+      "error_code": "CERTIFICATION_EXPIRED",
+      "error_message": "Your certification has expired",
+      "explanation": "Compliance certifications require annual renewal. Your certification has passed its validity period.",
+      "solution": "Complete the recertification course (shorter than original) in FanzVarsity. Pass the refresher exam to renew your certification.",
+      "severity": "warning",
+      "category": "training",
+      "related_kb": "/kb/compliance-training#recertification",
+      "user_action_required": true
+    },
+    {
+      "error_code": "EXAM_FAILED",
+      "error_message": "You did not pass this exam",
+      "explanation": "Your exam score did not meet the passing threshold. You can retake after the waiting period.",
+      "solution": "Review the feedback showing which areas need improvement. Study those sections in the course material. Retake after the waiting period (varies by course).",
+      "severity": "info",
+      "category": "training",
+      "related_kb": "/kb/compliance-training#retakes",
+      "user_action_required": true
+    },
+    {
+      "error_code": "LIVE_STREAM_BLOCKED",
+      "error_message": "Live stream terminated - Policy violation",
+      "explanation": "Your live stream was ended by moderators due to a policy violation detected during the broadcast.",
+      "solution": "Check your email for details on the violation. Live stream violations are treated as standard content violations. Review live streaming guidelines before your next broadcast.",
+      "severity": "warning",
+      "category": "live-streaming",
+      "related_kb": "/kb/live-streaming#violations",
+      "user_action_required": true
+    },
+    {
+      "error_code": "MESSAGING_RESTRICTED",
+      "error_message": "Messaging features are restricted",
+      "explanation": "Your ability to send messages has been restricted due to reports of spam, harassment, or policy violations in your messages.",
+      "solution": "Wait for the restriction period to end (typically 24-72 hours for first offense). Contact support if you believe this is an error. Future violations may result in longer restrictions.",
+      "severity": "warning",
+      "category": "messaging",
+      "related_kb": "/kb/messaging-compliance#restrictions",
+      "user_action_required": true
+    },
+    {
+      "error_code": "VPN_DETECTED",
+      "error_message": "VPN or proxy detected",
+      "explanation": "We've detected that you may be using a VPN or proxy service. Some features are restricted when using VPNs to ensure compliance with local laws.",
+      "solution": "Disable your VPN to access all features. If you're not using a VPN, this may be a network routing issue - try a different network or contact support.",
+      "severity": "warning",
+      "category": "access",
+      "related_kb": "/kb/troubleshooting-compliance#vpn",
+      "user_action_required": true
+    },
+    {
+      "error_code": "SERVICE_UNAVAILABLE",
+      "error_message": "Service temporarily unavailable",
+      "explanation": "The platform is experiencing temporary issues. This may be due to maintenance, high traffic, or a technical problem.",
+      "solution": "Wait a few minutes and try again. Check status.fanz.com for current platform status and any known issues. If the problem persists, contact support.",
+      "severity": "warning",
+      "category": "technical",
+      "related_kb": "https://status.fanz.com",
+      "user_action_required": false
+    }
+  ]
+}

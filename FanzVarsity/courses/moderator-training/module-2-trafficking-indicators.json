@@ -1,0 +1,310 @@
+{
+  "moduleId": "mod-module-2",
+  "courseId": "moderator-training",
+  "title": "Trafficking Indicators",
+  "duration": 45,
+  "order": 2,
+  "learningObjectives": [
+    "Identify all 13 trafficking indicators",
+    "Understand FOSTA-SESTA requirements",
+    "Assess risk levels (low/medium/high/critical)",
+    "Know when and how to escalate",
+    "Report appropriately to FBI"
+  ],
+  "videoScript": {
+    "duration": "45 minutes",
+    "sections": [
+      {
+        "title": "Understanding Human Trafficking",
+        "duration": "8:00",
+        "script": "Welcome to Trafficking Indicators training. This module equips you to recognize signs of human trafficking in adult content contexts.\n\n**What is Human Trafficking?**\nHuman trafficking involves the use of force, fraud, or coercion to exploit people for labor or commercial sex. In the adult content industry, this primarily manifests as:\n\n- Forced participation in pornography\n- Coerced adult content creation\n- Third-party control over performers' work and earnings\n- Debt bondage (working to pay off 'debts')\n\n**Key Law: FOSTA-SESTA**\nThe Allow States and Victims to Fight Online Sex Trafficking Act (FOSTA) and Stop Enabling Sex Traffickers Act (SESTA), passed in 2018:\n\n- Removed some Section 230 protections for platforms\n- Made platforms potentially liable for facilitating trafficking\n- Requires active monitoring and response\n- Creates criminal penalties for knowing facilitation\n\n**Why This Matters:**\nPlatforms that knowingly allow trafficking activity face:\n- Criminal prosecution\n- Civil liability to victims\n- Massive reputational damage\n- Platform shutdown\n\n**Your Role:**\nAs a moderator, you are trained to:\n- Recognize trafficking indicators\n- Assess risk levels\n- Escalate appropriately\n- Support evidence gathering\n- Never confront suspected traffickers\n\n**Important Note:**\nYou are NOT law enforcement. Your job is to identify, document, and escalate - not to investigate or intervene directly."
+      },
+      {
+        "title": "The 13 Trafficking Indicators",
+        "duration": "15:00",
+        "script": "We monitor for 13 specific indicators. Each alone may have innocent explanations, but combinations raise serious concerns.\n\n**Indicator 1: Third-Party Management/Control**\n- Someone else manages the account\n- Communications from non-performer\n- 'Manager' makes decisions\n- Performer seems scripted or coached\n\n**Indicator 2: Location Changes**\n- Content filmed in multiple cities rapidly\n- Hotel/motel backgrounds in different locations\n- IP addresses from multiple states/countries\n- Pattern suggests being moved\n\n**Indicator 3: Multiple Performers, Single Account**\n- Different people appear on one account\n- Could indicate operation rather than individual\n- Especially concerning with other indicators\n\n**Indicator 4: Pricing Anomalies**\n- Suspiciously low pricing\n- Undercuts market significantly\n- May indicate desperation or third-party control\n- Volume over value approach\n\n**Indicator 5: Coercion Language**\n- 'Have to' do this\n- 'Need money' urgently\n- References to debts\n- 'Forced' or 'made to'\n- Desperation in communications\n\n**Indicator 6: Age Ambiguity**\n- Looks younger than stated age\n- School references in recent context\n- Age verification concerns\n- Young appearance + other indicators = high risk\n\n**Indicator 7: Restricted Communication**\n- Can only communicate at certain times\n- Responses seem monitored\n- Cannot message freely\n- Sudden communication cutoffs\n\n**Indicator 8: ID Document Issues**\n- Unusual requests for ID copies\n- Concern about document location\n- Someone else holds their documents\n- Fear related to ID\n\n**Indicator 9: Cash-Only Payments**\n- Insists on cash payments\n- Avoids payment tracking\n- Unusual payment arrangements\n- Third party receives payment\n\n**Indicator 10: Hotel/Motel Backgrounds**\n- Consistent hotel/motel settings\n- Different hotels frequently\n- Pattern of transient locations\n- Combined with location changes\n\n**Indicator 11: Branding/Ownership Tattoos**\n- Tattoos suggesting 'ownership'\n- Names/initials that seem like brands\n- Recent tattoos in prominent locations\n- Coverups of previous brands\n\n**Indicator 12: Substance Abuse Indicators**\n- Visible signs of drug use\n- Impaired appearance in content\n- References to substances for 'coping'\n- Pattern of deterioration\n\n**Indicator 13: Distress Signals**\n- Visible distress in content\n- Crying, fear, or discomfort visible\n- Body language suggesting unwillingness\n- Coded messages or signals\n- Direct requests for help"
+      },
+      {
+        "title": "Risk Level Assessment",
+        "duration": "10:00",
+        "script": "Not every indicator means trafficking. Use this framework to assess risk:\n\n**LOW RISK (0-2 indicators):**\n- May have innocent explanations\n- Continue monitoring\n- Note in account history\n- No immediate escalation\n\nExamples:\n- Creator travels for work (location changes alone)\n- New creator has low prices (learning market)\n- Solo creator posts from hotels (traveling)\n\n**MEDIUM RISK (3-5 indicators):**\n- Pattern emerging\n- Flag for enhanced monitoring\n- Notify senior moderator\n- Document thoroughly\n\nExamples:\n- Location changes + hotel backgrounds + low prices\n- Third-party communication + pricing anomalies + restricted communication\n- Multiple performers + cash preference + coercion language\n\n**HIGH RISK (6-8 indicators):**\n- Serious concern\n- Escalate to compliance team immediately\n- Account flagged for investigation\n- May require law enforcement notification\n\nExamples:\n- Third-party control + location changes + distress signals + coercion language + hotel backgrounds + ID issues\n- Multiple performers + substance abuse + branding + cash only + restricted communication + age ambiguity\n\n**CRITICAL RISK (9+ indicators or direct distress):**\n- Immediate escalation to Compliance Officer\n- FBI notification considered\n- Account suspended pending investigation\n- Evidence preserved immediately\n\nExamples:\n- Direct request for help\n- Visible distress + multiple other indicators\n- Clear third-party control with coercion\n\n**Context Matters:**\nAlways consider context:\n- Verified, long-term creators have more benefit of doubt\n- New accounts with multiple indicators warrant more scrutiny\n- Recent changes in patterns are concerning\n- Trust your instincts - if something feels wrong, escalate"
+      },
+      {
+        "title": "Escalation and Reporting",
+        "duration": "7:00",
+        "script": "When you identify potential trafficking, here's what to do:\n\n**For Medium Risk:**\n1. Document all observed indicators\n2. Note specific content/communications\n3. Flag account in moderation system\n4. Notify senior moderator\n5. Continue monitoring\n\n**For High Risk:**\n1. Document thoroughly with timestamps\n2. Escalate immediately to Compliance team\n3. Do NOT contact the account holder\n4. Do NOT tip off potential traffickers\n5. Preserve all evidence\n6. Await further instructions\n\n**For Critical Risk:**\n1. Escalate IMMEDIATELY to Compliance Officer\n2. Account suspended (review pending)\n3. All evidence preserved\n4. FBI notification prepared\n5. Do NOT communicate with account\n6. Document everything you observed\n\n**What NOT to Do:**\n- Do NOT contact the potential victim directly\n- Do NOT warn the account about investigation\n- Do NOT attempt to 'rescue' anyone yourself\n- Do NOT share details with non-essential staff\n- Do NOT discuss on social media or outside work\n\n**FBI Reporting:**\nFBI reports are filed by Compliance team when:\n- Critical risk indicators present\n- Direct statements about trafficking\n- Evidence suggests active trafficking\n- Law enforcement request\n\nThe FBI's Human Trafficking reporting: tips.fbi.gov or 1-800-CALL-FBI\n\n**National Human Trafficking Hotline:**\n1-888-373-7888 (or text 233733)\n- For immediate concerns\n- Available 24/7\n- Can report tips or seek guidance"
+      },
+      {
+        "title": "Case Studies and Examples",
+        "duration": "5:00",
+        "script": "Let's review some scenarios to apply your training:\n\n**Case Study 1: The Traveling Creator**\nAccount shows content from 5 different cities in 2 weeks. All hotels.\n\nINDICATORS: Location changes, hotel backgrounds\nASSESSMENT: LOW to MEDIUM\nACTION: Monitor. Could be legitimate travel. Note pattern. If other indicators emerge, escalate.\n\n**Case Study 2: The Managed Account**\nCreator's messages are clearly written by someone else (different tone, refers to performer in third person). Pricing is very low. Content has multiple performers.\n\nINDICATORS: Third-party control, pricing anomalies, multiple performers\nASSESSMENT: MEDIUM to HIGH\nACTION: Flag immediately. Escalate to senior moderator. Enhanced monitoring.\n\n**Case Study 3: Clear Distress**\nIn a video, performer appears to be crying before composing themselves. Messages mention 'having to do this' and 'paying off what I owe.' Recent tattoo visible that appears to be initials.\n\nINDICATORS: Distress signals, coercion language, debt mention, branding\nASSESSMENT: CRITICAL\nACTION: Immediate escalation to Compliance Officer. Account suspension. Evidence preservation. FBI notification likely.\n\n**Case Study 4: The New Creator**\nBrand new account with aggressive pricing. Posts from hotel. Seems nervous in videos.\n\nINDICATORS: Pricing anomaly, hotel background, possible distress\nASSESSMENT: LOW to MEDIUM\nACTION: Monitor closely. Many new creators are nervous and price low. Watch for additional indicators.\n\n**Remember:**\nWhen in doubt, escalate. It's better to over-report than miss actual trafficking."
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "indicatorIdentificationTraining",
+      "title": "Indicator Identification Training",
+      "scenarios": [
+        {
+          "description": "Account messages always come between 2-4 PM only, responses are formal and seem scripted",
+          "indicators": ["Restricted communication", "Third-party control"],
+          "riskLevel": "Medium",
+          "explanation": "Limited communication windows and scripted responses suggest possible third-party control"
+        },
+        {
+          "description": "Creator posts from home studio, travels once a month for collaborations, prices at market rate",
+          "indicators": [],
+          "riskLevel": "Low",
+          "explanation": "Normal creator behavior - stable location, occasional travel, appropriate pricing"
+        },
+        {
+          "description": "Video shows performer with visible track marks, content quality declining over time, increasingly desperate pricing",
+          "indicators": ["Substance abuse", "Pricing anomalies"],
+          "riskLevel": "Medium",
+          "explanation": "Concerning pattern that may indicate exploitation or personal crisis - monitor and escalate if other indicators appear"
+        },
+        {
+          "description": "New account has 4 different performers, all filmed in hotels across 3 states in 2 weeks, very low pricing",
+          "indicators": ["Multiple performers", "Location changes", "Hotel backgrounds", "Pricing anomalies"],
+          "riskLevel": "High",
+          "explanation": "Multiple indicators suggest organized operation - escalate immediately"
+        }
+      ]
+    },
+    {
+      "type": "riskLevelCalculator",
+      "title": "Risk Level Calculator",
+      "indicators": [
+        {"id": 1, "name": "Third-party management/control"},
+        {"id": 2, "name": "Location changes"},
+        {"id": 3, "name": "Multiple performers single account"},
+        {"id": 4, "name": "Pricing anomalies"},
+        {"id": 5, "name": "Coercion language"},
+        {"id": 6, "name": "Age ambiguity"},
+        {"id": 7, "name": "Restricted communication"},
+        {"id": 8, "name": "ID document issues"},
+        {"id": 9, "name": "Cash-only payments"},
+        {"id": 10, "name": "Hotel/motel backgrounds"},
+        {"id": 11, "name": "Branding/ownership tattoos"},
+        {"id": 12, "name": "Substance abuse indicators"},
+        {"id": 13, "name": "Distress signals"}
+      ],
+      "riskLevels": [
+        {"range": "0-2", "level": "Low", "action": "Monitor, document"},
+        {"range": "3-5", "level": "Medium", "action": "Flag, notify senior mod"},
+        {"range": "6-8", "level": "High", "action": "Escalate to compliance immediately"},
+        {"range": "9+", "level": "Critical", "action": "Immediate escalation, FBI consideration"}
+      ]
+    },
+    {
+      "type": "caseStudyAnalysis",
+      "title": "Case Study Analysis",
+      "cases": [
+        {
+          "title": "The New Duo Account",
+          "details": "Two performers on account. Both women. One does all messaging, other never communicates. Content shows same hotel room over 3 weeks. Pricing is 40% below market. Older woman has large tattoo of a man's name.",
+          "questions": [
+            {"q": "How many indicators are present?", "a": "At least 5: Third-party control, single account multiple performers, hotel backgrounds, pricing anomalies, possible branding"},
+            {"q": "What risk level?", "a": "Medium to High"},
+            {"q": "What action?", "a": "Document, flag account, escalate to senior moderator immediately"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "escalationDecisionTree",
+      "title": "Escalation Decision Tree",
+      "nodes": [
+        {"id": "start", "q": "How many indicators observed?", "options": [{"label": "0-2", "next": "low"}, {"label": "3-5", "next": "medium"}, {"label": "6-8", "next": "high"}, {"label": "9+", "next": "critical"}]},
+        {"id": "low", "action": "Monitor account, document observations, continue normal review"},
+        {"id": "medium", "action": "Flag account, notify senior moderator, enhanced monitoring"},
+        {"id": "high", "action": "Escalate to Compliance team immediately, preserve evidence"},
+        {"id": "critical", "action": "Immediate Compliance Officer escalation, account suspension, FBI notification considered"}
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 2 Knowledge Check",
+    "questions": [
+      {
+        "id": "mod-m2q1",
+        "question": "How many trafficking indicators does the platform monitor?",
+        "options": ["5", "9", "13", "20"],
+        "correctAnswer": 2,
+        "explanation": "The platform monitors for 13 specific trafficking indicators."
+      },
+      {
+        "id": "mod-m2q2",
+        "question": "What law makes platforms potentially liable for facilitating trafficking?",
+        "options": ["GDPR", "FOSTA-SESTA", "2257", "Online Safety Act"],
+        "correctAnswer": 1,
+        "explanation": "FOSTA-SESTA (2018) removed some Section 230 protections and created platform liability for knowingly facilitating trafficking."
+      },
+      {
+        "id": "mod-m2q3",
+        "question": "What is the risk level for 6-8 trafficking indicators?",
+        "options": ["Low", "Medium", "High", "Critical"],
+        "correctAnswer": 2,
+        "explanation": "6-8 indicators represent High risk requiring immediate escalation to the compliance team."
+      },
+      {
+        "id": "mod-m2q4",
+        "question": "What should you do if you identify critical risk (9+ indicators)?",
+        "options": [
+          "Contact the potential victim",
+          "Immediate escalation to Compliance Officer, account suspension",
+          "Issue a warning",
+          "Continue monitoring"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Critical risk requires immediate escalation to Compliance Officer, account suspension, and FBI notification may be warranted."
+      },
+      {
+        "id": "mod-m2q5",
+        "question": "Which is a trafficking indicator?",
+        "options": [
+          "Creator has home studio",
+          "Content filmed in multiple hotel rooms across cities rapidly",
+          "Creator charges market rates",
+          "Creator responds promptly to messages"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Rapid location changes with hotel/motel backgrounds is a trafficking indicator suggesting the person may be moved by traffickers."
+      },
+      {
+        "id": "mod-m2q6",
+        "question": "What should you NOT do when you suspect trafficking?",
+        "options": [
+          "Document observations",
+          "Escalate appropriately",
+          "Contact the potential victim to warn them",
+          "Preserve evidence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "You should NEVER contact potential victims directly. This could endanger them and tip off traffickers."
+      },
+      {
+        "id": "mod-m2q7",
+        "question": "What is the National Human Trafficking Hotline number?",
+        "options": ["911", "1-888-373-7888", "1-800-CALL-FBI", "211"],
+        "correctAnswer": 1,
+        "explanation": "The National Human Trafficking Hotline is 1-888-373-7888 (or text 233733), available 24/7."
+      },
+      {
+        "id": "mod-m2q8",
+        "question": "What does coercion language include?",
+        "options": [
+          "Friendly greetings",
+          "Phrases like 'have to do this' or 'paying off debt'",
+          "Professional business terms",
+          "Thank you messages"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Coercion language includes phrases suggesting forced participation: 'have to,' 'need money urgently,' 'paying off what I owe.'"
+      },
+      {
+        "id": "mod-m2q9",
+        "question": "What risk level is 3-5 indicators?",
+        "options": ["Low", "Medium", "High", "Critical"],
+        "correctAnswer": 1,
+        "explanation": "3-5 indicators represent Medium risk requiring flagging and senior moderator notification."
+      },
+      {
+        "id": "mod-m2q10",
+        "question": "What is a branding/ownership tattoo indicator?",
+        "options": [
+          "Any tattoo",
+          "Tattoos suggesting 'ownership' like names/initials that appear to be brands",
+          "Professional watermarks",
+          "Stage name tattoos"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Branding tattoos are names, initials, or symbols that appear to mark 'ownership' of a person, often in prominent locations."
+      },
+      {
+        "id": "mod-m2q11",
+        "question": "If an account shows only location changes and hotel backgrounds, what's the appropriate action?",
+        "options": [
+          "Immediate FBI report",
+          "Account suspension",
+          "Monitor and document - could be legitimate travel",
+          "Ignore completely"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Two indicators alone (especially ones common for traveling creators) warrant monitoring, not immediate escalation. Context matters."
+      },
+      {
+        "id": "mod-m2q12",
+        "question": "Who files FBI reports for trafficking?",
+        "options": [
+          "Any moderator",
+          "The Compliance team/officer",
+          "Law enforcement only",
+          "The platform CEO"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FBI reports are filed by the Compliance team when critical indicators are present."
+      },
+      {
+        "id": "mod-m2q13",
+        "question": "Visible distress signals in content indicate what risk level?",
+        "options": [
+          "Low - could be acting",
+          "Medium - warrants monitoring",
+          "High to Critical - requires immediate attention",
+          "No concern"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Distress signals are serious indicators that, especially combined with others, warrant high to critical risk assessment."
+      },
+      {
+        "id": "mod-m2q14",
+        "question": "What's the general guidance when in doubt about trafficking?",
+        "options": [
+          "Ignore unless certain",
+          "Wait for more evidence",
+          "Escalate - better to over-report than miss actual trafficking",
+          "Contact the account to ask"
+        ],
+        "correctAnswer": 2,
+        "explanation": "When in doubt, escalate. It's better to over-report and be wrong than to miss actual trafficking."
+      },
+      {
+        "id": "mod-m2q15",
+        "question": "Restricted communication as an indicator means:",
+        "options": [
+          "Account is private",
+          "Can only communicate at certain times, responses seem monitored",
+          "Doesn't respond to DMs",
+          "Has auto-replies enabled"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Restricted communication means the person can only message at specific times, responses seem monitored, or sudden communication cutoffs occur."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Trafficking Indicators Quick Reference Card",
+      "type": "pdf",
+      "url": "/resources/trafficking-indicators-card.pdf"
+    },
+    {
+      "title": "National Human Trafficking Hotline",
+      "type": "external",
+      "url": "https://humantraffickinghotline.org/",
+      "phone": "1-888-373-7888"
+    },
+    {
+      "title": "FBI Tips Portal",
+      "type": "external",
+      "url": "https://tips.fbi.gov/"
+    },
+    {
+      "title": "Polaris Project Resources",
+      "type": "external",
+      "url": "https://polarisproject.org/"
+    }
+  ]
+}

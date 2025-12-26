@@ -1,0 +1,60 @@
+{
+  "courseId": "administrator-training",
+  "title": "Administrator Training",
+  "subtitle": "Advanced Compliance Management & Regulatory Operations",
+  "description": "Comprehensive training for administrators and compliance officers covering the Compliance Dashboard, legal deadline management, regulatory reporting, incident response, and audit preparation. Required for admin and compliance access.",
+  "targetAudience": "Administrators & Compliance Officers",
+  "duration": "5-6 hours",
+  "certification": "Advanced Administrator Certification",
+  "passRateRequired": 90,
+  "required": true,
+  "requiredFor": ["admin_access", "compliance_dashboard_full", "regulatory_reporting", "incident_management"],
+  "prerequisites": ["moderator-training"],
+  "version": "1.0",
+  "lastUpdated": "2024-12-23",
+  "modules": [
+    {
+      "moduleId": "admin-module-1",
+      "title": "Compliance Dashboard Deep Dive",
+      "duration": 60,
+      "order": 1
+    },
+    {
+      "moduleId": "admin-module-2",
+      "title": "Legal Deadline Management",
+      "duration": 50,
+      "order": 2
+    },
+    {
+      "moduleId": "admin-module-3",
+      "title": "Regulatory Reporting",
+      "duration": 60,
+      "order": 3
+    },
+    {
+      "moduleId": "admin-module-4",
+      "title": "Incident Response",
+      "duration": 60,
+      "order": 4
+    },
+    {
+      "moduleId": "admin-module-5",
+      "title": "Audit Preparation",
+      "duration": 50,
+      "order": 5
+    }
+  ],
+  "finalExam": {
+    "questionCount": 100,
+    "passRate": 90,
+    "timeLimit": 120
+  },
+  "completionBenefits": [
+    "Advanced Administrator Certification issued",
+    "Full admin access granted",
+    "Full Compliance Dashboard access",
+    "Regulatory reporting tools access",
+    "Incident management system access",
+    "Listed as Compliance Officer (if applicable)"
+  ]
+}

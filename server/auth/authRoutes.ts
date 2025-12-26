@@ -18,6 +18,52 @@ const router = express.Router();
 // Initialize all authentication strategies
 MultiAuthService.initializeStrategies();
 
+// Development token endpoint - generates a super admin token for testing
+// ONLY available in non-production environments OR with admin secret
+// IMPORTANT: This must be defined BEFORE the OAuth /:provider route
+router.get("/auth/dev-token", (req, res) => {
+  // Security check - allow in development OR with admin secret in production
+  const adminSecret = process.env.ADMIN_DEV_SECRET || 'fanz-dev-2025';
+  const providedSecret = req.query.secret as string;
+
+  if (process.env.NODE_ENV === 'production' && providedSecret !== adminSecret) {
+    return res.status(404).json({ error: 'Not found' });
+  }
+
+  const jwt = require('jsonwebtoken');
+  const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-production';
+
+  const devUser = {
+    id: 'dev-super-admin',
+    email: 'admin@fanz.dev',
+    role: 'super_admin',
+    clearanceLevel: 10,
+    firstName: 'Dev',
+    lastName: 'Admin',
+  };
+
+  const token = jwt.sign(
+    {
+      sub: devUser.id,
+      userId: devUser.id,
+      email: devUser.email,
+      role: devUser.role,
+      clearanceLevel: devUser.clearanceLevel,
+      iat: Math.floor(Date.now() / 1000),
+      exp: Math.floor(Date.now() / 1000) + (60 * 60 * 24 * 7), // 7 days
+    },
+    JWT_SECRET
+  );
+
+  res.json({
+    success: true,
+    token,
+    user: devUser,
+    message: 'Development token generated. Store in localStorage as "authToken"',
+    instructions: 'Run in browser console: localStorage.setItem("authToken", "' + token + '")'
+  });
+});
+
 // OAuth Routes
 router.get("/auth/:provider", authRateLimit, (req, res, next) => {
   const { provider } = req.params;

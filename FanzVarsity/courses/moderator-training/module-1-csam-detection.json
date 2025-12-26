@@ -1,0 +1,291 @@
+{
+  "moduleId": "mod-module-1",
+  "courseId": "moderator-training",
+  "title": "CSAM Detection and Response",
+  "duration": 45,
+  "order": 1,
+  "warningNote": "This module discusses CSAM detection procedures. You will NOT view actual CSAM. All examples use sanitized descriptions and simulations.",
+  "learningObjectives": [
+    "Understand CSAM and federal law requirements (18 U.S.C. § 2258A)",
+    "Learn PhotoDNA and PDQ hash matching technology",
+    "NEVER view suspected CSAM - safety protocols",
+    "Master immediate NCMEC reporting procedures",
+    "Understand evidence preservation requirements",
+    "Access mental health support resources"
+  ],
+  "videoScript": {
+    "duration": "45 minutes",
+    "sections": [
+      {
+        "title": "Understanding CSAM and Legal Requirements",
+        "duration": "10:00",
+        "script": "Welcome to the most critical module in moderator training: CSAM Detection and Response. This module covers procedures that are required by federal law and protect the most vulnerable.\n\n**IMPORTANT SAFETY NOTE:**\nYou will NEVER be required to view suspected CSAM. Our systems are designed so that moderators work with metadata, hashes, and blurred thumbnails only. If you ever accidentally view such content, mental health support is immediately available.\n\n**What is CSAM?**\nCSAM stands for Child Sexual Abuse Material. This is the legally preferred term (replacing 'child pornography') because:\n- It accurately describes the criminal nature (abuse, not pornography)\n- It recognizes victims as abuse survivors\n- It aligns with international standards\n\n**Legal Definition (18 U.S.C. § 2256):**\nCSAM includes visual depictions of sexually explicit conduct involving a minor (under 18), including:\n- Actual images or videos\n- Computer-generated imagery (CGI)\n- Digitally-altered images\n- Some jurisdictions include realistic drawings/animations\n\n**Federal Reporting Requirement (18 U.S.C. § 2258A):**\nPlatforms are REQUIRED by law to:\n- Report apparent CSAM to NCMEC within 24 hours of detection\n- Preserve evidence for 90 days (or longer if requested)\n- Provide specific information with each report\n\nFailure to report is a federal crime with penalties up to $300,000 per violation.\n\n**Your Role:**\nAs a moderator, you:\n- Review automated detection results (not raw content)\n- Verify system flags are accurate\n- Initiate reporting workflow\n- Document for evidence preservation\n- NEVER view raw suspected CSAM content"
+      },
+      {
+        "title": "Detection Technology: PhotoDNA and PDQ",
+        "duration": "10:00",
+        "script": "Our detection systems use industry-standard technology to identify CSAM without human exposure to content.\n\n**PhotoDNA:**\nDeveloped by Microsoft and donated to NCMEC, PhotoDNA:\n- Creates a unique 'hash' (digital fingerprint) of images\n- Matches against known CSAM hash database (millions of hashes)\n- Works even if image is resized, cropped, or color-adjusted\n- Does NOT use AI/machine learning - purely hash matching\n- Cannot be reverse-engineered to recreate images\n\n**How PhotoDNA Works:**\n1. Upload occurs on platform\n2. Image is hashed using PhotoDNA algorithm\n3. Hash is compared against NCMEC database\n4. Match found → Content blocked, moderator alerted\n5. No match → Content proceeds to normal review\n\n**PDQ (Perceptual hashing):**\nDeveloped by Facebook, PDQ:\n- Similar concept to PhotoDNA\n- Open-source alternative\n- Detects similar but not identical images\n- Complements PhotoDNA coverage\n\n**Hash Database Sources:**\n- NCMEC (National Center for Missing & Exploited Children)\n- IWF (Internet Watch Foundation - UK)\n- ICAC Task Forces\n- Previous platform detections (shared legally)\n\n**What You'll See:**\nWhen a hash match occurs, you'll see:\n- Notification of detection (NOT the image)\n- Hash match confidence percentage\n- Source database (e.g., 'NCMEC hash match')\n- Blurred thumbnail (if absolutely necessary)\n- Account information\n- Upload metadata\n\n**You Will NOT See:**\n- The actual image/video content\n- Clear thumbnails\n- Details of the abuse depicted\n\nThe system is designed to protect you from exposure."
+      },
+      {
+        "title": "Moderator Safety Protocols",
+        "duration": "8:00",
+        "script": "Your safety is paramount. Here are the protocols that protect you:\n\n**Rule #1: NEVER View Suspected CSAM**\nThis is absolute. If you accidentally view such content:\n- Close immediately\n- Report to supervisor\n- Access mental health support\n- You are NOT in trouble - support is provided\n\n**Blurred Thumbnail Protocol:**\nFor hash match verification, you may see:\n- Heavily blurred thumbnails (faces obscured, details hidden)\n- This is ONLY to verify the hash match isn't a false positive\n- You should NOT attempt to unblur or enhance\n- If unclear, escalate - err on side of caution\n\n**What Moderators Review:**\n- Detection metadata (hash confidence, source)\n- Upload timestamp and account info\n- Account history and patterns\n- Reporting workflow completion\n\n**Exposure Limits:**\n- Maximum 2 hours of CSAM-related queue per shift\n- Mandatory 15-minute break every hour in this queue\n- Rotation to non-sensitive queues\n- Voluntary opt-out available (discuss with supervisor)\n\n**Mental Health Support:**\nAvailable immediately:\n- Pineapple Support: Free counseling for adult industry workers\n- Platform EAP: Confidential counseling sessions\n- Burnout prevention: Regular check-ins\n- Peer support: Connect with other moderators\n\n**If You're Struggling:**\nIt's normal to be affected by this work. Signs you need support:\n- Intrusive thoughts about work content\n- Sleep difficulties\n- Anxiety or depression symptoms\n- Withdrawal from activities you enjoyed\n- Irritability or mood changes\n\nReach out immediately - support is confidential and judgment-free."
+      },
+      {
+        "title": "NCMEC Reporting Procedure",
+        "duration": "10:00",
+        "script": "When CSAM is detected, reporting to NCMEC is MANDATORY. Here's the exact procedure:\n\n**Step 1: Detection Confirmation**\n- System alerts of hash match\n- Review detection metadata\n- Confirm this is not an obvious false positive\n- If confident it's CSAM → proceed to Step 2\n- If unclear → escalate to senior moderator\n\n**Step 2: Content Blocking**\n- Content is automatically blocked upon detection\n- Verify content is not visible on platform\n- Account is immediately flagged\n\n**Step 3: Account Action**\n- Account suspended immediately\n- All content from account queued for review\n- Account cannot upload further content\n- User NOT notified of CSAM flag (to preserve evidence)\n\n**Step 4: Initiate CyberTipline Report**\nUsing our NCMEC integration, submit:\n- Upload information (date, time, method)\n- Account information (email, IP, device)\n- Content hash/identifier\n- Any relevant communications\n- DO NOT include raw CSAM content (hashes only)\n\n**Step 5: Evidence Preservation**\n- Content is preserved in secure, encrypted storage\n- Access limited to law enforcement and legal\n- Retained for minimum 90 days (or as requested)\n- Chain of custody documented\n\n**Step 6: Documentation**\n- Log all actions taken\n- Record timestamps\n- Note any unusual circumstances\n- Save for potential law enforcement inquiry\n\n**Timeline Requirements:**\n- Report must be filed within 24 hours of detection\n- Ideally within 2-4 hours\n- Weekend/holiday detections still require same-day reporting\n\n**What Happens After Reporting:**\n- NCMEC forwards to appropriate law enforcement\n- FBI, ICAC, or local agencies may investigate\n- Platform may receive follow-up requests\n- User faces criminal investigation"
+      },
+      {
+        "title": "Evidence Preservation and Law Enforcement",
+        "duration": "7:00",
+        "script": "Proper evidence preservation is critical for prosecution.\n\n**What Must Be Preserved:**\n\n1. **Content Evidence:**\n   - Hash of detected content\n   - Metadata (EXIF data, file info)\n   - Upload timestamp\n   - Source IP address\n   - Device fingerprint\n\n2. **Account Information:**\n   - Registration details\n   - Email address\n   - Phone number (if available)\n   - Payment information\n   - All IP addresses used\n\n3. **Activity History:**\n   - Upload history\n   - Message history\n   - Login history\n   - Connection patterns\n\n**Preservation Requirements:**\n- Minimum 90 days (federal requirement)\n- Extended if law enforcement requests\n- Secure, encrypted storage\n- Limited access (legal, compliance, designated IT)\n\n**Chain of Custody:**\nDocument:\n- Who detected the content\n- What actions were taken\n- When each action occurred\n- Where evidence is stored\n- Who has accessed evidence\n\n**Law Enforcement Cooperation:**\nIf contacted by law enforcement:\n- Verify identity (badge number, agency, warrant if applicable)\n- Route to Legal/Compliance team\n- Do NOT discuss case details without Legal approval\n- Provide requested information per legal process\n- Document all interactions\n\n**Grand Jury Subpoenas:**\n- May require testimony\n- Legal will prepare you\n- Your role: factual reporting only\n- Confidentiality continues afterward\n\n**Protection for Moderators:**\n- You're protected from liability when following procedures\n- Good faith reporting is protected by law\n- Company provides legal support if needed"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "hashMatchingSimulator",
+      "title": "Hash Matching Detection Simulator",
+      "description": "Practice reviewing hash match alerts (no actual CSAM content shown)",
+      "scenarios": [
+        {
+          "scenario": "PhotoDNA match at 98% confidence from NCMEC database",
+          "correctAction": "Confirm detection, initiate NCMEC report, suspend account",
+          "explanation": "High-confidence NCMEC match requires immediate reporting and account action."
+        },
+        {
+          "scenario": "PDQ match at 75% confidence, account is verified creator with history",
+          "correctAction": "Escalate to senior moderator for review",
+          "explanation": "Lower confidence with established account warrants senior review before action."
+        },
+        {
+          "scenario": "Multiple hash matches from single account within 24 hours",
+          "correctAction": "Immediate account suspension, expedited NCMEC report, full account review",
+          "explanation": "Pattern of violations indicates deliberate behavior requiring urgent response."
+        }
+      ]
+    },
+    {
+      "type": "reportingWorkflow",
+      "title": "NCMEC Reporting Walkthrough",
+      "steps": [
+        {"step": 1, "action": "Confirm hash match detection", "details": "Review metadata and confidence level"},
+        {"step": 2, "action": "Verify content blocked", "details": "Confirm content not visible on platform"},
+        {"step": 3, "action": "Suspend account", "details": "Immediate suspension, no user notification"},
+        {"step": 4, "action": "Initiate CyberTipline report", "details": "Submit required information through integration"},
+        {"step": 5, "action": "Preserve evidence", "details": "Confirm secure storage and access logging"},
+        {"step": 6, "action": "Document actions", "details": "Complete moderator log with timestamps"}
+      ]
+    },
+    {
+      "type": "mentalHealthResources",
+      "title": "Mental Health Support Directory",
+      "resources": [
+        {
+          "name": "Pineapple Support",
+          "url": "https://pineapplesupport.org/",
+          "type": "Free counseling",
+          "availability": "24/7 online, scheduled sessions",
+          "description": "Specialized support for adult industry workers"
+        },
+        {
+          "name": "Platform EAP",
+          "type": "Employee assistance",
+          "availability": "24/7 hotline",
+          "description": "Confidential counseling, 6 free sessions"
+        },
+        {
+          "name": "Supervisor Check-in",
+          "type": "Peer support",
+          "availability": "Daily during shifts",
+          "description": "Regular wellness check-ins"
+        },
+        {
+          "name": "Crisis Line",
+          "phone": "988",
+          "type": "Immediate crisis support",
+          "availability": "24/7",
+          "description": "National Suicide Prevention Lifeline"
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 1 Knowledge Check",
+    "questions": [
+      {
+        "id": "mod-m1q1",
+        "question": "What federal law requires platforms to report CSAM to NCMEC?",
+        "options": ["18 U.S.C. § 2257", "18 U.S.C. § 2258A", "FOSTA-SESTA", "GDPR"],
+        "correctAnswer": 1,
+        "explanation": "18 U.S.C. § 2258A specifically requires electronic service providers to report apparent CSAM to NCMEC."
+      },
+      {
+        "id": "mod-m1q2",
+        "question": "Within what timeframe must CSAM be reported to NCMEC?",
+        "options": ["Immediately", "24 hours", "48 hours", "7 days"],
+        "correctAnswer": 1,
+        "explanation": "Federal law requires CSAM reports to NCMEC within 24 hours of detection."
+      },
+      {
+        "id": "mod-m1q3",
+        "question": "What is PhotoDNA?",
+        "options": [
+          "AI that views images",
+          "Hash matching technology that creates digital fingerprints",
+          "Database of criminal records",
+          "Face recognition software"
+        ],
+        "correctAnswer": 1,
+        "explanation": "PhotoDNA creates unique hashes (digital fingerprints) of images and matches against known CSAM databases."
+      },
+      {
+        "id": "mod-m1q4",
+        "question": "Should you EVER view raw suspected CSAM content?",
+        "options": ["Yes, to verify", "Only for training", "NEVER", "Only senior moderators"],
+        "correctAnswer": 2,
+        "explanation": "You should NEVER view suspected CSAM. The system is designed so moderators work with metadata, hashes, and blurred thumbnails only."
+      },
+      {
+        "id": "mod-m1q5",
+        "question": "How long must CSAM evidence be preserved?",
+        "options": ["30 days", "60 days", "90 days minimum", "1 year"],
+        "correctAnswer": 2,
+        "explanation": "Federal law requires minimum 90-day preservation, extended if law enforcement requests."
+      },
+      {
+        "id": "mod-m1q6",
+        "question": "What should you do if you accidentally view CSAM?",
+        "options": [
+          "Delete it immediately",
+          "Close it, report to supervisor, access mental health support",
+          "Take a screenshot for evidence",
+          "Ignore it"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Close immediately, report to supervisor, and access mental health support. You are not in trouble - support is provided."
+      },
+      {
+        "id": "mod-m1q7",
+        "question": "What is NCMEC?",
+        "options": [
+          "National Computer Emergency Management Center",
+          "National Center for Missing & Exploited Children",
+          "Network Crime Enforcement Commission",
+          "Non-Consensual Media Enforcement Center"
+        ],
+        "correctAnswer": 1,
+        "explanation": "NCMEC is the National Center for Missing & Exploited Children, which operates the CyberTipline for CSAM reports."
+      },
+      {
+        "id": "mod-m1q8",
+        "question": "What happens to the user's account when CSAM is detected?",
+        "options": [
+          "Warning issued",
+          "Immediate suspension without user notification",
+          "Content removed, account remains active",
+          "30-day suspension"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The account is immediately suspended and the user is NOT notified of the CSAM flag to preserve evidence."
+      },
+      {
+        "id": "mod-m1q9",
+        "question": "What is the maximum time you should spend in CSAM-related queues per shift?",
+        "options": ["30 minutes", "1 hour", "2 hours", "No limit"],
+        "correctAnswer": 2,
+        "explanation": "Maximum 2 hours per shift in CSAM-related queues, with mandatory 15-minute breaks every hour."
+      },
+      {
+        "id": "mod-m1q10",
+        "question": "What organization provides free mental health support for adult industry workers?",
+        "options": ["NCMEC", "FBI", "Pineapple Support", "SWOP"],
+        "correctAnswer": 2,
+        "explanation": "Pineapple Support provides free mental health counseling specifically for adult industry workers."
+      },
+      {
+        "id": "mod-m1q11",
+        "question": "If a hash match has 75% confidence and the account is a verified creator, what should you do?",
+        "options": [
+          "Ignore it",
+          "Report immediately",
+          "Escalate to senior moderator",
+          "Ask the creator for explanation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lower confidence with established account warrants senior moderator review before taking action."
+      },
+      {
+        "id": "mod-m1q12",
+        "question": "What is the penalty for platforms that fail to report CSAM?",
+        "options": [
+          "Warning",
+          "Up to $300,000 per violation",
+          "$10,000 fine",
+          "No penalty if accidental"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Failure to report CSAM is a federal crime with penalties up to $300,000 per violation."
+      },
+      {
+        "id": "mod-m1q13",
+        "question": "Who should you contact if law enforcement reaches out about a CSAM case?",
+        "options": [
+          "Respond directly",
+          "Route to Legal/Compliance team",
+          "Ignore unless they have warrant",
+          "Discuss with other moderators first"
+        ],
+        "correctAnswer": 1,
+        "explanation": "All law enforcement contacts should be routed to the Legal/Compliance team. Do not discuss case details without Legal approval."
+      },
+      {
+        "id": "mod-m1q14",
+        "question": "What does 'chain of custody' documentation include?",
+        "options": [
+          "Just the detection date",
+          "Who detected, what actions, when, where stored, who accessed",
+          "Only the reporter name",
+          "User's personal information"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Chain of custody documents who detected content, what actions were taken, when they occurred, where evidence is stored, and who has accessed it."
+      },
+      {
+        "id": "mod-m1q15",
+        "question": "What is PDQ?",
+        "options": [
+          "Police Department Query",
+          "Perceptual hashing technology (similar to PhotoDNA)",
+          "Personal Data Query",
+          "Platform Detection Queue"
+        ],
+        "correctAnswer": 1,
+        "explanation": "PDQ is a perceptual hashing technology developed by Facebook that detects similar but not identical images, complementing PhotoDNA."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "NCMEC CyberTipline Guide",
+      "type": "pdf",
+      "url": "/resources/ncmec-reporting-guide.pdf"
+    },
+    {
+      "title": "Pineapple Support",
+      "type": "external",
+      "url": "https://pineapplesupport.org/"
+    },
+    {
+      "title": "Moderator Self-Care Guide",
+      "type": "pdf",
+      "url": "/resources/moderator-self-care.pdf"
+    },
+    {
+      "title": "Evidence Preservation Checklist",
+      "type": "pdf",
+      "url": "/resources/evidence-preservation-checklist.pdf"
+    }
+  ]
+}

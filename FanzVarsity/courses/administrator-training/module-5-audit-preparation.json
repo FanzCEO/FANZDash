@@ -1,0 +1,153 @@
+{
+  "moduleId": "admin-module-5",
+  "courseId": "administrator-training",
+  "title": "Audit Preparation",
+  "duration": 50,
+  "order": 5,
+  "learningObjectives": [
+    "Prepare for FBI 2257 inspections",
+    "Prepare for payment processor audits",
+    "Prepare for GDPR DPA inspections",
+    "Conduct internal compliance audits",
+    "Organize compliance documentation",
+    "Use audit checklists effectively"
+  ],
+  "videoScript": {
+    "duration": "50 minutes",
+    "sections": [
+      {
+        "title": "FBI 2257 Inspections",
+        "duration": "12:00",
+        "script": "FBI 2257 inspections can happen with as little as 48 hours notice.\n\n**What FBI Looks For:**\n\n1. **Record Organization**\n   - Indexed by performer\n   - Cross-referenced by alias\n   - Easily searchable\n   - Retrievable within 20 minutes\n\n2. **Performer Records**\n   - Legal name\n   - Date of birth\n   - Valid ID copy (at time of production)\n   - All aliases used\n\n3. **Content Records**\n   - URLs where content appears\n   - Production dates\n   - Performer associations\n\n4. **Custodian Statement**\n   - Name and address visible\n   - Statement accessible\n   - Current and accurate\n\n**Pre-Inspection Preparation (Ongoing):**\n\n**Monthly:**\n- Verify new records complete\n- Test random record retrieval\n- Update index if needed\n- Address any gaps\n\n**Quarterly:**\n- Full record audit (sample)\n- Verify Custodian info current\n- Test retrieval under time pressure\n- Update procedures if needed\n\n**Annually:**\n- Comprehensive review\n- Retirement of 7+ year records\n- Procedure update\n- Staff retraining\n\n**When Notice Received:**\n\n**Immediately:**\n- Acknowledge to FBI\n- Notify Legal and Custodian\n- Begin final preparation\n\n**48 Hours Before:**\n- Final record verification\n- Test retrieval system\n- Prepare workspace\n- Brief Custodian\n\n**Inspection Day:**\n- Custodian present\n- Legal available if needed\n- Cooperate fully\n- Document everything inspected\n\n**Common Findings:**\n- Missing ID copies\n- Incomplete alias records\n- Outdated URLs\n- Disorganized filing\n- Custodian statement errors"
+      },
+      {
+        "title": "Payment Processor Audits",
+        "duration": "10:00",
+        "script": "Payment processors conduct regular audits under GBPP.\n\n**Audit Types:**\n\n1. **Routine Quarterly Review**\n   - Based on submitted reports\n   - May request samples\n   - Rarely on-site\n\n2. **Triggered Audit**\n   - Following violation spike\n   - After complaint\n   - Post-industry incident\n\n3. **Comprehensive Audit**\n   - Annual for high-risk merchants\n   - Full program review\n   - May be on-site\n\n**What Processors Review:**\n\n1. **Content Moderation**\n   - Review process\n   - Detection effectiveness\n   - Enforcement consistency\n\n2. **User Verification**\n   - ID verification process\n   - Age verification for viewers\n   - Performer verification\n\n3. **Violation Handling**\n   - Strike system\n   - Removal timelines\n   - Repeat offender management\n\n4. **Reporting**\n   - Accuracy of quarterly reports\n   - Trend analysis\n   - Metric consistency\n\n**Preparation:**\n\n**Documentation Ready:**\n- All policies current\n- Procedures documented\n- Training records complete\n- Incident logs maintained\n\n**Metrics Ready:**\n- Dashboard data exportable\n- Historical data available\n- Trend analysis prepared\n\n**Demonstration Ready:**\n- Can walk through processes\n- Sample reviews available\n- Staff can answer questions\n\n**Post-Audit:**\n- Address findings immediately\n- Document corrective actions\n- Follow up as requested\n- Improve processes"
+      },
+      {
+        "title": "GDPR DPA Inspections",
+        "duration": "10:00",
+        "script": "Data Protection Authorities may inspect your GDPR compliance.\n\n**Trigger Events:**\n- Complaint from data subject\n- Data breach notification\n- Routine sector review\n- High-risk processing activities\n\n**What DPAs Review:**\n\n1. **Legal Basis**\n   - Lawful basis for processing\n   - Consent records (if consent-based)\n   - Legitimate interest assessments\n\n2. **Data Subject Rights**\n   - Request handling process\n   - Response timelines\n   - Exception documentation\n\n3. **Records of Processing (Article 30)**\n   - Processing activity register\n   - Data flows documented\n   - Third-party processors listed\n\n4. **Technical Measures**\n   - Data security\n   - Access controls\n   - Encryption\n   - Incident response\n\n5. **Data Breach Handling**\n   - Breach register\n   - Notification records\n   - Response documentation\n\n**Preparation:**\n\n**Documentation:**\n- Article 30 register complete\n- Privacy policy current\n- Processing records documented\n- DPIAs for high-risk activities\n\n**Request Handling:**\n- All requests logged\n- Responses documented\n- Exceptions explained\n- Deadlines tracked\n\n**Breach Records:**\n- Breach register maintained\n- Notifications documented\n- Responses archived\n\n**Technical:**\n- Security measures documented\n- Access controls verified\n- Encryption confirmed\n\n**DPO Role:**\n- DPO contact information current\n- DPO involved in preparation\n- DPO available during inspection"
+      },
+      {
+        "title": "Internal Compliance Audits",
+        "duration": "10:00",
+        "script": "Internal audits identify issues before external auditors do.\n\n**Audit Schedule:**\n\n**Weekly:**\n- Spot checks (random samples)\n- Queue health check\n- Deadline status\n- Alert review\n\n**Monthly:**\n- 2257 record sample audit\n- Moderation accuracy review\n- GDPR/DSA deadline compliance\n- Training status check\n\n**Quarterly:**\n- Comprehensive process review\n- Policy effectiveness assessment\n- Staff interview/feedback\n- Report generation verification\n\n**Annually:**\n- Full compliance review\n- External preparation\n- Policy updates\n- Major improvements\n\n**Audit Methodology:**\n\n1. **Plan**\n   - Define scope\n   - Select samples\n   - Schedule interviews\n   - Prepare checklists\n\n2. **Execute**\n   - Review documentation\n   - Test processes\n   - Interview staff\n   - Observe operations\n\n3. **Report**\n   - Document findings\n   - Categorize by severity\n   - Recommend actions\n   - Assign owners\n\n4. **Follow-Up**\n   - Track corrective actions\n   - Verify completion\n   - Retest if needed\n   - Close findings\n\n**Findings Categories:**\n\n**Critical:**\n- Legal violation\n- Immediate risk\n- Requires immediate action\n\n**Major:**\n- Significant gap\n- System issue\n- Requires prompt action\n\n**Minor:**\n- Process improvement\n- Best practice gap\n- Can be scheduled\n\n**Observation:**\n- Enhancement opportunity\n- No action required\n- For consideration"
+      },
+      {
+        "title": "Documentation Organization",
+        "duration": "8:00",
+        "script": "Organized documentation is the foundation of audit readiness.\n\n**Document Categories:**\n\n**1. Policies**\n- Content policy\n- Privacy policy\n- Terms of service\n- Creator terms\n- Moderation policy\n- Age verification policy\n\n**2. Procedures**\n- Content review procedures\n- CSAM response procedures\n- Trafficking response procedures\n- GDPR request procedures\n- DSA complaint procedures\n- Incident response procedures\n\n**3. Records**\n- 2257 performer records\n- Content review logs\n- Violation records\n- GDPR request logs\n- DSA complaint logs\n- Incident reports\n\n**4. Training**\n- Training materials\n- Completion records\n- Certification logs\n- Refresher schedules\n\n**5. Reports**\n- Quarterly processor reports\n- DSA transparency reports\n- NCMEC reports\n- Internal audit reports\n\n**Organization System:**\n\n**Folder Structure:**\n```\nCompliance/\n├── Policies/\n│   └── [versioned policy documents]\n├── Procedures/\n│   └── [procedure documents]\n├── Records/\n│   ├── 2257/\n│   ├── Violations/\n│   ├── GDPR/\n│   └── DSA/\n├── Training/\n│   └── [training records]\n└── Reports/\n    └── [regulatory reports]\n```\n\n**Version Control:**\n- All documents dated\n- Version numbers tracked\n- Change history maintained\n- Previous versions archived\n\n**Access Control:**\n- Appropriate access levels\n- Audit log of access\n- Secure storage\n- Backup maintained\n\n**Retention Schedule:**\n- 2257 records: 7 years\n- GDPR records: Until erasure + legal hold\n- Reports: 7 years minimum\n- Policies: Indefinitely with versions"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "auditPreparationChecklist",
+      "title": "Audit Preparation Checklist",
+      "audits": [
+        {
+          "type": "FBI 2257",
+          "checklist": [
+            "Records indexed by performer",
+            "All IDs are copies of valid documents",
+            "Aliases cross-referenced",
+            "URLs current and accurate",
+            "Custodian statement visible",
+            "Retrieval tested (20-minute target)",
+            "Custodian briefed and available"
+          ]
+        },
+        {
+          "type": "Payment Processor",
+          "checklist": [
+            "Quarterly reports accurate and submitted",
+            "Content review process documented",
+            "Detection effectiveness measurable",
+            "Strike system documented",
+            "Violation trends analyzed",
+            "Staff can demonstrate process"
+          ]
+        },
+        {
+          "type": "GDPR DPA",
+          "checklist": [
+            "Article 30 register complete",
+            "Privacy policy current",
+            "All requests logged and documented",
+            "Breach register maintained",
+            "DPO contact current",
+            "Security measures documented"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "documentOrganizationTemplate",
+      "title": "Document Organization Template",
+      "structure": [
+        {"folder": "Policies", "contents": "Versioned policy documents"},
+        {"folder": "Procedures", "contents": "Step-by-step procedure documents"},
+        {"folder": "Records", "subfolders": ["2257", "Violations", "GDPR", "DSA"]},
+        {"folder": "Training", "contents": "Materials and completion records"},
+        {"folder": "Reports", "contents": "All regulatory reports"}
+      ]
+    },
+    {
+      "type": "selfAssessmentTools",
+      "title": "Self-Assessment Tools",
+      "assessments": [
+        {"name": "2257 Readiness Assessment", "questions": 15},
+        {"name": "GDPR Readiness Assessment", "questions": 20},
+        {"name": "Processor Audit Readiness", "questions": 12},
+        {"name": "Overall Compliance Health", "questions": 25}
+      ]
+    },
+    {
+      "type": "correctiveActionTracker",
+      "title": "Corrective Action Tracker",
+      "fields": ["finding", "severity", "owner", "due_date", "status", "verification"]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 5 Knowledge Check",
+    "questions": [
+      {
+        "id": "adm-m5q1",
+        "question": "How quickly must 2257 records be retrievable?",
+        "options": ["Immediately", "20 minutes", "1 hour", "24 hours"],
+        "correctAnswer": 1,
+        "explanation": "2257 records must be retrievable within 20 minutes during an FBI inspection."
+      },
+      {
+        "id": "adm-m5q2",
+        "question": "How often should 2257 records be fully audited?",
+        "options": ["Weekly", "Monthly", "Quarterly (sample), Annually (full)", "Never"],
+        "correctAnswer": 2,
+        "explanation": "Quarterly sample audits and annual comprehensive reviews maintain readiness."
+      },
+      {
+        "id": "adm-m5q3",
+        "question": "What GDPR document must be maintained under Article 30?",
+        "options": ["Privacy policy only", "Records of processing activities", "Cookie consent", "Marketing preferences"],
+        "correctAnswer": 1,
+        "explanation": "Article 30 requires maintaining records of processing activities (processing register)."
+      },
+      {
+        "id": "adm-m5q4",
+        "question": "How long must 2257 records be retained?",
+        "options": ["1 year", "3 years", "5 years", "7 years"],
+        "correctAnswer": 3,
+        "explanation": "2257 records must be retained for 7 years from last publication or performer activity."
+      },
+      {
+        "id": "adm-m5q5",
+        "question": "What is a 'Critical' audit finding?",
+        "options": ["Enhancement opportunity", "Process improvement needed", "Legal violation requiring immediate action", "Best practice gap"],
+        "correctAnswer": 2,
+        "explanation": "Critical findings are legal violations or immediate risks requiring immediate action."
+      }
+    ]
+  }
+}

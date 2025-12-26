@@ -9,7 +9,8 @@
  */
 
 import { Request, Response, NextFunction } from 'express';
-import * as jwt from 'jsonwebtoken';
+// Use require to avoid bundler issues with jsonwebtoken
+const jwt = require('jsonwebtoken');
 import { createClient } from '@supabase/supabase-js';
 import { authLogger } from '../utils/logger';
 
@@ -59,10 +60,53 @@ function extractToken(req: Request): string | null {
  */
 async function verifyJWT(token: string): Promise<any> {
   try {
+    // Debug: log token details
+    authLogger.info('JWT verification attempt', {
+      tokenLength: token?.length,
+      tokenStart: token?.substring(0, 30),
+      tokenParts: token?.split('.').length,
+      secretLength: JWT_SECRET?.length,
+      secretStart: JWT_SECRET?.substring(0, 10),
+      jwtVerifyType: typeof jwt.verify
+    });
+
+    // Check if token looks valid
+    if (!token || typeof token !== 'string') {
+      authLogger.warn('Invalid token type', { tokenType: typeof token });
+      return null;
+    }
+
+    const parts = token.split('.');
+    if (parts.length !== 3) {
+      authLogger.warn('Invalid token format', { parts: parts.length });
+      return null;
+    }
+
+    // Debug: check jwt module structure
+    if (typeof jwt.verify !== 'function') {
+      authLogger.warn('JWT module issue', {
+        jwtType: typeof jwt,
+        hasVerify: 'verify' in jwt,
+        hasDefault: 'default' in jwt,
+        keys: Object.keys(jwt).slice(0, 5)
+      });
+      // Try to use default export if available
+      const jwtModule = (jwt as any).default || jwt;
+      if (typeof jwtModule.verify === 'function') {
+        const decoded = jwtModule.verify(token, JWT_SECRET);
+        return decoded;
+      }
+      return null;
+    }
     const decoded = jwt.verify(token, JWT_SECRET);
+    authLogger.info('JWT verified successfully', { userId: decoded.sub || decoded.id });
     return decoded;
   } catch (error) {
-    authLogger.warn('JWT verification failed', { error: (error as Error).message });
+    authLogger.warn('JWT verification failed', {
+      error: (error as Error).message,
+      errorName: (error as Error).name,
+      stack: (error as Error).stack?.split('\n')[0]
+    });
     return null;
   }
 }
@@ -103,6 +147,13 @@ export async function isAuthenticated(
   next: NextFunction
 ): Promise<void> {
   try {
+    // Check if user is already authenticated via session (passport)
+    if (req.user && req.user.id) {
+      authLogger.auth('session-auth', req.user.id, true, { method: 'session' });
+      next();
+      return;
+    }
+
     const token = extractToken(req);
 
     if (!token) {

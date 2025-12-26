@@ -1,0 +1,117 @@
+{
+  "moduleId": "admin-module-3",
+  "courseId": "administrator-training",
+  "title": "Regulatory Reporting",
+  "duration": 60,
+  "order": 3,
+  "learningObjectives": [
+    "File NCMEC CyberTipline reports accurately",
+    "File FBI trafficking reports when appropriate",
+    "Generate DSA transparency reports quarterly",
+    "Generate payment processor quarterly reports",
+    "Prepare for annual compliance audits"
+  ],
+  "videoScript": {
+    "duration": "60 minutes",
+    "sections": [
+      {
+        "title": "NCMEC CyberTipline Reporting",
+        "duration": "15:00",
+        "script": "NCMEC CyberTipline is the central reporting mechanism for CSAM.\n\n**When to Report:**\n- Any apparent CSAM detected\n- Hash match from PhotoDNA/PDQ\n- User report of suspected CSAM\n- AI detection flags (after verification)\n\n**What to Include:**\n\n**Required Fields:**\n- Report type (CSAM)\n- Upload date and time\n- IP address used\n- Account identifier\n- Email address\n- Content hash/identifier\n\n**Recommended Fields:**\n- Device fingerprint\n- Payment information (if available)\n- Account creation date\n- Previous activity\n- Related accounts (if known)\n\n**Evidence:**\n- Content preserved (not transmitted)\n- Hash values\n- Metadata\n- Screenshot of account (if appropriate)\n\n**What NOT to Include:**\n- Actual CSAM content in report\n- Unverified speculation\n- Third-party personal information\n\n**Filing Process:**\n\n1. **Access CyberTipline**\n   - Through NCMEC ESP portal\n   - Or API integration\n\n2. **Complete Form**\n   - Fill all required fields\n   - Include relevant evidence\n   - Document preservation location\n\n3. **Submit and Confirm**\n   - Submit report\n   - Receive confirmation number\n   - Document in internal system\n\n4. **Follow-Up**\n   - Respond to NCMEC inquiries\n   - Provide additional information if requested\n   - Cooperate with law enforcement\n\n**Tracking:**\n- All reports logged internally\n- Confirmation numbers recorded\n- Follow-up requests tracked\n- Annual summary generated"
+      },
+      {
+        "title": "FBI Trafficking Reports",
+        "duration": "12:00",
+        "script": "Trafficking reports to FBI are filed when indicators reach high/critical levels.\n\n**When to Report:**\n- 9+ trafficking indicators (Critical)\n- Clear third-party control with distress\n- Direct statements about being trafficked\n- Imminent danger indicators\n- Compliance team decision\n\n**Who Decides:**\n- Not moderator decision\n- Escalated through Compliance\n- Compliance Officer authorizes FBI report\n- Legal may be consulted\n\n**Filing Methods:**\n\n**FBI Tips Portal (tips.fbi.gov):**\n- Online submission\n- Detailed form\n- Can include attachments\n- Confirmation received\n\n**FBI Field Office Contact:**\n- For urgent situations\n- Direct communication\n- May result in faster action\n- Document all communications\n\n**Phone (1-800-CALL-FBI):**\n- Immediate urgent matters\n- Follow up in writing\n\n**What to Include:**\n\n**Account Information:**\n- Username/account ID\n- Email address\n- IP addresses\n- Registration information\n- Payment information\n\n**Indicators Observed:**\n- Specific indicators present\n- Evidence supporting each\n- Timeline of observations\n\n**Content Information:**\n- Content descriptions (not actual CSAM)\n- Message excerpts\n- Concerning patterns\n\n**Platform Actions:**\n- What we've done (suspension, etc.)\n- Evidence preserved\n- Available for law enforcement\n\n**Coordination:**\n- Provide contact for follow-up\n- Preserve all evidence\n- Don't contact account holder\n- Await law enforcement guidance"
+      },
+      {
+        "title": "DSA Transparency Reports",
+        "duration": "12:00",
+        "script": "The DSA requires quarterly transparency reports on content moderation.\n\n**Requirement:**\nArticle 15 of DSA requires platforms to publish transparency reports at least annually, with large platforms reporting twice yearly.\n\n**Report Contents:**\n\n**1. Content Moderation Statistics:**\n- Total content reviewed\n- Content removed (by category)\n- Content restricted\n- Account suspensions\n- Account terminations\n\n**2. Complaint Statistics:**\n- Complaints received\n- Complaints resolved\n- Average resolution time\n- Outcomes (upheld, overturned)\n\n**3. Out-of-Court Resolution:**\n- ODR cases initiated\n- ODR outcomes\n- Binding decisions accepted\n\n**4. Trusted Flagger Reports:**\n- Reports from trusted flaggers\n- Action taken on trusted flagger reports\n- Response times\n\n**5. Automated Processing:**\n- Content processed automatically\n- Automated decisions made\n- Human review of automated decisions\n\n**Report Generation:**\n\n1. **Data Collection (Quarterly)**\n   - System generates metrics\n   - Manual data verified\n   - Gaps identified and filled\n\n2. **Report Drafting**\n   - Template populated\n   - Narrative sections written\n   - Quality reviewed\n\n3. **Publication**\n   - Published on platform\n   - Machine-readable format\n   - Accessible location\n   - Archived for reference\n\n**Timeline:**\n- Q1 data: Report by April 30\n- Q2 data: Report by July 31\n- Q3 data: Report by October 31\n- Q4 data: Report by January 31"
+      },
+      {
+        "title": "Payment Processor Reports",
+        "duration": "12:00",
+        "script": "Payment processors require quarterly compliance reports under GBPP.\n\n**Visa/Mastercard GBPP Requirements:**\n\n**Quarterly Report Contents:**\n\n**1. Content Review Statistics:**\n- Total content reviewed\n- Violation rate (by category)\n- Action taken (removals, warnings)\n- Trend comparison to prior quarter\n\n**2. User Verification:**\n- Creators verified\n- Verification method breakdown\n- Failure/rejection rates\n- Pending verifications\n\n**3. Complaint Handling:**\n- Content complaints received\n- Resolution rates\n- Appeal outcomes\n\n**4. Strike/Ban Statistics:**\n- Warnings issued\n- Temporary suspensions\n- Permanent bans\n- Reasons breakdown\n\n**5. System Effectiveness:**\n- Detection rates\n- False positive rates\n- Response times\n- System uptime\n\n**Report Format:**\n- Structured template from processor\n- Supporting documentation\n- Certification of accuracy\n- Authorized signature\n\n**Submission Process:**\n\n1. **Data Gathering**\n   - Export metrics from dashboard\n   - Compile supporting data\n   - Identify notable events\n\n2. **Report Completion**\n   - Fill processor template\n   - Attach supporting docs\n   - Internal review\n\n3. **Submission**\n   - Submit through processor portal\n   - By deadline (quarterly)\n   - Retain confirmation\n\n4. **Follow-Up**\n   - Respond to processor queries\n   - Address any concerns\n   - Implement any required changes"
+      },
+      {
+        "title": "Annual Compliance Audits",
+        "duration": "9:00",
+        "script": "Prepare for internal and external annual compliance audits.\n\n**Types of Audits:**\n\n**Internal Audits:**\n- Conducted by compliance team\n- Monthly spot checks\n- Quarterly deep dives\n- Annual comprehensive review\n\n**External Audits:**\n- Payment processor audits\n- Regulatory examinations\n- Third-party assessments\n- Legal/forensic audits (if issues)\n\n**Audit Preparation:**\n\n**Documentation:**\n- All policies current and documented\n- Procedures written and followed\n- Training records complete\n- Incident logs maintained\n\n**Records:**\n- 2257 records organized\n- GDPR/DSA responses archived\n- Violation records maintained\n- Appeal documentation preserved\n\n**Systems:**\n- Detection systems operational\n- Monitoring tools functional\n- Reporting systems accurate\n- Access controls appropriate\n\n**People:**\n- Staff trained and certified\n- Roles clearly defined\n- Backup coverage identified\n- Contact information current\n\n**Common Audit Findings:**\n\n1. **Documentation gaps**\n   - Missing policies\n   - Outdated procedures\n   - Incomplete records\n\n2. **Training deficiencies**\n   - Expired certifications\n   - Incomplete training\n   - No refresher training\n\n3. **Process failures**\n   - Missed deadlines\n   - Inconsistent enforcement\n   - Poor documentation\n\n4. **Technical issues**\n   - System downtime\n   - Detection gaps\n   - Access control problems\n\n**Post-Audit:**\n- Address findings promptly\n- Implement corrective actions\n- Document improvements\n- Track to completion"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "reportTemplateLibrary",
+      "title": "Report Template Library",
+      "templates": [
+        {"name": "NCMEC CyberTipline Report", "fields": ["report_type", "upload_date", "ip_address", "account_id", "email", "content_hash"]},
+        {"name": "FBI Trafficking Report", "fields": ["account_info", "indicators", "evidence", "platform_actions", "contact"]},
+        {"name": "DSA Transparency Report", "sections": ["moderation_stats", "complaints", "odr", "trusted_flaggers", "automation"]},
+        {"name": "Processor Quarterly Report", "sections": ["review_stats", "verification", "complaints", "strikes", "effectiveness"]}
+      ]
+    },
+    {
+      "type": "reportBuilder",
+      "title": "Report Builder Tools",
+      "features": [
+        "Automatic data population from dashboard",
+        "Template selection",
+        "Quality check",
+        "Submission tracking",
+        "Archive management"
+      ]
+    },
+    {
+      "type": "auditPreparationChecklist",
+      "title": "Audit Preparation Checklist",
+      "categories": [
+        {"category": "Documentation", "items": ["Policies current", "Procedures documented", "Training records complete"]},
+        {"category": "Records", "items": ["2257 organized", "GDPR/DSA archived", "Violations documented"]},
+        {"category": "Systems", "items": ["Detection operational", "Monitoring functional", "Reporting accurate"]},
+        {"category": "People", "items": ["Staff certified", "Roles defined", "Backups identified"]}
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 3 Knowledge Check",
+    "questions": [
+      {
+        "id": "adm-m3q1",
+        "question": "What should NOT be included in a NCMEC report?",
+        "options": ["IP address", "Actual CSAM content", "Account email", "Upload timestamp"],
+        "correctAnswer": 1,
+        "explanation": "Actual CSAM content should never be transmitted in reports - only hashes and metadata."
+      },
+      {
+        "id": "adm-m3q2",
+        "question": "Who authorizes FBI trafficking reports?",
+        "options": ["Any moderator", "Compliance Officer", "Only law enforcement", "CEO only"],
+        "correctAnswer": 1,
+        "explanation": "FBI trafficking reports are authorized by the Compliance Officer, not individual moderators."
+      },
+      {
+        "id": "adm-m3q3",
+        "question": "How often are DSA transparency reports required?",
+        "options": ["Monthly", "Quarterly for large platforms", "Annually", "Only when requested"],
+        "correctAnswer": 1,
+        "explanation": "Large platforms must publish transparency reports at least twice yearly (effectively quarterly for compliance)."
+      },
+      {
+        "id": "adm-m3q4",
+        "question": "What is a common audit finding?",
+        "options": ["Too much training", "Excessive documentation", "Missing policies or outdated procedures", "Too many staff"],
+        "correctAnswer": 2,
+        "explanation": "Common findings include documentation gaps, missing policies, and outdated procedures."
+      },
+      {
+        "id": "adm-m3q5",
+        "question": "What goes in payment processor quarterly reports?",
+        "options": ["Only financial data", "Content review stats, verification, complaints, strikes, effectiveness", "Just violation counts", "Only positive metrics"],
+        "correctAnswer": 1,
+        "explanation": "Processor reports include review statistics, verification data, complaint handling, strike data, and system effectiveness metrics."
+      }
+    ]
+  }
+}

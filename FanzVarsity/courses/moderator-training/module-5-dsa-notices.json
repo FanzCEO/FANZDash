@@ -1,0 +1,266 @@
+{
+  "moduleId": "mod-module-5",
+  "courseId": "moderator-training",
+  "title": "DSA Notice Handling",
+  "duration": 40,
+  "order": 5,
+  "learningObjectives": [
+    "Understand the EU Digital Services Act requirements",
+    "Process internal complaints correctly",
+    "Write compliant Statement of Reasons",
+    "Meet 14-day response requirements",
+    "Handle out-of-court dispute resolution"
+  ],
+  "videoScript": {
+    "duration": "40 minutes",
+    "sections": [
+      {
+        "title": "EU Digital Services Act Overview",
+        "duration": "8:00",
+        "script": "Welcome to DSA Notice Handling. The EU Digital Services Act creates new obligations for content moderation transparency and user rights.\n\n**What is the DSA?**\nThe Digital Services Act is EU regulation that:\n- Establishes due diligence obligations for online platforms\n- Creates transparency requirements for content moderation\n- Gives users rights to contest decisions\n- Requires notice-and-action mechanisms\n\n**When Did It Take Effect?**\n- February 2024 for most platforms\n- Large platforms had earlier deadline (August 2023)\n\n**Who Does It Apply To?**\n- Platforms offering services to EU users\n- Regardless of where platform is based\n- Different tiers of obligations based on size\n\n**Key Requirements for Moderators:**\n1. **Transparent content moderation**\n2. **Internal complaint mechanism**\n3. **Statement of Reasons for decisions**\n4. **14-day response requirement**\n5. **Out-of-court dispute resolution option**\n\n**Why It Matters:**\nNon-compliance can result in:\n- Fines up to 6% of global revenue\n- Operating restrictions in EU\n- Regulatory investigation\n\n**Your Role:**\nAs a moderator, you:\n- Process DSA complaints from EU users\n- Write Statements of Reasons\n- Meet strict deadlines\n- Document thoroughly for transparency reports"
+      },
+      {
+        "title": "Notice-and-Action Mechanism",
+        "duration": "8:00",
+        "script": "The DSA establishes a 'notice-and-action' mechanism for illegal content.\n\n**Types of Notices:**\n\n1. **User Reports (Internal Complaints)**\n- User flags content as violating policies\n- Processed through normal moderation queue\n- Must be acknowledged\n\n2. **Trusted Flagger Notices**\n- From designated organizations (child safety, IP, etc.)\n- Prioritized processing\n- Higher confidence level\n\n3. **Authority Orders**\n- From EU member state authorities\n- Legal requirement to act\n- Escalate immediately to Legal/Compliance\n\n**Processing Internal Complaints:**\n\n**Step 1: Receipt and Acknowledgment**\n- Complaint received through reporting system\n- System logs receipt timestamp\n- User receives acknowledgment\n\n**Step 2: Initial Assessment**\n- Review the complaint\n- Identify the content\n- Understand the concern\n\n**Step 3: Content Review**\n- Assess content against policies\n- Consider context\n- Document observations\n\n**Step 4: Decision**\n- Determine if violation exists\n- Decide on action (remove, restrict, or no action)\n- Prepare Statement of Reasons\n\n**Step 5: Notification**\n- Notify complaining user of outcome\n- If content removed: notify content poster\n- Provide Statement of Reasons\n\n**Step 6: Appeal Option**\n- Inform of internal appeal right\n- Inform of out-of-court resolution option"
+      },
+      {
+        "title": "Writing Statement of Reasons",
+        "duration": "10:00",
+        "script": "The Statement of Reasons is a legal requirement. Every content decision affecting EU users requires one.\n\n**When Is It Required?**\n- Content removal\n- Account suspension\n- Content restriction (e.g., age-gating)\n- Monetization removal\n- Essentially: any negative action\n\n**Required Elements:**\n\n1. **Decision Made**\n- Clear statement of what action was taken\n- 'Content removed,' 'Account suspended,' etc.\n\n2. **Facts and Circumstances**\n- What the content contained\n- When it was posted\n- Any relevant context\n\n3. **Legal or Policy Basis**\n- Which policy was violated\n- Or which law (for illegal content)\n- Specific section/clause\n\n4. **Explanation of Decision**\n- Why this content violates the policy\n- How the decision was reached\n- Why alternative actions weren't appropriate\n\n5. **Information About Remedies**\n- Right to internal appeal\n- How to appeal\n- Out-of-court dispute resolution option\n- Judicial remedy option\n\n**Example Statement of Reasons:**\n\n'**Decision:** Content removed from platform.\n\n**Facts:** On [date], you posted [description] with the title [title].\n\n**Basis:** This content violates our Prohibited Content Policy, Section 3.2 (Family-themed content), which states [quote policy]. This policy implements payment processor requirements under the Global Brand Protection Program.\n\n**Explanation:** The content includes the term 'step-mother' in a sexual context, which falls within our prohibition on family-themed sexual content. This applies regardless of whether the content involves actual family members, as payment processors prohibit all such content.\n\n**Remedies:** You may appeal this decision within 14 days through [appeal link]. You also have the right to pursue out-of-court dispute resolution through a certified body, or pursue judicial review.'\n\n**Quality Standards:**\n- Clear, not vague\n- Specific to the content\n- Understandable to average person\n- No legal jargon without explanation\n- Includes all required elements"
+      },
+      {
+        "title": "14-Day Response Requirement",
+        "duration": "7:00",
+        "script": "DSA requires response to internal complaints within 14 days. This is strict.\n\n**The 14-Day Rule:**\n- Clock starts when complaint is submitted\n- Calendar days, not business days\n- Includes weekends and holidays\n- Response must be sent, not just decision made\n\n**What Counts as Response:**\n- Notification to complainant of decision\n- Statement of Reasons provided\n- Appeal information included\n\n**Timeline Management:**\n\nDay 1-3: Initial triage\n- Complaint reviewed\n- Content identified\n- Initial assessment\n\nDay 4-7: Review and decision\n- Content fully reviewed\n- Decision made\n- Statement of Reasons drafted\n\nDay 8-12: Quality check\n- Statement reviewed for compliance\n- All elements present\n- Clear and understandable\n\nDay 13-14: Send response\n- Response sent to complainant\n- Response sent to poster (if applicable)\n- Documentation complete\n\n**If You Can't Meet Deadline:**\nUnlike GDPR, there's no extension mechanism. If deadline will be missed:\n- Escalate immediately to supervisor\n- Document why delay occurred\n- Prioritize completion\n- This is a compliance violation\n\n**System Alerts:**\n- Alert at 7 days remaining\n- Alert at 3 days\n- Alert at 1 day\n- Red flag if deadline passes\n\n**Tracking:**\nAll complaints tracked in system with:\n- Receipt timestamp\n- 14-day deadline\n- Current status\n- Assigned moderator\n- Response timestamp"
+      },
+      {
+        "title": "Out-of-Court Dispute Resolution",
+        "duration": "7:00",
+        "script": "DSA gives users the right to pursue out-of-court dispute resolution (ODR) if unsatisfied with internal appeal.\n\n**What is ODR?**\n- Independent review by certified dispute resolution body\n- Alternative to going to court\n- Binding decision (on platform, not user)\n- Platform bears cost in most cases\n\n**When Does It Apply?**\n- User disagrees with our content decision\n- User has exhausted internal appeal\n- User is in EU\n- Decision falls under DSA scope\n\n**Certified Bodies:**\nEU member states certify ODR bodies. Examples:\n- National media regulators\n- Consumer protection bodies\n- Specialized digital services bodies\n\n**Your Role:**\n\n**Inform users of their right:**\nEvery Statement of Reasons must include:\n- Right to ODR exists\n- How to access ODR\n- General description of process\n\n**If ODR Case Received:**\n1. Escalate to Compliance team immediately\n2. Gather all documentation\n3. Provide original decision materials\n4. Assist with response preparation\n5. Do NOT contact user about the ODR case\n\n**Platform Obligations:**\n- Participate in ODR process in good faith\n- Provide requested information\n- Accept binding decision (unless manifestly wrong)\n- Bear costs unless complaint was frivolous\n\n**Example User Information:**\n\n'If you are not satisfied with the outcome of your internal appeal, you have the right to submit your dispute to an out-of-court dispute settlement body certified under the Digital Services Act. This is an independent body that will review your case. Their decision is binding on us. You can find certified bodies in your country through the European Commission's website. We are required to participate in this process and bear the costs unless the body finds your complaint to be frivolous.'"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "complaintIntakeSimulator",
+      "title": "Complaint Intake Simulator",
+      "scenarios": [
+        {
+          "complaint": "This video shows illegal content, I think it's someone who didn't consent to being filmed",
+          "contentType": "User-uploaded video",
+          "steps": [
+            "Acknowledge receipt",
+            "Review video and any consent documentation",
+            "Check performer verification status",
+            "Assess against non-consent policy",
+            "Decide: violation or no violation",
+            "Prepare Statement of Reasons",
+            "Notify complainant and poster"
+          ]
+        },
+        {
+          "complaint": "My content was removed but I didn't violate any rules",
+          "contentType": "Appeal of removal decision",
+          "steps": [
+            "Review original removal decision",
+            "Re-examine content",
+            "Consider appeal arguments",
+            "Decide: uphold or overturn",
+            "Prepare new Statement of Reasons",
+            "Include ODR information"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "statementOfReasonsGenerator",
+      "title": "Statement of Reasons Generator",
+      "requiredFields": [
+        {"field": "decision", "label": "Decision Made", "example": "Content removed from platform"},
+        {"field": "facts", "label": "Facts and Circumstances", "example": "On [date], content titled [title] was posted"},
+        {"field": "basis", "label": "Legal/Policy Basis", "example": "Prohibited Content Policy Section 3.2"},
+        {"field": "explanation", "label": "Explanation", "example": "Content contained family-themed sexual content..."},
+        {"field": "remedies", "label": "Remedies Information", "example": "Appeal within 14 days, ODR available..."}
+      ],
+      "template": "**Decision:** {decision}\n\n**Facts and Circumstances:** {facts}\n\n**Legal/Policy Basis:** {basis}\n\n**Explanation:** {explanation}\n\n**Remedies Available:** {remedies}"
+    },
+    {
+      "type": "deadlineTracker",
+      "title": "DSA Deadline Tracker",
+      "features": [
+        "14-day countdown from receipt",
+        "Status indicators (on track, at risk, overdue)",
+        "Alert notifications",
+        "Escalation triggers",
+        "Response documentation"
+      ]
+    },
+    {
+      "type": "odrInformationTemplate",
+      "title": "ODR Information Template",
+      "template": "If you are not satisfied with this decision or the outcome of your appeal, you have the right to:\n\n1. **Internal Appeal:** Submit an appeal within 14 days through [link]\n\n2. **Out-of-Court Dispute Resolution:** You may submit your dispute to an independent certified body. Their decision is binding on us. Find certified bodies at [EU Commission link]\n\n3. **Judicial Review:** You may also pursue review through the courts of your member state.\n\nWe are required to participate in out-of-court resolution and bear the costs unless the body determines your complaint was frivolous."
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 5 Knowledge Check",
+    "questions": [
+      {
+        "id": "mod-m5q1",
+        "question": "What is the response deadline for DSA internal complaints?",
+        "options": ["7 days", "14 days", "30 days", "60 days"],
+        "correctAnswer": 1,
+        "explanation": "DSA requires response to internal complaints within 14 calendar days."
+      },
+      {
+        "id": "mod-m5q2",
+        "question": "What must a Statement of Reasons include?",
+        "options": [
+          "Just the decision",
+          "Decision, facts, legal/policy basis, explanation, and remedies",
+          "Only policy reference",
+          "Apology and offer"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Statement of Reasons must include: decision made, facts/circumstances, legal/policy basis, explanation, and information about remedies."
+      },
+      {
+        "id": "mod-m5q3",
+        "question": "What is out-of-court dispute resolution (ODR)?",
+        "options": [
+          "Internal appeal process",
+          "Independent review by certified body, binding on platform",
+          "Court proceeding",
+          "Negotiation with platform"
+        ],
+        "correctAnswer": 1,
+        "explanation": "ODR is independent review by certified bodies, with decisions binding on the platform."
+      },
+      {
+        "id": "mod-m5q4",
+        "question": "Who bears the cost of ODR proceedings?",
+        "options": [
+          "User always",
+          "Platform always",
+          "Platform unless complaint is frivolous",
+          "Shared equally"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Platform bears ODR costs unless the dispute resolution body finds the complaint was frivolous."
+      },
+      {
+        "id": "mod-m5q5",
+        "question": "What is a 'Trusted Flagger' under DSA?",
+        "options": [
+          "Any verified user",
+          "Designated organization whose reports are prioritized",
+          "Law enforcement only",
+          "Platform moderators"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Trusted Flaggers are organizations designated by authorities whose notices receive priority processing."
+      },
+      {
+        "id": "mod-m5q6",
+        "question": "When is a Statement of Reasons required?",
+        "options": [
+          "Only for content removal",
+          "Only for account bans",
+          "For any negative action affecting EU users",
+          "Only when user requests it"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Any negative action (removal, suspension, restriction, demonetization) affecting EU users requires a Statement of Reasons."
+      },
+      {
+        "id": "mod-m5q7",
+        "question": "What is the maximum DSA penalty for non-compliance?",
+        "options": ["€1 million", "€10 million", "4% of revenue", "6% of global revenue"],
+        "correctAnswer": 3,
+        "explanation": "DSA penalties can reach up to 6% of global annual revenue for serious violations."
+      },
+      {
+        "id": "mod-m5q8",
+        "question": "If you receive an authority order under DSA, what should you do?",
+        "options": [
+          "Process like normal complaint",
+          "Escalate immediately to Legal/Compliance",
+          "Ignore if from foreign authority",
+          "Delete content immediately"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Authority orders have legal weight and must be escalated immediately to Legal/Compliance."
+      },
+      {
+        "id": "mod-m5q9",
+        "question": "Can the 14-day DSA deadline be extended?",
+        "options": [
+          "Yes, by 30 days",
+          "Yes, by 14 days",
+          "No, it's a strict deadline",
+          "Only with user agreement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Unlike GDPR, the DSA 14-day deadline has no extension mechanism. It's a strict requirement."
+      },
+      {
+        "id": "mod-m5q10",
+        "question": "What quality standards apply to Statement of Reasons?",
+        "options": [
+          "Can use template language only",
+          "Must be clear, specific, understandable without legal jargon",
+          "Can be as brief as possible",
+          "Only needs policy reference number"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Statements must be clear, specific to the content, and understandable to an average person without excessive legal jargon."
+      },
+      {
+        "id": "mod-m5q11",
+        "question": "When a user appeals and you uphold the original decision, what must you provide?",
+        "options": [
+          "Just 'decision upheld'",
+          "New Statement of Reasons including ODR information",
+          "Nothing additional",
+          "Only if they ask"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Even when upholding a decision on appeal, you must provide a new Statement of Reasons that includes ODR information."
+      },
+      {
+        "id": "mod-m5q12",
+        "question": "How should you document DSA complaints?",
+        "options": [
+          "No documentation needed",
+          "Track receipt, deadline, decision, and response timestamps",
+          "Only if violation found",
+          "Annual summary only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "All complaints must be tracked with timestamps for receipt, deadline, status, and response for transparency reporting."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "DSA Compliance Quick Reference",
+      "type": "pdf",
+      "url": "/resources/dsa-quick-reference.pdf"
+    },
+    {
+      "title": "Statement of Reasons Templates",
+      "type": "document",
+      "url": "/resources/sor-templates.docx"
+    },
+    {
+      "title": "ODR Body Directory",
+      "type": "external",
+      "url": "https://ec.europa.eu/info/digital-services-act_en"
+    },
+    {
+      "title": "EU DSA Full Text",
+      "type": "external",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065"
+    }
+  ]
+}

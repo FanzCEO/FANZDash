@@ -1,0 +1,237 @@
+{
+  "moduleId": "cc-module-1",
+  "courseId": "creator-compliance",
+  "title": "Your Legal Responsibilities",
+  "duration": 20,
+  "order": 1,
+  "learningObjectives": [
+    "Understand your status as a business owner",
+    "Recognize personal liability for compliance",
+    "Identify federal, state, and international laws that apply to you",
+    "Understand tax obligations as a creator"
+  ],
+  "videoScript": {
+    "duration": "20 minutes",
+    "sections": [
+      {
+        "title": "You're a Business Owner Now",
+        "duration": "5:00",
+        "script": "Welcome to Creator Compliance. This course is required before you can monetize content on any Fanz platform. Let's start with the most important mindset shift: you're not just a content creator – you're a business owner.\n\n**Your Legal Status:**\nWhen you earn money from adult content, you become a self-employed individual running your own business. This means:\n\n- You're an independent contractor, not an employee of Fanz\n- You file taxes as self-employed (Schedule C)\n- You're personally responsible for compliance with all applicable laws\n- You can be held personally liable for violations\n- Business expenses can be deducted (equipment, costumes, subscriptions)\n\n**What This Means for Liability:**\n\nFanz provides the platform, but you're responsible for:\n- The legality of YOUR content\n- Verifying ages of anyone appearing in YOUR content\n- Maintaining YOUR records per 2257\n- Ensuring YOUR content doesn't violate policies\n\nWhen something goes wrong, you can't say 'Fanz should have stopped me.' You're expected to know and follow the rules. This course teaches you those rules.\n\n**Business Structure Options:**\nMany creators eventually form business entities for protection:\n- Sole Proprietorship (default, no protection)\n- LLC (Limited Liability Company) - Most common for creators\n- S-Corp (for higher earners)\n\nWe recommend consulting with an accountant or attorney as your income grows."
+      },
+      {
+        "title": "Federal Laws That Apply to You",
+        "duration": "6:00",
+        "script": "As a content creator, several federal laws directly apply to your business:\n\n**18 U.S.C. § 2257 - Record Keeping Requirements**\nThis is the most important law for adult content creators. It requires:\n- Age verification for all performers in sexually explicit content\n- Maintaining records of legal name, date of birth, and ID copies\n- Keeping records for 7 years\n- Making records available to FBI inspectors within 48 hours\n- Displaying a Custodian of Records statement on all content\n\nPenalties: 5-10 years imprisonment for first offense.\n\nWe'll cover 2257 in depth in Module 2.\n\n**18 U.S.C. § 2252/2256 - CSAM Laws**\nProduction, distribution, or possession of CSAM (Child Sexual Abuse Material) is a federal crime.\n- Penalties: 15-30 years imprisonment\n- Lifetime sex offender registration\n- These laws apply even if you unknowingly produce content with a minor\n- This is why age verification is so critical\n\n**FOSTA-SESTA - Trafficking Liability**\nThis 2018 law removed some platform protections and applies to individuals too:\n- You cannot knowingly facilitate sex trafficking\n- Working with a trafficked performer makes you potentially liable\n- You must recognize and refuse to work with suspected trafficking victims\n\n**Copyright Law (DMCA)**\nYou must respect copyright:\n- Don't use copyrighted music without license\n- Don't copy others' content\n- Register your own content for maximum protection"
+      },
+      {
+        "title": "State and International Laws",
+        "duration": "4:00",
+        "script": "Beyond federal law, state and international laws may apply to you:\n\n**State Age Verification Laws (8+ states):**\nIf you're selling content accessible to users in these states, their laws may apply:\n- Louisiana, Utah, Arkansas, Virginia, Mississippi, Texas, Montana, North Carolina\n- More states are passing similar laws\n- Fanz handles user-side verification, but you must verify your own performers\n\n**State Obscenity Laws:**\nSome states have stricter obscenity standards. 'Community standards' vary. Content legal in California might face prosecution in other states. Be aware of your location and where you distribute.\n\n**UK Online Safety Act:**\nIf you have UK viewers (and you likely do):\n- Age verification is mandatory for your viewers\n- Fanz handles this, but non-compliance affects everyone\n- Penalties up to £18 million\n\n**EU GDPR:**\nIf you have EU customers:\n- You must respect data protection rights\n- Customers can request access to or deletion of their data\n- You must handle personal information responsibly\n- Fanz provides tools to help you comply\n\n**EU Digital Services Act (DSA):**\n- Content moderation transparency requirements\n- 14-day response requirement for complaints\n- Fanz handles platform-level compliance, but you must respond to legitimate requests\n\n**Your Location Matters:**\nKnow the laws in YOUR state/country. If you're creating from a strict jurisdiction, additional requirements may apply."
+      },
+      {
+        "title": "Tax Obligations",
+        "duration": "5:00",
+        "script": "Making money from adult content means tax obligations. Let's make sure you're prepared:\n\n**Income Reporting:**\n- If you earn $600+ from Fanz in a year, you'll receive a 1099-NEC\n- ALL income is taxable, even if you don't get a 1099\n- Tips, subscription revenue, PPV sales – all taxable\n- International creators have different requirements (W-8BEN)\n\n**Self-Employment Tax:**\nUnlike regular employees, you pay:\n- Income tax (federal + state)\n- Self-employment tax (15.3% for Social Security/Medicare)\n- This is ON TOP of income tax\n- Estimated quarterly payments may be required\n\n**Deductible Business Expenses:**\nYou can deduct legitimate business expenses:\n- Camera equipment and lighting\n- Costumes, props, lingerie\n- Subscription to editing software\n- Home office space (percentage of rent/utilities)\n- Internet (percentage for business use)\n- Makeup and personal grooming (arguable – consult accountant)\n- Professional services (accountant, attorney)\n- Platform fees and commissions\n\n**Record Keeping for Taxes:**\n- Keep receipts for all business expenses\n- Track income by source\n- Use accounting software (QuickBooks Self-Employed, etc.)\n- Consider hiring an accountant who understands creator income\n\n**Quarterly Estimated Payments:**\nIf you expect to owe $1,000+ in taxes, you must make quarterly payments:\n- Due: April 15, June 15, September 15, January 15\n- Penalties for underpayment\n\n**Legal Structure Benefits:**\nAn LLC can provide:\n- Liability protection\n- Tax flexibility\n- Professional separation from personal life"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "liabilityQuiz",
+      "title": "Who's Responsible?",
+      "scenarios": [
+        {
+          "scenario": "A creator uploads content featuring a performer who lied about their age and is actually 17.",
+          "whoIsLiable": ["creator", "platform"],
+          "explanation": "The creator is primarily liable under 2257 for failing to verify age. The platform may also face liability but generally has stronger legal protections if they acted in good faith."
+        },
+        {
+          "scenario": "A user downloads a creator's content and redistributes it on another site.",
+          "whoIsLiable": ["downloader/redistributor"],
+          "explanation": "The person who redistributed without permission is liable for copyright infringement. The creator retains copyright and can file DMCA takedowns."
+        },
+        {
+          "scenario": "A creator's content is flagged as incest-themed despite being roleplay between consenting adults.",
+          "whoIsLiable": ["creator"],
+          "explanation": "The creator is responsible for content compliance. Even if legal, incest-themed content violates payment processor policies and platform terms."
+        },
+        {
+          "scenario": "A creator films with a performer who appears to be controlled by a third party.",
+          "whoIsLiable": ["creator", "third party"],
+          "explanation": "Under FOSTA-SESTA, the creator could be liable for knowingly working with a trafficking victim. The third party is the primary criminal, but the creator has a duty to recognize and refuse such situations."
+        }
+      ]
+    },
+    {
+      "type": "taxCalculator",
+      "title": "Estimate Your Tax Liability",
+      "description": "Enter your estimated annual creator income to see approximate tax obligations",
+      "inputs": [
+        {"name": "grossIncome", "label": "Gross Creator Income", "type": "currency"},
+        {"name": "expenses", "label": "Business Expenses", "type": "currency"},
+        {"name": "state", "label": "State of Residence", "type": "select"}
+      ],
+      "calculations": [
+        {"name": "netIncome", "formula": "grossIncome - expenses"},
+        {"name": "selfEmploymentTax", "formula": "netIncome * 0.153"},
+        {"name": "federalTax", "formula": "progressive based on brackets"},
+        {"name": "stateTax", "formula": "varies by state"},
+        {"name": "quarterlyPayment", "formula": "(total tax) / 4"}
+      ],
+      "disclaimer": "This is an estimate only. Consult a tax professional for accurate calculations."
+    },
+    {
+      "type": "jurisdictionChecker",
+      "title": "What Laws Apply to You?",
+      "questions": [
+        {"question": "Where are you physically located when creating content?", "relevance": "Local state/country laws apply"},
+        {"question": "Where is your content hosted/distributed?", "relevance": "Platform jurisdiction matters"},
+        {"question": "Do you have viewers in the UK?", "relevance": "UK Online Safety Act compliance required"},
+        {"question": "Do you have viewers in the EU?", "relevance": "GDPR data protection applies"},
+        {"question": "Are you a US person (citizen or resident)?", "relevance": "Federal US laws including 2257 apply"}
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 1 Knowledge Check",
+    "questions": [
+      {
+        "id": "cc-m1q1",
+        "question": "What is your employment status as a content creator on Fanz?",
+        "options": [
+          "Employee of Fanz",
+          "Independent contractor / self-employed",
+          "Part-time employee",
+          "Freelance employee"
+        ],
+        "correctAnswer": 1,
+        "explanation": "As a content creator, you are an independent contractor (self-employed), not an employee of Fanz. This means you're responsible for your own taxes, compliance, and business operations."
+      },
+      {
+        "id": "cc-m1q2",
+        "question": "What tax form will Fanz issue if you earn $600 or more?",
+        "options": ["W-2", "1099-NEC", "1099-MISC", "W-9"],
+        "correctAnswer": 1,
+        "explanation": "If you earn $600 or more from Fanz, you'll receive a 1099-NEC (Non-Employee Compensation) form for tax filing purposes."
+      },
+      {
+        "id": "cc-m1q3",
+        "question": "What additional tax do self-employed individuals pay that regular employees don't?",
+        "options": [
+          "State income tax",
+          "Self-employment tax (15.3%)",
+          "Alternative minimum tax",
+          "Capital gains tax"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Self-employed individuals pay self-employment tax (15.3%) to cover Social Security and Medicare, which is normally split between employer and employee."
+      },
+      {
+        "id": "cc-m1q4",
+        "question": "Which federal law requires adult content creators to verify and document performer ages?",
+        "options": [
+          "FOSTA-SESTA",
+          "18 U.S.C. § 2257",
+          "DMCA",
+          "GDPR"
+        ],
+        "correctAnswer": 1,
+        "explanation": "18 U.S.C. § 2257 requires producers of sexually explicit content to verify and maintain records of performer ages, including ID copies."
+      },
+      {
+        "id": "cc-m1q5",
+        "question": "What is the maximum penalty for 2257 record-keeping violations?",
+        "options": [
+          "Fine only",
+          "1 year imprisonment",
+          "5-10 years imprisonment",
+          "Lifetime ban from adult industry"
+        ],
+        "correctAnswer": 2,
+        "explanation": "First offense 2257 violations can result in up to 5 years imprisonment, and second offenses up to 10 years."
+      },
+      {
+        "id": "cc-m1q6",
+        "question": "Which business expenses are typically deductible for content creators?",
+        "options": [
+          "Personal groceries",
+          "Camera equipment and costumes",
+          "Your entire rent",
+          "Personal vehicle payments"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Legitimate business expenses like camera equipment, lighting, costumes, and editing software are deductible. Personal expenses are not."
+      },
+      {
+        "id": "cc-m1q7",
+        "question": "Under FOSTA-SESTA, what is your responsibility regarding trafficking?",
+        "options": [
+          "No responsibility - that's the platform's job",
+          "You cannot knowingly work with trafficked performers",
+          "You must conduct FBI background checks",
+          "You must report all performers to authorities"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FOSTA-SESTA means you cannot knowingly facilitate trafficking. You must recognize red flags and refuse to work with suspected trafficking victims."
+      },
+      {
+        "id": "cc-m1q8",
+        "question": "When are quarterly estimated tax payments due?",
+        "options": [
+          "January 1, April 1, July 1, October 1",
+          "April 15, June 15, September 15, January 15",
+          "Every 3 months from when you start earning",
+          "Only once at year end"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Quarterly estimated tax payments are due April 15, June 15, September 15, and January 15."
+      },
+      {
+        "id": "cc-m1q9",
+        "question": "What business structure provides liability protection while remaining tax-flexible?",
+        "options": [
+          "Sole proprietorship",
+          "General partnership",
+          "LLC (Limited Liability Company)",
+          "Nonprofit"
+        ],
+        "correctAnswer": 2,
+        "explanation": "An LLC provides personal liability protection while offering tax flexibility. Many creators form LLCs as their business grows."
+      },
+      {
+        "id": "cc-m1q10",
+        "question": "If you're in the US but have UK viewers, which additional law affects you?",
+        "options": [
+          "Canada Privacy Act",
+          "UK Online Safety Act",
+          "Australian Broadcasting Act",
+          "No additional laws apply"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The UK Online Safety Act requires age verification for UK users accessing adult content. Fanz handles this, but it affects platform operations."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "IRS Schedule C Guide for Creators",
+      "type": "pdf",
+      "url": "/resources/schedule-c-creator-guide.pdf"
+    },
+    {
+      "title": "Forming an LLC for Content Creators",
+      "type": "article",
+      "url": "/kb/llc-for-creators"
+    },
+    {
+      "title": "Business Expense Tracking Template",
+      "type": "spreadsheet",
+      "url": "/resources/expense-tracking-template.xlsx"
+    },
+    {
+      "title": "Accountants Familiar with Creator Income",
+      "type": "directory",
+      "url": "/resources/creator-accountant-directory"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "moduleId": "mod-module-6",
+  "courseId": "moderator-training",
+  "title": "Escalation Procedures",
+  "duration": 30,
+  "order": 6,
+  "learningObjectives": [
+    "Know when to escalate to senior moderators",
+    "Know when to escalate to legal team",
+    "Know when to contact law enforcement",
+    "Use decision-making frameworks effectively",
+    "Document escalations properly"
+  ],
+  "videoScript": {
+    "duration": "30 minutes",
+    "sections": [
+      {
+        "title": "Escalation Overview",
+        "duration": "5:00",
+        "script": "Welcome to the final module of Moderator Training: Escalation Procedures. Knowing when to escalate is as important as knowing how to make decisions.\n\n**Why Escalation Matters:**\n- Some decisions exceed moderator authority\n- Some situations require specialized expertise\n- Legal implications may require legal review\n- Consistency requires senior guidance on novel issues\n- Protecting yourself and the platform\n\n**Escalation Levels:**\n\n**Level 1: Senior Moderator**\n- Complex content decisions\n- Policy interpretation questions\n- Novel situations\n- Borderline cases\n\n**Level 2: Compliance Team**\n- CSAM detections\n- Trafficking indicators (high/critical)\n- Regulatory concerns\n- GDPR/DSA complex issues\n\n**Level 3: Legal Team**\n- Potential legal action\n- Law enforcement requests\n- Media inquiries\n- Novel policy questions\n\n**Level 4: Law Enforcement**\n- CSAM (via Compliance → NCMEC)\n- Trafficking (via Compliance → FBI)\n- Immediate threats\n- Child safety concerns\n\n**Golden Rule:**\nWhen in doubt, escalate. It's better to escalate unnecessarily than to make a wrong decision on a serious matter."
+      },
+      {
+        "title": "Escalating to Senior Moderators",
+        "duration": "6:00",
+        "script": "Senior moderators handle escalations from the moderation team. Know when to use them.\n\n**When to Escalate:**\n\n1. **Unclear Policy Interpretation**\n- Policy doesn't clearly address this content\n- Multiple policies might apply\n- Conflicting interpretations possible\n\n2. **Borderline Content (Risk 60-79)**\n- Could go either way\n- Need second opinion\n- Unusual context\n\n3. **Creator Disputes**\n- Creator is pushing back\n- Complex appeal\n- VIP or high-profile creator\n\n4. **Novel Situations**\n- New type of content\n- New platform feature\n- Situation not covered in training\n\n5. **Personal Discomfort**\n- Content is affecting you\n- Need a break\n- Want fresh perspective\n\n**How to Escalate:**\n\n1. Use escalation function in moderation tool\n2. Provide:\n   - Content/account identifier\n   - Your initial assessment\n   - Specific question or concern\n   - What you've already reviewed\n3. Continue with other work while awaiting response\n4. Document that you escalated and when\n\n**Response Expectations:**\n- Urgent: 2-4 hours\n- Standard: Same shift or next shift\n- Complex: 24-48 hours with acknowledgment\n\n**Learning from Escalations:**\n- Senior decision becomes guidance for similar cases\n- Ask for explanation to learn\n- Patterns may update training or policy"
+      },
+      {
+        "title": "Escalating to Compliance and Legal",
+        "duration": "7:00",
+        "script": "Some issues require Compliance team or Legal team involvement.\n\n**Escalate to Compliance Team:**\n\n1. **CSAM Detection**\n- Any CSAM match or suspicion\n- Do not investigate further\n- Immediate escalation\n- They handle NCMEC reporting\n\n2. **Trafficking Indicators (High/Critical)**\n- 6+ indicators\n- Visible distress\n- Third-party control apparent\n- They coordinate FBI contact\n\n3. **Regulatory Issues**\n- GDPR complex situations\n- DSA authority orders\n- Age verification system issues\n- Cross-border data issues\n\n4. **Platform-Wide Issues**\n- Coordinated inauthentic behavior\n- Mass violations\n- System failures affecting compliance\n\n**Escalate to Legal Team:**\n\n1. **Law Enforcement Requests**\n- Subpoenas, warrants\n- FBI or other agency contact\n- International requests\n- Never respond directly\n\n2. **Potential Legal Action**\n- User threatens lawsuit\n- Defamation concerns\n- Intellectual property disputes\n- Contract questions\n\n3. **Media Inquiries**\n- Journalist contact\n- Press requests\n- Public relations concerns\n- Social media attention\n\n4. **Novel Policy Questions**\n- New legal developments\n- First impression issues\n- Potential precedent-setting\n\n**How to Escalate:**\n\n1. Use designated escalation channels\n2. Mark urgency level (immediate, same day, routine)\n3. Provide:\n   - Full details of situation\n   - What you've done so far\n   - What decision/action is pending\n   - Any deadlines\n4. Do NOT take action on the matter until guidance received\n5. Document escalation"
+      },
+      {
+        "title": "Law Enforcement Contact",
+        "duration": "6:00",
+        "script": "Moderators don't contact law enforcement directly - but you initiate the process.\n\n**CSAM Path:**\nYou → Compliance → NCMEC → Law Enforcement\n- You escalate to Compliance\n- Compliance files NCMEC CyberTipline report\n- NCMEC forwards to appropriate law enforcement\n- FBI, ICAC, or local police\n\n**Trafficking Path:**\nYou → Compliance → FBI\n- You escalate with documented indicators\n- Compliance assesses and makes decision\n- If warranted, Compliance files FBI tip or report\n- May also involve National Human Trafficking Hotline\n\n**Immediate Threats:**\nIf you encounter immediate threat to life:\n- Suicidal content with immediate risk\n- Active violence\n- Missing child\n\nEscalate IMMEDIATELY to:\n1. Senior moderator on duty\n2. Compliance (emergency line)\n3. They may involve 911/emergency services\n\n**When Law Enforcement Contacts Us:**\n\nIf you receive:\n- Phone call from agent\n- Email from official address\n- Formal letter/subpoena\n\nYour response:\n1. DO NOT provide any information\n2. DO NOT confirm or deny user existence\n3. Take their contact information\n4. Escalate immediately to Legal\n5. Legal will verify and respond\n\n**Why This Process:**\n- Legal must verify legitimacy\n- Proper procedures protect evidence\n- Improper disclosure could harm investigation\n- Platform could be liable for wrong disclosure"
+      },
+      {
+        "title": "Documentation and Decision Frameworks",
+        "duration": "6:00",
+        "script": "Proper documentation protects you and the platform.\n\n**What to Document:**\n\n**For Every Escalation:**\n- Date and time\n- Your name/ID\n- What you observed\n- What decision was pending\n- Why you escalated\n- Who you escalated to\n- Response received (when it comes)\n\n**For CSAM/Trafficking:**\n- Detection method (hash match, indicators observed)\n- Account details\n- Content identifier (NOT content itself)\n- Your immediate actions (blocking, flagging)\n- Escalation chain\n\n**For Law Enforcement-Related:**\n- Initial contact details\n- Information requested\n- What you said (should be nothing)\n- Escalation to Legal\n\n**Decision Framework:**\n\nWhen facing an escalation decision, ask:\n\n1. **Is this within my authority?**\n   - Yes → Consider carefully, decide, document\n   - No → Escalate\n   - Unsure → Escalate\n\n2. **Are there legal implications?**\n   - Yes → Escalate\n   - Maybe → Escalate to be safe\n   - No → May not need escalation\n\n3. **Is this a pattern or one-off?**\n   - Pattern → May need senior input\n   - One-off → May handle yourself\n\n4. **What's the worst case if I'm wrong?**\n   - Serious (legal, safety) → Escalate\n   - Minor (can be corrected) → May decide yourself\n\n5. **Will my decision set precedent?**\n   - Yes → Escalate for consistency\n   - No → May decide yourself\n\n**Chain of Custody:**\nFor evidence-related matters:\n- Who accessed what, when\n- What was done\n- Where is evidence stored\n- Preserve for legal process\n\n**Protect Yourself:**\n- Follow procedures\n- Document everything\n- Escalate when unsure\n- Don't go rogue\n- Ask for help when needed"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "escalationDecisionTool",
+      "title": "Escalation Decision Tool",
+      "scenarios": [
+        {
+          "situation": "Content has risk score 72, involves roleplay that could be interpreted as non-consent but isn't clearly CNC",
+          "correctLevel": "Senior Moderator",
+          "explanation": "Borderline content that needs policy interpretation - appropriate for senior mod."
+        },
+        {
+          "situation": "Hash match on uploaded image, PhotoDNA confidence 98%",
+          "correctLevel": "Compliance Team - Immediate",
+          "explanation": "CSAM detection requires immediate Compliance escalation for NCMEC reporting."
+        },
+        {
+          "situation": "Creator says they're going to sue if content isn't restored",
+          "correctLevel": "Legal Team",
+          "explanation": "Threat of legal action requires Legal team involvement."
+        },
+        {
+          "situation": "Account shows 7 trafficking indicators including visible distress",
+          "correctLevel": "Compliance Team - Immediate",
+          "explanation": "High-risk trafficking requires immediate Compliance escalation for potential FBI referral."
+        },
+        {
+          "situation": "Journalist emails asking about platform moderation practices",
+          "correctLevel": "Legal Team",
+          "explanation": "Media inquiries go through Legal for proper handling and messaging."
+        }
+      ]
+    },
+    {
+      "type": "documentationTemplateLibrary",
+      "title": "Documentation Templates",
+      "templates": [
+        {
+          "type": "Standard Escalation",
+          "fields": ["datetime", "moderator_id", "content_id", "observation", "question", "escalated_to"]
+        },
+        {
+          "type": "CSAM Detection",
+          "fields": ["datetime", "moderator_id", "detection_method", "hash_confidence", "account_id", "action_taken", "escalated_to"]
+        },
+        {
+          "type": "Trafficking Escalation",
+          "fields": ["datetime", "moderator_id", "account_id", "indicators_observed", "risk_level", "escalated_to"]
+        },
+        {
+          "type": "Law Enforcement Contact",
+          "fields": ["datetime", "contact_method", "claimed_agency", "contact_info", "information_requested", "response_given", "escalated_to"]
+        }
+      ]
+    },
+    {
+      "type": "chainOfCustodyTracker",
+      "title": "Chain of Custody Tracker",
+      "fields": [
+        {"field": "item", "description": "What is being tracked"},
+        {"field": "location", "description": "Where is it stored"},
+        {"field": "access_log", "description": "Who accessed it and when"},
+        {"field": "action_log", "description": "What was done"},
+        {"field": "status", "description": "Current status (active, preserved, released)"}
+      ]
+    },
+    {
+      "type": "communicationScriptGenerator",
+      "title": "Communication Scripts",
+      "scenarios": [
+        {
+          "situation": "Law enforcement calls asking about a user",
+          "script": "Thank you for contacting us. I am not authorized to confirm or deny account information. Please let me take your contact information and I will have our Legal team reach out to you. May I have your name, agency, badge number, and phone number?"
+        },
+        {
+          "situation": "Creator asks why they can't appeal CSAM decision",
+          "script": "Due to the nature of this violation, appeals are not available. If you believe there has been a mistake, you may contact our Compliance team directly. However, I cannot discuss the specifics of this decision."
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 6 Knowledge Check",
+    "questions": [
+      {
+        "id": "mod-m6q1",
+        "question": "When should you escalate to a senior moderator?",
+        "options": [
+          "Never, handle everything yourself",
+          "Policy unclear, borderline content, novel situations, need second opinion",
+          "Only when told to",
+          "Only for high-profile creators"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Escalate to senior moderators for unclear policy, borderline cases, novel situations, or when you need a second opinion."
+      },
+      {
+        "id": "mod-m6q2",
+        "question": "What is the path for CSAM reporting?",
+        "options": [
+          "You → Local Police",
+          "You → FBI directly",
+          "You → Compliance → NCMEC → Law Enforcement",
+          "You → Legal → FBI"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CSAM goes: You escalate to Compliance, they file with NCMEC, and NCMEC forwards to appropriate law enforcement."
+      },
+      {
+        "id": "mod-m6q3",
+        "question": "If law enforcement calls asking about a user, what should you do?",
+        "options": [
+          "Provide the information they request",
+          "Confirm the account exists but share nothing else",
+          "Take their contact info and escalate to Legal without providing any information",
+          "Ignore the call"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Never provide information directly. Take contact details and escalate to Legal who will verify and respond properly."
+      },
+      {
+        "id": "mod-m6q4",
+        "question": "What should you escalate to the Legal team?",
+        "options": [
+          "All content decisions",
+          "Law enforcement requests, legal threats, media inquiries",
+          "Only CSAM",
+          "Creator complaints"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Legal handles law enforcement requests, legal action threats, media inquiries, and novel policy questions."
+      },
+      {
+        "id": "mod-m6q5",
+        "question": "What is the 'golden rule' of escalation?",
+        "options": [
+          "Never escalate anything",
+          "Escalate everything",
+          "When in doubt, escalate",
+          "Only escalate emergencies"
+        ],
+        "correctAnswer": 2,
+        "explanation": "When in doubt, escalate. It's better to escalate unnecessarily than to make a wrong decision on a serious matter."
+      },
+      {
+        "id": "mod-m6q6",
+        "question": "What must you document for every escalation?",
+        "options": [
+          "Nothing, just escalate",
+          "Date/time, what observed, why escalating, who escalated to",
+          "Only the outcome",
+          "Only if it involves CSAM"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Document date/time, your observation, why you're escalating, and who you escalated to."
+      },
+      {
+        "id": "mod-m6q7",
+        "question": "Trafficking escalation at high/critical level goes to:",
+        "options": [
+          "Senior moderator",
+          "Legal team",
+          "Compliance team for potential FBI referral",
+          "Local police directly"
+        ],
+        "correctAnswer": 2,
+        "explanation": "High/critical trafficking goes to Compliance team who coordinate potential FBI referral."
+      },
+      {
+        "id": "mod-m6q8",
+        "question": "What is 'chain of custody'?",
+        "options": [
+          "How content is created",
+          "Documenting who accessed evidence, when, and what was done",
+          "Account ownership history",
+          "Platform hierarchy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Chain of custody documents who accessed evidence, when, what was done, and where it's stored - essential for legal processes."
+      },
+      {
+        "id": "mod-m6q9",
+        "question": "When facing a decision, asking 'what's the worst case if I'm wrong' helps you:",
+        "options": [
+          "Feel worse about your job",
+          "Determine if escalation is appropriate based on stakes",
+          "Avoid making any decisions",
+          "Challenge your supervisor"
+        ],
+        "correctAnswer": 1,
+        "explanation": "If the worst case is serious (legal, safety implications), you should escalate rather than risk a wrong decision."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Escalation Contact Directory",
+      "type": "internal",
+      "url": "/internal/escalation-contacts"
+    },
+    {
+      "title": "Documentation Templates",
+      "type": "document",
+      "url": "/resources/escalation-documentation-templates.docx"
+    },
+    {
+      "title": "Decision Framework Flowchart",
+      "type": "pdf",
+      "url": "/resources/decision-framework-flowchart.pdf"
+    },
+    {
+      "title": "Communication Scripts",
+      "type": "pdf",
+      "url": "/resources/moderator-communication-scripts.pdf"
+    }
+  ]
+}

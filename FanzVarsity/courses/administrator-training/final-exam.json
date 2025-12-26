@@ -1,0 +1,73 @@
+{
+  "examId": "administrator-training-final",
+  "courseId": "administrator-training",
+  "title": "Advanced Administrator Certification Exam",
+  "description": "Comprehensive exam covering compliance dashboard, legal deadline management, regulatory reporting, incident response, and audit preparation. 90% required to pass.",
+  "questionCount": 100,
+  "passRate": 90,
+  "timeLimit": 120,
+  "attemptsAllowed": "unlimited",
+  "retakeWaitPeriod": 168,
+  "questionDistribution": {
+    "Compliance Dashboard": 20,
+    "Legal Deadline Management": 15,
+    "Regulatory Reporting": 20,
+    "Incident Response": 25,
+    "Audit Preparation": 20
+  },
+  "sampleQuestions": [
+    {"id": "ace-1", "category": "Dashboard", "question": "Target compliance score?", "options": ["85+", "90+", "95+", "100"], "correctAnswer": 2},
+    {"id": "ace-2", "category": "Dashboard", "question": "Dashboard refresh frequency?", "options": ["Real-time", "60 seconds", "Hourly", "Daily"], "correctAnswer": 1},
+    {"id": "ace-3", "category": "Dashboard", "question": "CSAM false positive rate target?", "options": ["1%", "0.5%", "0.1%", "Zero"], "correctAnswer": 2},
+    {"id": "ace-4", "category": "Deadlines", "question": "NCMEC reporting deadline?", "options": ["Immediately", "24 hours", "48 hours", "7 days"], "correctAnswer": 1},
+    {"id": "ace-5", "category": "Deadlines", "question": "DSA deadline extendable?", "options": ["Yes 14 days", "Yes 30 days", "No - strict", "With consent"], "correctAnswer": 2},
+    {"id": "ace-6", "category": "Deadlines", "question": "GDPR extension maximum?", "options": ["30 days", "60 days", "2 months", "Unlimited"], "correctAnswer": 2},
+    {"id": "ace-7", "category": "Deadlines", "question": "2257 record retrieval time?", "options": ["Immediately", "20 minutes", "1 hour", "24 hours"], "correctAnswer": 1},
+    {"id": "ace-8", "category": "Reporting", "question": "What NOT in NCMEC report?", "options": ["IP", "Actual CSAM", "Email", "Timestamp"], "correctAnswer": 1},
+    {"id": "ace-9", "category": "Reporting", "question": "Who authorizes FBI trafficking reports?", "options": ["Any mod", "Compliance Officer", "LE only", "CEO"], "correctAnswer": 1},
+    {"id": "ace-10", "category": "Reporting", "question": "DSA transparency report frequency?", "options": ["Monthly", "Quarterly", "Annually", "On request"], "correctAnswer": 1},
+    {"id": "ace-11", "category": "Incident", "question": "GDPR breach notification timeline?", "options": ["24 hours", "48 hours", "72 hours", "7 days"], "correctAnswer": 2},
+    {"id": "ace-12", "category": "Incident", "question": "LE contact - what do you do?", "options": ["Provide info", "Escalate Legal first", "Ignore", "Post online"], "correctAnswer": 1},
+    {"id": "ace-13", "category": "Incident", "question": "CSAM detection severity level?", "options": ["4-Low", "3-Medium", "2-High", "1-Critical"], "correctAnswer": 3},
+    {"id": "ace-14", "category": "Incident", "question": "Who speaks to media in crisis?", "options": ["Anyone", "Designated spokesperson", "Finder", "Social team"], "correctAnswer": 1},
+    {"id": "ace-15", "category": "Audit", "question": "2257 record retention?", "options": ["1 year", "3 years", "5 years", "7 years"], "correctAnswer": 3},
+    {"id": "ace-16", "category": "Audit", "question": "GDPR Article 30 requires?", "options": ["Privacy policy", "Processing records", "Cookies", "Marketing"], "correctAnswer": 1},
+    {"id": "ace-17", "category": "Audit", "question": "Critical audit finding is?", "options": ["Enhancement", "Process improvement", "Legal violation needing immediate action", "Best practice gap"], "correctAnswer": 2},
+    {"id": "ace-18", "category": "Dashboard", "question": "How many main dashboard tabs?", "options": ["4", "5", "6", "8"], "correctAnswer": 2},
+    {"id": "ace-19", "category": "Dashboard", "question": "Risk score auto-blocked range?", "options": ["40-59", "60-79", "80-100", "100 only"], "correctAnswer": 2},
+    {"id": "ace-20", "category": "Deadlines", "question": "DSA alert at what remaining days?", "options": ["Only deadline", "7, 3, 1", "Weekly", "Never"], "correctAnswer": 1}
+  ],
+  "passingCriteria": {
+    "minimumScore": 90,
+    "requiredCategories": {
+      "Compliance Dashboard": 16,
+      "Legal Deadline Management": 12,
+      "Regulatory Reporting": 16,
+      "Incident Response": 20,
+      "Audit Preparation": 16
+    }
+  },
+  "certificateDetails": {
+    "name": "Advanced Administrator Certification",
+    "validityPeriod": "1 year",
+    "renewalRequired": true,
+    "displayOnProfile": false,
+    "enablesFeatures": ["full_admin", "compliance_dashboard_full", "regulatory_reporting", "incident_management", "audit_access"]
+  },
+  "uponPassing": [
+    "Advanced Administrator Certification issued",
+    "Full admin access granted",
+    "Full Compliance Dashboard access",
+    "Regulatory reporting tools access",
+    "Incident management system access",
+    "Listed as Compliance Officer (if applicable)",
+    "Annual recertification reminder set"
+  ],
+  "uponFailing": [
+    "Detailed feedback by category",
+    "Can retake after 1 week",
+    "Supervisor review required",
+    "Additional training may be mandated",
+    "Must score 90% minimum in each category"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "moduleId": "mod-module-4",
+  "courseId": "moderator-training",
+  "title": "GDPR Data Requests",
+  "duration": 40,
+  "order": 4,
+  "learningObjectives": [
+    "Understand the 8 GDPR data subject rights (Articles 15-22)",
+    "Process access requests correctly",
+    "Process erasure requests with proper exceptions",
+    "Manage 30-day deadlines effectively",
+    "Handle special cases (7-year retention requirements)"
+  ],
+  "videoScript": {
+    "duration": "40 minutes",
+    "sections": [
+      {
+        "title": "GDPR Overview for Moderators",
+        "duration": "8:00",
+        "script": "Welcome to GDPR Data Requests training. The General Data Protection Regulation gives EU users powerful rights over their personal data. As moderators, you'll process these requests.\n\n**Who Does GDPR Apply To?**\n- EU/EEA residents\n- Anyone in EU territory (including visitors)\n- Data about people in EU (regardless of where platform is based)\n\n**What is Personal Data?**\nAny information relating to an identifiable person:\n- Name, email, address\n- IP addresses, device identifiers\n- Account activity and history\n- Payment information\n- Content they've created\n- Communications and messages\n\n**Key Principles:**\n1. **Lawfulness** - Legal basis for processing\n2. **Purpose limitation** - Only for stated purposes\n3. **Data minimization** - Only collect what's needed\n4. **Accuracy** - Keep data correct\n5. **Storage limitation** - Don't keep longer than necessary\n6. **Security** - Protect the data\n7. **Accountability** - Demonstrate compliance\n\n**Penalties for Non-Compliance:**\n- Up to €20 million or 4% of global annual revenue\n- Individual liability for certain violations\n- Reputation damage\n\n**Your Role:**\n- Process data subject requests\n- Meet legal deadlines\n- Apply exceptions correctly\n- Document all decisions"
+      },
+      {
+        "title": "The 8 Data Subject Rights",
+        "duration": "10:00",
+        "script": "GDPR provides 8 rights to data subjects. Let's cover each:\n\n**1. Right of Access (Article 15)**\nUsers can request:\n- Confirmation we have their data\n- Copy of all personal data\n- Information about how it's used\n- Who we share it with\n\n**2. Right to Rectification (Article 16)**\nUsers can request correction of:\n- Inaccurate data\n- Incomplete data\n- Outdated information\n\n**3. Right to Erasure (Article 17) - 'Right to be Forgotten'**\nUsers can request deletion when:\n- Data no longer necessary\n- Consent withdrawn\n- Unlawful processing\n- Legal obligation to delete\n\nEXCEPTIONS (we CAN refuse):\n- Legal obligation to keep (e.g., 2257 records)\n- Legal claims defense\n- Public interest\n\n**4. Right to Restriction (Article 18)**\nUsers can request processing be limited:\n- While accuracy is verified\n- If processing is unlawful but they don't want deletion\n- We no longer need it but they need it for legal claims\n\n**5. Right to Data Portability (Article 20)**\nUsers can request:\n- Their data in machine-readable format\n- Data transferred to another service\n\n**6. Right to Object (Article 21)**\nUsers can object to:\n- Direct marketing\n- Processing based on legitimate interests\n- Profiling\n\n**7. Rights Related to Automated Decision-Making (Article 22)**\nUsers can:\n- Not be subject to purely automated decisions with significant effects\n- Request human review\n\n**8. Right to Withdraw Consent**\nUsers can:\n- Withdraw previously given consent\n- This doesn't affect past processing"
+      },
+      {
+        "title": "Processing Access Requests",
+        "duration": "8:00",
+        "script": "Access requests (Subject Access Requests/SARs) are most common. Here's how to handle them:\n\n**Step 1: Verify Identity**\nBefore releasing any data:\n- Confirm requester is the data subject\n- May require ID verification\n- Be careful not to release data to wrong person\n\n**Step 2: Locate All Data**\nGather data from:\n- Account information\n- Profile data\n- Content metadata\n- Messages and communications\n- Transaction history\n- Log files and access records\n- Support tickets\n- Analytics data\n\n**Step 3: Prepare Response**\nProvide:\n- Confirmation of processing\n- Categories of data\n- Purpose of processing\n- Recipients or categories of recipients\n- Retention periods\n- Their rights\n- Right to lodge complaint with supervisory authority\n- Source of data (if not from them)\n- Any automated decision-making\n\n**Step 4: Format Data**\n- Provide in commonly used format\n- Usually PDF summary + data export\n- Machine-readable where appropriate (JSON, CSV)\n\n**Step 5: Respond**\n- Within 30 days of verified request\n- Can extend by 2 months if complex (must notify)\n- Free for first request (can charge for additional/excessive)\n\n**Common Issues:**\n- Third-party data in messages (redact)\n- Data that could identify others (redact)\n- Data subject to legal holds (include but note)\n\n**Using Our Tools:**\n- GDPR Dashboard generates data exports\n- Most data gathered automatically\n- Review before sending\n- Document completion"
+      },
+      {
+        "title": "Processing Erasure Requests",
+        "duration": "8:00",
+        "script": "Erasure requests require careful balancing of user rights with legal obligations.\n\n**When to Fulfill Erasure:**\n- Data no longer needed for original purpose\n- User withdraws consent (and no other legal basis)\n- User objects and no overriding grounds\n- Data processed unlawfully\n- Legal obligation to delete\n\n**When We Can (Must) Refuse:**\n\n1. **2257 Records (7-year requirement)**\n- Age verification records MUST be kept 7 years\n- Cannot delete until retention expires\n- Explain legal requirement to user\n\n2. **CSAM/Law Enforcement Holds**\n- Evidence in active investigations\n- Cannot delete while legal hold active\n- May not be able to tell user why\n\n3. **Legal Claims**\n- Data needed to defend legal claims\n- Applies during limitation periods\n- Common for disputes\n\n4. **Compliance Records**\n- Records of violations\n- Appeal documentation\n- May be required for audit\n\n**Partial Erasure:**\nSome data can be deleted, some retained:\n- Account profile: Can delete\n- Public content: Can delete (user owns)\n- 2257 records: Must retain\n- Transaction records: May need for accounting/tax\n- Violation records: May need for compliance\n\n**Process:**\n1. Verify identity\n2. Assess which data can be deleted\n3. Identify exceptions\n4. Delete what can be deleted\n5. Explain what's retained and why\n6. Provide deadline for retained data deletion\n7. Document decision\n\n**Response Timeline:**\n- 30 days from verified request\n- Can extend 2 months if complex\n- Must respond even if refusing (with reasons)"
+      },
+      {
+        "title": "Deadline Management and Special Cases",
+        "duration": "6:00",
+        "script": "Managing GDPR deadlines is critical - missing them is a violation.\n\n**The 30-Day Rule:**\n- Clock starts when request is verified\n- Calendar days, not business days\n- Must respond, even if refusing\n\n**Extension (Complex Requests):**\n- Can extend by 2 months maximum\n- Must notify user within initial 30 days\n- Explain why extension needed\n- Provide new deadline\n\n**Tracking Deadlines:**\nOur system tracks:\n- Request receipt date\n- Verification date (clock starts)\n- 30-day deadline\n- Any extensions granted\n- Response date\n\nYou'll receive:\n- Alerts at 7 days before deadline\n- Alerts at 3 days\n- Alerts at 1 day\n- Escalation if deadline missed\n\n**Special Cases:**\n\n**Deceased Users:**\n- Rights may pass to estate representatives\n- Verify legal authority\n- Process accordingly\n\n**Minors (shouldn't have accounts but...):**\n- Special protections for children's data\n- Immediate action if discovered\n- Escalate to Compliance\n\n**Excessive/Repeated Requests:**\n- Same request multiple times\n- Can charge reasonable fee or refuse\n- Document pattern\n- Consult with Compliance\n\n**Data We Don't Have:**\n- If we don't have data, we tell them\n- Confirm we processed request\n- No data = no data to provide\n\n**Cross-Border Requests:**\n- EU residents can submit from anywhere\n- Non-EU residents don't have GDPR rights\n- But good practice to honor reasonable requests"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "requestTypeIdentifier",
+      "title": "Request Type Identifier",
+      "scenarios": [
+        {
+          "request": "I want to see all the data you have about me",
+          "type": "Access Request (Article 15)",
+          "action": "Generate data export, respond within 30 days"
+        },
+        {
+          "request": "Delete my account and all my data",
+          "type": "Erasure Request (Article 17)",
+          "action": "Process deletion with exceptions, explain what's retained"
+        },
+        {
+          "request": "My email address is wrong, please update it",
+          "type": "Rectification Request (Article 16)",
+          "action": "Verify identity, update data, confirm completion"
+        },
+        {
+          "request": "Stop sending me promotional emails",
+          "type": "Objection to Marketing (Article 21)",
+          "action": "Remove from marketing lists immediately"
+        },
+        {
+          "request": "Export my content so I can move to another platform",
+          "type": "Data Portability (Article 20)",
+          "action": "Provide content in standard format"
+        }
+      ]
+    },
+    {
+      "type": "dataExportGenerator",
+      "title": "Data Export Demo",
+      "description": "Practice using the data export tool",
+      "fields": [
+        {"category": "Account Information", "fields": ["email", "username", "registration_date", "last_login"]},
+        {"category": "Profile Data", "fields": ["bio", "profile_image", "settings"]},
+        {"category": "Content", "fields": ["uploaded_content", "post_history"]},
+        {"category": "Transactions", "fields": ["payment_history", "payout_history"]},
+        {"category": "Communications", "fields": ["messages", "support_tickets"]}
+      ]
+    },
+    {
+      "type": "exceptionDecisionTree",
+      "title": "Erasure Exception Decision Tree",
+      "nodes": [
+        {"id": "start", "q": "Is there a 2257 record for this user?", "yes": "2257_check", "no": "legal_hold"},
+        {"id": "2257_check", "action": "Retain 2257 records for 7 years. Other data may be deleted."},
+        {"id": "legal_hold", "q": "Is there an active legal hold?", "yes": "hold_action", "no": "legal_claims"},
+        {"id": "hold_action", "action": "Retain all data. Explain hold exists (if permitted)."},
+        {"id": "legal_claims", "q": "Is data needed for legal claims defense?", "yes": "retain_claims", "no": "delete_ok"},
+        {"id": "retain_claims", "action": "Retain relevant data during limitation period."},
+        {"id": "delete_ok", "action": "Proceed with full erasure. Document completion."}
+      ]
+    },
+    {
+      "type": "deadlineCalendarTool",
+      "title": "Deadline Calendar Tool",
+      "features": [
+        "Automatic 30-day deadline calculation",
+        "Extension tracking (up to 2 months)",
+        "Alert notifications at 7, 3, and 1 day",
+        "Escalation if deadline approaches",
+        "Response documentation"
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 4 Knowledge Check",
+    "questions": [
+      {
+        "id": "mod-m4q1",
+        "question": "How long do you have to respond to a GDPR data request?",
+        "options": ["7 days", "14 days", "30 days", "60 days"],
+        "correctAnswer": 2,
+        "explanation": "GDPR requires response within 30 days of verified request, extendable by 2 months for complex cases."
+      },
+      {
+        "id": "mod-m4q2",
+        "question": "Which article covers the 'right to be forgotten'?",
+        "options": ["Article 15", "Article 16", "Article 17", "Article 20"],
+        "correctAnswer": 2,
+        "explanation": "Article 17 covers the right to erasure, also known as the 'right to be forgotten.'"
+      },
+      {
+        "id": "mod-m4q3",
+        "question": "Can we refuse to delete 2257 age verification records?",
+        "options": ["No, we must delete all data", "Yes, legal retention requirements are an exception", "Only after 1 year", "Only for EU users"],
+        "correctAnswer": 1,
+        "explanation": "2257 records must be retained for 7 years per federal law. This is a valid exception to erasure."
+      },
+      {
+        "id": "mod-m4q4",
+        "question": "How long can we extend the response deadline?",
+        "options": ["1 week", "30 days", "2 months maximum", "Unlimited"],
+        "correctAnswer": 2,
+        "explanation": "GDPR allows extension by up to 2 months for complex requests, but user must be notified within initial 30 days."
+      },
+      {
+        "id": "mod-m4q5",
+        "question": "What must you verify before processing a data request?",
+        "options": ["Payment status", "Identity of requester", "Account age", "Content count"],
+        "correctAnswer": 1,
+        "explanation": "You must verify the requester is the data subject before releasing any personal data."
+      },
+      {
+        "id": "mod-m4q6",
+        "question": "If someone says 'stop sending marketing emails,' which right are they exercising?",
+        "options": ["Access", "Erasure", "Objection", "Portability"],
+        "correctAnswer": 2,
+        "explanation": "Objecting to direct marketing is covered under Article 21 - Right to Object."
+      },
+      {
+        "id": "mod-m4q7",
+        "question": "What is the maximum GDPR penalty?",
+        "options": ["€1 million", "€5 million", "€20 million or 4% of global revenue", "€50 million"],
+        "correctAnswer": 2,
+        "explanation": "Maximum penalties are €20 million or 4% of worldwide annual revenue, whichever is higher."
+      },
+      {
+        "id": "mod-m4q8",
+        "question": "When processing an erasure request, what happens to transaction records?",
+        "options": ["Delete immediately", "May need to retain for accounting/tax", "Transfer to user", "Anonymize only"],
+        "correctAnswer": 1,
+        "explanation": "Transaction records may need to be retained for tax and accounting purposes, which is a valid exception."
+      },
+      {
+        "id": "mod-m4q9",
+        "question": "A user requests data portability. What format should you provide?",
+        "options": ["Paper printout only", "Encrypted file they can't read", "Common machine-readable format (JSON, CSV)", "Screenshot images"],
+        "correctAnswer": 2,
+        "explanation": "Data portability requires providing data in a commonly used, machine-readable format like JSON or CSV."
+      },
+      {
+        "id": "mod-m4q10",
+        "question": "Do non-EU residents have GDPR rights?",
+        "options": ["Yes, everyone has GDPR rights", "No, only EU/EEA residents", "Only if they visited EU", "Only for erasure"],
+        "correctAnswer": 1,
+        "explanation": "GDPR applies to EU/EEA residents. Non-EU residents don't have legal GDPR rights, though good practice may honor requests."
+      },
+      {
+        "id": "mod-m4q11",
+        "question": "If we don't have any data on a user, what's our response?",
+        "options": ["Ignore the request", "Confirm we have no data on them", "Ask them to create an account", "Refer to legal"],
+        "correctAnswer": 1,
+        "explanation": "We must respond confirming we processed the request, even if we have no data on them."
+      },
+      {
+        "id": "mod-m4q12",
+        "question": "How many data subject rights are there under GDPR?",
+        "options": ["5", "6", "8", "10"],
+        "correctAnswer": 2,
+        "explanation": "GDPR provides 8 data subject rights: access, rectification, erasure, restriction, portability, object, automated decisions, and withdraw consent."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "GDPR Quick Reference Card",
+      "type": "pdf",
+      "url": "/resources/gdpr-quick-reference.pdf"
+    },
+    {
+      "title": "Response Templates by Request Type",
+      "type": "document",
+      "url": "/resources/gdpr-response-templates.docx"
+    },
+    {
+      "title": "Erasure Exception Guide",
+      "type": "pdf",
+      "url": "/resources/erasure-exceptions.pdf"
+    },
+    {
+      "title": "GDPR Full Text",
+      "type": "external",
+      "url": "https://gdpr-info.eu/"
+    }
+  ]
+}

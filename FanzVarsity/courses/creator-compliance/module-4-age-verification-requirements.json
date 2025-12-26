@@ -1,0 +1,296 @@
+{
+  "moduleId": "cc-module-4",
+  "courseId": "creator-compliance",
+  "title": "Age Verification Requirements",
+  "duration": 20,
+  "order": 4,
+  "learningObjectives": [
+    "Verify yourself as a creator",
+    "Verify collaborators and performers",
+    "Identify age verification red flags",
+    "Understand the 'barely legal' prohibition"
+  ],
+  "videoScript": {
+    "duration": "20 minutes",
+    "sections": [
+      {
+        "title": "Your Verification as a Creator",
+        "duration": "5:00",
+        "script": "As a creator, your age verification goes beyond basic user verification. Here's what's required:\n\n**Creator Self-Verification:**\n\nBefore you can monetize any content, you must complete:\n\n1. **Age Verification via VerifyMy**\n   - Same process as user verification\n   - Scan government ID\n   - Facial match confirmation\n   - Instant verification\n\n2. **Enhanced Creator Verification**\n   - Selfie holding ID and today's date (written on paper)\n   - Video verification may be required\n   - Platform may request video call for high-risk situations\n\n3. **Identity Confirmation**\n   - Name matches payment account\n   - Tax information matches ID\n   - Address verification may be required\n\n**What Happens After Creator Verification:**\n- Your verification is linked to your creator profile\n- You can upload content\n- Monetization features enabled\n- 2257 compliance activated\n- Your records are maintained per federal requirements\n\n**Re-verification:**\n- If your ID expires, you'll need to re-verify\n- If you change legal name, update verification\n- Periodic spot-checks may occur\n- Always keep ID information current"
+      },
+      {
+        "title": "Verifying Your Collaborators",
+        "duration": "6:00",
+        "script": "When you create content with other performers, YOU are responsible for their verification. This is one of the most important parts of 2257 compliance.\n\n**Before EVERY Collaboration:**\n\n**Step 1: Request ID in Advance**\n- Ask for photo of their ID before meeting\n- Verify it's not obviously fake\n- Check that it's not expired\n- This is a pre-screening, not final verification\n\n**Step 2: Verify in Person**\n- When you meet, verify ID again IN PERSON\n- The person in front of you must match the ID\n- Check ID for tampering (photo swaps, date alterations)\n- If anything seems off, DO NOT PROCEED\n\n**Step 3: Document Everything**\n- Take clear copy of front (and back if applicable) of ID\n- Complete model release form\n- Have them sign age declaration\n- Keep all documents organized\n\n**Step 4: Create 2257 Record**\n- Record their legal name (from ID)\n- Record date of birth (from ID)\n- Document all stage names they'll use\n- Note production date and location\n- Keep ID copy with records\n\n**Verification Timeline:**\n- BEFORE any filming occurs\n- Not during - BEFORE\n- Not after - BEFORE\n- If someone won't verify before filming, don't film them\n\n**What to Look For:**\n- ID appears genuine (not printed at home)\n- Photo matches person in front of you\n- Date of birth makes them 18+ on production date\n- ID is not expired\n- No visible alterations or tampering"
+      },
+      {
+        "title": "Red Flags and Warning Signs",
+        "duration": "5:00",
+        "script": "Learning to recognize red flags protects you from serious legal consequences:\n\n**Appearance Red Flags:**\n- Person looks significantly younger than ID suggests\n- Youthful features that could raise questions\n- If in doubt, don't proceed - age verification isn't worth the risk\n\n**ID Red Flags:**\n- ID appears altered or fake\n- Photo doesn't match person\n- ID is expired\n- ID from unusual jurisdiction (be extra careful)\n- Multiple IDs with different information\n- Reluctance to show ID\n\n**Behavior Red Flags:**\n- Third party speaks for the person\n- Person seems coached or scripted\n- Cannot answer basic questions about themselves\n- Seems uncomfortable or distressed\n- Mentions 'having to' do this\n- Someone else controls their money/phone\n- Doesn't know their own age or birthday\n\n**Trafficking Indicators:**\n- Manager/handler present at all times\n- Not allowed to speak privately\n- Unfamiliar with their own ID information\n- Visible signs of distress or injury\n- Mentions being owed money or in debt\n- Cannot leave or make own decisions\n\n**If You See Red Flags:**\n1. Do NOT proceed with filming\n2. Make an excuse to end the meeting\n3. Document what you observed\n4. Report to platform if you have concerns\n5. Consider contacting National Human Trafficking Hotline if trafficking suspected\n\n**Trust Your Instincts:**\nIf something feels wrong, it probably is. No content is worth potential involvement with a minor or trafficking victim."
+      },
+      {
+        "title": "The 'Barely Legal' Problem",
+        "duration": "4:00",
+        "script": "Let's address one of the most common compliance failures: 'barely legal' content and marketing.\n\n**Why 'Barely Legal' is Prohibited:**\n\nPayment processors specifically ban content that emphasizes performers have recently turned 18. The reasoning:\n\n1. **It sexualizes youth** - The appeal is explicitly that they're as close to minor as legally possible\n2. **It's adjacent to CSAM interest** - Those seeking this content may be seeking minors\n3. **Brand risk** - No legitimate payment processor wants association\n4. **Legal gray area** - Creates questions about when content was actually produced\n\n**Prohibited Terms and Phrases:**\n- 'Barely legal'\n- 'Just turned 18'\n- 'Legal teen'\n- 'Fresh 18'\n- 'Teen' in sexual context\n- '18-year-old' as a marketing point\n- 'First time on their 18th birthday'\n- 'Finally legal'\n- Any emphasis on recent 18th birthday\n\n**Age Play is Also Prohibited:**\n- Pretending to be underage\n- 'Daddy's little girl' type scenarios\n- Baby talk or infantilization in sexual context\n- Diapers, bottles, or baby items in sexual content\n- School uniforms, braces, or teen styling\n\n**What Happens If You Use These:**\n- Immediate high risk score (60-80+)\n- Content blocked or removed\n- Strike issued\n- Account flagged for full review\n- Possible payment processing issues\n\n**Alternative Marketing:**\n- Focus on what you DO offer, not age\n- 'Amateur' instead of 'teen'\n- 'New to content creation'\n- 'Independent creator'\n- 'Petite' if describing body type\n- Your personality and unique qualities"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "verificationChecklist",
+      "title": "Collaborator Verification Checklist",
+      "sections": [
+        {
+          "section": "Before Meeting",
+          "items": [
+            "Requested photo of ID in advance",
+            "ID appears legitimate (not obviously fake)",
+            "ID is not expired",
+            "Age calculation confirms 18+ on production date"
+          ]
+        },
+        {
+          "section": "At Meeting (Before Filming)",
+          "items": [
+            "Verified person matches ID photo",
+            "Examined physical ID (not just photo)",
+            "Checked for signs of ID tampering",
+            "Confirmed no third-party control red flags"
+          ]
+        },
+        {
+          "section": "Documentation",
+          "items": [
+            "Clear copy of ID (front and back)",
+            "Model release form completed and signed",
+            "Age declaration signed",
+            "Consent to specific content documented",
+            "Production date and location recorded"
+          ]
+        },
+        {
+          "section": "Record Keeping",
+          "items": [
+            "Legal name recorded",
+            "Date of birth recorded",
+            "All stage names documented",
+            "Content URLs recorded when published",
+            "Records stored securely"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "redFlagIdentifier",
+      "title": "Red Flag Recognition Training",
+      "scenarios": [
+        {
+          "description": "A potential collaborator arrives with someone who does all the talking and answers questions for them.",
+          "isRedFlag": true,
+          "explanation": "Third-party control is a major trafficking indicator. The performer should be able to speak for themselves."
+        },
+        {
+          "description": "The performer's ID shows they're 22 but they look very young.",
+          "isRedFlag": true,
+          "explanation": "While age is verified, content with youthful-appearing performers should avoid any age-related marketing. If you're uncomfortable, don't proceed."
+        },
+        {
+          "description": "A new creator is nervous about their first shoot and asks lots of questions.",
+          "isRedFlag": false,
+          "explanation": "Being nervous and asking questions is normal for new creators. It's actually a good sign they're engaged and informed."
+        },
+        {
+          "description": "The performer cannot tell you their own date of birth when asked (separate from ID).",
+          "isRedFlag": true,
+          "explanation": "Not knowing their own birthday may indicate the ID isn't theirs or they're being coached. This warrants serious concern."
+        },
+        {
+          "description": "Performer mentions they 'have to do this' to pay someone back.",
+          "isRedFlag": true,
+          "explanation": "Coercion language suggesting debt or obligation is a trafficking indicator. This should not proceed."
+        }
+      ]
+    },
+    {
+      "type": "collaborationAgreementTemplate",
+      "title": "Collaboration Agreement Template",
+      "sections": [
+        {
+          "section": "Performer Information",
+          "fields": ["legalName", "dob", "address", "phone", "email", "stageNames"]
+        },
+        {
+          "section": "ID Verification",
+          "fields": ["idType", "idNumber", "idExpiration", "idState", "verifiedInPerson", "verificationDate"]
+        },
+        {
+          "section": "Production Details",
+          "fields": ["productionDate", "location", "contentDescription", "platforms"]
+        },
+        {
+          "section": "Declarations",
+          "fields": [
+            "I confirm I am at least 18 years of age",
+            "I confirm the ID presented is mine and valid",
+            "I consent to the production of the described content",
+            "I am not under duress or coercion",
+            "I have not consumed substances impairing my consent"
+          ]
+        },
+        {
+          "section": "Signatures",
+          "fields": ["performerSignature", "producerSignature", "witnessSignature", "date"]
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 4 Knowledge Check",
+    "questions": [
+      {
+        "id": "cc-m4q1",
+        "question": "When must you verify a collaborator's ID?",
+        "options": [
+          "After filming is complete",
+          "Within 24 hours of filming",
+          "Before any filming occurs",
+          "When they request payment"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ID verification must happen BEFORE any filming occurs. Never during, never after - always before."
+      },
+      {
+        "id": "cc-m4q2",
+        "question": "What is a red flag during collaborator verification?",
+        "options": [
+          "Person is nervous about filming",
+          "Third party speaks for the performer and answers questions",
+          "Performer asks to review the model release",
+          "Performer has a stage name different from legal name"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A third party controlling communication and answering for the performer is a major trafficking red flag."
+      },
+      {
+        "id": "cc-m4q3",
+        "question": "Why is 'barely legal' marketing prohibited?",
+        "options": [
+          "It's trademarked",
+          "It emphasizes youth in sexual context and is prohibited by payment processors",
+          "Only prohibited for new accounts",
+          "It requires special licensing"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Barely legal' marketing sexualizes youth and is specifically banned by payment processors as adjacent to CSAM interest."
+      },
+      {
+        "id": "cc-m4q4",
+        "question": "If a potential collaborator looks younger than their ID suggests, what should you do?",
+        "options": [
+          "Proceed if ID is valid",
+          "Request additional ID",
+          "Do not proceed if you have concerns - trust your instincts",
+          "Proceed but add disclaimer to content"
+        ],
+        "correctAnswer": 2,
+        "explanation": "If something doesn't feel right, don't proceed. No content is worth the risk of potential involvement with a minor."
+      },
+      {
+        "id": "cc-m4q5",
+        "question": "What documentation is required for each collaborator?",
+        "options": [
+          "Just their signature",
+          "ID copy, model release, age declaration, legal name, DOB, stage names",
+          "Only their stage name",
+          "Email address only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Complete documentation includes ID copy, signed model release, age declaration, legal name, date of birth, and all stage names."
+      },
+      {
+        "id": "cc-m4q6",
+        "question": "What phrase should you use instead of 'teen' in content marketing?",
+        "options": [
+          "Young",
+          "Fresh",
+          "Amateur or petite",
+          "Barely legal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Amateur' or 'petite' are acceptable alternatives that don't emphasize youth in sexual context."
+      },
+      {
+        "id": "cc-m4q7",
+        "question": "What should you do if you suspect a potential collaborator may be a trafficking victim?",
+        "options": [
+          "Proceed but report afterward",
+          "Do not proceed, document concerns, report to platform and potentially authorities",
+          "Ask them directly if they're trafficked",
+          "Complete the shoot but don't pay them"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Do NOT proceed. Make an excuse to end the meeting, document your concerns, and report to the platform and potentially the National Human Trafficking Hotline."
+      },
+      {
+        "id": "cc-m4q8",
+        "question": "Is age play allowed if all performers are verified 18+?",
+        "options": [
+          "Yes, as long as everyone is adult",
+          "No, pretending to be underage is prohibited",
+          "Only with special documentation",
+          "Only on certain platforms"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Age play - pretending to be underage in sexual content - is prohibited regardless of actual performer ages."
+      },
+      {
+        "id": "cc-m4q9",
+        "question": "What is required for enhanced creator verification beyond standard age verification?",
+        "options": [
+          "Nothing additional",
+          "Selfie with ID and date, potential video verification",
+          "Just payment information",
+          "Social media links"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Enhanced creator verification may include selfie holding ID with date, and potentially video verification for higher-risk situations."
+      },
+      {
+        "id": "cc-m4q10",
+        "question": "A collaborator mentions they 'have to do this' to pay back someone. What should you do?",
+        "options": [
+          "Proceed - everyone needs money",
+          "Ask for more details during filming",
+          "Do not proceed - this is a coercion/trafficking indicator",
+          "Pay them more to help"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Language suggesting coercion or debt obligation is a serious trafficking indicator. Do not proceed with filming."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Collaborator Verification Kit",
+      "type": "zip",
+      "url": "/resources/collaborator-verification-kit.zip",
+      "contents": ["checklist.pdf", "model-release.pdf", "age-declaration.pdf", "id-verification-form.pdf"]
+    },
+    {
+      "title": "Fake ID Detection Guide",
+      "type": "pdf",
+      "url": "/resources/fake-id-detection.pdf"
+    },
+    {
+      "title": "National Human Trafficking Hotline",
+      "type": "external",
+      "url": "https://humantraffickinghotline.org/",
+      "phone": "1-888-373-7888"
+    },
+    {
+      "title": "Safe Content Marketing Guide",
+      "type": "article",
+      "url": "/kb/safe-content-marketing"
+    }
+  ]
+}

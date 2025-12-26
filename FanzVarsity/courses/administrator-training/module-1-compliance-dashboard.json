@@ -1,0 +1,117 @@
+{
+  "moduleId": "admin-module-1",
+  "courseId": "administrator-training",
+  "title": "Compliance Dashboard Deep Dive",
+  "duration": 60,
+  "order": 1,
+  "learningObjectives": [
+    "Master real-time compliance monitoring",
+    "Understand all system health metrics",
+    "Generate comprehensive compliance reports",
+    "Use dashboard for strategic decision-making"
+  ],
+  "videoScript": {
+    "duration": "60 minutes",
+    "sections": [
+      {
+        "title": "Dashboard Overview",
+        "duration": "10:00",
+        "script": "Welcome to Administrator Training. This module covers the Compliance Dashboard in depth - your central command center for platform compliance.\n\n**Dashboard Purpose:**\nThe Compliance Dashboard provides real-time visibility into:\n- Content compliance status\n- User verification status\n- Regulatory compliance metrics\n- Incident tracking\n- Risk indicators\n\n**Access Levels:**\n- Moderator View: Limited to assigned queues\n- Admin View: Full platform visibility\n- Compliance Officer View: Full access + reporting\n- Executive View: Summary metrics\n\n**Dashboard Structure:**\nThe dashboard has 6 main tabs:\n1. **Overview** - System health at a glance\n2. **CSAM Detection** - Hash matching and detection stats\n3. **Age Verification** - Verification by jurisdiction\n4. **Payment Compliance** - Risk distribution and violations\n5. **GDPR/DSA** - Request management and deadlines\n6. **Trafficking** - Risk assessment and monitoring\n\n**Real-Time Updates:**\n- Data refreshes every 60 seconds\n- Critical alerts push immediately\n- Trend graphs update hourly\n- Full recalculation runs daily"
+      },
+      {
+        "title": "Tab 1: Overview & System Health",
+        "duration": "10:00",
+        "script": "The Overview tab shows platform-wide compliance health.\n\n**Key Metrics:**\n\n**Compliance Score (0-100):**\nAggregate score based on:\n- CSAM detection effectiveness\n- Age verification completion rate\n- Content review accuracy\n- Deadline compliance\n- Incident response time\n\nTarget: 95+\nWarning: Below 85\nCritical: Below 70\n\n**Active Incidents:**\nCount of open compliance incidents:\n- Critical (CSAM, trafficking)\n- High (major violations)\n- Medium (policy violations)\n- Low (minor issues)\n\n**Pending Items:**\n- GDPR requests awaiting response\n- DSA complaints in queue\n- Appeals pending review\n- Content flags pending\n\n**7-Day Trends:**\nGraphs showing:\n- New content volume\n- Flag rate (% flagged)\n- Violation rate (% violations)\n- Response time trends\n\n**System Status:**\n- Detection systems (online/offline)\n- Verification systems status\n- Queue health\n- API status\n\n**Action Items:**\nAutomatically prioritized list of:\n- Overdue deadlines\n- Critical escalations\n- Pending approvals"
+      },
+      {
+        "title": "Tab 2: CSAM Detection",
+        "duration": "10:00",
+        "script": "The CSAM Detection tab monitors hash matching effectiveness.\n\n**Detection Statistics:**\n\n**Daily/Weekly/Monthly Metrics:**\n- Total content scanned\n- Hash matches detected\n- False positive rate\n- Report filing rate\n\n**Detection Sources:**\n- PhotoDNA matches\n- PDQ matches\n- AI detection flags\n- User reports\n\n**NCMEC Reporting:**\n- Reports filed (count)\n- Average time to file\n- Compliance rate (within 24 hours)\n- Open reports awaiting confirmation\n\n**Hash Database Status:**\n- Last update time\n- Hash count\n- Sources active\n- Sync status\n\n**Account Actions:**\n- Accounts suspended for CSAM\n- Accounts reported to LE\n- Related accounts identified\n\n**Important Metrics to Monitor:**\n- Detection rate should be consistent\n- Sudden drops may indicate system issues\n- Spikes may indicate attack or exploitation\n- False positive rate should stay under 0.1%\n\n**Alerts:**\n- Immediate: Any CSAM detection\n- Warning: Detection system offline\n- Critical: NCMEC deadline approaching"
+      },
+      {
+        "title": "Tab 3: Age Verification",
+        "duration": "10:00",
+        "script": "Age Verification tab tracks verification status by jurisdiction.\n\n**Verification Overview:**\n\n**By Jurisdiction:**\nTrack compliance with specific laws:\n- UK (Online Safety Act): % verified\n- US states: Compliance by state\n- EU: General verification rate\n- Other: Global statistics\n\n**Verification Methods:**\nBreakdown by method:\n- VerifyMy (recommended)\n- ID upload\n- Credit card\n- AI estimation\n- Pending verification\n\n**Completion Rates:**\n- Users starting verification\n- Users completing verification\n- Failure rate\n- Retry rate\n\n**Geographic Distribution:**\nMap showing:\n- Users by jurisdiction\n- Compliance status by region\n- Pending verifications\n\n**7-Year Retention Tracking:**\n- Records approaching expiration\n- Records requiring renewal\n- Archived records count\n\n**Creator Verification:**\n- Creators fully verified\n- Creators pending\n- Enhanced verification status\n\n**Issues to Watch:**\n- Low completion rates in required jurisdictions\n- High failure rates (system issues?)\n- Jurisdiction gaps\n- Approaching retention deadlines"
+      },
+      {
+        "title": "Tab 4: Payment Compliance",
+        "duration": "10:00",
+        "script": "Payment Compliance tab monitors content against processor requirements.\n\n**Risk Score Distribution:**\nChart showing content by risk level:\n- 0-39 (Green): Low risk content\n- 40-59 (Yellow): Flagged content\n- 60-79 (Orange): High attention\n- 80-100 (Red): Blocked\n\n**Violation Categories:**\nBreakdown by prohibited category:\n- Appearing minor\n- Incest/family\n- Non-consent\n- Violence\n- Other categories\n\n**Strike Status:**\nCreator strike tracking:\n- Accounts with 0 strikes\n- Accounts with 1 strike\n- Accounts with 2 strikes\n- Accounts banned (3 strikes)\n\n**Moderation Metrics:**\n- Content reviewed (volume)\n- Average review time\n- Accuracy rate\n- Appeal rate\n- Overturn rate\n\n**Quarterly Processor Reports:**\n- Report generation status\n- Last report submitted\n- Next report due\n- Metrics summary\n\n**Trends:**\n- Violation rate over time\n- Category trends\n- Creator education effectiveness\n\n**Alerts:**\n- Spike in violations\n- High-volume creator issues\n- Processor audit scheduled"
+      },
+      {
+        "title": "Tabs 5-6: GDPR/DSA and Trafficking",
+        "duration": "10:00",
+        "script": "**Tab 5: GDPR/DSA Management**\n\n**GDPR Requests:**\n- Open requests by type (access, erasure, etc.)\n- Requests approaching deadline\n- Completed requests (this period)\n- Average response time\n\n**DSA Complaints:**\n- Open complaints\n- Approaching 14-day deadline\n- Completed complaints\n- ODR cases active\n\n**Deadline Calendar:**\nVisual calendar showing:\n- Upcoming deadlines\n- Color-coded by urgency\n- Assigned handler\n- Status\n\n**Response Templates:**\nQuick access to:\n- Standard response templates\n- Denial templates with exceptions\n- Statement of Reasons templates\n\n**Transparency Reporting:**\n- Data for quarterly reports\n- Content removal stats\n- Complaint stats\n- Automated report generation\n\n**Tab 6: Trafficking Monitoring**\n\n**Risk Levels:**\nAccounts by trafficking risk:\n- Low (monitored)\n- Medium (flagged)\n- High (escalated)\n- Critical (action taken)\n\n**Indicator Trends:**\n- Most common indicators\n- Emerging patterns\n- Geographic clusters\n\n**Actions Taken:**\n- Accounts investigated\n- FBI reports filed\n- Accounts suspended\n- False alarms cleared\n\n**Hotline Referrals:**\n- Referrals to trafficking hotline\n- Outcomes (when known)\n\n**Training Effectiveness:**\n- Moderator detection rate\n- Creator education completion"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "dashboardSimulator",
+      "title": "Dashboard Simulator (Read-Only Demo)",
+      "tabs": ["Overview", "CSAM Detection", "Age Verification", "Payment Compliance", "GDPR/DSA", "Trafficking"],
+      "features": ["View sample data", "Practice navigation", "Generate sample reports"]
+    },
+    {
+      "type": "reportBuilder",
+      "title": "Report Builder Tool",
+      "reportTypes": [
+        "Daily Compliance Summary",
+        "Weekly Trend Report",
+        "Monthly Executive Summary",
+        "Quarterly Processor Report",
+        "DSA Transparency Report"
+      ]
+    },
+    {
+      "type": "alertConfiguration",
+      "title": "Alert Configuration",
+      "alertTypes": [
+        {"type": "Critical", "examples": "CSAM detection, system offline, deadline missed"},
+        {"type": "High", "examples": "Trafficking escalation, processor audit, large violation spike"},
+        {"type": "Medium", "examples": "Deadline approaching, queue backlog"},
+        {"type": "Low", "examples": "Trend changes, routine notifications"}
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 1 Knowledge Check",
+    "questions": [
+      {
+        "id": "adm-m1q1",
+        "question": "What is the target Compliance Score?",
+        "options": ["85+", "90+", "95+", "100"],
+        "correctAnswer": 2,
+        "explanation": "Target compliance score is 95+. Below 85 triggers warning, below 70 is critical."
+      },
+      {
+        "id": "adm-m1q2",
+        "question": "How often does dashboard data refresh?",
+        "options": ["Real-time", "Every 60 seconds", "Every hour", "Daily"],
+        "correctAnswer": 1,
+        "explanation": "Dashboard data refreshes every 60 seconds, with critical alerts pushing immediately."
+      },
+      {
+        "id": "adm-m1q3",
+        "question": "Which risk score range is automatically blocked?",
+        "options": ["40-59", "60-79", "80-100", "Only 100"],
+        "correctAnswer": 2,
+        "explanation": "Content with risk score 80-100 is automatically blocked pending review."
+      },
+      {
+        "id": "adm-m1q4",
+        "question": "What is an acceptable false positive rate for CSAM detection?",
+        "options": ["Under 1%", "Under 0.5%", "Under 0.1%", "Zero"],
+        "correctAnswer": 2,
+        "explanation": "False positive rate should stay under 0.1% to avoid wrongly flagging legitimate content."
+      },
+      {
+        "id": "adm-m1q5",
+        "question": "How many main tabs does the Compliance Dashboard have?",
+        "options": ["4", "5", "6", "8"],
+        "correctAnswer": 2,
+        "explanation": "The dashboard has 6 main tabs: Overview, CSAM Detection, Age Verification, Payment Compliance, GDPR/DSA, and Trafficking."
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Dependencies (will be installed in container)
+node_modules
+
+# Development files
+.env
+.env.local
+*.log
+*.md
+!INSTRUCTIONS.md
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__
+coverage
+
+# Build artifacts (will rebuild in container)
+# dist is needed for production
+
+# Docs
+docs/
+*.md
+!README.md
+
+# Local configs
+.replit
+replit.md

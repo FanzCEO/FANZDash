@@ -178,6 +178,8 @@ export const proposalTemplates = [
   {
     id: 'standard_proposal',
     name: 'Standard Service Proposal',
+    type: 'service',
+    description: 'A comprehensive service proposal template with executive summary, scope of work, timeline, investment, and terms sections.',
     sections: [
       {
         title: 'Executive Summary',
@@ -240,6 +242,8 @@ We will deliver {{solution_description}} over a {{timeline}} period.
   {
     id: 'consulting_proposal',
     name: 'Consulting Services Proposal',
+    type: 'consulting',
+    description: 'A consulting engagement proposal with situation analysis, recommended approach, and ROI projections.',
     sections: [
       {
         title: 'Situation Analysis',

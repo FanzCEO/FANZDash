@@ -1,0 +1,352 @@
+{
+  "moduleId": "cc-module-3",
+  "courseId": "creator-compliance",
+  "title": "Prohibited Content Categories Deep Dive",
+  "duration": 30,
+  "order": 3,
+  "learningObjectives": [
+    "Master the 9 prohibited content categories in detail",
+    "Analyze edge cases and gray areas",
+    "Understand the risk scoring system (0-100)",
+    "Learn the three-strike enforcement system"
+  ],
+  "videoScript": {
+    "duration": "30 minutes",
+    "sections": [
+      {
+        "title": "Why This Deep Dive Matters",
+        "duration": "3:00",
+        "script": "In Compliance 101, you learned the basics of prohibited content. As a creator, you need deeper understanding because your livelihood depends on compliance.\n\n**What's at Stake:**\n- Your income (payment processing can be cut)\n- Your reputation (violations are documented)\n- Your freedom (some violations are crimes)\n- Other creators (platform violations affect everyone)\n\n**Why Creators Get It Wrong:**\n- Assuming 'it's just fantasy' makes content OK\n- Not understanding payment processor requirements\n- Copying trends without checking compliance\n- Pushing boundaries without knowing the lines\n\nThis module goes deep into each category so you understand exactly what's prohibited and why. We'll cover edge cases that trip up experienced creators."
+      },
+      {
+        "title": "Category 1: CSAM - Zero Tolerance",
+        "duration": "4:00",
+        "script": "**Category 1: Child Sexual Abuse Material (CSAM)**\n\nThis is the most serious category. There are NO exceptions, NO gray areas, NO second chances.\n\n**What Qualifies as CSAM:**\n- Any visual depiction of a minor engaged in sexually explicit conduct\n- Real images, CGI/AI-generated images, or drawings\n- Text describing sexual abuse of minors (in some jurisdictions)\n- Audio content describing such abuse\n\n**Automatic Consequences:**\n- Content immediately blocked\n- Account permanently terminated\n- Mandatory NCMEC CyberTipline report (within 24 hours)\n- FBI notification\n- Evidence preserved for prosecution\n- No appeal possible\n\n**Your Responsibilities:**\n- VERIFY every performer's age before filming\n- Do not work with anyone who appears underage regardless of ID\n- Report any CSAM you encounter immediately\n- Do NOT download, save, or share suspected CSAM\n\n**Federal Penalties:**\n- Production: 15-30 years imprisonment\n- Distribution: 5-20 years imprisonment\n- Possession: Up to 20 years imprisonment\n- Sex offender registration for life\n\nThis is not an area where you can make mistakes. If there's any doubt about someone's age, do not proceed."
+      },
+      {
+        "title": "Category 2: Appearing to Depict Minors",
+        "duration": "4:00",
+        "script": "**Category 2: Content Appearing to Depict Minors**\n\nThis is where many creators get tripped up. Even if all performers are verified 18+, content can be prohibited if it APPEARS to depict minors.\n\n**Prohibited Elements:**\n- 'Barely legal' or 'just turned 18' marketing\n- References to high school, prom, or graduation\n- School uniforms, cheerleader outfits in sexual contexts\n- Pigtails, braces, or styling to appear younger\n- Bedroom sets that look like a child's room\n- Terms like 'teen,' 'young,' 'fresh,' 'innocent' in sexual context\n- Age play or pretending to be underage\n- Babysitter, tutoring, or other scenarios suggesting minors\n\n**Payment Processor Position:**\nVisa and Mastercard specifically ban content that 'appears to depict minors' regardless of actual ages. If they determine your content falls in this category, they can:\n- Cut off your payment processing\n- Require content removal across all platforms\n- Ban you from their networks\n\n**Risk Score Impact:**\nContent with these elements receives high risk scores (40-80+):\n- 'Teen' in title: +30 risk points\n- School settings: +50 risk points\n- Age-ambiguous appearance: +25 risk points\n- 'Barely legal' marketing: +60 risk points\n\n**Safe Alternatives:**\n- Instead of 'teen': 'amateur,' 'new creator,' 'petite'\n- Instead of school: office, gym, other adult settings\n- Avoid emphasizing youth or inexperience in sexual context\n- Market maturity and confidence instead"
+      },
+      {
+        "title": "Category 3: Incest Content",
+        "duration": "3:00",
+        "script": "**Category 3: Incest**\n\nThis category is 100% prohibited regardless of how it's framed. There are no exceptions for roleplay, fantasy, or fiction.\n\n**What's Prohibited:**\n- Actual incest (obviously illegal)\n- Step-family scenarios (step-mom, step-sister, etc.)\n- Adoption-related scenarios\n- Any family relationship in sexual context\n- 'Taboo' content using family terms\n- Even implied family relationships\n\n**Why Step-Family Content is Banned:**\nPayment processors made this decision after determining:\n- It normalizes incest\n- It can't be distinguished from actual incest\n- It's one of the most-requested removal categories\n- Reputational risk is too high\n\n**Common Creator Mistakes:**\n- 'But it's just step- not real family' - Still prohibited\n- 'We never say the word, we just imply it' - Still prohibited\n- 'Lots of other sites have it' - Those sites risk payment processing\n- 'It's just roleplay' - Roleplay doesn't exempt prohibited content\n\n**Risk Score:**\nFamily-related terms in titles, descriptions, or tags result in:\n- Immediate risk score 80+ (blocked)\n- Flagging of all account content\n- Required review of existing catalog\n\n**If You Have This Content:**\n- Remove it immediately\n- Re-edit to remove family references\n- Update titles, descriptions, and tags\n- Do not re-upload with slight changes"
+      },
+      {
+        "title": "Categories 4-6: Bestiality, Non-Consent, Necrophilia",
+        "duration": "4:00",
+        "script": "**Category 4: Bestiality**\nSexual content involving animals is:\n- Illegal in 47 US states\n- A felony in most jurisdictions\n- Banned by all payment processors\n\nThis includes:\n- Real acts with animals\n- Simulated acts\n- Animal roleplay with realistic animal characteristics\n- Furry content that depicts realistic animals (anthropomorphic fantasy characters may be allowed - check platform policy)\n\n**Category 5: Non-Consensual Content**\nAll sexual content must depict consent. Prohibited content includes:\n\n- Actual non-consensual acts (rape)\n- CNC (consensual non-consent) roleplay\n- 'Rape fantasy' scenarios\n- Drugging scenarios\n- Unconscious/sleeping person scenarios\n- Forced/coerced scenarios\n- Hidden camera/voyeur without actual consent\n- Deepfakes of non-consenting individuals\n- Revenge porn\n\n**Payment Processor Position:**\nEven with documented consent between performers, CNC content is prohibited. Visa/Mastercard cannot distinguish real from fake non-consent, so they ban all of it.\n\n**Safe BDSM Alternative:**\nBDSM with clear consent demonstration is allowed:\n- Visible negotiation\n- Safe words established\n- Enthusiastic verbal consent\n- Aftercare shown\n- 'Check-in' moments visible\n\n**Category 6: Necrophilia**\nSexual content involving deceased individuals is:\n- Illegal everywhere\n- Banned by all processors\n- Zero tolerance on all platforms\n\nThis includes actual and simulated necrophilia. There are no exceptions."
+      },
+      {
+        "title": "Categories 7-9: Bodily Waste, Violence, Trafficking",
+        "duration": "5:00",
+        "script": "**Category 7: Bodily Waste**\nPayment processors prohibit content involving:\n- Feces/excrement\n- Urine in sexual context (watersports)\n- Vomit\n- Other bodily fluids in degradation contexts\n\n**Why This is Banned:**\nThis isn't necessarily illegal, but payment processors have determined:\n- Brand association risk\n- Merchant liability concerns\n- Chargeback risk\n\n**Note:** Some niche platforms may allow this content but can't use Visa/Mastercard. If you create this content, you need alternative payment processors.\n\n**Category 8: Extreme Violence**\nBDSM has limits. Prohibited content includes:\n\n- Blood drawing or blood play\n- Broken bones or permanent injury\n- Strangulation beyond light breath play\n- Weapons in sexual contact\n- Punching, kicking, or striking face/head\n- Burns or branding\n- Anything causing lasting physical damage\n\n**Allowed BDSM:**\n- Spanking, flogging with appropriate implements\n- Bondage with safety demonstrated\n- Dominance/submission roleplay\n- Sensation play\n- Most kink that doesn't cause injury\n\n**Gray Area:** Impact play - if it leaves marks, document consent carefully. If it draws blood, it's prohibited.\n\n**Category 9: Human Trafficking**\nUnder FOSTA-SESTA, content facilitating trafficking is prohibited:\n\n**13 Trafficking Indicators We Monitor:**\n1. Third-party management or control language\n2. Rapid location changes (multiple cities)\n3. Multiple performers on single account\n4. Suspiciously low pricing\n5. Coercion language ('have to,' 'forced')\n6. Age ambiguity or school references\n7. Restricted communication\n8. Unusual ID document requests\n9. Cash-only payment insistence\n10. Hotel/motel backgrounds consistently\n11. Branding/ownership tattoos\n12. Substance abuse indicators\n13. Visible distress signals\n\n**If You See These Signs:**\n- Do NOT proceed with collaboration\n- Report to platform immediately\n- Consider contacting National Human Trafficking Hotline: 1-888-373-7888"
+      },
+      {
+        "title": "Risk Scoring System",
+        "duration": "4:00",
+        "script": "All content is automatically scanned and assigned a risk score from 0 to 100:\n\n**How Scoring Works:**\n\nOur system analyzes:\n- Titles, descriptions, and tags\n- Image and video content (AI analysis)\n- Audio content (speech recognition)\n- Metadata and context\n- Creator history and compliance record\n\n**Score Breakdown:**\n\n**0-39 (Low Risk):** GREEN\n- Content approved\n- Standard processing\n- No restrictions\n- Examples: Standard adult content with proper documentation\n\n**40-79 (Medium Risk):** YELLOW\n- Flagged for human review\n- May be held pending review\n- Creator notified\n- May require additional documentation\n- Examples: Power dynamic content, aggressive titles\n\n**80-100 (High Risk):** RED\n- Automatically blocked\n- Immediate human review\n- Account flagged\n- May trigger strike\n- Examples: Prohibited category keywords, concerning imagery\n\n**Factors That Increase Risk Score:**\n- Prohibited keywords (+20-80)\n- Age-ambiguous settings (+30-50)\n- Violence indicators (+30-60)\n- Previous violations (+10-30)\n- Unverified collaborators (+40)\n- Rapid content uploads (+10)\n\n**Factors That Decrease Risk Score:**\n- Complete 2257 documentation (-10)\n- Creator certification completed (-5)\n- Clean compliance history (-10)\n- Clear consent documentation (-5)\n- Verified long-term account (-5)\n\n**You Can Check Your Score:**\nBefore posting, use our Content Risk Checker to see estimated risk score and make adjustments."
+      },
+      {
+        "title": "Three-Strike System",
+        "duration": "3:00",
+        "script": "Our enforcement uses a three-strike system for most violations:\n\n**Strike 1: Warning**\n- Content removed\n- Written warning issued via email and notification\n- Explanation of violation provided\n- Educational resources linked\n- No account restrictions\n- Recorded in your compliance history\n\n**Strike 2: Temporary Suspension**\n- 7-30 day suspension (severity dependent)\n- All monetization paused\n- Cannot upload new content\n- Existing content may be hidden\n- Required to review compliance training\n- Must acknowledge policies before reinstatement\n\n**Strike 3: Permanent Ban**\n- Account permanently terminated\n- All content removed\n- Pending earnings may be forfeited\n- Reported to authorities if legally required\n- Cannot create new account\n- May be shared with partner platforms\n\n**Immediate Permanent Ban (No Strikes):**\nSome violations skip the strike system:\n- CSAM detection → Immediate ban + law enforcement\n- Trafficking indicators → Immediate ban + FBI report\n- Identity fraud → Immediate ban\n- Severe violence → Immediate ban\n- Multiple simultaneous violations → Immediate ban\n\n**Appeals Process:**\n- Strike 1: Appeal within 7 days\n- Strike 2: Appeal within 14 days\n- Strike 3: Limited appeal (not for CSAM/trafficking)\n\n**How to Appeal:**\n1. Submit appeal through Compliance Dashboard\n2. Explain why you believe decision was wrong\n3. Provide additional documentation if available\n4. Await review (24-48 hours, 14 days max for EU)\n5. Accept decision (or escalate to external dispute resolution for EU)"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "contentRiskAssessment",
+      "title": "Content Risk Assessment Tool",
+      "description": "Enter content details to estimate risk score before posting",
+      "inputs": [
+        {"name": "title", "label": "Content Title", "type": "text"},
+        {"name": "description", "label": "Description", "type": "textarea"},
+        {"name": "tags", "label": "Tags", "type": "tags"},
+        {"name": "setting", "label": "Setting/Location", "type": "select", "options": ["bedroom", "office", "outdoors", "school", "other"]},
+        {"name": "performers", "label": "Number of Performers", "type": "number"},
+        {"name": "allVerified", "label": "All Performers 2257 Verified?", "type": "boolean"},
+        {"name": "hasConsent", "label": "Consent Documented?", "type": "boolean"}
+      ],
+      "riskFactors": [
+        {"keyword": "teen", "risk": 30},
+        {"keyword": "young", "risk": 20},
+        {"keyword": "step", "risk": 80},
+        {"keyword": "forced", "risk": 70},
+        {"keyword": "barely legal", "risk": 60},
+        {"keyword": "school", "risk": 50}
+      ]
+    },
+    {
+      "type": "categoryIdentificationGame",
+      "title": "Identify the Violation Category",
+      "scenarios": [
+        {
+          "description": "Video titled 'Stepmom teaches new tricks'",
+          "correctCategory": "Incest",
+          "explanation": "Step-family scenarios fall under incest prohibition regardless of actual relationship."
+        },
+        {
+          "description": "Photo set in what appears to be a classroom with desks",
+          "correctCategory": "Appearing to depict minors",
+          "explanation": "School settings suggest underage participants and trigger high risk scores."
+        },
+        {
+          "description": "Video showing performer who seems coached and mentions 'having to do this for money'",
+          "correctCategory": "Trafficking",
+          "explanation": "Coercion language and third-party control are trafficking indicators."
+        },
+        {
+          "description": "BDSM scene with visible welts and blood drops",
+          "correctCategory": "Extreme violence",
+          "explanation": "Any content that draws blood exceeds BDSM limits and is prohibited."
+        },
+        {
+          "description": "Content marketed as 'Teen's first time on camera'",
+          "correctCategory": "Appearing to depict minors",
+          "explanation": "'Teen' in sexual context is prohibited regardless of performer's actual age."
+        }
+      ]
+    },
+    {
+      "type": "edgeCaseScenarios",
+      "title": "Edge Case Analysis",
+      "scenarios": [
+        {
+          "scenario": "A 25-year-old performer who looks young is filmed in a standard bedroom setting with no age references.",
+          "verdict": "LIKELY ALLOWED",
+          "explanation": "With proper 2257 documentation and no age-ambiguous marketing, youthful appearance alone doesn't prohibit content. However, avoid marketing that emphasizes their youthful appearance."
+        },
+        {
+          "scenario": "A college-themed video filmed in a dorm room with performers in letter jackets.",
+          "verdict": "RISKY",
+          "explanation": "College is 18+, but dorm rooms and letter jackets can suggest high school. Avoid or clearly establish adult college context. Consider different setting."
+        },
+        {
+          "scenario": "Roleplay between two verified adults as 'boss and secretary' with power dynamic.",
+          "verdict": "LIKELY ALLOWED",
+          "explanation": "Power dynamics between adults in professional settings are generally allowed. Document consent clearly. Avoid any coercion language."
+        },
+        {
+          "scenario": "Content titled 'First time amateur explores' with a new creator",
+          "verdict": "ALLOWED",
+          "explanation": "'First time' referring to first time on camera (not sexual debut) is acceptable when clearly about creator experience, not age."
+        }
+      ]
+    },
+    {
+      "type": "riskScoreCalculator",
+      "title": "Risk Score Calculator",
+      "baseScore": 10,
+      "factors": [
+        {"factor": "Verified 2257 compliance", "impact": -10},
+        {"factor": "Creator certification complete", "impact": -5},
+        {"factor": "Clean compliance history", "impact": -5},
+        {"factor": "Teen/young keywords", "impact": 30},
+        {"factor": "Family-related terms", "impact": 80},
+        {"factor": "School/education setting", "impact": 50},
+        {"factor": "Coercion language", "impact": 60},
+        {"factor": "Violence indicators", "impact": 40},
+        {"factor": "Unverified performers", "impact": 40}
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 3 Knowledge Check",
+    "questions": [
+      {
+        "id": "cc-m3q1",
+        "question": "What happens when CSAM is detected on the platform?",
+        "options": [
+          "Warning and content removal",
+          "Immediate permanent ban, NCMEC report, and law enforcement notification",
+          "30-day suspension",
+          "Content hidden pending appeal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "CSAM detection results in immediate permanent ban, mandatory NCMEC report within 24 hours, FBI notification, and evidence preservation. There are no warnings or appeals."
+      },
+      {
+        "id": "cc-m3q2",
+        "question": "Why is 'step-family' content prohibited even though it's roleplay?",
+        "options": [
+          "It's not actually prohibited",
+          "Payment processors ban it because it normalizes incest",
+          "Only if blood relatives are mentioned",
+          "Only in certain states"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Payment processors (Visa/Mastercard) prohibit all family-related sexual content including step-family scenarios because it normalizes incest and presents reputational risk."
+      },
+      {
+        "id": "cc-m3q3",
+        "question": "What risk score range triggers automatic content blocking?",
+        "options": ["0-39", "40-59", "60-79", "80-100"],
+        "correctAnswer": 3,
+        "explanation": "Content with a risk score of 80-100 is automatically blocked from upload and triggers immediate review."
+      },
+      {
+        "id": "cc-m3q4",
+        "question": "Which BDSM content is allowed?",
+        "options": [
+          "Blood play with documented consent",
+          "Strangulation scenes",
+          "Consensual bondage with safety demonstrated",
+          "Weapons in sexual contact"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Consensual BDSM with safety measures demonstrated is allowed. Content involving blood, strangulation, or weapons is prohibited regardless of consent."
+      },
+      {
+        "id": "cc-m3q5",
+        "question": "What term should you use instead of 'teen' in content titles?",
+        "options": [
+          "Young",
+          "Amateur or petite",
+          "Barely legal",
+          "Fresh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Teen,' 'young,' 'barely legal,' and 'fresh' in sexual contexts are all prohibited. Safe alternatives include 'amateur,' 'petite,' or 'new creator.'"
+      },
+      {
+        "id": "cc-m3q6",
+        "question": "What is the consequence after your third content violation?",
+        "options": [
+          "Final warning",
+          "60-day suspension",
+          "Permanent ban with potential earnings forfeiture",
+          "Mandatory training"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Third strike results in permanent account termination, content removal, potential forfeiture of earnings, and possible legal reporting."
+      },
+      {
+        "id": "cc-m3q7",
+        "question": "Which content category has no strike system - immediate permanent ban?",
+        "options": [
+          "Bodily waste content",
+          "Power dynamic roleplay",
+          "CSAM or trafficking",
+          "Aggressive titles"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CSAM and trafficking violations result in immediate permanent ban with no prior strikes. These are too serious for graduated enforcement."
+      },
+      {
+        "id": "cc-m3q8",
+        "question": "How many trafficking indicators does the platform monitor for?",
+        "options": ["5", "9", "13", "20"],
+        "correctAnswer": 2,
+        "explanation": "The platform monitors for 13 trafficking indicators including third-party control, coercion language, rapid location changes, and distress signals."
+      },
+      {
+        "id": "cc-m3q9",
+        "question": "Why is CNC (consensual non-consent) roleplay prohibited?",
+        "options": [
+          "It's illegal in all states",
+          "Payment processors can't distinguish real from fake non-consent",
+          "It requires special licensing",
+          "It's only prohibited for new creators"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Payment processors prohibit CNC because they cannot distinguish between genuine non-consent and roleplay, so they ban all depictions of non-consent."
+      },
+      {
+        "id": "cc-m3q10",
+        "question": "What factor can DECREASE your content's risk score?",
+        "options": [
+          "Using provocative titles",
+          "Complete 2257 documentation and creator certification",
+          "Uploading more content",
+          "Having more subscribers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Complete 2257 documentation, creator certification, and clean compliance history all decrease risk scores."
+      },
+      {
+        "id": "cc-m3q11",
+        "question": "What should you do if you see trafficking indicators in a potential collaborator?",
+        "options": [
+          "Proceed but document concerns",
+          "Do NOT proceed and report to platform and potentially authorities",
+          "Ask them directly if they're being trafficked",
+          "Complete the shoot but report afterward"
+        ],
+        "correctAnswer": 1,
+        "explanation": "If you see trafficking indicators, do NOT proceed with collaboration. Report to the platform immediately and consider contacting the National Human Trafficking Hotline."
+      },
+      {
+        "id": "cc-m3q12",
+        "question": "Which setting should you avoid in content even if all performers are verified adults?",
+        "options": [
+          "Office/workplace",
+          "Bedroom",
+          "School/classroom",
+          "Outdoor locations"
+        ],
+        "correctAnswer": 2,
+        "explanation": "School and classroom settings suggest underage participants and are prohibited regardless of actual performer ages."
+      },
+      {
+        "id": "cc-m3q13",
+        "question": "What is the risk score impact of using 'step-' family terms?",
+        "options": [
+          "+10 points",
+          "+30 points",
+          "+50 points",
+          "+80 points (blocked)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Family-related terms including 'step-' result in +80 risk points, which triggers automatic blocking."
+      },
+      {
+        "id": "cc-m3q14",
+        "question": "How long do you have to appeal a first-strike warning?",
+        "options": [
+          "24 hours",
+          "7 days",
+          "30 days",
+          "No time limit"
+        ],
+        "correctAnswer": 1,
+        "explanation": "First-strike appeals must be submitted within 7 days. Second-strike appeals have 14 days."
+      },
+      {
+        "id": "cc-m3q15",
+        "question": "Why is 'barely legal' marketing prohibited?",
+        "options": [
+          "It's trademarked",
+          "It emphasizes youth in sexual context, appearing to depict minors",
+          "Only prohibited for new accounts",
+          "It's only prohibited on certain platforms"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Barely legal' marketing emphasizes that someone just turned 18, which focuses on youth in sexual context and is prohibited by payment processors."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Complete Prohibited Content Reference Guide",
+      "type": "pdf",
+      "url": "/resources/prohibited-content-complete.pdf"
+    },
+    {
+      "title": "Safe Title Alternatives Database",
+      "type": "searchable",
+      "url": "/resources/safe-title-alternatives"
+    },
+    {
+      "title": "Content Pre-Screening Tool",
+      "type": "interactive",
+      "url": "/tools/content-prescreener"
+    },
+    {
+      "title": "Appeal Process Guide",
+      "type": "article",
+      "url": "/kb/how-to-appeal"
+    }
+  ]
+}

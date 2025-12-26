@@ -1,0 +1,273 @@
+{
+  "moduleId": "module-3",
+  "courseId": "compliance-101",
+  "title": "Prohibited Content",
+  "duration": 15,
+  "order": 3,
+  "learningObjectives": [
+    "Identify the 9 prohibited content categories",
+    "Understand why each category is banned",
+    "Recognize examples of violations",
+    "Learn how to avoid violations"
+  ],
+  "videoScript": {
+    "duration": "15 minutes",
+    "sections": [
+      {
+        "title": "Introduction to Prohibited Content",
+        "duration": "2:00",
+        "script": "Welcome to Module 3: Prohibited Content. This is perhaps the most critical module in this course because understanding what content is prohibited can protect you from serious legal consequences and help keep our community safe.\n\nThe Fanz platform, like all legitimate adult content platforms, has strict content policies. These aren't arbitrary rules – they're based on:\n\n1. **Federal and state laws** - Some content is illegal to produce, distribute, or possess\n2. **Payment processor requirements** - Visa, Mastercard, and other processors ban specific content categories\n3. **Community safety** - Protecting users from harmful content\n4. **Ethical standards** - Maintaining a platform that respects human dignity\n\nLet's examine the 9 prohibited content categories in detail."
+      },
+      {
+        "title": "The 9 Prohibited Categories",
+        "duration": "8:00",
+        "script": "Here are the 9 categories of content that are strictly prohibited on all Fanz platforms:\n\n**Category 1: CSAM (Child Sexual Abuse Material)**\nThis is content depicting the sexual exploitation of minors. This is a federal crime under 18 U.S.C. § 2252. There is ZERO tolerance. Any detection results in immediate NCMEC reporting, account termination, and law enforcement notification. Penalties include 15-30 years imprisonment. This includes real images, computer-generated images, and text describing abuse.\n\n**Category 2: Content Depicting or Appearing to Depict Minors**\nEven if all performers are 18+, content that appears to depict minors is prohibited. This includes:\n- 'Barely legal' marketing (emphasizing someone just turned 18)\n- School uniforms or settings suggesting underage\n- Performers made to look younger through makeup or clothing\n- Age play or references to being underage\nPayment processors specifically ban this category.\n\n**Category 3: Incest**\nContent depicting or describing sexual activity between family members is prohibited. This includes:\n- Actual incest\n- Roleplay incest (step-family scenarios)\n- Fantasy/fiction involving family relationships\nEven if clearly labeled as fantasy or roleplay, this content is banned by payment processors.\n\n**Category 4: Bestiality**\nSexual content involving animals is illegal in 47 US states and most countries. This includes:\n- Real bestiality\n- Simulated bestiality\n- Sexual contact with animals\nThere are no exceptions.\n\n**Category 5: Non-Consensual Content**\nAll sexual content must depict consensual activity. Prohibited content includes:\n- Actual non-consensual content (rape)\n- 'Consensual non-consent' (CNC) scenarios\n- Revenge porn\n- Hidden camera/voyeur content without consent\n- Deepfakes of non-consenting individuals\nEven roleplay depicting non-consent is prohibited by payment processors.\n\n**Category 6: Necrophilia**\nContent depicting or simulating sexual activity with deceased individuals is prohibited in all jurisdictions and banned by all payment processors.\n\n**Category 7: Bodily Waste**\nContent involving excrement, urine (in sexual contexts), or vomit is prohibited by payment processors. This is a payment processor requirement, not necessarily a legal one, but platforms must comply to maintain payment processing.\n\n**Category 8: Extreme Violence and Gore**\nWhile some BDSM content is permitted with proper consent documentation, the following is prohibited:\n- Content causing permanent physical harm\n- Blood play\n- Weapons used in sexual contexts\n- Strangulation beyond light breath play\n- Any content that could cause lasting physical damage\n\n**Category 9: Human Trafficking**\nContent that facilitates or depicts human trafficking is prohibited under FOSTA-SESTA. We actively monitor for 13 trafficking indicators including third-party control, coercion language, and distress signals."
+      },
+      {
+        "title": "Risk Scoring and Enforcement",
+        "duration": "3:00",
+        "script": "All content on Fanz is automatically scanned and assigned a risk score from 0 to 100:\n\n**Risk Score 0-39: Low Risk**\n- Content is allowed\n- Standard processing\n- No action needed\n\n**Risk Score 40-79: Medium Risk**\n- Flagged for human review\n- May require additional documentation\n- Creator notified of potential issue\n\n**Risk Score 80-100: High Risk**\n- Content blocked from upload\n- Creator account flagged\n- Immediate review required\n\n**Our Three-Strike System:**\n\n**Strike 1: Warning**\n- Content removed\n- Written warning issued\n- Educational resources provided\n- No account restrictions\n\n**Strike 2: Temporary Suspension**\n- 7-30 day account suspension depending on severity\n- Monetization paused\n- Required review of compliance training\n- Reinstatement requires acknowledgment\n\n**Strike 3: Permanent Ban**\n- Account permanently terminated\n- All earnings forfeited (if legal hold applies)\n- Reported to relevant authorities if legally required\n- No appeal for CSAM, trafficking, or severe violations\n\nNote: CSAM and trafficking violations result in immediate permanent ban and law enforcement notification – there are no strikes for these categories."
+      },
+      {
+        "title": "How to Stay Compliant",
+        "duration": "2:00",
+        "script": "Here's how to ensure your content stays within guidelines:\n\n**DO:**\n- Verify all performers are 18+ with valid ID\n- Keep clear records of consent (model releases)\n- Use accurate, professional descriptions\n- Report any concerning content you encounter\n- Review our prohibited content guidelines before posting\n\n**DON'T:**\n- Use terms like 'teen,' 'young,' or 'barely legal'\n- Create content in school settings or with uniforms\n- Reference family relationships in sexual content\n- Upload content involving violence or weapons\n- Create deepfakes without consent\n- Use coercive or manipulative language\n\n**Gray Areas to Avoid:**\n- Age ambiguity (even if legal, avoid if could be questioned)\n- Power dynamic content that could suggest coercion\n- Any content where consent is unclear\n\nWhen in doubt, don't post it. Contact our compliance team for guidance.\n\nRemember: You are personally responsible for every piece of content you upload. Ignorance of the rules is not a defense. Understanding and following these guidelines protects you, your audience, and the entire Fanz community."
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "categorizationGame",
+      "title": "Content Categorization: Is This Allowed?",
+      "scenarios": [
+        {
+          "description": "Video of two verified adults in casual roleplay scenario with no specific themes mentioned",
+          "allowed": true,
+          "explanation": "Standard adult content between verified consenting adults is allowed."
+        },
+        {
+          "description": "Photos labeled 'barely legal teen's first time'",
+          "allowed": false,
+          "category": "Appearing to depict minors",
+          "explanation": "Terms like 'barely legal' and 'teen' are prohibited as they suggest underage content."
+        },
+        {
+          "description": "Video depicting 'step-brother' scenario",
+          "allowed": false,
+          "category": "Incest",
+          "explanation": "Even step-family roleplay scenarios are prohibited by payment processors."
+        },
+        {
+          "description": "BDSM content with clear consent documentation and safe words visible",
+          "allowed": true,
+          "explanation": "Consensual BDSM with proper safety measures and documentation is allowed."
+        },
+        {
+          "description": "Content shot in what appears to be a school locker room",
+          "allowed": false,
+          "category": "Appearing to depict minors",
+          "explanation": "School settings suggest underage participants and are prohibited."
+        },
+        {
+          "description": "Solo content from a verified creator with no specific themes",
+          "allowed": true,
+          "explanation": "Standard solo content from verified adult creators is allowed."
+        },
+        {
+          "description": "Roleplay scenario where one participant says 'no' repeatedly",
+          "allowed": false,
+          "category": "Non-consensual content",
+          "explanation": "Even CNC (consensual non-consent) roleplay is prohibited by payment processors."
+        }
+      ]
+    },
+    {
+      "type": "riskCalculator",
+      "title": "Risk Score Estimator",
+      "factors": [
+        {
+          "factor": "Clear consent documentation",
+          "impact": -20,
+          "description": "Having model releases and verification reduces risk"
+        },
+        {
+          "factor": "Age-ambiguous appearance",
+          "impact": 30,
+          "description": "Performers who appear young increase risk score"
+        },
+        {
+          "factor": "Family-related terms in title/description",
+          "impact": 80,
+          "description": "Any incest references are high risk"
+        },
+        {
+          "factor": "School/education setting",
+          "impact": 70,
+          "description": "Settings suggesting underage participants"
+        },
+        {
+          "factor": "Power dynamic (boss/employee, etc.)",
+          "impact": 15,
+          "description": "May suggest coercion, moderate risk"
+        },
+        {
+          "factor": "BDSM with safety documentation",
+          "impact": 10,
+          "description": "Low risk with proper documentation"
+        },
+        {
+          "factor": "Violence or weapons visible",
+          "impact": 60,
+          "description": "High risk category"
+        }
+      ]
+    },
+    {
+      "type": "exampleGallery",
+      "title": "Borderline Content Explained",
+      "examples": [
+        {
+          "title": "Age-Appropriate Titles",
+          "good": "Amateur Couple Explores New Positions",
+          "bad": "18-Year-Old Teen's First Experience",
+          "explanation": "Avoid emphasizing youth or recent 18th birthday"
+        },
+        {
+          "title": "Setting Descriptions",
+          "good": "Bedroom Photoshoot",
+          "bad": "Dorm Room Party",
+          "explanation": "Dorm rooms can suggest college freshmen (recently 18)"
+        },
+        {
+          "title": "Relationship Labels",
+          "good": "Hot Couple Gets Intimate",
+          "bad": "Naughty Stepmom Teaches Lesson",
+          "explanation": "All family relationship terms are prohibited"
+        },
+        {
+          "title": "Power Dynamics",
+          "good": "Boss and Employee After-Hours Meeting",
+          "bad": "Professor and Student Private Tutoring",
+          "explanation": "Teacher/student suggests underage; professional settings are lower risk"
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 3 Knowledge Check",
+    "questions": [
+      {
+        "id": "m3q1",
+        "question": "How many prohibited content categories are there on Fanz?",
+        "options": ["5", "7", "9", "12"],
+        "correctAnswer": 2,
+        "explanation": "There are 9 prohibited content categories: CSAM, appearing to depict minors, incest, bestiality, non-consensual content, necrophilia, bodily waste, extreme violence, and human trafficking."
+      },
+      {
+        "id": "m3q2",
+        "question": "What does CSAM stand for?",
+        "options": [
+          "Content Safety And Monitoring",
+          "Child Sexual Abuse Material",
+          "Compliance Standards for Adult Media",
+          "Community Safety Assessment Measure"
+        ],
+        "correctAnswer": 1,
+        "explanation": "CSAM stands for Child Sexual Abuse Material, which is strictly illegal and results in immediate law enforcement reporting."
+      },
+      {
+        "id": "m3q3",
+        "question": "True or False: Incest roleplay is allowed if everyone involved is 18+ and consenting.",
+        "options": ["True", "False"],
+        "correctAnswer": 1,
+        "explanation": "False. All incest content, including roleplay and step-family scenarios, is prohibited by payment processors regardless of participant ages."
+      },
+      {
+        "id": "m3q4",
+        "question": "What is the risk score threshold for content blocking?",
+        "options": ["50", "60", "80", "100"],
+        "correctAnswer": 2,
+        "explanation": "Content with a risk score of 80 or higher is automatically blocked and requires immediate review."
+      },
+      {
+        "id": "m3q5",
+        "question": "What happens on your first content violation?",
+        "options": [
+          "Immediate permanent ban",
+          "Warning and content removal",
+          "7-day suspension",
+          "Fine of $500"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The first strike results in content removal, a written warning, and educational resources. No account restrictions for first offense (except for CSAM/trafficking)."
+      },
+      {
+        "id": "m3q6",
+        "question": "What happens on your third content violation?",
+        "options": [
+          "Final warning",
+          "30-day suspension",
+          "Permanent ban",
+          "Mandatory training"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The third strike results in permanent account termination, potential forfeiture of earnings, and reporting to authorities if legally required."
+      },
+      {
+        "id": "m3q7",
+        "question": "True or False: 'Barely legal' content is allowed if the performer is verified 18+.",
+        "options": ["True", "False"],
+        "correctAnswer": 1,
+        "explanation": "False. Marketing content as 'barely legal' or emphasizing youth is prohibited as it suggests underage content and is banned by payment processors."
+      },
+      {
+        "id": "m3q8",
+        "question": "What law makes platforms potentially liable for facilitating trafficking?",
+        "options": ["GDPR", "FOSTA-SESTA", "2257", "Online Safety Act"],
+        "correctAnswer": 1,
+        "explanation": "FOSTA-SESTA (2018) makes platforms potentially liable for facilitating sex trafficking and requires active monitoring for trafficking indicators."
+      },
+      {
+        "id": "m3q9",
+        "question": "Who enforces payment processor compliance requirements?",
+        "options": [
+          "The FBI",
+          "Local police",
+          "Payment processors (Visa, Mastercard)",
+          "Only the platform itself"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Payment processors like Visa and Mastercard enforce their Global Brand Protection Program (GBPP) requirements. Platforms that violate these rules lose payment processing."
+      },
+      {
+        "id": "m3q10",
+        "question": "Can you appeal a content removal decision?",
+        "options": [
+          "No, all decisions are final",
+          "Yes, through the platform's appeal process",
+          "Only for first-time violations",
+          "Only EU users can appeal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "You can appeal most content removal decisions through the platform's appeal process. However, CSAM and trafficking violations have no appeal option."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Complete Prohibited Content Guide",
+      "type": "pdf",
+      "url": "/resources/prohibited-content-complete-guide.pdf"
+    },
+    {
+      "title": "Payment Processor Requirements Summary",
+      "type": "pdf",
+      "url": "/resources/payment-processor-requirements.pdf"
+    },
+    {
+      "title": "Content Title Best Practices",
+      "type": "article",
+      "url": "/kb/content-title-guidelines"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "moduleId": "mod-module-3",
+  "courseId": "moderator-training",
+  "title": "Payment Processor Violations",
+  "duration": 40,
+  "order": 3,
+  "learningObjectives": [
+    "Understand the 9 prohibited categories (Visa/Mastercard GBPP)",
+    "Master the risk scoring system (0-100)",
+    "Review flagged content safely",
+    "Make consistent enforcement decisions",
+    "Balance false positives vs. compliance"
+  ],
+  "videoScript": {
+    "duration": "40 minutes",
+    "sections": [
+      {
+        "title": "Payment Processor Requirements",
+        "duration": "10:00",
+        "script": "Welcome to Payment Processor Violations training. This module covers how to review and enforce content against Visa and Mastercard requirements.\n\n**Why Payment Processors Matter:**\nWithout payment processing, platforms cannot:\n- Accept subscriptions\n- Process tips\n- Pay creators\n- Operate as a business\n\nLosing Visa/Mastercard is essentially a death sentence for adult platforms. This is why compliance is non-negotiable.\n\n**The Global Brand Protection Program (GBPP):**\nVisa and Mastercard created GBPP after the 2020 Pornhub crisis:\n\n**Requirements:**\n1. Meaningful consent verification for all performers\n2. Content review and moderation\n3. Complaint/appeal processes\n4. Compliance with prohibited content categories\n5. Regular reporting and audits\n\n**Non-Compliance Consequences:**\n- Warning and remediation period\n- Increased transaction fees\n- Reserve requirements (holding funds)\n- Termination of processing\n- Industry-wide blacklisting\n\n**Your Role:**\nAs a moderator, you:\n- Review content flagged for potential violations\n- Assess risk scores and content\n- Make enforcement decisions\n- Process appeals\n- Document decisions for audit\n\nYour decisions directly protect the platform's ability to operate."
+      },
+      {
+        "title": "The 9 Prohibited Categories",
+        "duration": "12:00",
+        "script": "Let's review each prohibited category in depth for moderation context:\n\n**Category 1: CSAM**\n- Covered in Module 1\n- Zero tolerance, immediate escalation\n- Not your decision - automated + specialist team\n\n**Category 2: Appearing to Depict Minors**\n\nWhat to look for:\n- 'Barely legal' or 'teen' in titles/descriptions\n- School uniforms, settings, references\n- Styling to appear younger (pigtails, braces)\n- Age play or 'daddy's girl' scenarios\n- Performer appearance combined with marketing\n\nDecision framework:\n- Clear violation (school setting + marketing) → Remove\n- Borderline (youthful appearance but neutral marketing) → Context review\n- Not violation (petite adult, no age emphasis) → Allow\n\n**Category 3: Incest**\n\nWhat to look for:\n- Any family terms: mom, dad, sister, brother (including step-)\n- Implied family relationships\n- 'Taboo family' themes\n- Adoption/foster scenarios\n\nDecision: If any family relationship is mentioned or implied in sexual context → Remove. No exceptions.\n\n**Category 4: Bestiality**\n\nWhat to look for:\n- Any sexual content involving animals\n- Animal roleplay with realistic characteristics\n\nDecision: Any content meeting this definition → Remove immediately.\n\n**Category 5: Non-Consensual Content**\n\nWhat to look for:\n- 'Rape' or 'force' themes\n- CNC (consensual non-consent)\n- Unconscious/sleeping scenarios\n- Drugging scenarios\n- Hidden camera without visible consent\n\nDecision: Even if labeled as roleplay → Remove. Processors cannot distinguish real from fake.\n\n**Category 6: Necrophilia**\nRare but absolute prohibition. Any content depicting or simulating → Remove.\n\n**Category 7: Bodily Waste**\n\nWhat to look for:\n- Feces/excrement\n- Urine in sexual contexts\n- Vomit\n\nDecision: Content meeting this definition → Remove.\n\n**Category 8: Extreme Violence**\n\nWhat to look for:\n- Blood or blood drawing\n- Weapons in sexual contact\n- Strangulation beyond light breath play\n- Punching/kicking face/head\n- Visible injuries\n\nDecision framework:\n- Blood visible → Remove\n- Weapons in contact → Remove\n- BDSM with safety shown → Context review\n- Light breath play → Usually allow with documentation\n\n**Category 9: Trafficking**\n- Covered in Module 2\n- Escalate per trafficking procedures"
+      },
+      {
+        "title": "Risk Scoring System",
+        "duration": "8:00",
+        "script": "Our automated system assigns risk scores from 0-100. Understanding this helps you prioritize and calibrate decisions.\n\n**Score Ranges:**\n\n**0-39 (Green/Low):**\n- Generally approved automatically\n- Standard adult content\n- You may see these for spot-checks\n- Rarely requires action\n\n**40-59 (Yellow/Moderate):**\n- Flagged for review\n- May have concerning keywords\n- Needs human assessment\n- Context often clarifies\n\n**60-79 (Orange/Elevated):**\n- Priority review\n- Multiple concerning factors\n- Likely needs creator contact\n- Higher chance of violation\n\n**80-100 (Red/High):**\n- Blocked automatically\n- Clear policy indicators\n- Review for enforcement action\n- Often warrants strike\n\n**Factors Affecting Score:**\n\nINCREASES score:\n- Prohibited keywords (+20-80 depending on severity)\n- Age-related terms (+30)\n- Family terms (+80)\n- Violence keywords (+40)\n- Previous violations (+10-30)\n- New account (+10)\n- Rapid uploads (+10)\n\nDECREASES score:\n- Complete 2257 docs (-10)\n- Creator certification (-5)\n- Clean history (-10)\n- Long-term verified account (-5)\n- Clear consent documentation (-5)\n\n**Using Scores:**\n- Scores are guides, not absolutes\n- A 45-score with clear violation is still a violation\n- A 75-score with innocent context may be OK\n- Document your reasoning regardless of score\n- Consistency matters more than score"
+      },
+      {
+        "title": "Content Review Procedures",
+        "duration": "5:00",
+        "script": "Here's how to review flagged content safely and effectively:\n\n**Before You Start:**\n- Take breaks as needed\n- You can request queue reassignment\n- Use thumbnail-first approach\n- Have violation guidelines accessible\n\n**Review Process:**\n\n**Step 1: Initial Assessment**\n- Read the flag reason\n- Check risk score\n- Review title, description, tags\n- Note account history\n\n**Step 2: Content Review (if needed)**\n- Start with thumbnails\n- Only watch video if text/thumbnails unclear\n- Skip to relevant sections if timestamp provided\n- Don't watch more than necessary\n\n**Step 3: Decision**\n- Clear violation → Remove + document\n- Clear non-violation → Approve + document\n- Unclear → Escalate to senior moderator\n\n**Step 4: Action**\n- Remove: Content removed, strike assessed, creator notified\n- Approve: Content published, flag cleared\n- Escalate: Flag transferred, notes added\n\n**Step 5: Documentation**\n- Record decision and reasoning\n- Note specific violation if applicable\n- This is used for audits and appeals\n\n**Time Guidelines:**\n- Simple flag (clear violation/non-violation): 1-2 minutes\n- Complex flag (context dependent): 3-5 minutes\n- If taking longer, consider escalation\n\n**Daily Limits:**\n- 200-300 decisions per 8-hour shift typical\n- Quality over quantity\n- Accuracy tracked - aim for 95%+"
+      },
+      {
+        "title": "Decision Making and Appeals",
+        "duration": "5:00",
+        "script": "Consistent decision-making is crucial for fairness and audit compliance.\n\n**Decision Framework:**\n\n1. **Does it clearly violate a prohibited category?**\n   - YES → Remove. Document category.\n   - MAYBE → Go to step 2.\n   - NO → Approve.\n\n2. **Would payment processors flag this?**\n   - Consider if you were auditing this for Visa\n   - If they'd have concerns → Remove or escalate\n   - If reasonable compliance officer would approve → Approve\n\n3. **When in doubt:**\n   - Escalate to senior moderator\n   - Don't guess on borderline cases\n   - Document your concerns\n\n**Handling Appeals:**\n\nCreators can appeal removal decisions. When processing appeals:\n\n1. **Review original decision**\n   - What was the violation?\n   - What evidence was there?\n   - Was documentation complete?\n\n2. **Review appeal content**\n   - What is creator's explanation?\n   - Did they provide additional context/documentation?\n   - Is there new information?\n\n3. **Fresh Assessment**\n   - Would you make same decision now?\n   - Is new context compelling?\n   - Is this a policy interpretation issue?\n\n4. **Decision**\n   - Uphold: Original decision stands, explain why\n   - Overturn: Restore content, clear strike if applicable\n   - Escalate: If policy clarification needed\n\n**Appeal Response Time:**\n- Standard: 24-48 hours\n- EU DSA: 14 days maximum (legal requirement)\n- Document reasoning regardless of outcome\n\n**Balancing False Positives:**\n- False positive = legitimate content flagged\n- False negative = violation missed\n- Both have costs\n- Slight bias toward caution is appropriate\n- But excessive false positives frustrate creators\n- Track your accuracy metrics"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "contentReviewSimulator",
+      "title": "Content Review Simulator",
+      "scenarios": [
+        {
+          "title": "Title: 'Amateur Couple Explores New Positions'",
+          "riskScore": 15,
+          "flagReason": "Routine spot check",
+          "details": "Verified couple, standard content, no concerning keywords",
+          "correctDecision": "Approve",
+          "explanation": "Low risk score, no policy violations, standard adult content"
+        },
+        {
+          "title": "Title: 'Stepmom Shows Her Moves'",
+          "riskScore": 85,
+          "flagReason": "Family-related keyword",
+          "details": "Step-family theme in title and description",
+          "correctDecision": "Remove + Strike",
+          "explanation": "Clear incest category violation - step-family content is prohibited"
+        },
+        {
+          "title": "Title: 'Teen Amateur First Video'",
+          "riskScore": 72,
+          "flagReason": "'Teen' keyword",
+          "details": "Verified 23-year-old creator, new to platform, no other concerning elements",
+          "correctDecision": "Contact for title change",
+          "explanation": "'Teen' is prohibited keyword but performer is verified adult. Require title change, don't strike if they comply"
+        },
+        {
+          "title": "Title: 'Intense BDSM Scene'",
+          "riskScore": 45,
+          "flagReason": "BDSM content flag",
+          "details": "Consensual BDSM, safe words visible, no blood or weapons",
+          "correctDecision": "Approve",
+          "explanation": "Consensual BDSM with safety measures is allowed"
+        }
+      ]
+    },
+    {
+      "type": "riskScoreCalculator",
+      "title": "Risk Score Calculator",
+      "factors": [
+        {"name": "Prohibited keyword (family)", "impact": 80},
+        {"name": "Age-related term", "impact": 30},
+        {"name": "Violence keyword", "impact": 40},
+        {"name": "Non-consent language", "impact": 60},
+        {"name": "New account", "impact": 10},
+        {"name": "Previous violation", "impact": 20},
+        {"name": "Complete 2257", "impact": -10},
+        {"name": "Creator certified", "impact": -5},
+        {"name": "Clean history", "impact": -10}
+      ]
+    },
+    {
+      "type": "decisionMatrix",
+      "title": "Enforcement Decision Matrix",
+      "categories": [
+        {"violation": "CSAM", "action": "Immediate escalation, ban", "strike": "Permanent"},
+        {"violation": "Appearing minor", "action": "Remove content", "strike": "Yes"},
+        {"violation": "Incest/step-family", "action": "Remove content", "strike": "Yes"},
+        {"violation": "Non-consent", "action": "Remove content", "strike": "Yes"},
+        {"violation": "Extreme violence", "action": "Remove, review account", "strike": "Yes"},
+        {"violation": "Prohibited keyword only", "action": "Require edit", "strike": "Warning first"},
+        {"violation": "Borderline/unclear", "action": "Escalate", "strike": "Pending review"}
+      ]
+    },
+    {
+      "type": "appealReviewPractice",
+      "title": "Appeal Review Practice",
+      "appeals": [
+        {
+          "originalViolation": "Incest category - 'step-sister' in title",
+          "creatorAppeal": "It was just roleplay, we're not related at all",
+          "correctDecision": "Deny",
+          "explanation": "Roleplay incest is still prohibited by payment processors"
+        },
+        {
+          "originalViolation": "Age-related marketing - 'barely legal'",
+          "creatorAppeal": "I'm 25 years old, here's my ID again. Can I change the title?",
+          "correctDecision": "Approve with condition",
+          "explanation": "Performer is verified adult. Allow if title is changed. Clear original strike."
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 3 Knowledge Check",
+    "questions": [
+      {
+        "id": "mod-m3q1",
+        "question": "What does GBPP stand for?",
+        "options": ["General Business Payment Policy", "Global Brand Protection Program", "Government Banking Payment Protocol", "General Brand Payment Protection"],
+        "correctAnswer": 1,
+        "explanation": "GBPP is the Global Brand Protection Program created by Visa and Mastercard after the 2020 crisis."
+      },
+      {
+        "id": "mod-m3q2",
+        "question": "What risk score range is automatically blocked?",
+        "options": ["40-59", "60-79", "80-100", "100 only"],
+        "correctAnswer": 2,
+        "explanation": "Content with risk score 80-100 is automatically blocked and requires review for enforcement."
+      },
+      {
+        "id": "mod-m3q3",
+        "question": "Is step-family roleplay allowed if labeled as fantasy?",
+        "options": ["Yes, if clearly labeled", "No, all family content is prohibited", "Only for verified couples", "Yes, on certain platforms"],
+        "correctAnswer": 1,
+        "explanation": "All family-related content including step-family roleplay is prohibited by payment processors, regardless of labeling."
+      },
+      {
+        "id": "mod-m3q4",
+        "question": "What BDSM content is allowed?",
+        "options": ["All BDSM", "None", "Consensual with safety measures, no blood/weapons", "Only soft BDSM"],
+        "correctAnswer": 2,
+        "explanation": "Consensual BDSM with visible safety measures is allowed. Blood, weapons, and extreme violence are prohibited."
+      },
+      {
+        "id": "mod-m3q5",
+        "question": "How long do you have to respond to EU DSA appeals?",
+        "options": ["24 hours", "48 hours", "7 days", "14 days"],
+        "correctAnswer": 3,
+        "explanation": "The EU Digital Services Act requires response within 14 days maximum."
+      },
+      {
+        "id": "mod-m3q6",
+        "question": "What's the target accuracy rate for moderator decisions?",
+        "options": ["80%", "90%", "95%+", "100%"],
+        "correctAnswer": 2,
+        "explanation": "Moderators should aim for 95%+ accuracy in their decisions."
+      },
+      {
+        "id": "mod-m3q7",
+        "question": "A creator appeals saying 'teen' in their title refers to themselves at 23. What's appropriate?",
+        "options": ["Deny - 'teen' is always prohibited", "Approve if they change the title", "Approve with no changes", "Escalate to legal"],
+        "correctAnswer": 1,
+        "explanation": "The term 'teen' is prohibited regardless of actual age. Approve if creator changes title and verify their age."
+      },
+      {
+        "id": "mod-m3q8",
+        "question": "What consequence can platforms face for payment processor non-compliance?",
+        "options": ["Warning only", "Termination of processing (cannot accept payments)", "Small fine", "Required training"],
+        "correctAnswer": 1,
+        "explanation": "Non-compliance can result in termination of payment processing, which effectively ends a platform's ability to operate."
+      },
+      {
+        "id": "mod-m3q9",
+        "question": "How should you handle a borderline case you're unsure about?",
+        "options": ["Make your best guess", "Always approve if unsure", "Always deny if unsure", "Escalate to senior moderator"],
+        "correctAnswer": 3,
+        "explanation": "When unsure, escalate to a senior moderator rather than guessing. Consistency and accuracy matter."
+      },
+      {
+        "id": "mod-m3q10",
+        "question": "What's the typical daily decision volume for moderators?",
+        "options": ["50-100", "100-200", "200-300", "500+"],
+        "correctAnswer": 2,
+        "explanation": "Typical volume is 200-300 decisions per 8-hour shift, prioritizing quality over quantity."
+      },
+      {
+        "id": "mod-m3q11",
+        "question": "What should you document with every decision?",
+        "options": ["Nothing needed", "Just the outcome", "Decision, reasoning, and specific violation if applicable", "Only if it's a removal"],
+        "correctAnswer": 2,
+        "explanation": "Document the decision, reasoning, and specific violation (if applicable) for audits and appeals."
+      },
+      {
+        "id": "mod-m3q12",
+        "question": "CNC (consensual non-consent) roleplay is:",
+        "options": ["Allowed if labeled", "Allowed with documentation", "Prohibited regardless of consent", "Allowed for verified creators only"],
+        "correctAnswer": 2,
+        "explanation": "CNC is prohibited because payment processors cannot distinguish roleplay from real non-consent."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "Payment Processor Guidelines Quick Reference",
+      "type": "pdf",
+      "url": "/resources/payment-processor-guidelines.pdf"
+    },
+    {
+      "title": "Category Violation Examples",
+      "type": "pdf",
+      "url": "/resources/category-violation-examples.pdf"
+    },
+    {
+      "title": "Appeal Response Templates",
+      "type": "document",
+      "url": "/resources/appeal-response-templates.docx"
+    }
+  ]
+}

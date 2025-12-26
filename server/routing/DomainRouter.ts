@@ -388,7 +388,7 @@ export class DomainRouter extends EventEmitter {
   }
 
   private isApiEndpoint(path: string): boolean {
-    const apiPatterns = ['/api/', '/health', '/admin', '/_internal'];
+    const apiPatterns = ['/api/', '/health', '/admin', '/_internal', '/auth/'];
     return apiPatterns.some(pattern => path.startsWith(pattern));
   }
 

@@ -1,0 +1,1508 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-12-23",
+  "category": "compliance",
+  "total_questions": 150,
+  "questions": [
+    {
+      "id": "comp_001",
+      "question": "What is compliance and why does it matter?",
+      "answer": "Compliance means following laws and regulations that apply to adult content platforms. It matters because non-compliance can result in platform shutdown, criminal charges (up to 20 years imprisonment for CSAM violations), multi-million dollar fines (up to 18M in UK, 20M EUR in EU), and payment processor termination. Compliance protects users, creators, and the platform.",
+      "category": "general",
+      "tags": ["compliance", "legal", "basics"],
+      "related": ["comp_002", "comp_010", "age_001"],
+      "url": "/kb/compliance-overview",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_002",
+      "question": "What laws does Fanz comply with?",
+      "answer": "Fanz complies with laws across 17 jurisdictions: UK Online Safety Act 2023, 8 US state age verification laws (Louisiana, Utah, Virginia, Texas, Arkansas, Mississippi, Montana, Kansas), EU GDPR and Digital Services Act (DSA), and US federal laws including 18 U.S.C. 2257 (record keeping), 2258A (CSAM reporting), and FOSTA-SESTA (trafficking prevention).",
+      "category": "general",
+      "tags": ["laws", "jurisdiction", "legal"],
+      "related": ["comp_001", "comp_003", "age_002"],
+      "url": "/kb/compliance-overview#jurisdictions",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_003",
+      "question": "What happens if the platform doesn't comply with laws?",
+      "answer": "Non-compliance has severe consequences: Criminal prosecution (up to 20 years for CSAM, 5-10 years for 2257 violations), massive fines (UK: up to 18M or 10% revenue, EU GDPR: up to 20M EUR or 4% global revenue, EU DSA: up to 6% global revenue), payment processor termination (losing ability to process payments), and potential platform shutdown.",
+      "category": "consequences",
+      "tags": ["penalties", "fines", "legal"],
+      "related": ["comp_001", "comp_002"],
+      "url": "/kb/compliance-overview#consequences",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_004",
+      "question": "Do compliance laws apply to me as a user?",
+      "answer": "Yes, some laws apply directly to users. Creating or uploading CSAM is a federal crime. Creators must maintain 2257 records. You can face personal legal liability for uploading illegal content. However, Fanz takes primary responsibility for platform compliance while you're responsible for your own content and conduct.",
+      "category": "general",
+      "tags": ["users", "responsibility", "legal"],
+      "related": ["comp_001", "creator_001"],
+      "url": "/kb/compliance-overview#user-responsibility",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_005",
+      "question": "What are the 7 core compliance systems?",
+      "answer": "The 7 core systems are: (1) Age Verification - ensuring users are 18+, (2) Content Moderation - reviewing and filtering content, (3) CSAM Detection - detecting child sexual abuse material, (4) Trafficking Detection - identifying human trafficking indicators, (5) 2257 Record Keeping - maintaining performer age records, (6) Privacy Compliance - GDPR and data protection, (7) Regulatory Reporting - reports to NCMEC, DSA authorities, and payment processors.",
+      "category": "systems",
+      "tags": ["core-systems", "compliance", "overview"],
+      "related": ["comp_001", "age_001", "prohib_001"],
+      "url": "/kb/compliance-overview#7-core-systems",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_006",
+      "question": "What is CSAM and why is it illegal?",
+      "answer": "CSAM (Child Sexual Abuse Material) refers to any visual depiction of sexually explicit conduct involving a minor (under 18). It's illegal under 18 U.S.C. 2251-2260 (federal law) with penalties of 15-30 years imprisonment for production, 5-20 years for distribution, and mandatory sex offender registration. Fanz has zero tolerance - detection results in immediate permanent ban and automatic report to NCMEC within 24 hours.",
+      "category": "prohibited",
+      "tags": ["csam", "illegal", "federal-crime"],
+      "related": ["prohib_001", "prohib_013", "comp_007"],
+      "url": "/kb/prohibited-content#csam",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_007",
+      "question": "What is 18 U.S.C. 2257?",
+      "answer": "18 U.S.C. 2257 is the federal record-keeping requirement for sexually explicit content. It requires maintaining: performer legal name, date of birth, copy of valid ID at time of production, all stage names/aliases used, and records of where content appears. Records must be kept for 7 years from last publication and made available for FBI inspection within 48 hours notice. Violations carry 5-10 years imprisonment.",
+      "category": "legal",
+      "tags": ["2257", "record-keeping", "federal-law"],
+      "related": ["comp_008", "creator_002"],
+      "url": "/kb/2257-recordkeeping",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_008",
+      "question": "Who is the Custodian of Records under 2257?",
+      "answer": "The Custodian of Records is the designated person responsible for maintaining and producing 2257 records during FBI inspections. Their name and business address must appear in all content (often in website footer or content description). They must be able to produce any record within 20 minutes during an inspection. Fanz designates a Custodian for platform-wide records, while creators are responsible for their own records.",
+      "category": "legal",
+      "tags": ["2257", "custodian", "records"],
+      "related": ["comp_007", "creator_002"],
+      "url": "/kb/2257-recordkeeping#custodian",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_009",
+      "question": "What is GDPR?",
+      "answer": "GDPR (General Data Protection Regulation) is the EU's comprehensive privacy law. It gives users rights over their personal data: right to access, erasure (be forgotten), rectification, portability, and to object to processing. Fanz must respond to data subject requests within 30 days (extendable by 2 months for complex requests). Fines can reach 20 million EUR or 4% of global revenue.",
+      "category": "privacy",
+      "tags": ["gdpr", "privacy", "eu-law"],
+      "related": ["comp_010", "gdpr_001"],
+      "url": "/kb/privacy-compliance#gdpr",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_010",
+      "question": "What is the DSA (Digital Services Act)?",
+      "answer": "The DSA (Digital Services Act) is the EU's law governing online platforms. Key requirements: respond to user complaints within 14 days, provide Statement of Reasons for content removals, allow appeals, publish transparency reports, designate a legal representative in the EU, and cooperate with Digital Services Coordinators. Fines can reach 6% of global revenue.",
+      "category": "legal",
+      "tags": ["dsa", "eu-law", "platform-regulation"],
+      "related": ["comp_009", "dsa_001"],
+      "url": "/kb/privacy-compliance#dsa",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_011",
+      "question": "What is FOSTA-SESTA?",
+      "answer": "FOSTA-SESTA (Fight Online Sex Trafficking Act/Stop Enabling Sex Traffickers Act) is US law that removed immunity for platforms that knowingly facilitate sex trafficking. Platforms can be held civilly and criminally liable. This is why we actively monitor for trafficking indicators and require verification of consent and identity for all performers.",
+      "category": "legal",
+      "tags": ["fosta-sesta", "trafficking", "us-law"],
+      "related": ["comp_012", "traffic_001"],
+      "url": "/kb/compliance-overview#fosta-sesta",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_012",
+      "question": "What are trafficking indicators?",
+      "answer": "We monitor 13 trafficking indicators: (1) Third-party control/management, (2) Frequent location changes, (3) Multiple performers on one account, (4) Suspicious pricing, (5) Coercion language, (6) Age ambiguity, (7) Restricted communication, (8) ID document requests in content, (9) Cash-only payment references, (10) Hotel/motel backgrounds consistently, (11) Branding/ownership tattoos, (12) Substance abuse indicators, (13) Distress signals. 6-8 indicators = high risk, 9+ = critical (automatic report).",
+      "category": "trafficking",
+      "tags": ["trafficking", "indicators", "detection"],
+      "related": ["comp_011", "traffic_001"],
+      "url": "/kb/trafficking-detection",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_013",
+      "question": "Can I be held legally responsible for content I upload?",
+      "answer": "Yes. You're legally responsible for content you create and upload. This includes: criminal liability for CSAM (federal crime), civil liability for non-consensual content, violation of 2257 if you don't maintain records, potential trafficking charges if you're involved in exploitation. The platform provides compliance tools, but you're responsible for using them correctly and ensuring your content is legal.",
+      "category": "responsibility",
+      "tags": ["legal-liability", "creator", "responsibility"],
+      "related": ["comp_004", "creator_001"],
+      "url": "/kb/creator-compliance#legal-responsibility",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_014",
+      "question": "What is the Visa/Mastercard GBPP?",
+      "answer": "GBPP (Global Brand Protection Program) is Visa and Mastercard's content policy for adult platforms. It prohibits 9 content categories: CSAM, content appearing to depict minors, incest (including roleplay), bestiality, non-consensual content, necrophilia, excrement, extreme violence, and trafficking. Violations can result in fines, increased processing fees, or complete termination of payment processing.",
+      "category": "payments",
+      "tags": ["gbpp", "visa", "mastercard", "payment-processors"],
+      "related": ["prohib_001", "comp_015"],
+      "url": "/kb/prohibited-content#payment-processor-requirements",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_015",
+      "question": "What happens if we lose payment processing?",
+      "answer": "Losing payment processor relationships would be catastrophic: inability to process credit card payments, loss of revenue for creators, potential platform shutdown, difficulty finding alternative processors (industry blacklisting). This is why we strictly enforce GBPP requirements - protecting payment processing protects everyone's income and the platform's viability.",
+      "category": "payments",
+      "tags": ["payment-processing", "consequences", "gbpp"],
+      "related": ["comp_014", "prohib_001"],
+      "url": "/kb/prohibited-content#why-rules-matter",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_016",
+      "question": "How does Fanz protect my privacy?",
+      "answer": "Fanz protects privacy through: data minimization (only collect what's needed), encryption (data at rest and in transit), access controls (limited staff access), GDPR compliance (full data subject rights), secure age verification (third-party processing, no ID storage long-term for most methods), anonymization where possible, and transparent privacy policy explaining all data practices.",
+      "category": "privacy",
+      "tags": ["privacy", "data-protection", "security"],
+      "related": ["comp_009", "gdpr_001", "age_012"],
+      "url": "/kb/privacy-compliance",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_017",
+      "question": "What happens if I violate platform policies?",
+      "answer": "Violations are handled through a progressive system: First violation: Warning + content removal + education. Second violation: 7-day suspension + content removal + mandatory training. Third violation: Permanent ban. However, some violations (CSAM, severe trafficking indicators) result in immediate permanent ban. All removals include a Statement of Reasons and appeal option (except CSAM).",
+      "category": "enforcement",
+      "tags": ["violations", "strikes", "enforcement"],
+      "related": ["prohib_001", "appeal_001"],
+      "url": "/kb/troubleshooting-compliance#violations",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_018",
+      "question": "Can I appeal a content removal?",
+      "answer": "Yes, most content removals can be appealed. You'll receive a Statement of Reasons explaining why content was removed. To appeal: (1) Go to Compliance Dashboard, (2) Find the violation, (3) Click 'Appeal', (4) Provide your reasoning. Appeals are reviewed by a different moderator within 7 days. The only exception: CSAM violations cannot be appealed and result in permanent ban with law enforcement notification.",
+      "category": "appeals",
+      "tags": ["appeals", "content-removal", "process"],
+      "related": ["comp_017", "appeal_001"],
+      "url": "/kb/troubleshooting-compliance#appeals",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_019",
+      "question": "What is a Statement of Reasons?",
+      "answer": "A Statement of Reasons (SoR) is a detailed explanation provided when content is removed or an account is actioned. Required by EU DSA, it includes: what policy was violated, which content triggered the action, what action was taken, legal basis for the decision, and how to appeal. You'll receive this via email and it's available in your Compliance Dashboard.",
+      "category": "enforcement",
+      "tags": ["statement-of-reasons", "dsa", "transparency"],
+      "related": ["comp_010", "comp_018"],
+      "url": "/kb/troubleshooting-compliance#statement-of-reasons",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_020",
+      "question": "How long does Fanz keep my data?",
+      "answer": "Retention periods vary by data type: Age verification records: 7 years (legal requirement under 2257), Account data: Duration of account + 3 years, Content: Until deletion + backup period, Transaction records: 7 years (tax/legal), CSAM reports: Permanently (federal requirement), GDPR requests: 3 years after resolution. You can request deletion of non-required data anytime.",
+      "category": "privacy",
+      "tags": ["data-retention", "privacy", "gdpr"],
+      "related": ["comp_009", "gdpr_003"],
+      "url": "/kb/privacy-compliance#data-retention",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_021",
+      "question": "Can I request my data be deleted?",
+      "answer": "Yes, under GDPR you have the right to erasure (right to be forgotten). Submit a request via Settings > Privacy > Data Requests. However, some data cannot be deleted due to legal requirements: 2257 age verification records (7 years), financial/tax records (7 years), CSAM reports (permanently), and any data needed for legal proceedings. You'll receive confirmation of what was deleted and what was retained with legal basis.",
+      "category": "privacy",
+      "tags": ["erasure", "gdpr", "data-deletion"],
+      "related": ["comp_009", "gdpr_002"],
+      "url": "/kb/privacy-compliance#erasure",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_022",
+      "question": "What is a GDPR data subject request?",
+      "answer": "A data subject request (DSR) is a formal request to exercise your GDPR rights. Types include: Access (get copy of your data), Erasure (delete your data), Rectification (correct inaccurate data), Portability (receive data in portable format), Restriction (limit processing), and Objection (stop certain processing). Submit via Settings > Privacy > Data Requests. Fanz must respond within 30 days.",
+      "category": "privacy",
+      "tags": ["gdpr", "dsr", "data-rights"],
+      "related": ["comp_009", "comp_021", "gdpr_001"],
+      "url": "/kb/privacy-compliance#data-subject-requests",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_023",
+      "question": "Where can I find Fanz's privacy policy?",
+      "answer": "The privacy policy is available at: website footer (Privacy Policy link), Settings > Privacy > View Privacy Policy, during account registration, and on demand via chat support. It covers: what data we collect, why we collect it, how we use it, who we share it with, your rights, and how to contact us. Last updated date is shown at the top.",
+      "category": "privacy",
+      "tags": ["privacy-policy", "legal", "gdpr"],
+      "related": ["comp_016", "comp_009"],
+      "url": "/privacy-policy",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_024",
+      "question": "What is the UK Online Safety Act?",
+      "answer": "The UK Online Safety Act 2023 requires adult content platforms to: implement robust age verification before allowing access to pornographic content, protect users from illegal content, conduct risk assessments, and take action on user reports. Ofcom is the regulator with powers to fine up to 18 million GBP or 10% of global revenue, and can require ISPs to block non-compliant sites.",
+      "category": "legal",
+      "tags": ["uk-law", "online-safety-act", "age-verification"],
+      "related": ["age_001", "comp_002"],
+      "url": "/kb/compliance-overview#uk-online-safety-act",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_025",
+      "question": "Which US states require age verification?",
+      "answer": "As of December 2024, 8 US states require age verification for adult content: Louisiana (Act 440), Utah (SB 287), Virginia (SB 1515), Texas (HB 1181), Arkansas (Act 689), Mississippi (HB 1126), Montana (SB 544), and Kansas (HB 2301). Laws vary but generally require government ID verification. Fanz automatically detects your location and requires verification if you're in these states.",
+      "category": "legal",
+      "tags": ["us-states", "age-verification", "legal"],
+      "related": ["age_001", "comp_024"],
+      "url": "/kb/age-verification-guide#us-state-laws",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_026",
+      "question": "What is content moderation?",
+      "answer": "Content moderation is the process of reviewing uploaded content to ensure it complies with laws and platform policies. Fanz uses a hybrid approach: AI-powered initial review (hash matching, risk scoring, visual analysis), human moderator review for flagged content, and appeals review by senior moderators. Content is scored 0-100 for risk, with scores 80+ automatically blocked pending review.",
+      "category": "moderation",
+      "tags": ["content-moderation", "review", "process"],
+      "related": ["comp_005", "prohib_001"],
+      "url": "/kb/compliance-overview#content-moderation",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_027",
+      "question": "How does the risk score system work?",
+      "answer": "Content is assigned a risk score from 0-100 based on multiple factors: hash matching (known prohibited content), AI visual analysis, text analysis (titles, descriptions, tags), and metadata analysis. Score ranges: 0-39 = Low (auto-approve), 40-59 = Medium (spot-check queue), 60-79 = High (mandatory review), 80-100 = Critical (auto-block, immediate review). Higher scores require faster review.",
+      "category": "moderation",
+      "tags": ["risk-score", "content-moderation", "ai"],
+      "related": ["comp_026", "prohib_001"],
+      "url": "/kb/prohibited-content#risk-scoring",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_028",
+      "question": "What is PhotoDNA?",
+      "answer": "PhotoDNA is Microsoft's technology for detecting known CSAM. It creates a unique 'hash' (digital fingerprint) of images that can match even modified versions (resized, cropped, color-adjusted). Fanz uses PhotoDNA to compare uploads against databases of known CSAM maintained by NCMEC. A match triggers immediate blocking, account suspension, and mandatory NCMEC report within 24 hours.",
+      "category": "detection",
+      "tags": ["photodna", "csam-detection", "hash-matching"],
+      "related": ["comp_006", "comp_029"],
+      "url": "/kb/csam-detection#photodna",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_029",
+      "question": "What is PDQ hashing?",
+      "answer": "PDQ (Perceptual hashing by Facebook/Meta) is an open-source alternative to PhotoDNA for detecting known harmful content. It creates perceptual hashes that survive common image transformations. Fanz uses both PhotoDNA and PDQ for comprehensive coverage. PDQ is particularly effective for detecting re-uploads of previously removed content and works on video frames as well as images.",
+      "category": "detection",
+      "tags": ["pdq", "hash-matching", "detection"],
+      "related": ["comp_028", "comp_006"],
+      "url": "/kb/csam-detection#pdq",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_030",
+      "question": "What is NCMEC?",
+      "answer": "NCMEC (National Center for Missing & Exploited Children) is a US non-profit that operates the CyberTipline for reporting CSAM. Under 18 U.S.C. 2258A, electronic service providers must report apparent CSAM to NCMEC within 24 hours. NCMEC then forwards reports to appropriate law enforcement (FBI, local police, international agencies via INTERPOL). Fanz automatically generates reports upon detection.",
+      "category": "reporting",
+      "tags": ["ncmec", "csam-reporting", "cybertipline"],
+      "related": ["comp_006", "comp_031"],
+      "url": "/kb/regulatory-reporting#ncmec",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_031",
+      "question": "What happens when CSAM is detected?",
+      "answer": "Immediate automated response: (1) Content blocked from all access, (2) Account suspended, (3) Evidence preserved with chain of custody, (4) Alert to Compliance team, (5) NCMEC report prepared and filed within 24 hours. The account is permanently banned with no appeal. All related accounts are investigated. Law enforcement may follow up directly. User is NOT notified that CSAM was the reason (to protect investigation).",
+      "category": "enforcement",
+      "tags": ["csam", "detection", "response"],
+      "related": ["comp_006", "comp_030"],
+      "url": "/kb/incident-response#csam",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_032",
+      "question": "What is a transparency report?",
+      "answer": "Transparency reports are public documents showing platform content moderation activities. Required by EU DSA for large platforms. Fanz publishes quarterly reports including: content reviewed, content removed by category, complaints received and resolved, appeals and outcomes, automated vs. human decisions, and trusted flagger statistics. Reports are available at /transparency and in machine-readable format.",
+      "category": "reporting",
+      "tags": ["transparency", "dsa", "reporting"],
+      "related": ["comp_010", "comp_019"],
+      "url": "/kb/regulatory-reporting#transparency",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_033",
+      "question": "Who are trusted flaggers?",
+      "answer": "Trusted flaggers are organizations recognized under EU DSA with expertise in detecting illegal content. Their reports receive priority review. Examples include NCMEC, Internet Watch Foundation (IWF), and similar organizations. When a trusted flagger reports content, it's reviewed within 24 hours (vs. standard 72 hours). Their reports carry higher weight in moderation decisions.",
+      "category": "reporting",
+      "tags": ["trusted-flaggers", "dsa", "reporting"],
+      "related": ["comp_010", "comp_032"],
+      "url": "/kb/regulatory-reporting#trusted-flaggers",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_034",
+      "question": "What is a DPO?",
+      "answer": "DPO (Data Protection Officer) is the designated person responsible for GDPR compliance. Required for organizations processing large amounts of personal data. The DPO: monitors compliance, advises on data protection impact assessments, cooperates with supervisory authorities, and serves as contact for data subjects. Fanz's DPO contact is available in our privacy policy and can be reached at dpo@fanz.com.",
+      "category": "privacy",
+      "tags": ["dpo", "gdpr", "privacy"],
+      "related": ["comp_009", "gdpr_001"],
+      "url": "/kb/privacy-compliance#dpo",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_035",
+      "question": "What is a data breach?",
+      "answer": "A data breach is unauthorized access to, disclosure of, or destruction of personal data. Under GDPR, breaches must be reported to the supervisory authority within 72 hours if they pose risk to individuals. Affected users must be notified if high risk. Fanz has incident response procedures to: detect breaches, contain them, assess impact, notify authorities and users, and implement improvements.",
+      "category": "security",
+      "tags": ["data-breach", "gdpr", "security"],
+      "related": ["comp_009", "incident_001"],
+      "url": "/kb/incident-response#data-breach",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_036",
+      "question": "What certifications does Fanz require?",
+      "answer": "Fanz offers/requires several certifications: Compliance 101 (required for all users, 80% pass), Creator Compliance (required for monetization, 85% pass), Moderator Training (required for moderator role, 90% pass), Administrator Training (required for admin role, 90% pass). Certifications are earned through FanzVarsity courses and must be renewed annually.",
+      "category": "training",
+      "tags": ["certification", "training", "fanzvarsity"],
+      "related": ["training_001", "comp_037"],
+      "url": "/kb/compliance-training",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_037",
+      "question": "What is FanzVarsity?",
+      "answer": "FanzVarsity is Fanz's compliance training platform. It offers interactive courses covering legal requirements, platform policies, and best practices. Courses include video lessons, interactive simulations, knowledge checks, and certification exams. Completing courses unlocks platform features and demonstrates compliance competency. Access via Settings > Training or fanzvarsity.fanz.com.",
+      "category": "training",
+      "tags": ["fanzvarsity", "training", "education"],
+      "related": ["comp_036", "training_001"],
+      "url": "/kb/compliance-training#fanzvarsity",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_038",
+      "question": "What is the Compliance Dashboard?",
+      "answer": "The Compliance Dashboard is your central hub for managing compliance matters. Features include: view any violations or warnings, submit and track appeals, access training and certifications, submit GDPR data requests, view your compliance score, access Statement of Reasons for any actions, and contact compliance support. Available at Settings > Compliance Dashboard.",
+      "category": "tools",
+      "tags": ["dashboard", "compliance", "tools"],
+      "related": ["comp_017", "comp_018"],
+      "url": "/kb/compliance-dashboard",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_039",
+      "question": "How do I report illegal content?",
+      "answer": "To report content: (1) Click the 'Report' button on any content, (2) Select the violation category (CSAM, trafficking, prohibited content, etc.), (3) Provide details, (4) Submit. For CSAM: report immediately - we're legally required to investigate. Reports are reviewed within 24-72 hours depending on severity. You can track your report status in Settings > Reports.",
+      "category": "reporting",
+      "tags": ["report", "content", "violations"],
+      "related": ["comp_006", "prohib_001"],
+      "url": "/kb/troubleshooting-compliance#reporting",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_040",
+      "question": "What happens after I report content?",
+      "answer": "After reporting: (1) Acknowledgment sent to your email, (2) Content queued for priority review, (3) Moderator reviews against policies, (4) Decision made (keep/remove/escalate), (5) You're notified of outcome. For severe violations (CSAM, trafficking), immediate action is taken. Regular updates available in Settings > Reports. We cannot share details about actions taken against other users due to privacy.",
+      "category": "reporting",
+      "tags": ["report", "process", "outcome"],
+      "related": ["comp_039", "comp_041"],
+      "url": "/kb/troubleshooting-compliance#report-process",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_041",
+      "question": "Can I report something anonymously?",
+      "answer": "Logged-in users: Reports are linked to your account for follow-up but details are confidential. We never reveal reporter identity to reported users. Guests: Can report via public form without account - these are truly anonymous but we can't provide updates. For severe matters (CSAM, trafficking), you can also report directly to: NCMEC CyberTipline, FBI tips.fbi.gov, or National Human Trafficking Hotline 888-373-7888.",
+      "category": "reporting",
+      "tags": ["anonymous", "report", "confidential"],
+      "related": ["comp_039", "comp_040"],
+      "url": "/kb/troubleshooting-compliance#anonymous-reporting",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_042",
+      "question": "What is Out-of-Court Dispute Resolution?",
+      "answer": "Under EU DSA, users can escalate disputes to certified Out-of-Court Dispute Resolution (ODR) bodies if unhappy with internal appeal outcomes. ODR bodies make binding decisions on content moderation disputes. Fanz lists certified ODR bodies in each EU country and covers reasonable costs. This is a last resort after internal appeals are exhausted.",
+      "category": "appeals",
+      "tags": ["odr", "disputes", "dsa"],
+      "related": ["comp_010", "comp_018"],
+      "url": "/kb/troubleshooting-compliance#odr",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_043",
+      "question": "What are my consent rights?",
+      "answer": "Under GDPR, consent must be: freely given (no bundling with services), specific (for stated purposes), informed (you know what you're agreeing to), unambiguous (clear affirmative action), and withdrawable (you can revoke anytime). You can manage consent preferences in Settings > Privacy > Consent Management. Withdrawing consent doesn't affect lawfulness of prior processing.",
+      "category": "privacy",
+      "tags": ["consent", "gdpr", "privacy-rights"],
+      "related": ["comp_009", "gdpr_001"],
+      "url": "/kb/privacy-compliance#consent",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_044",
+      "question": "What is a DPIA?",
+      "answer": "DPIA (Data Protection Impact Assessment) is a process to identify and minimize data protection risks of a project. Required under GDPR for high-risk processing (large scale, sensitive data, systematic monitoring). Fanz conducts DPIAs for new features involving personal data. Results inform privacy-by-design decisions and are available to supervisory authorities on request.",
+      "category": "privacy",
+      "tags": ["dpia", "gdpr", "privacy"],
+      "related": ["comp_009", "comp_034"],
+      "url": "/kb/privacy-compliance#dpia",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_045",
+      "question": "What is age-gating?",
+      "answer": "Age-gating is restricting access to content based on age verification. Fanz implements two types: Soft age-gate (self-declaration - user clicks 'I am 18+') for jurisdictions without legal requirements, and Hard age-gate (identity verification required) for jurisdictions with legal requirements (UK, 8 US states, etc.). Your location determines which applies.",
+      "category": "age-verification",
+      "tags": ["age-gating", "verification", "access"],
+      "related": ["age_001", "comp_024"],
+      "url": "/kb/age-verification-guide#age-gating",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_046",
+      "question": "Can I access Fanz with a VPN?",
+      "answer": "VPN usage is permitted but doesn't bypass age verification requirements. We detect VPN usage and may still require verification based on: account registration location, payment method location, previous verified location, and behavioral signals. Using a VPN to evade age verification requirements may result in account suspension. VPNs are fine for privacy, not for circumvention.",
+      "category": "access",
+      "tags": ["vpn", "access", "verification"],
+      "related": ["age_014", "comp_045"],
+      "url": "/kb/troubleshooting-compliance#vpn",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_047",
+      "question": "What happens if I'm under 18?",
+      "answer": "Users under 18 are strictly prohibited. If discovered: account immediately terminated, all content removed, verification records checked for potential fraud. Creating an account while under 18 may constitute identity fraud. If you encounter someone you believe is under 18, report immediately. We cooperate with law enforcement on underage user investigations.",
+      "category": "minors",
+      "tags": ["minors", "age", "prohibited"],
+      "related": ["comp_006", "age_001"],
+      "url": "/kb/age-verification-guide#minors",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_048",
+      "question": "What is the National Human Trafficking Hotline?",
+      "answer": "The National Human Trafficking Hotline (1-888-373-7888) is a 24/7 resource for trafficking victims and those who encounter trafficking. You can also text 'HELP' to 233733. The hotline connects victims with services, receives tips, and coordinates with law enforcement. If you suspect someone is being trafficked, call immediately. Fanz staff are trained to provide this number when appropriate.",
+      "category": "trafficking",
+      "tags": ["trafficking", "hotline", "resources"],
+      "related": ["comp_011", "comp_012"],
+      "url": "/kb/trafficking-detection#resources",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_049",
+      "question": "How does Fanz handle law enforcement requests?",
+      "answer": "Law enforcement requests are handled by our Legal team: (1) Verify authenticity of request and requester, (2) Review legal process (subpoena, warrant, etc.), (3) Determine scope and validity, (4) Gather required information only within scope, (5) Provide through proper channels, (6) Notify user unless prohibited by law (gag order). We never voluntarily provide user data without legal process except for imminent safety threats.",
+      "category": "legal",
+      "tags": ["law-enforcement", "legal-process", "privacy"],
+      "related": ["comp_016", "incident_002"],
+      "url": "/kb/incident-response#law-enforcement",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_050",
+      "question": "What is a preservation request?",
+      "answer": "A preservation request (legal hold) is a law enforcement request to preserve specific data pending formal legal process. Under US law (18 U.S.C. 2703(f)), we must preserve data for 90 days (extendable to 180 days). This prevents deletion of evidence while law enforcement obtains proper warrants. We cannot disclose the existence of a preservation request to the affected user.",
+      "category": "legal",
+      "tags": ["preservation", "legal-hold", "law-enforcement"],
+      "related": ["comp_049", "gdpr_002"],
+      "url": "/kb/incident-response#preservation",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_051",
+      "question": "What is two-factor authentication and why is it important for compliance?",
+      "answer": "Two-factor authentication (2FA) adds a second verification step beyond your password. For compliance, 2FA protects: your personal data (prevents unauthorized access), your verification status (prevents identity theft), your content (prevents unauthorized uploads). Fanz supports authenticator apps, SMS, and hardware keys. 2FA is required for creator accounts handling payments.",
+      "category": "security",
+      "tags": ["2fa", "security", "authentication"],
+      "related": ["comp_016", "security_001"],
+      "url": "/kb/account-security#2fa",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_052",
+      "question": "What platforms does Fanz integrate with for content distribution?",
+      "answer": "Fanz can integrate with external platforms for content distribution. When uploading to integrated platforms (OnlyFans, Fansly, ManyVids, etc.), we verify content meets both Fanz policies AND the external platform's policies. Some platforms have stricter rules. Content blocked by external platforms is logged but doesn't count as a Fanz violation if it complies with our policies.",
+      "category": "integration",
+      "tags": ["platforms", "integration", "distribution"],
+      "related": ["creator_005", "prohib_001"],
+      "url": "/kb/creator-compliance#external-platforms",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_053",
+      "question": "What is content hashing?",
+      "answer": "Content hashing creates a unique digital fingerprint of content. Used for: detecting known CSAM (PhotoDNA/PDQ), identifying re-uploads of removed content, preventing distribution of previously banned material. Hashes are compared against databases of known violations. A hash match triggers immediate review. Hashing works even if content is resized, cropped, or slightly modified.",
+      "category": "detection",
+      "tags": ["hashing", "detection", "technology"],
+      "related": ["comp_028", "comp_029"],
+      "url": "/kb/csam-detection#hashing",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_054",
+      "question": "What is geolocation and how does it affect me?",
+      "answer": "Geolocation determines your physical location using IP address. Fanz uses geolocation to: determine if age verification is required (UK, US states), apply local content restrictions, comply with regional laws. You'll see location-based requirements when you access the platform. Geolocation is not 100% accurate - if incorrectly detected, contact support with proof of actual location.",
+      "category": "access",
+      "tags": ["geolocation", "location", "verification"],
+      "related": ["age_001", "comp_046"],
+      "url": "/kb/age-verification-guide#geolocation",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_055",
+      "question": "What is the difference between viewer and creator compliance?",
+      "answer": "Viewers: Must complete age verification in required jurisdictions, follow terms of service, not download/redistribute content, report illegal content. Creators: All viewer requirements PLUS 2257 record-keeping, verify all performers in content, maintain consent documentation, complete Creator Compliance certification, follow monetization policies, respond to verification requests.",
+      "category": "roles",
+      "tags": ["viewer", "creator", "compliance-roles"],
+      "related": ["comp_004", "creator_001"],
+      "url": "/kb/compliance-overview#roles",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_056",
+      "question": "What constitutes valid consent for content featuring multiple people?",
+      "answer": "All participants must provide: verified identity (2257 records), explicit written consent for content creation, consent for distribution on specific platforms, ongoing consent (can revoke anytime). Consent must be documented before production. If consent is revoked, content must be removed within 24 hours. Records must show consent was voluntary, informed, and specific to the content created.",
+      "category": "consent",
+      "tags": ["consent", "performers", "documentation"],
+      "related": ["creator_004", "comp_007"],
+      "url": "/kb/creator-compliance#consent",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_057",
+      "question": "What is the difference between a warning and a strike?",
+      "answer": "Warnings are educational notices for minor or first-time issues - they don't affect your account status. Strikes are formal violations that accumulate: 1st strike = warning + training, 2nd strike = 7-day suspension, 3rd strike = permanent ban. Strikes remain on record for 12 months. Some violations (CSAM) bypass the strike system entirely and result in immediate permanent ban.",
+      "category": "enforcement",
+      "tags": ["warning", "strike", "enforcement"],
+      "related": ["comp_017", "prohib_001"],
+      "url": "/kb/troubleshooting-compliance#strikes",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_058",
+      "question": "Can I monetize content without completing Creator Compliance training?",
+      "answer": "No. Creator Compliance certification (85% pass on FanzVarsity) is required before enabling monetization features. This ensures you understand: 2257 requirements, prohibited content, consent requirements, tax obligations, and platform policies. Monetization is enabled within 24 hours of passing certification. You can create and share free content while completing training.",
+      "category": "monetization",
+      "tags": ["monetization", "certification", "requirements"],
+      "related": ["comp_036", "creator_001"],
+      "url": "/kb/creator-compliance#monetization",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_059",
+      "question": "What tax documentation does Fanz require?",
+      "answer": "For US creators: W-9 form before first payout over $600. For non-US creators: W-8BEN/W-8BEN-E form. Fanz issues 1099-NEC for US creators earning $600+. You're responsible for reporting income and paying taxes in your jurisdiction. We don't provide tax advice - consult a tax professional. Forms submitted via Settings > Payments > Tax Documents.",
+      "category": "taxes",
+      "tags": ["taxes", "documentation", "w9"],
+      "related": ["creator_001", "monetization_001"],
+      "url": "/kb/creator-compliance#taxes",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_060",
+      "question": "What is a payment processor audit?",
+      "answer": "Payment processors (Visa, Mastercard) conduct regular audits of adult platforms. They review: content moderation effectiveness, violation rates, user verification processes, policy enforcement, complaint handling. Audits may be routine (quarterly) or triggered by violations. Fanz prepares comprehensive compliance reports. Audit findings can result in fines, increased fees, or termination.",
+      "category": "payments",
+      "tags": ["audit", "payment-processor", "compliance"],
+      "related": ["comp_014", "comp_015"],
+      "url": "/kb/audit-preparation#processors",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_061",
+      "question": "What is the right to data portability?",
+      "answer": "Under GDPR Article 20, you can receive your personal data in a structured, commonly used, machine-readable format (JSON/CSV) and transmit it to another service. Applies to: data you provided and data generated by your use of service. Request via Settings > Privacy > Data Requests > Portability. Provided within 30 days. Some data may be excluded (third-party data, trade secrets).",
+      "category": "privacy",
+      "tags": ["portability", "gdpr", "data-rights"],
+      "related": ["comp_009", "comp_022"],
+      "url": "/kb/privacy-compliance#portability",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_062",
+      "question": "What is the right to object to processing?",
+      "answer": "Under GDPR Article 21, you can object to: processing based on legitimate interests, direct marketing, and research/statistics. Upon objection, Fanz must stop processing unless we have compelling legitimate grounds. Object via Settings > Privacy > Processing Preferences. We'll explain if we cannot honor the objection. Marketing objections are always honored immediately.",
+      "category": "privacy",
+      "tags": ["objection", "gdpr", "data-rights"],
+      "related": ["comp_009", "comp_022"],
+      "url": "/kb/privacy-compliance#objection",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_063",
+      "question": "What is the right to rectification?",
+      "answer": "Under GDPR Article 16, you can correct inaccurate personal data and complete incomplete data. This includes: name, contact info, profile data, and any other personal information we hold. Request via Settings > Account > Edit Profile (for basic info) or Settings > Privacy > Data Requests > Rectification (for data you can't edit directly). Changes processed within 72 hours.",
+      "category": "privacy",
+      "tags": ["rectification", "gdpr", "data-rights"],
+      "related": ["comp_009", "comp_022"],
+      "url": "/kb/privacy-compliance#rectification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_064",
+      "question": "What is the right to restriction of processing?",
+      "answer": "Under GDPR Article 18, you can request limiting how we process your data in specific circumstances: contesting accuracy (while we verify), processing is unlawful but you prefer restriction over deletion, we no longer need data but you need it for legal claims, or you've objected and we're verifying grounds. Data is stored but not actively processed during restriction.",
+      "category": "privacy",
+      "tags": ["restriction", "gdpr", "data-rights"],
+      "related": ["comp_009", "comp_022"],
+      "url": "/kb/privacy-compliance#restriction",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_065",
+      "question": "Can Fanz make automated decisions about my content?",
+      "answer": "Yes, but with safeguards. Automated decisions include: risk scoring, initial content classification, and spam detection. Under GDPR Article 22, you have rights regarding automated decision-making: to not be subject to solely automated decisions with legal effects, to obtain human intervention, to express your view, and to contest the decision. You can always request human review of automated decisions.",
+      "category": "automation",
+      "tags": ["automation", "ai", "gdpr"],
+      "related": ["comp_027", "comp_009"],
+      "url": "/kb/content-moderation#automation",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_066",
+      "question": "What are processing records (Article 30)?",
+      "answer": "Under GDPR Article 30, we maintain records of processing activities including: categories of data processed, purposes of processing, categories of recipients, international transfers, retention periods, and security measures. These records are available to supervisory authorities on request and inform our privacy practices. They're not typically shared with individual users but inform privacy policy disclosures.",
+      "category": "privacy",
+      "tags": ["article-30", "gdpr", "processing-records"],
+      "related": ["comp_009", "comp_044"],
+      "url": "/kb/privacy-compliance#article-30",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_067",
+      "question": "What is a supervisory authority?",
+      "answer": "A supervisory authority is the national data protection regulator that enforces GDPR. Examples: UK ICO (Information Commissioner's Office), Ireland DPC (Data Protection Commission), Germany BfDI. Fanz is primarily supervised by the authority where our EU representative is based. Users can lodge complaints with their local supervisory authority. Contact details are in our privacy policy.",
+      "category": "privacy",
+      "tags": ["supervisory-authority", "gdpr", "regulator"],
+      "related": ["comp_009", "comp_034"],
+      "url": "/kb/privacy-compliance#supervisory-authority",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_068",
+      "question": "What is an EU representative?",
+      "answer": "Under GDPR Article 27, non-EU companies processing EU data must designate an EU representative. This person/company acts as contact point for supervisory authorities and data subjects. Fanz's EU representative details are in our privacy policy. The representative can receive GDPR requests on our behalf and facilitates communication with EU authorities.",
+      "category": "privacy",
+      "tags": ["eu-representative", "gdpr", "legal"],
+      "related": ["comp_009", "comp_067"],
+      "url": "/kb/privacy-compliance#eu-representative",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_069",
+      "question": "What happens if I don't respond to a verification request?",
+      "answer": "Verification requests must be completed within specified timeframes: Initial age verification: access blocked until complete, 2257 record requests: 48 hours (for creators), Re-verification requests: 7 days. Non-response results in: content restrictions, monetization suspension, or account suspension depending on request type. Extensions may be granted with valid reason - contact support.",
+      "category": "verification",
+      "tags": ["verification", "deadlines", "consequences"],
+      "related": ["age_001", "comp_007"],
+      "url": "/kb/troubleshooting-compliance#verification-deadlines",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_070",
+      "question": "What is deepfake content and is it allowed?",
+      "answer": "Deepfakes are AI-generated content depicting real people in situations they weren't actually in. On Fanz: Non-consensual deepfake sexual content is prohibited (creating sexual content using someone's likeness without consent). Consensual AI-generated content requires: documented consent from depicted person, clear labeling as AI-generated, all persons depicted verified as 18+. Violations are treated as non-consensual content.",
+      "category": "ai-content",
+      "tags": ["deepfake", "ai", "prohibited"],
+      "related": ["prohib_005", "comp_056"],
+      "url": "/kb/prohibited-content#ai-generated",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_071",
+      "question": "What is age-play and is it allowed?",
+      "answer": "Age-play (adults roleplaying as minors in sexual contexts) is strictly prohibited. This includes: 'barely legal' framing, school uniforms in sexual content, child-like behavior/speech, references to youth/innocence in sexual context. Even with all participants verified 18+, content suggesting minors is prohibited under payment processor policies and potentially illegal as 'virtual CSAM' in some jurisdictions.",
+      "category": "prohibited",
+      "tags": ["age-play", "prohibited", "minors"],
+      "related": ["prohib_002", "comp_006"],
+      "url": "/kb/prohibited-content#age-play",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_072",
+      "question": "What is CNC content and is it allowed?",
+      "answer": "CNC (Consensual Non-Consent) depicts fantasy scenarios of non-consensual situations between consenting adults. On Fanz: Allowed with strict requirements - clear disclaimer visible before content, verified consent from all participants, no ambiguity about fictional nature, no weapons/extreme violence. Prohibited: any ambiguity about consent, realistic violence, drugging scenarios, or content that could be mistaken for actual assault.",
+      "category": "content-rules",
+      "tags": ["cnc", "consent", "content-rules"],
+      "related": ["prohib_005", "comp_056"],
+      "url": "/kb/prohibited-content#cnc",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_073",
+      "question": "What BDSM content is allowed?",
+      "answer": "BDSM content between consenting adults is allowed with requirements: all participants verified 18+, documented consent, safe practices depicted. Prohibited: extreme edge play with significant injury risk, content suggesting non-consent without clear CNC disclaimers, branding/permanent marks (trafficking indicator), extreme restraint endangering safety. When in doubt, review our BDSM content guidelines.",
+      "category": "content-rules",
+      "tags": ["bdsm", "allowed", "content-rules"],
+      "related": ["prohib_005", "comp_072"],
+      "url": "/kb/content-guidelines#bdsm",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_074",
+      "question": "What is content involving public spaces?",
+      "answer": "Content filmed in public spaces requires: no non-consenting individuals visible (faces, identifiable features), no exposure to non-consenting public, compliance with local laws (public indecency varies by jurisdiction). Prohibited: actual exposure to unwitting public, flashing, covert filming. Allowed: controlled 'public' settings (closed sets), blurred backgrounds, locations with no bystanders. Location metadata should be stripped.",
+      "category": "content-rules",
+      "tags": ["public", "consent", "location"],
+      "related": ["comp_056", "privacy_001"],
+      "url": "/kb/content-guidelines#public-spaces",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_075",
+      "question": "What watermarking requirements exist?",
+      "answer": "While not legally required, Fanz recommends watermarking: protects against unauthorized redistribution, helps identify original creator in piracy cases, supports DMCA takedown claims. Platform automatically adds metadata watermarking. Visible watermarks are optional but recommended. For 2257 compliance, Custodian statement must be accessible but doesn't require visible watermark.",
+      "category": "content-protection",
+      "tags": ["watermark", "protection", "piracy"],
+      "related": ["creator_001", "dmca_001"],
+      "url": "/kb/creator-compliance#watermarking",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_076",
+      "question": "How do I file a DMCA takedown?",
+      "answer": "To file DMCA takedown for unauthorized use of your content: (1) Identify the infringing content URL, (2) Go to Settings > Content Protection > DMCA, (3) Complete the form with required elements (identification of work, infringing URL, contact info, good faith statement, accuracy statement, signature), (4) Submit. Fanz processes valid notices within 24 hours. Counter-notices are handled per DMCA procedures.",
+      "category": "dmca",
+      "tags": ["dmca", "takedown", "copyright"],
+      "related": ["comp_075", "creator_001"],
+      "url": "/kb/content-protection#dmca",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_077",
+      "question": "What is the three-strike system?",
+      "answer": "Fanz uses a progressive discipline system: First strike - warning, content removed, mandatory refresher training. Second strike - 7-day suspension, content removed, supervisor review required. Third strike - permanent account termination, all content removed, cannot create new account. Strikes expire after 12 months of clean record. CSAM and critical trafficking indicators bypass this system - immediate permanent ban.",
+      "category": "enforcement",
+      "tags": ["strikes", "enforcement", "discipline"],
+      "related": ["comp_017", "comp_057"],
+      "url": "/kb/troubleshooting-compliance#strike-system",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_078",
+      "question": "Can I get permanently banned for one violation?",
+      "answer": "Yes, certain violations result in immediate permanent ban regardless of prior history: CSAM (any amount), Critical trafficking indicators (9+ indicators), Repeated account creation after ban, Identity fraud during verification, Threats of violence against users/staff, Coordinated inauthentic behavior. These are non-negotiable and cannot be appealed.",
+      "category": "enforcement",
+      "tags": ["permanent-ban", "violations", "enforcement"],
+      "related": ["comp_077", "comp_006"],
+      "url": "/kb/troubleshooting-compliance#immediate-ban",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_079",
+      "question": "How long do violations stay on my record?",
+      "answer": "Strike duration: 12 months from date of violation (then expires). Warning duration: 6 months. Account notes: Permanent (internal reference). CSAM/trafficking reports: Permanent (legal requirement). Verification records: 7 years (legal requirement). After strikes expire, they don't count toward three-strike threshold, but historical violations may be considered for pattern analysis.",
+      "category": "enforcement",
+      "tags": ["violations", "record", "duration"],
+      "related": ["comp_077", "comp_020"],
+      "url": "/kb/troubleshooting-compliance#violation-duration",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_080",
+      "question": "What is a compliance score?",
+      "answer": "Your compliance score (0-100) reflects your overall compliance health: training completion, verification status, violation history, response to requests. Scores below 70 may limit features. Scores below 50 trigger mandatory review. Score factors: completed training (+), timely verification (+), violations (-), appeals won (+), fast response to requests (+). View your score in Compliance Dashboard.",
+      "category": "scoring",
+      "tags": ["compliance-score", "health", "metrics"],
+      "related": ["comp_038", "comp_036"],
+      "url": "/kb/compliance-dashboard#score",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_081",
+      "question": "What is cross-platform compliance?",
+      "answer": "Cross-platform compliance means meeting requirements across multiple platforms simultaneously. When distributing through Fanz to external platforms (OnlyFans, Fansly, etc.), content must meet the strictest applicable standard. Fanz checks content against all destination platform policies before distribution. Rejections from external platforms are logged but don't count as Fanz violations if content meets our policies.",
+      "category": "integration",
+      "tags": ["cross-platform", "integration", "external"],
+      "related": ["comp_052", "creator_005"],
+      "url": "/kb/creator-compliance#cross-platform",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_082",
+      "question": "What is the Fanz ecosystem?",
+      "answer": "The Fanz ecosystem includes multiple interconnected platforms: FanzDash (central dashboard), multiple niche platforms (boyfanz, girlfanz, etc.), FanzSSO (single sign-on), FanzVarsity (training), and shared compliance infrastructure. One account works across all platforms. Compliance status is shared - a violation on one platform affects your account across all platforms.",
+      "category": "ecosystem",
+      "tags": ["ecosystem", "platforms", "fanz"],
+      "related": ["comp_036", "comp_038"],
+      "url": "/kb/fanz-ecosystem",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_083",
+      "question": "What is FanzSSO?",
+      "answer": "FanzSSO (Single Sign-On) provides unified authentication across all Fanz platforms. One account, one verification, access to all platforms. Benefits: single age verification valid everywhere, unified compliance record, consistent identity across platforms, streamlined account management. Your verification and compliance status automatically sync across all Fanz properties.",
+      "category": "ecosystem",
+      "tags": ["sso", "authentication", "fanz"],
+      "related": ["comp_082", "age_017"],
+      "url": "/kb/fanz-ecosystem#sso",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_084",
+      "question": "What should I do if I receive a law enforcement contact?",
+      "answer": "If law enforcement contacts you directly (not through the platform): (1) Don't panic, (2) Don't destroy any evidence, (3) Note the officer's name, badge number, agency, (4) Ask what they're investigating, (5) You can ask for time to consult an attorney, (6) Don't lie (it's a crime), (7) Contact Fanz support - we can coordinate. If about content on Fanz, we likely already received a request.",
+      "category": "legal",
+      "tags": ["law-enforcement", "contact", "response"],
+      "related": ["comp_049", "comp_050"],
+      "url": "/kb/incident-response#personal-le-contact",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_085",
+      "question": "What is a content warning and when is it required?",
+      "answer": "Content warnings alert viewers to potentially sensitive content before viewing. Required for: BDSM/kink content, CNC scenarios, blood (menstruation, needle play), intense themes. Displayed before content loads. Viewers can configure preferences to skip warnings for categories they're comfortable with. Missing required warnings = policy violation. Add warnings during upload via content settings.",
+      "category": "content-rules",
+      "tags": ["content-warning", "disclosure", "requirements"],
+      "related": ["comp_072", "comp_073"],
+      "url": "/kb/content-guidelines#warnings",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_086",
+      "question": "What metadata is collected from uploads?",
+      "answer": "Metadata collected includes: file creation date, camera/device info (if present), geolocation (if present - we strip this), file hash, upload timestamp, account IP, and file format details. This metadata supports: content verification, duplicate detection, abuse investigation. Geolocation is stripped before distribution to protect privacy. You can view metadata collected via Settings > Privacy > My Data.",
+      "category": "privacy",
+      "tags": ["metadata", "privacy", "uploads"],
+      "related": ["comp_016", "comp_053"],
+      "url": "/kb/privacy-compliance#metadata",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_087",
+      "question": "What is the right to access (GDPR Article 15)?",
+      "answer": "Under GDPR Article 15, you can request a copy of all personal data we hold about you, including: purposes of processing, categories of data, recipients, retention periods, your rights, source of data, and automated decision-making information. Request via Settings > Privacy > Data Requests > Access. Provided in electronic format within 30 days. One free request per year; reasonable fee for additional requests.",
+      "category": "privacy",
+      "tags": ["access", "gdpr", "data-rights"],
+      "related": ["comp_009", "comp_022"],
+      "url": "/kb/privacy-compliance#access",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_088",
+      "question": "What is legitimate interest?",
+      "answer": "Legitimate interest is a legal basis for processing personal data under GDPR (Article 6(1)(f)). Fanz relies on legitimate interest for: security measures, fraud prevention, platform improvement, and some analytics. We conduct balancing tests to ensure our interests don't override your rights. You can object to legitimate interest processing via Settings > Privacy > Processing Preferences.",
+      "category": "privacy",
+      "tags": ["legitimate-interest", "gdpr", "legal-basis"],
+      "related": ["comp_009", "comp_062"],
+      "url": "/kb/privacy-compliance#legitimate-interest",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_089",
+      "question": "What are special category data?",
+      "answer": "Special category data (GDPR Article 9) includes: racial/ethnic origin, political opinions, religious beliefs, trade union membership, genetic data, biometric data, health data, sex life/orientation. Fanz may process: biometric data (face verification), sex life data (nature of platform). This requires explicit consent and enhanced protections. We minimize collection and provide clear disclosures.",
+      "category": "privacy",
+      "tags": ["special-category", "gdpr", "sensitive-data"],
+      "related": ["comp_009", "comp_043"],
+      "url": "/kb/privacy-compliance#special-category",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_090",
+      "question": "What is a sub-processor?",
+      "answer": "Sub-processors are third parties we share data with for processing. Examples: cloud hosting (AWS, Google Cloud), payment processors (Stripe), age verification (VerifyMy), email services (SendGrid). GDPR requires: contracts ensuring data protection, disclosure to users, maintaining a list. Current sub-processors are listed in our privacy policy and updated with 30 days notice for changes.",
+      "category": "privacy",
+      "tags": ["sub-processor", "gdpr", "third-party"],
+      "related": ["comp_009", "comp_016"],
+      "url": "/kb/privacy-compliance#sub-processors",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_091",
+      "question": "What is data minimization?",
+      "answer": "Data minimization (GDPR principle) means collecting only data necessary for stated purposes. Fanz practices: only required fields for registration, optional profile fields clearly marked, automatic deletion when data no longer needed, anonymization where possible, regular data retention reviews. This protects your privacy and reduces risk in case of breach.",
+      "category": "privacy",
+      "tags": ["data-minimization", "gdpr", "privacy-principle"],
+      "related": ["comp_016", "comp_020"],
+      "url": "/kb/privacy-compliance#minimization",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_092",
+      "question": "What is privacy by design?",
+      "answer": "Privacy by design means building privacy into systems from the start, not as an afterthought. Fanz implements: privacy impact assessments for new features, data protection in default settings, user control over data, minimal data collection, encryption by default, access controls, and regular privacy reviews. Required by GDPR Article 25.",
+      "category": "privacy",
+      "tags": ["privacy-by-design", "gdpr", "engineering"],
+      "related": ["comp_044", "comp_091"],
+      "url": "/kb/privacy-compliance#privacy-by-design",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_093",
+      "question": "What international data transfers occur?",
+      "answer": "Fanz may transfer data internationally between: US operations, EU operations, and global CDN locations. GDPR requires safeguards for EU data transfers: Standard Contractual Clauses (SCCs), adequacy decisions (for approved countries), or explicit consent for specific transfers. We use SCCs with all non-EU sub-processors. Transfer details are in our privacy policy.",
+      "category": "privacy",
+      "tags": ["international-transfer", "gdpr", "data-flow"],
+      "related": ["comp_009", "comp_090"],
+      "url": "/kb/privacy-compliance#international-transfers",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_094",
+      "question": "What is the cookie policy?",
+      "answer": "Fanz uses cookies for: essential functions (login, preferences), analytics (site improvement), and optional marketing (if consented). EU users see cookie consent banner with granular controls. Categories: Necessary (can't disable), Functional (preferences), Analytics (usage data), Marketing (advertising). Manage preferences anytime via Settings > Privacy > Cookie Preferences. Full policy at /cookie-policy.",
+      "category": "privacy",
+      "tags": ["cookies", "privacy", "consent"],
+      "related": ["comp_043", "comp_016"],
+      "url": "/cookie-policy",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_095",
+      "question": "What is account termination and how does it work?",
+      "answer": "Account termination ends your Fanz account. Types: Voluntary (you request), Violation-based (policy breach), Inactivity (12+ months). Process: content removed from public view, data retained per legal requirements (2257: 7 years, tax: 7 years), after retention period data anonymized/deleted. Monetization stops, pending payouts processed within 30 days. Termination is permanent for violation-based closures.",
+      "category": "account",
+      "tags": ["termination", "account", "closure"],
+      "related": ["comp_078", "comp_020"],
+      "url": "/kb/account-management#termination",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_096",
+      "question": "What is a compliance hold?",
+      "answer": "A compliance hold temporarily restricts account features while an issue is resolved. Reasons: pending verification, under investigation, response to compliance request needed. During hold: content may be hidden, monetization paused, some features restricted. Resolve by completing requested action (verification, training, document submission). Holds differ from suspensions - they're administrative, not punitive.",
+      "category": "enforcement",
+      "tags": ["hold", "account", "compliance"],
+      "related": ["comp_069", "comp_077"],
+      "url": "/kb/troubleshooting-compliance#compliance-hold",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_097",
+      "question": "What backup and recovery options exist?",
+      "answer": "Fanz maintains: automated daily backups (content, account data), encrypted backup storage, 30-day recovery window for accidental deletion, geographic redundancy. You can: download your content via Settings > Content > Export, request data copy via GDPR access request, enable two-factor authentication to prevent unauthorized deletion. Backup doesn't apply to intentionally deleted content after retention period.",
+      "category": "data-management",
+      "tags": ["backup", "recovery", "data"],
+      "related": ["comp_016", "comp_087"],
+      "url": "/kb/account-management#backup",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_098",
+      "question": "What accessibility features does Fanz provide?",
+      "answer": "Fanz is committed to accessibility: WCAG 2.1 AA compliance target, screen reader compatibility, keyboard navigation, color contrast options, text resizing, alt text for images, video captions (where provided), adjustable motion settings. Accessibility features in Settings > Accessibility. Report accessibility issues to accessibility@fanz.com for priority resolution.",
+      "category": "accessibility",
+      "tags": ["accessibility", "wcag", "features"],
+      "related": ["comp_016"],
+      "url": "/kb/accessibility",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_099",
+      "question": "How often are policies updated?",
+      "answer": "Policy review schedule: Terms of Service (annual, or when laws change), Privacy Policy (annual, or for material changes), Content Policy (quarterly, or when needed), Compliance Procedures (continuous). Major changes: 30 days advance notice via email and site banner. Minor clarifications: effective immediately with changelog. Past versions archived and accessible. You can subscribe to policy update notifications.",
+      "category": "policies",
+      "tags": ["policy-updates", "changes", "notifications"],
+      "related": ["comp_023", "comp_002"],
+      "url": "/kb/policy-updates",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_100",
+      "question": "Where can I get help with compliance questions?",
+      "answer": "Compliance help is available through: Knowledge Base (kb.fanz.website) - searchable articles, FanzVarsity (training.fanz.com) - courses and certification, In-app chat support - live assistance, Email (compliance@fanz.com) - detailed inquiries, Compliance Dashboard - self-service tools. For urgent issues (CSAM, trafficking, breach), use priority support channels. Most questions are answered in Knowledge Base.",
+      "category": "support",
+      "tags": ["help", "support", "resources"],
+      "related": ["comp_037", "comp_038"],
+      "url": "/kb/getting-help",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_101",
+      "question": "What is the moderation review SLA?",
+      "answer": "Moderation Service Level Agreements: CSAM reports - immediate automated action, manual review within 2 hours. Trafficking indicators - within 4 hours. High-risk content (80+ score) - within 8 hours. Medium-risk (60-79) - within 24 hours. Standard reports - within 72 hours. DSA complaints - within 14 days (legal requirement). Appeals - within 7 days. Emergency reports escalated to 24/7 on-call team.",
+      "category": "moderation",
+      "tags": ["sla", "review-times", "moderation"],
+      "related": ["comp_026", "comp_040"],
+      "url": "/kb/content-moderation#sla",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_102",
+      "question": "What happens during a platform outage?",
+      "answer": "During outages: Compliance systems have failover redundancy, CSAM detection continues on backup systems, Critical reports are queued and processed when restored, Deadline clocks may be paused if outage prevents user action (GDPR, DSA), Status page at status.fanz.com shows current status, Email notifications for extended outages. We maintain 99.9% uptime SLA for core compliance systems.",
+      "category": "operations",
+      "tags": ["outage", "reliability", "failover"],
+      "related": ["comp_097", "comp_100"],
+      "url": "/kb/platform-status",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_103",
+      "question": "What is the content review queue?",
+      "answer": "The content review queue prioritizes content for moderation: Priority 1 (immediate) - CSAM matches, critical risk. Priority 2 (urgent) - high trafficking indicators, high risk score. Priority 3 (standard) - medium risk, user reports. Priority 4 (routine) - spot checks, random sampling. Queue times vary by priority and volume. Creators can view their content status in Upload Dashboard.",
+      "category": "moderation",
+      "tags": ["queue", "review", "priority"],
+      "related": ["comp_026", "comp_101"],
+      "url": "/kb/content-moderation#queue",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_104",
+      "question": "What is an edge case in content moderation?",
+      "answer": "Edge cases are content that doesn't clearly fit policy categories. Examples: artistic nudity, medical/educational content, historical documentation, satire. Edge cases are reviewed by senior moderators with context consideration: artistic merit, educational value, news reporting, research purposes. Creators can provide context during upload. Edge case decisions are documented for consistency.",
+      "category": "moderation",
+      "tags": ["edge-case", "context", "moderation"],
+      "related": ["comp_026", "comp_065"],
+      "url": "/kb/content-moderation#edge-cases",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_105",
+      "question": "What mental health resources are available for moderators?",
+      "answer": "Fanz provides moderator wellness support: mandatory breaks (15 minutes per 2 hours of CSAM/disturbing content review), counseling services (free, confidential), peer support groups, content exposure limits, rotation policies for traumatic content queues, wellness checks, and training on secondary trauma. Moderators can request reassignment from disturbing queues at any time.",
+      "category": "moderator-wellness",
+      "tags": ["mental-health", "moderators", "wellness"],
+      "related": ["comp_036", "training_001"],
+      "url": "/kb/moderator-training#wellness",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_106",
+      "question": "How does Fanz prevent ban evasion?",
+      "answer": "Ban evasion detection uses: device fingerprinting (hardware, browser characteristics), IP analysis (including VPN detection), payment method tracking, behavioral analysis, phone number verification, and cross-referencing registration patterns. Creating a new account after permanent ban is itself a permanent ban offense. Detected evasion accounts are immediately terminated.",
+      "category": "enforcement",
+      "tags": ["ban-evasion", "detection", "enforcement"],
+      "related": ["comp_078", "comp_046"],
+      "url": "/kb/enforcement#ban-evasion",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_107",
+      "question": "What is coordinated inauthentic behavior?",
+      "answer": "Coordinated inauthentic behavior (CIB) includes: fake accounts operating together, artificial engagement (likes, comments, followers), manipulation of recommendation systems, organized harassment campaigns, and spam networks. Detection uses pattern analysis and network mapping. CIB results in: all involved accounts permanently banned, reports to relevant authorities if illegal activity detected, and potential legal action.",
+      "category": "abuse",
+      "tags": ["cib", "fake-accounts", "manipulation"],
+      "related": ["comp_078", "comp_106"],
+      "url": "/kb/enforcement#coordinated-behavior",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_108",
+      "question": "What is sextortion and how is it handled?",
+      "answer": "Sextortion is threatening to expose intimate content unless the victim pays or provides more content. On Fanz: immediately report to Trust & Safety, accounts engaging in sextortion are permanently banned, we preserve evidence for law enforcement, we provide victim support resources, and we cooperate with investigations. Victims are not penalized for being targeted. Report via emergency report option.",
+      "category": "abuse",
+      "tags": ["sextortion", "abuse", "safety"],
+      "related": ["comp_048", "comp_041"],
+      "url": "/kb/safety#sextortion",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_109",
+      "question": "What is the difference between removal and restriction?",
+      "answer": "Removal: Content permanently deleted from platform, cannot be restored, may count as strike. Restriction: Content hidden from general access but preserved (may be visible to creator), can be appealed, may be temporary. Restrictions used when: content may be borderline, additional context needed, or pending verification. You'll receive Statement of Reasons explaining which action and why.",
+      "category": "enforcement",
+      "tags": ["removal", "restriction", "enforcement"],
+      "related": ["comp_017", "comp_018"],
+      "url": "/kb/enforcement#removal-vs-restriction",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_110",
+      "question": "What is priority review?",
+      "answer": "Priority review fast-tracks content through moderation. Available for: verified high-reputation creators (compliance score 90+), urgent business needs, content resubmission after successful appeal. Reduces review time from standard 72 hours to 4-8 hours. Not available for: new accounts, accounts with recent violations, high-risk content categories. Request via Creator Dashboard if eligible.",
+      "category": "moderation",
+      "tags": ["priority", "review", "fast-track"],
+      "related": ["comp_101", "comp_080"],
+      "url": "/kb/creator-tools#priority-review",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_111",
+      "question": "What is a proactive detection?",
+      "answer": "Proactive detection identifies violations without user reports. Methods: hash matching (CSAM databases), AI content analysis, behavioral pattern detection, and random sampling. Benefits: catches violations users might not report, consistent enforcement, faster response. All proactive detections are verified by human moderators before action (except CSAM hash matches, which trigger immediate automated response).",
+      "category": "detection",
+      "tags": ["proactive", "detection", "automation"],
+      "related": ["comp_028", "comp_027"],
+      "url": "/kb/content-moderation#proactive",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_112",
+      "question": "What is the verification API?",
+      "answer": "The Verification API allows verified age checks to be reused across partner platforms. If you've verified on one Fanz platform, the verification applies to all Fanz properties via FanzSSO. Third-party integration is available for approved partners meeting our privacy and security requirements. Users control whether to share verification status with external platforms.",
+      "category": "integration",
+      "tags": ["api", "verification", "integration"],
+      "related": ["comp_083", "age_017"],
+      "url": "/kb/developers/verification-api",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_113",
+      "question": "What is content fingerprinting?",
+      "answer": "Content fingerprinting creates unique identifiers for content that survive transformations. Used for: preventing re-upload of removed content, tracking unauthorized redistribution, identifying content across modifications (resize, crop, filter). Fingerprints are: stored in violation database, shared with industry partners for CSAM prevention, used for DMCA protection. Does not store actual content, only mathematical signature.",
+      "category": "technology",
+      "tags": ["fingerprinting", "detection", "technology"],
+      "related": ["comp_028", "comp_029"],
+      "url": "/kb/technology#fingerprinting",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_114",
+      "question": "What is the industry shared database?",
+      "answer": "Fanz participates in industry shared databases for: CSAM hashes (via NCMEC, IWF), known bad actors, and prohibited content fingerprints. This cross-platform sharing: prevents violators from moving between platforms, improves detection accuracy, and reduces CSAM circulation. We contribute and receive data. All sharing is anonymized for non-criminal data and follows strict protocols.",
+      "category": "industry",
+      "tags": ["shared-database", "industry", "collaboration"],
+      "related": ["comp_030", "comp_113"],
+      "url": "/kb/industry-collaboration",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_115",
+      "question": "What is the Internet Watch Foundation (IWF)?",
+      "answer": "The Internet Watch Foundation (IWF) is a UK-based organization combating online CSAM. They: maintain hash databases, operate reporting hotlines, work with law enforcement, and provide industry tools. Fanz partners with IWF for: hash sharing, best practices, and reporting. IWF is a trusted flagger under EU DSA. UK users can report to IWF at iwf.org.uk.",
+      "category": "partners",
+      "tags": ["iwf", "csam", "partner"],
+      "related": ["comp_030", "comp_114"],
+      "url": "/kb/partners#iwf",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_116",
+      "question": "What is annual recertification?",
+      "answer": "All Fanz certifications expire annually and require renewal. Recertification includes: shortened refresher course (covers policy updates), knowledge check (must pass at same threshold as original), and acknowledgment of policy changes. Reminders sent: 30 days, 14 days, 7 days, and 1 day before expiration. Features disabled if certification expires. Recertification takes approximately 1 hour.",
+      "category": "training",
+      "tags": ["recertification", "renewal", "annual"],
+      "related": ["comp_036", "comp_037"],
+      "url": "/kb/compliance-training#recertification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_117",
+      "question": "What is batch content review?",
+      "answer": "Batch review allows moderators to process multiple similar content items efficiently. Used for: high-volume uploads, similar content series, and bulk violation processing. Safeguards: maximum batch size of 10 items, requires individual decision for each item, automatic breaks between batches, random sampling for quality control. Batch review maintains individual accountability per item.",
+      "category": "moderation",
+      "tags": ["batch", "review", "efficiency"],
+      "related": ["comp_103", "comp_101"],
+      "url": "/kb/moderation-tools#batch",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_118",
+      "question": "What audit trails are maintained?",
+      "answer": "Fanz maintains comprehensive audit trails for: content moderation decisions, account actions, data access by staff, GDPR request handling, verification processes, and system configuration changes. Trails include: timestamp, action, user/staff involved, reason, outcome. Audit logs are: encrypted, tamper-evident, retained for 7 years, available for regulatory review. Users can request their relevant audit data via GDPR access.",
+      "category": "compliance",
+      "tags": ["audit-trail", "logging", "accountability"],
+      "related": ["comp_038", "comp_087"],
+      "url": "/kb/compliance-infrastructure#audit",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_119",
+      "question": "What is a compliance escalation?",
+      "answer": "Escalation moves issues up the decision chain when: moderator is uncertain, decision has high impact, pattern suggests systemic issue, or legal review is needed. Escalation path: Moderator > Senior Moderator > Compliance Lead > Compliance Officer > Legal > Executive. Time limits apply at each level. You can request escalation of your appeal via Compliance Dashboard.",
+      "category": "enforcement",
+      "tags": ["escalation", "review", "process"],
+      "related": ["comp_018", "comp_101"],
+      "url": "/kb/compliance-process#escalation",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_120",
+      "question": "What is the difference between legal and policy violations?",
+      "answer": "Legal violations break actual laws (CSAM, trafficking, fraud) - these may result in criminal referral, mandatory reporting, and cooperation with law enforcement. Policy violations break platform rules but may not be illegal (incest roleplay, payment processor restrictions) - these result in content removal and strikes but no legal referral. Some overlap: non-consensual content may be both illegal and policy violation.",
+      "category": "enforcement",
+      "tags": ["legal", "policy", "violations"],
+      "related": ["comp_077", "comp_006"],
+      "url": "/kb/enforcement#violation-types",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_121",
+      "question": "What is creator account verification?",
+      "answer": "Creator account verification goes beyond basic age verification. Requirements: government ID verification, address verification, tax documentation, profile verification (photo matching ID), phone verification, and completion of Creator Compliance certification. Verified creators display verification badge, can monetize, and access advanced features. Verification review takes 24-48 hours.",
+      "category": "verification",
+      "tags": ["creator-verification", "identity", "monetization"],
+      "related": ["age_001", "comp_058"],
+      "url": "/kb/creator-verification",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_122",
+      "question": "What is a chargeback and how does it affect compliance?",
+      "answer": "Chargebacks are payment disputes where customers request refund from their bank. High chargeback rates: indicate potential fraud or policy issues, attract processor scrutiny, can result in higher fees or termination. Fanz monitors: chargeback reasons, patterns by creator, and overall rates. Creators with excessive chargebacks may have monetization suspended. Maintain clear communication and honest content descriptions.",
+      "category": "payments",
+      "tags": ["chargeback", "fraud", "payments"],
+      "related": ["comp_014", "comp_060"],
+      "url": "/kb/payment-compliance#chargebacks",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_123",
+      "question": "What is content insurance?",
+      "answer": "Fanz doesn't provide content insurance, but recommends: professional liability insurance for creators, content protection services (watermarking, monitoring), DMCA registration for works, and clear contracts with collaborators. These protect against: theft/piracy, claims from collaborators, and legal challenges. Consider consulting an entertainment attorney for high-value content.",
+      "category": "creator-resources",
+      "tags": ["insurance", "protection", "legal"],
+      "related": ["comp_076", "creator_001"],
+      "url": "/kb/creator-resources#insurance",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_124",
+      "question": "What is platform liability?",
+      "answer": "Platform liability refers to when Fanz could be legally responsible for user content. Protections: Section 230 (US) - generally protects platforms from user content liability, with exceptions for federal criminal law, IP, and sex trafficking. E-Commerce Directive/DSA (EU) - liability only if platform has knowledge and fails to act. We maintain protections through: prompt action on reports, proactive detection, and clear policies.",
+      "category": "legal",
+      "tags": ["liability", "section-230", "legal"],
+      "related": ["comp_011", "comp_010"],
+      "url": "/kb/legal-framework#liability",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_125",
+      "question": "What is the safe harbor provision?",
+      "answer": "Safe harbor protects platforms from liability for user-generated content if they: don't have knowledge of illegal content, act expeditiously to remove content when notified, and don't materially contribute to infringing activity. Fanz maintains safe harbor by: responding quickly to reports, not editing/curating illegal content, and having clear takedown procedures. FOSTA-SESTA created exception for sex trafficking.",
+      "category": "legal",
+      "tags": ["safe-harbor", "liability", "legal"],
+      "related": ["comp_124", "comp_011"],
+      "url": "/kb/legal-framework#safe-harbor",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_126",
+      "question": "What is community guidelines enforcement?",
+      "answer": "Community guidelines are platform rules beyond legal requirements. Examples: no hate speech, no harassment, authenticity requirements, content quality standards. Enforcement: similar to policy violations (warning, suspension, ban), but may have more flexibility for context. Guidelines evolve based on community feedback. Current guidelines at /community-guidelines, updated quarterly.",
+      "category": "policies",
+      "tags": ["community-guidelines", "rules", "enforcement"],
+      "related": ["comp_017", "comp_099"],
+      "url": "/community-guidelines",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_127",
+      "question": "What is content licensing?",
+      "answer": "When you upload content to Fanz, you grant us a license to: host, display, distribute, and process your content. You retain ownership. License is: non-exclusive (you can post elsewhere), worldwide, royalty-free (no additional payment), limited to operating the platform. License ends when you delete content (subject to backup periods). Full terms in Terms of Service Section 7.",
+      "category": "legal",
+      "tags": ["licensing", "content", "rights"],
+      "related": ["comp_076", "creator_001"],
+      "url": "/kb/legal-framework#licensing",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_128",
+      "question": "What happens if content I appear in is uploaded without my consent?",
+      "answer": "Non-consensual intimate content can be reported for immediate removal. Process: (1) Report via content report button or contact trust@fanz.com, (2) Provide identification (we verify you're in the content), (3) Content removed within 24 hours, (4) Uploader receives strike/ban, (5) We preserve evidence if you wish to pursue legal action. NCII laws make this a crime in many jurisdictions.",
+      "category": "safety",
+      "tags": ["non-consensual", "ncii", "removal"],
+      "related": ["comp_056", "prohib_005"],
+      "url": "/kb/safety#non-consensual-removal",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_129",
+      "question": "What is creator income reporting?",
+      "answer": "Fanz reports creator income to tax authorities as required: US creators earning $600+: 1099-NEC issued, Non-US creators: 1042-S for withheld taxes (if applicable). You can access tax documents in Settings > Payments > Tax Documents. We report: gross payments, not net of our fees. You're responsible for reporting income and paying taxes - consult a tax professional.",
+      "category": "taxes",
+      "tags": ["income", "taxes", "reporting"],
+      "related": ["comp_059", "creator_001"],
+      "url": "/kb/creator-compliance#income-reporting",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_130",
+      "question": "What is content bundling?",
+      "answer": "Content bundling combines multiple pieces of content into packages (albums, series). Compliance considerations: all content in bundle must individually comply with policies, each piece needs proper verification/consent if featuring others, bundles inherit highest risk rating of any component, and pricing must be clear. Prohibited: bundling compliant content with non-compliant to evade detection.",
+      "category": "content-rules",
+      "tags": ["bundling", "content", "packaging"],
+      "related": ["comp_081", "creator_001"],
+      "url": "/kb/creator-tools#bundling",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_131",
+      "question": "What is content scheduling and compliance?",
+      "answer": "Content scheduling allows setting future publish dates. Compliance applies at publication time: content reviewed before scheduled time, risk scores assigned at upload but verified at publication, policy changes between upload and publication apply, and you can cancel scheduled posts if concerned. Scheduled content status shown in Creator Dashboard.",
+      "category": "content-rules",
+      "tags": ["scheduling", "content", "timing"],
+      "related": ["comp_103", "creator_001"],
+      "url": "/kb/creator-tools#scheduling",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_132",
+      "question": "What are content tags and how do they affect compliance?",
+      "answer": "Content tags help categorize content for discovery. Compliance considerations: tags must accurately describe content (misleading tags = violation), prohibited terms trigger additional review, tags affect risk scoring, and some tags are restricted (require age verification, specific content types). Tag responsibly - inaccurate tags can result in removal even if content is otherwise compliant.",
+      "category": "content-rules",
+      "tags": ["tags", "metadata", "discovery"],
+      "related": ["comp_027", "comp_085"],
+      "url": "/kb/content-guidelines#tags",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_133",
+      "question": "What is live streaming compliance?",
+      "answer": "Live streams have additional compliance requirements: real-time age verification for viewers (in required jurisdictions), enhanced monitoring for policy violations, moderator capability to end streams instantly, recording for review/evidence, and stricter performer verification (live = harder to fake). All 2257 requirements apply. Violations result in immediate stream termination plus standard enforcement.",
+      "category": "content-rules",
+      "tags": ["live-streaming", "real-time", "compliance"],
+      "related": ["age_001", "comp_007"],
+      "url": "/kb/live-streaming",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_134",
+      "question": "What is messaging compliance?",
+      "answer": "Direct messages (DMs) have compliance requirements: no CSAM or illegal content, no trafficking/coercion language, no solicitation of minors, and no sharing prohibited content. DMs are: encrypted in transit, scanned for prohibited content hashes (not read by humans unless reported), preserved for law enforcement if legally required. Report concerning messages immediately.",
+      "category": "messaging",
+      "tags": ["messages", "dm", "compliance"],
+      "related": ["comp_006", "comp_012"],
+      "url": "/kb/messaging-compliance",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_135",
+      "question": "What is custom content compliance?",
+      "answer": "Custom content (commissioned content) has specific requirements: all performer verification applies (2257), consent documented for requested activities, prohibited content cannot be commissioned (even if buyer requests), and pricing/delivery terms must be clear. Creators are responsible for refusing prohibited requests. Custom content disputes handled via standard appeal process.",
+      "category": "content-rules",
+      "tags": ["custom-content", "commission", "compliance"],
+      "related": ["comp_056", "comp_007"],
+      "url": "/kb/creator-compliance#custom-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_136",
+      "question": "What is tip/donation compliance?",
+      "answer": "Tips and donations are treated as income: reported to tax authorities if thresholds met, subject to anti-money laundering monitoring, unusual patterns may trigger review (potential trafficking indicator), and payment processor rules apply. Tips cannot be used to request prohibited content. Tip goals/rewards must not promise prohibited activities.",
+      "category": "monetization",
+      "tags": ["tips", "donations", "compliance"],
+      "related": ["comp_129", "comp_012"],
+      "url": "/kb/monetization#tips",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_137",
+      "question": "What is subscription compliance?",
+      "answer": "Subscription offerings must: clearly describe what subscribers receive, not promise prohibited content, honor subscription terms, provide cancellation options (required by consumer law), and handle chargebacks appropriately. Auto-renewal requires clear disclosure and easy cancellation. Subscriptions do not bypass content compliance - all content must meet policies regardless of subscription tier.",
+      "category": "monetization",
+      "tags": ["subscription", "pricing", "compliance"],
+      "related": ["comp_122", "comp_137"],
+      "url": "/kb/monetization#subscriptions",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_138",
+      "question": "What is pay-per-view compliance?",
+      "answer": "Pay-per-view content must: be accurately described in listing, meet all content policies, display clear pricing, provide actual advertised content, and maintain verification records for all performers. Misleading PPV descriptions (selling different content than advertised) is a violation. Refund requests for PPV handled per consumer protection guidelines.",
+      "category": "monetization",
+      "tags": ["ppv", "pricing", "compliance"],
+      "related": ["comp_130", "comp_137"],
+      "url": "/kb/monetization#ppv",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "comp_139",
+      "question": "What happens if a collaborator's verification expires?",
+      "answer": "Collaborator verification requirements: all performers in content must maintain valid verification. If collaborator's verification expires: content featuring them may be restricted, you'll be notified, content restored when they re-verify. Your responsibility as primary creator: ensure collaborators maintain verification, keep consent documentation current, and respond to verification requests promptly.",
+      "category": "verification",
+      "tags": ["collaborator", "verification", "expiry"],
+      "related": ["comp_007", "comp_069"],
+      "url": "/kb/creator-compliance#collaborators",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_140",
+      "question": "What is content archiving?",
+      "answer": "Content archiving preserves content for compliance even after public deletion: 2257 records and associated content references kept for 7 years, CSAM reports and evidence kept permanently, DSA-removed content (Statement of Reasons) kept for 6 years, and GDPR-erasure-requested content deleted per request (except legal exceptions). Archive not publicly accessible - for compliance/legal use only.",
+      "category": "data-management",
+      "tags": ["archiving", "retention", "compliance"],
+      "related": ["comp_020", "comp_021"],
+      "url": "/kb/data-management#archiving",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_141",
+      "question": "What is content migration between platforms?",
+      "answer": "Moving content between Fanz platforms (e.g., from boyfanz to transfanz): content retains compliance status, verification transfers via FanzSSO, no re-upload needed for SSO-linked accounts, compliance score follows your account. Moving from external platforms to Fanz: must re-verify all performers, content goes through normal review, external compliance doesn't transfer.",
+      "category": "ecosystem",
+      "tags": ["migration", "platforms", "transfer"],
+      "related": ["comp_082", "comp_083"],
+      "url": "/kb/content-management#migration",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_142",
+      "question": "What is multi-account policy?",
+      "answer": "Multiple accounts are allowed under conditions: each account has legitimate distinct purpose, no accounts used to evade enforcement, all accounts linked to same verification identity, and you disclose related accounts when asked. Prohibited: creating new accounts after ban, using multiple accounts to manipulate engagement, or splitting content to evade detection. Suspicious multi-account patterns investigated.",
+      "category": "account",
+      "tags": ["multi-account", "policy", "accounts"],
+      "related": ["comp_106", "comp_107"],
+      "url": "/kb/account-management#multi-account",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_143",
+      "question": "What is the verification refresh requirement?",
+      "answer": "Periodic verification refresh maintains compliance: age verification refreshed when laws require re-verification (annually in some jurisdictions), creator verification refreshed annually (ID still valid, address current), 2257 records updated when information changes, and we may request re-verification if suspicious activity detected. Notification sent before refresh deadlines.",
+      "category": "verification",
+      "tags": ["refresh", "verification", "periodic"],
+      "related": ["comp_069", "comp_116"],
+      "url": "/kb/verification#refresh",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_144",
+      "question": "What is device binding for verification?",
+      "answer": "Some jurisdictions require verification to be device-bound: verification applies to specific device, new devices require re-verification, and prevents account sharing that circumvents age verification. Device information stored: secure hash (not actual fingerprint), linked to verification record, and compared at login. Clear device binding via Settings > Security > Trusted Devices.",
+      "category": "verification",
+      "tags": ["device", "verification", "binding"],
+      "related": ["age_010", "comp_046"],
+      "url": "/kb/verification#device-binding",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_145",
+      "question": "What is the compliance API for businesses?",
+      "answer": "Fanz provides API access for business integration: verification status checks, compliance report generation, automated content upload with pre-check, and webhook notifications for compliance events. Available to: business accounts in good standing, after API access application approval. Documentation at developers.fanz.com. API calls are logged and rate-limited.",
+      "category": "integration",
+      "tags": ["api", "business", "integration"],
+      "related": ["comp_112", "creator_001"],
+      "url": "/kb/developers",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_146",
+      "question": "What is content geo-restriction?",
+      "answer": "Geo-restriction limits content availability by location. Uses: comply with local laws (content legal in one country but not another), creator preference (limit audience), and platform requirements. Implementation: IP-based detection, may combine with verification location, VPN detection affects accuracy. Configure per-content or account-wide in Settings > Content > Distribution.",
+      "category": "distribution",
+      "tags": ["geo-restriction", "location", "distribution"],
+      "related": ["comp_054", "comp_046"],
+      "url": "/kb/content-distribution#geo",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "comp_147",
+      "question": "What is the compliance sandbox?",
+      "answer": "The compliance sandbox is a testing environment for: developers building integrations, understanding how content would be scored, testing edge cases before production upload. Sandbox: doesn't create real violations, provides detailed feedback on risk factors, available via API or web interface. Access via developer dashboard after approval.",
+      "category": "tools",
+      "tags": ["sandbox", "testing", "developers"],
+      "related": ["comp_145", "comp_027"],
+      "url": "/kb/developers#sandbox",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_148",
+      "question": "What happens during a regulatory investigation?",
+      "answer": "If Fanz is subject to regulatory investigation (by Ofcom, DPCs, etc.): we cooperate fully with valid legal process, preserve relevant data, provide required documentation, may need to pause certain activities, and notify affected users if permitted. Users may be contacted for interviews or information. We maintain transparency within legal limits. Investigations may result in changes to policies.",
+      "category": "legal",
+      "tags": ["investigation", "regulatory", "compliance"],
+      "related": ["comp_049", "comp_067"],
+      "url": "/kb/regulatory-compliance#investigations",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_149",
+      "question": "What is compliance insurance?",
+      "answer": "Fanz maintains insurance covering: data breach response, regulatory defense costs, and cyber liability. This protects platform operations but doesn't cover individual users. Creators should consider: professional liability insurance, content errors and omissions, and cyber insurance for their business. Insurance doesn't prevent violations - still follow all compliance requirements.",
+      "category": "business",
+      "tags": ["insurance", "liability", "business"],
+      "related": ["comp_123", "comp_035"],
+      "url": "/kb/business-compliance#insurance",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "comp_150",
+      "question": "Where can I find the most current compliance information?",
+      "answer": "Current compliance information is available at: Knowledge Base (kb.fanz.website) - updated continuously, FanzVarsity (training.fanz.com) - courses updated quarterly, Policy pages (/policies) - legal documents, Status page (status.fanz.com) - system status, Blog (blog.fanz.com) - major updates and changes, Email - subscribe to compliance updates in Settings > Notifications. When in doubt, contact compliance@fanz.com.",
+      "category": "support",
+      "tags": ["resources", "information", "updates"],
+      "related": ["comp_100", "comp_099"],
+      "url": "/kb/staying-informed",
+      "difficulty": "beginner"
+    }
+  ]
+}

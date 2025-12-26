@@ -1,0 +1,584 @@
+{
+  "examId": "creator-compliance-final",
+  "courseId": "creator-compliance",
+  "title": "Creator Compliance Final Exam",
+  "description": "Comprehensive exam covering all legal, compliance, and operational requirements for content creators. Passing is required for monetization.",
+  "questionCount": 50,
+  "passRate": 85,
+  "timeLimit": 60,
+  "attemptsAllowed": "unlimited",
+  "retakeWaitPeriod": 24,
+  "questions": [
+    {
+      "id": "cc-final-q1",
+      "category": "Legal Responsibilities",
+      "question": "What is your employment status as a content creator on Fanz?",
+      "options": [
+        "Employee of Fanz",
+        "Independent contractor / self-employed",
+        "Part-time employee",
+        "Freelance employee"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Content creators are independent contractors, not employees. This means you're responsible for your own taxes, compliance, and business operations."
+    },
+    {
+      "id": "cc-final-q2",
+      "category": "Legal Responsibilities",
+      "question": "What tax form will Fanz issue if you earn $600 or more in a year?",
+      "options": ["W-2", "1099-NEC", "1099-MISC", "W-9"],
+      "correctAnswer": 1,
+      "explanation": "Fanz issues 1099-NEC (Non-Employee Compensation) for creators earning $600 or more."
+    },
+    {
+      "id": "cc-final-q3",
+      "category": "Legal Responsibilities",
+      "question": "What additional tax do self-employed individuals pay?",
+      "options": [
+        "State income tax only",
+        "Self-employment tax (15.3%)",
+        "Capital gains tax",
+        "No additional taxes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Self-employed individuals pay 15.3% self-employment tax for Social Security and Medicare, in addition to income tax."
+    },
+    {
+      "id": "cc-final-q4",
+      "category": "2257 Record Keeping",
+      "question": "What federal law requires age verification records for adult content?",
+      "options": ["DMCA", "18 U.S.C. § 2257", "FOSTA-SESTA", "Section 230"],
+      "correctAnswer": 1,
+      "explanation": "18 U.S.C. § 2257 specifically requires producers of sexually explicit content to verify and maintain records proving all performers are 18 or older."
+    },
+    {
+      "id": "cc-final-q5",
+      "category": "2257 Record Keeping",
+      "question": "How long must 2257 records be retained?",
+      "options": ["1 year", "3 years", "5 years", "7 years"],
+      "correctAnswer": 3,
+      "explanation": "2257 requires records to be maintained for 7 years from the date of last publication or performer's last activity."
+    },
+    {
+      "id": "cc-final-q6",
+      "category": "2257 Record Keeping",
+      "question": "Who is the PRIMARY producer of content?",
+      "options": [
+        "The platform hosting content",
+        "The person who films/creates the content",
+        "The payment processor",
+        "The viewer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The primary producer is the person who directly films or creates the sexually explicit content."
+    },
+    {
+      "id": "cc-final-q7",
+      "category": "2257 Record Keeping",
+      "question": "What records must be kept for each performer?",
+      "options": [
+        "Just their stage name",
+        "Legal name, date of birth, ID copy, all stage names, content URLs",
+        "Only their signature",
+        "Just a photo"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complete 2257 records require: legal name, date of birth, government ID copy, all stage names/aliases, and URLs where content appears."
+    },
+    {
+      "id": "cc-final-q8",
+      "category": "2257 Record Keeping",
+      "question": "How quickly must records be produced for FBI inspection?",
+      "options": ["Immediately", "Within 20 minutes", "Within 24 hours", "Within 1 week"],
+      "correctAnswer": 1,
+      "explanation": "Records must be retrievable and producible within 20 minutes of an FBI inspection request."
+    },
+    {
+      "id": "cc-final-q9",
+      "category": "2257 Record Keeping",
+      "question": "What is the maximum penalty for 2257 violations?",
+      "options": ["Fine only", "1 year", "5 years imprisonment", "10 years imprisonment"],
+      "correctAnswer": 3,
+      "explanation": "Second and subsequent 2257 violations can result in up to 10 years imprisonment."
+    },
+    {
+      "id": "cc-final-q10",
+      "category": "2257 Record Keeping",
+      "question": "When must you verify a collaborator's ID?",
+      "options": ["After filming", "Within 24 hours", "Before filming begins", "When they request payment"],
+      "correctAnswer": 2,
+      "explanation": "ID verification must happen BEFORE any filming occurs. Never during, never after - always before."
+    },
+    {
+      "id": "cc-final-q11",
+      "category": "2257 Record Keeping",
+      "question": "What types of ID are acceptable for 2257 verification?",
+      "options": [
+        "Social media profile",
+        "Library card",
+        "Government-issued photo ID (passport, driver's license)",
+        "Student ID"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Only valid government-issued photo IDs are acceptable: passport, driver's license, state/national ID, or military ID."
+    },
+    {
+      "id": "cc-final-q12",
+      "category": "2257 Record Keeping",
+      "question": "What information must be in your Custodian of Records statement?",
+      "options": [
+        "Just your email",
+        "Name and address of Custodian",
+        "Social Security number",
+        "Bank account"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Your 2257 statement must include the name and physical address of the Custodian of Records."
+    },
+    {
+      "id": "cc-final-q13",
+      "category": "Prohibited Content",
+      "question": "How many prohibited content categories are there?",
+      "options": ["5", "7", "9", "12"],
+      "correctAnswer": 2,
+      "explanation": "There are 9 prohibited categories: CSAM, appearing to depict minors, incest, bestiality, non-consent, necrophilia, bodily waste, extreme violence, and trafficking."
+    },
+    {
+      "id": "cc-final-q14",
+      "category": "Prohibited Content",
+      "question": "What is the risk score threshold for automatic content blocking?",
+      "options": ["40", "60", "80", "100"],
+      "correctAnswer": 2,
+      "explanation": "Content with risk score 80-100 is automatically blocked."
+    },
+    {
+      "id": "cc-final-q15",
+      "category": "Prohibited Content",
+      "question": "What happens when CSAM is detected?",
+      "options": [
+        "Warning issued",
+        "Immediate permanent ban + law enforcement notification",
+        "30-day suspension",
+        "Content review"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CSAM detection triggers immediate permanent ban, mandatory NCMEC report, FBI notification, and evidence preservation."
+    },
+    {
+      "id": "cc-final-q16",
+      "category": "Prohibited Content",
+      "question": "Is 'step-family' content prohibited?",
+      "options": [
+        "No, it's roleplay",
+        "Yes, all family-related sexual content is prohibited",
+        "Only if real family",
+        "Only on certain platforms"
+      ],
+      "correctAnswer": 1,
+      "explanation": "All family-related content including step-family is prohibited by payment processors."
+    },
+    {
+      "id": "cc-final-q17",
+      "category": "Prohibited Content",
+      "question": "Why is CNC (consensual non-consent) prohibited?",
+      "options": [
+        "It's illegal",
+        "Payment processors can't distinguish real from fake non-consent",
+        "It requires special licensing",
+        "It's only prohibited for new creators"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Payment processors ban all non-consent depictions because they cannot distinguish genuine from roleplay."
+    },
+    {
+      "id": "cc-final-q18",
+      "category": "Prohibited Content",
+      "question": "What term should you use instead of 'teen'?",
+      "options": ["Young", "Fresh", "Amateur", "Barely legal"],
+      "correctAnswer": 2,
+      "explanation": "'Amateur' is a safe alternative that doesn't emphasize youth in sexual context."
+    },
+    {
+      "id": "cc-final-q19",
+      "category": "Prohibited Content",
+      "question": "How many trafficking indicators are monitored?",
+      "options": ["5", "9", "13", "20"],
+      "correctAnswer": 2,
+      "explanation": "The platform monitors for 13 trafficking indicators including third-party control, coercion language, and distress signals."
+    },
+    {
+      "id": "cc-final-q20",
+      "category": "Prohibited Content",
+      "question": "Which BDSM content is allowed?",
+      "options": [
+        "Blood play",
+        "Strangulation",
+        "Consensual bondage with safety demonstrated",
+        "Weapons in contact"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Consensual BDSM with safety measures is allowed. Blood, strangulation, and weapons are prohibited."
+    },
+    {
+      "id": "cc-final-q21",
+      "category": "Age Verification",
+      "question": "Why is 'barely legal' marketing prohibited?",
+      "options": [
+        "Trademarked",
+        "Emphasizes youth in sexual context",
+        "Only for new accounts",
+        "Requires verification"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Barely legal' sexualizes youth and is banned by payment processors as adjacent to CSAM interest."
+    },
+    {
+      "id": "cc-final-q22",
+      "category": "Age Verification",
+      "question": "What is a red flag during collaborator verification?",
+      "options": [
+        "Nervousness",
+        "Third party speaking for the performer",
+        "Asking questions",
+        "Having a stage name"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Third-party control of communication is a major trafficking red flag."
+    },
+    {
+      "id": "cc-final-q23",
+      "category": "Age Verification",
+      "question": "Is age play allowed?",
+      "options": [
+        "Yes, if all are 18+",
+        "No, pretending to be underage is prohibited",
+        "Only with documentation",
+        "Only in fantasy"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Age play - pretending to be underage in sexual content - is prohibited regardless of actual ages."
+    },
+    {
+      "id": "cc-final-q24",
+      "category": "Age Verification",
+      "question": "What should you do if you suspect trafficking?",
+      "options": [
+        "Proceed but report after",
+        "Do NOT proceed, report to platform and authorities",
+        "Ask them directly",
+        "Complete shoot but don't pay"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If you suspect trafficking, do NOT proceed. Report immediately and consider contacting authorities."
+    },
+    {
+      "id": "cc-final-q25",
+      "category": "External Platforms",
+      "question": "What compliance checks run before external platform uploads?",
+      "options": [
+        "File size only",
+        "CSAM detection, payment processor compliance, trafficking assessment, platform rules",
+        "Age verification only",
+        "No checks"
+      ],
+      "correctAnswer": 1,
+      "explanation": "MediaHub runs comprehensive checks including CSAM detection, payment processor compliance, trafficking assessment, and platform-specific rules."
+    },
+    {
+      "id": "cc-final-q26",
+      "category": "External Platforms",
+      "question": "Which platform has the strictest content policies?",
+      "options": ["ManyVids", "Fansly", "OnlyFans", "Patreon"],
+      "correctAnswer": 2,
+      "explanation": "OnlyFans has some of the strictest policies after their 2021 payment processor issues."
+    },
+    {
+      "id": "cc-final-q27",
+      "category": "External Platforms",
+      "question": "Is sexually explicit content allowed on Patreon?",
+      "options": ["Yes", "No, it's prohibited", "Only with verification", "Only for subscribers"],
+      "correctAnswer": 1,
+      "explanation": "Patreon does NOT allow sexually explicit content. Nudity may be allowed in artistic contexts only."
+    },
+    {
+      "id": "cc-final-q28",
+      "category": "External Platforms",
+      "question": "What setting should you avoid?",
+      "options": ["Office", "Bedroom", "School/classroom", "Outdoors"],
+      "correctAnswer": 2,
+      "explanation": "School and classroom settings suggest underage participants and are prohibited."
+    },
+    {
+      "id": "cc-final-q29",
+      "category": "Violations & Appeals",
+      "question": "How long does a first strike remain on record?",
+      "options": ["30 days", "6 months", "12 months", "Permanently"],
+      "correctAnswer": 2,
+      "explanation": "First strikes remain for 12 months and clear after 12 months of clean compliance."
+    },
+    {
+      "id": "cc-final-q30",
+      "category": "Violations & Appeals",
+      "question": "What is the suspension length for second-strike moderate violation?",
+      "options": ["3 days", "7 days", "14 days", "30 days"],
+      "correctAnswer": 2,
+      "explanation": "Moderate second-strike violations result in 14-day suspension."
+    },
+    {
+      "id": "cc-final-q31",
+      "category": "Violations & Appeals",
+      "question": "Which violation type has NO appeal option?",
+      "options": ["Keywords", "Documentation", "CSAM", "First-time violations"],
+      "correctAnswer": 2,
+      "explanation": "CSAM, trafficking, and fraud violations have no appeal. These decisions are final."
+    },
+    {
+      "id": "cc-final-q32",
+      "category": "Violations & Appeals",
+      "question": "How long to appeal a first warning?",
+      "options": ["24 hours", "7 days", "14 days", "30 days"],
+      "correctAnswer": 1,
+      "explanation": "First warnings can be appealed within 7 days."
+    },
+    {
+      "id": "cc-final-q33",
+      "category": "Legal Responsibilities",
+      "question": "Which business structure provides liability protection?",
+      "options": ["Sole proprietorship", "General partnership", "LLC", "None"],
+      "correctAnswer": 2,
+      "explanation": "An LLC provides personal liability protection while remaining tax-flexible."
+    },
+    {
+      "id": "cc-final-q34",
+      "category": "Legal Responsibilities",
+      "question": "When are quarterly tax payments due?",
+      "options": [
+        "Jan 1, Apr 1, Jul 1, Oct 1",
+        "Apr 15, Jun 15, Sep 15, Jan 15",
+        "Every month",
+        "Year end only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Quarterly payments are due April 15, June 15, September 15, and January 15."
+    },
+    {
+      "id": "cc-final-q35",
+      "category": "2257 Record Keeping",
+      "question": "What should a model release include?",
+      "options": [
+        "Signature only",
+        "Performer info, production info, rights, compensation, consent declarations, signatures",
+        "Payment amount only",
+        "Date only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A comprehensive model release includes all performer information, production details, rights granted, compensation, consent declarations, and signatures."
+    },
+    {
+      "id": "cc-final-q36",
+      "category": "2257 Record Keeping",
+      "question": "If you purchase content, what are your obligations?",
+      "options": [
+        "None",
+        "Obtain 2257 records from original producer",
+        "Just trust them",
+        "Delete after 1 year"
+      ],
+      "correctAnswer": 1,
+      "explanation": "As a secondary producer, you must obtain and maintain copies of 2257 records from the primary producer."
+    },
+    {
+      "id": "cc-final-q37",
+      "category": "Prohibited Content",
+      "question": "What factor decreases risk score?",
+      "options": [
+        "Provocative titles",
+        "Complete 2257 documentation",
+        "More uploads",
+        "More subscribers"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complete 2257 documentation, certification, and clean history decrease risk scores."
+    },
+    {
+      "id": "cc-final-q38",
+      "category": "Prohibited Content",
+      "question": "What is the risk score impact of family terms?",
+      "options": ["+10", "+30", "+50", "+80 (blocked)"],
+      "correctAnswer": 3,
+      "explanation": "Family-related terms result in +80 risk points, triggering automatic blocking."
+    },
+    {
+      "id": "cc-final-q39",
+      "category": "Prohibited Content",
+      "question": "After third violation, what happens?",
+      "options": [
+        "Final warning",
+        "60-day suspension",
+        "Permanent ban",
+        "Mandatory training"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Third strike results in permanent ban with content removal and potential earnings forfeiture."
+    },
+    {
+      "id": "cc-final-q40",
+      "category": "Age Verification",
+      "question": "What documentation is required for collaborators?",
+      "options": [
+        "Signature only",
+        "ID copy, model release, age declaration, legal name, DOB, stage names",
+        "Stage name only",
+        "Email only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Complete documentation includes ID copy, model release, age declaration, legal name, DOB, and stage names."
+    },
+    {
+      "id": "cc-final-q41",
+      "category": "External Platforms",
+      "question": "If CSAM_DETECTED error occurs, what happens?",
+      "options": [
+        "Retry allowed",
+        "Immediate account flag, NCMEC report, cannot proceed",
+        "Try different platform",
+        "Reduce quality and retry"
+      ],
+      "correctAnswer": 1,
+      "explanation": "CSAM detection triggers immediate flagging, blocking, and mandatory NCMEC reporting. No retry possible."
+    },
+    {
+      "id": "cc-final-q42",
+      "category": "External Platforms",
+      "question": "What platform might allow content OnlyFans blocks?",
+      "options": [
+        "None",
+        "ManyVids (historically more permissive)",
+        "Patreon",
+        "All platforms have same rules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "ManyVids has historically been more permissive, though you should always verify current policies."
+    },
+    {
+      "id": "cc-final-q43",
+      "category": "Violations & Appeals",
+      "question": "What is required for reinstatement after suspension?",
+      "options": [
+        "Wait for time to pass",
+        "Pay fee",
+        "Complete training, pass quiz, acknowledge terms",
+        "New ID verification"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Reinstatement requires completing modules, passing with 80%+, and acknowledging policies."
+    },
+    {
+      "id": "cc-final-q44",
+      "category": "Violations & Appeals",
+      "question": "How long is enhanced monitoring after reinstatement?",
+      "options": ["30 days", "60 days", "90 days", "12 months"],
+      "correctAnswer": 2,
+      "explanation": "Enhanced content screening applies for 90 days after reinstatement."
+    },
+    {
+      "id": "cc-final-q45",
+      "category": "Legal Responsibilities",
+      "question": "What law makes platforms liable for facilitating trafficking?",
+      "options": ["GDPR", "FOSTA-SESTA", "2257", "Section 230"],
+      "correctAnswer": 1,
+      "explanation": "FOSTA-SESTA (2018) makes platforms potentially liable for facilitating sex trafficking."
+    },
+    {
+      "id": "cc-final-q46",
+      "category": "2257 Record Keeping",
+      "question": "How much notice does FBI typically give for inspection?",
+      "options": ["None required", "24 hours", "48 hours", "1 week"],
+      "correctAnswer": 2,
+      "explanation": "FBI typically gives 48 hours notice, though they can inspect without notice in some cases."
+    },
+    {
+      "id": "cc-final-q47",
+      "category": "Prohibited Content",
+      "question": "What content category skips strike system entirely?",
+      "options": ["Bodily waste", "Power dynamics", "CSAM/trafficking", "Aggressive titles"],
+      "correctAnswer": 2,
+      "explanation": "CSAM and trafficking result in immediate permanent ban with no prior strikes."
+    },
+    {
+      "id": "cc-final-q48",
+      "category": "Age Verification",
+      "question": "A collaborator mentions 'having to do this' to pay someone. What should you do?",
+      "options": [
+        "Proceed - everyone needs money",
+        "Ask for details during filming",
+        "Do NOT proceed - coercion/trafficking indicator",
+        "Pay them more"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Coercion language suggesting debt or obligation is a serious trafficking indicator. Do not proceed."
+    },
+    {
+      "id": "cc-final-q49",
+      "category": "External Platforms",
+      "question": "What should you do if content fails PAYMENT_PROCESSOR_VIOLATION?",
+      "options": [
+        "Upload using different method",
+        "Identify issue, make changes, re-screen",
+        "Create new account",
+        "Contact processor directly"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Read the error, identify the specific issue, make targeted changes, and re-screen."
+    },
+    {
+      "id": "cc-final-q50",
+      "category": "Violations & Appeals",
+      "question": "What happens if you try creating account after permanent ban?",
+      "options": [
+        "Works normally",
+        "ID flagged, detected, immediately re-banned",
+        "One fresh start allowed",
+        "Allowed after 1 year"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Banned IDs are flagged. Attempting new account is detected and results in immediate re-ban."
+    }
+  ],
+  "passingCriteria": {
+    "minimumScore": 85,
+    "requiredCategories": {
+      "Legal Responsibilities": 3,
+      "2257 Record Keeping": 7,
+      "Prohibited Content": 7,
+      "Age Verification": 4,
+      "External Platforms": 3,
+      "Violations & Appeals": 4
+    }
+  },
+  "certificateDetails": {
+    "name": "Creator Compliance Certificate",
+    "validityPeriod": "1 year",
+    "renewalRequired": true,
+    "displayOnProfile": true,
+    "pdfDownload": true,
+    "verificationLink": true,
+    "enablesFeatures": ["monetization", "payout", "creator_portal", "external_platform_sync"]
+  },
+  "uponPassing": [
+    "Creator Compliance Certificate issued",
+    "Monetization enabled on your account",
+    "Payment methods can be added",
+    "Creator status granted",
+    "Access to full Creator Portal features",
+    "Certificate displayed on profile",
+    "Annual recertification reminder set"
+  ],
+  "uponFailing": [
+    "Detailed feedback on missed topics by category",
+    "Can retake exam after 24 hours",
+    "Unlimited attempts allowed",
+    "Recommended to review specific modules before retaking",
+    "Monetization remains disabled until passed"
+  ]
+}

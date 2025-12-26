@@ -1,0 +1,132 @@
+{
+  "moduleId": "admin-module-4",
+  "courseId": "administrator-training",
+  "title": "Incident Response",
+  "duration": 60,
+  "order": 4,
+  "learningObjectives": [
+    "Respond to CSAM detection incidents",
+    "Investigate trafficking suspicions",
+    "Handle data breaches (72-hour GDPR notification)",
+    "Respond to payment processor violations",
+    "Cooperate with law enforcement",
+    "Manage crisis communications"
+  ],
+  "videoScript": {
+    "duration": "60 minutes",
+    "sections": [
+      {
+        "title": "Incident Response Framework",
+        "duration": "8:00",
+        "script": "Incident response is a structured approach to handling compliance emergencies.\n\n**Incident Categories:**\n\n**Severity 1 (Critical):**\n- CSAM detection\n- Active trafficking\n- Data breach\n- Law enforcement action\n- Platform-wide system failure\n\n**Severity 2 (High):**\n- Mass policy violations\n- Coordinated inauthentic behavior\n- Payment processor threat\n- Significant system issues\n- High-profile violation\n\n**Severity 3 (Medium):**\n- Individual serious violations\n- Regulatory inquiry\n- Process failures\n- Deadline misses\n\n**Severity 4 (Low):**\n- Routine violations\n- Minor system issues\n- Process improvements needed\n\n**Response Framework:**\n\n1. **Identify** - Recognize the incident\n2. **Contain** - Stop ongoing harm\n3. **Assess** - Understand scope and impact\n4. **Respond** - Take appropriate action\n5. **Report** - Notify relevant parties\n6. **Recover** - Return to normal operations\n7. **Review** - Learn and improve\n\n**Incident Commander:**\nFor Severity 1-2 incidents:\n- Designated lead coordinates response\n- Single point of decision-making\n- Briefs leadership\n- Documents actions"
+      },
+      {
+        "title": "CSAM Detection Incident Response",
+        "duration": "12:00",
+        "script": "CSAM detection triggers our most urgent response protocol.\n\n**Immediate Actions (Minutes):**\n\n1. **Content Blocking**\n   - Automatic upon detection\n   - Verify blocked from all access\n   - No caching or CDN copies\n\n2. **Account Suspension**\n   - Immediate suspension\n   - No user notification (yet)\n   - All content frozen\n\n3. **Evidence Preservation**\n   - Content hash preserved\n   - Account data captured\n   - Access logs secured\n   - Chain of custody started\n\n4. **Notification Chain**\n   - Moderator → Compliance\n   - Compliance → Legal (if needed)\n   - Compliance Officer aware\n\n**Within Hours:**\n\n5. **NCMEC Report**\n   - Prepare CyberTipline report\n   - Submit within 24 hours\n   - Document report number\n\n6. **Account Analysis**\n   - Review all account content\n   - Check for related accounts\n   - Assess upload history\n\n7. **Pattern Analysis**\n   - Check for similar IP activity\n   - Review device fingerprints\n   - Identify potential networks\n\n**Documentation:**\n- Incident report created\n- All actions timestamped\n- Decision rationale documented\n- Evidence log maintained\n\n**Communication:**\n- Internal: Need-to-know basis\n- External: None without Legal approval\n- User: No notification regarding CSAM\n\n**Post-Incident:**\n- Review detection effectiveness\n- Update processes if needed\n- Cooperate with law enforcement"
+      },
+      {
+        "title": "Data Breach Response",
+        "duration": "12:00",
+        "script": "Data breaches require rapid response with 72-hour GDPR notification.\n\n**GDPR Article 33 Requirement:**\nNotify supervisory authority within 72 hours of becoming aware of breach (if risk to individuals).\n\n**Breach Discovery:**\n\n**Initial Response (Hour 0-4):**\n1. Confirm breach is real (not false alarm)\n2. Identify affected systems\n3. Contain the breach\n4. Notify Incident Commander\n5. Assemble response team\n\n**Assessment (Hour 4-24):**\n6. Determine scope (what data, how many affected)\n7. Identify cause (attack, error, insider)\n8. Assess risk to individuals\n9. Document findings\n\n**Notification Decision (Hour 24-48):**\n10. Determine if notification required:\n    - Risk to individuals = must notify authority\n    - High risk = must also notify individuals\n11. Prepare notification content\n12. Legal review\n\n**Notification (Before Hour 72):**\n13. Notify supervisory authority:\n    - Nature of breach\n    - Categories and numbers affected\n    - Likely consequences\n    - Measures taken\n    - DPO contact information\n\n14. If high risk, notify individuals:\n    - Clear, plain language\n    - What happened\n    - What we're doing\n    - What they should do\n    - Contact information\n\n**Recovery:**\n15. Remediate vulnerability\n16. Monitor for further issues\n17. Full incident report\n18. Process improvements\n\n**Documentation:**\n- Full breach register entry\n- All notifications documented\n- Response timeline recorded\n- Lessons learned"
+      },
+      {
+        "title": "Law Enforcement Cooperation",
+        "duration": "12:00",
+        "script": "Cooperating with law enforcement requires careful procedures.\n\n**Types of Contact:**\n\n1. **Information Requests (Informal)**\n   - Agent calls or emails\n   - Seeking information about user\n   - No legal process attached\n\n2. **Subpoenas**\n   - Legal process requiring information\n   - Civil or criminal\n   - Defined scope\n\n3. **Search Warrants**\n   - Authorized by judge\n   - May require immediate compliance\n   - Broader scope\n\n4. **Preservation Requests**\n   - Request to preserve data\n   - Pending legal process\n   - Usually 90 days\n\n**Response Protocol:**\n\n**Step 1: Receive Request**\n- Document receipt immediately\n- Note who made contact\n- Get reference numbers\n- Do NOT provide information yet\n\n**Step 2: Escalate to Legal**\n- All requests go to Legal first\n- Legal verifies authenticity\n- Legal determines scope\n- Legal authorizes response\n\n**Step 3: Verify Legitimacy**\n- Confirm agency identity\n- Verify requesting officer\n- Check legal process validity\n- Identify proper scope\n\n**Step 4: Gather Information**\n- Only what's legally required\n- Within defined scope\n- Proper chain of custody\n- Document what's provided\n\n**Step 5: Provide Response**\n- Through proper channels\n- With appropriate protections\n- Document transmission\n- Retain copies\n\n**User Notification:**\n- Generally, users are notified\n- UNLESS gag order received\n- Legal determines notification timing\n- Document notification or gag order\n\n**What Not to Do:**\n- Don't provide information without Legal\n- Don't expand beyond scope\n- Don't tip off the subject\n- Don't destroy requested data\n- Don't discuss publicly"
+      },
+      {
+        "title": "Crisis Communications",
+        "duration": "10:00",
+        "script": "Crisis communications require careful coordination.\n\n**When Crisis Communication Needed:**\n- Public knowledge of compliance failure\n- Media inquiry about incident\n- User community concern\n- Regulatory action announced\n- Significant platform changes\n\n**Principles:**\n\n1. **Coordinate First**\n   - All communications through designated spokesperson\n   - Legal reviews before public statements\n   - Consistent messaging\n\n2. **Be Honest**\n   - Don't lie or mislead\n   - Don't speculate\n   - Say what you know\n   - Acknowledge what you don't know\n\n3. **Be Timely**\n   - Respond promptly\n   - Update when new information available\n   - Don't let vacuum fill with speculation\n\n4. **Be Appropriate**\n   - Match tone to situation\n   - Show genuine concern for affected parties\n   - Don't be defensive\n\n**Internal Communication:**\n- Staff briefing (what happened, what we're doing)\n- Talking points for customer-facing staff\n- Clear guidance on who speaks externally\n- Regular updates as situation evolves\n\n**External Communication:**\n\n**To Users:**\n- What happened (appropriate detail)\n- What we're doing\n- What they should do\n- How to get help\n\n**To Media:**\n- Prepared statement\n- Designated spokesperson only\n- Focus on facts and actions\n- Refer to prepared materials\n\n**To Regulators:**\n- Proactive notification if appropriate\n- Full cooperation\n- Regular updates\n- Documentation\n\n**Post-Crisis:**\n- Debrief internally\n- Assess communication effectiveness\n- Update crisis plan\n- Prepare for follow-up"
+      },
+      {
+        "title": "Payment Processor Violation Response",
+        "duration": "6:00",
+        "script": "Payment processor violations require specific response procedures.\n\n**Types of Processor Issues:**\n\n1. **Individual Content Violation**\n   - Single piece of violating content\n   - Normal enforcement\n   - Track for patterns\n\n2. **Pattern Identified**\n   - Multiple violations from same source\n   - Enhanced monitoring\n   - Creator education or enforcement\n\n3. **Processor Inquiry**\n   - Processor asks about specific content\n   - Immediate review\n   - Document response\n\n4. **Processor Warning**\n   - Formal notice of concern\n   - Corrective action required\n   - Timeline for response\n\n5. **Processing at Risk**\n   - Threat of termination\n   - Executive involvement\n   - Immediate remediation\n\n**Response to Processor Warning:**\n\n1. **Acknowledge receipt**\n   - Confirm we received notice\n   - Express commitment to compliance\n\n2. **Investigate**\n   - Review cited content/accounts\n   - Identify root cause\n   - Assess scope\n\n3. **Remediate**\n   - Remove violating content\n   - Enforce against violators\n   - Fix systemic issues\n\n4. **Respond**\n   - Detailed response to processor\n   - Actions taken\n   - Preventive measures\n\n5. **Monitor**\n   - Enhanced monitoring\n   - Track improvement\n   - Regular reporting\n\n**Documentation:**\n- All processor communications\n- Actions taken with timestamps\n- Metrics showing improvement\n- Ongoing compliance efforts"
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "incidentResponseSimulator",
+      "title": "Incident Response Simulator",
+      "scenarios": [
+        {
+          "incident": "CSAM hash match detected on verified creator account",
+          "steps": ["Content blocked", "Account suspended", "Evidence preserved", "NCMEC report prepared", "Account analyzed", "Report filed within 24 hours"],
+          "severity": "1 - Critical"
+        },
+        {
+          "incident": "Database breach discovered, 10,000 user emails exposed",
+          "steps": ["Confirm breach", "Contain exposure", "Assess scope", "Notify Legal", "Notify DPA within 72 hours", "Notify users", "Remediate", "Document"],
+          "severity": "1 - Critical"
+        },
+        {
+          "incident": "Payment processor sends formal warning about incest content spike",
+          "steps": ["Acknowledge receipt", "Review flagged content", "Remove violations", "Identify source/pattern", "Respond to processor", "Implement controls"],
+          "severity": "2 - High"
+        }
+      ]
+    },
+    {
+      "type": "decisionTreeTools",
+      "title": "Incident Decision Trees",
+      "trees": [
+        {"name": "CSAM Detection", "path": "Detect → Block → Preserve → Suspend → Report NCMEC → Analyze"},
+        {"name": "Data Breach", "path": "Discover → Contain → Assess → Notify (if risk) → Remediate → Document"},
+        {"name": "LE Request", "path": "Receive → Escalate Legal → Verify → Scope → Gather → Provide → Document"}
+      ]
+    },
+    {
+      "type": "communicationTemplates",
+      "title": "Crisis Communication Templates",
+      "templates": [
+        {"type": "Internal Staff Briefing", "purpose": "Inform staff of incident and guidance"},
+        {"type": "User Notification", "purpose": "Inform affected users of breach/incident"},
+        {"type": "Media Statement", "purpose": "Official response for press inquiries"},
+        {"type": "Regulator Notification", "purpose": "Required notifications to authorities"}
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 4 Knowledge Check",
+    "questions": [
+      {
+        "id": "adm-m4q1",
+        "question": "What is the GDPR breach notification timeline?",
+        "options": ["24 hours", "48 hours", "72 hours", "7 days"],
+        "correctAnswer": 2,
+        "explanation": "GDPR requires notification to supervisory authority within 72 hours of becoming aware of a breach."
+      },
+      {
+        "id": "adm-m4q2",
+        "question": "When law enforcement contacts you directly, what should you do?",
+        "options": ["Provide information immediately", "Escalate to Legal first", "Ignore until subpoena", "Post on social media"],
+        "correctAnswer": 1,
+        "explanation": "All law enforcement contacts should be escalated to Legal first for verification and proper response."
+      },
+      {
+        "id": "adm-m4q3",
+        "question": "What is the first response to CSAM detection?",
+        "options": ["Notify user", "Wait for confirmation", "Content blocking (automatic)", "Media statement"],
+        "correctAnswer": 2,
+        "explanation": "Content is automatically blocked immediately upon CSAM detection. User is NOT notified."
+      },
+      {
+        "id": "adm-m4q4",
+        "question": "Who speaks to media during a crisis?",
+        "options": ["Anyone available", "Designated spokesperson only", "The person who found the issue", "Social media team"],
+        "correctAnswer": 1,
+        "explanation": "Only designated spokespersons should communicate with media, with Legal-reviewed statements."
+      },
+      {
+        "id": "adm-m4q5",
+        "question": "What severity level is a CSAM detection?",
+        "options": ["Severity 4 - Low", "Severity 3 - Medium", "Severity 2 - High", "Severity 1 - Critical"],
+        "correctAnswer": 3,
+        "explanation": "CSAM detection is Severity 1 (Critical), triggering the highest level of response."
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "moduleId": "module-1",
+  "courseId": "compliance-101",
+  "title": "Why Compliance Matters",
+  "duration": 10,
+  "order": 1,
+  "learningObjectives": [
+    "Understand the legal landscape affecting adult content platforms",
+    "Recognize consequences of non-compliance",
+    "Appreciate how compliance protects both users and creators"
+  ],
+  "videoScript": {
+    "duration": "10 minutes",
+    "sections": [
+      {
+        "title": "Introduction",
+        "duration": "2:00",
+        "script": "Welcome to Compliance 101. Before you start creating or consuming content on the Fanz platform, it's essential to understand why compliance matters. This isn't just about following rules – it's about protecting yourself, protecting others, and ensuring our community thrives.\n\nIn the adult content industry, compliance isn't optional. It's the difference between a platform that operates safely and legally, and one that faces shutdown, criminal charges, and financial ruin. Let's explore why this matters to you."
+      },
+      {
+        "title": "The Legal Landscape",
+        "duration": "4:00",
+        "script": "Adult content platforms operate under a complex web of laws across multiple jurisdictions. Let's break down the major ones:\n\n**UK Online Safety Act 2023**: This groundbreaking law requires age verification for all adult content platforms. The penalty? Up to £18 million or 10% of global revenue – whichever is higher.\n\n**US State Laws**: Eight US states now require age verification: Louisiana, Utah, Arkansas, Virginia, Mississippi, Texas, Montana, and North Carolina. More states are following.\n\n**EU GDPR**: The General Data Protection Regulation gives European users strict data privacy rights. Fines can reach €20 million or 4% of global revenue.\n\n**EU Digital Services Act (DSA)**: Requires transparent content moderation and 14-day response times for complaints.\n\n**Federal US Laws**: These are the most serious:\n- 18 U.S.C. § 2258A: Mandatory CSAM (Child Sexual Abuse Material) reporting to NCMEC. Failure is a federal crime.\n- 18 U.S.C. § 2257: Record-keeping requirements for all adult content. Penalties include 5-10 years imprisonment.\n- FOSTA-SESTA: Platforms can be held liable for facilitating trafficking."
+      },
+      {
+        "title": "Real Consequences",
+        "duration": "2:00",
+        "script": "This isn't theoretical. Major platforms have faced devastating consequences:\n\n**Pornhub (2020)**: After a New York Times exposé, Visa and Mastercard suspended payment processing. The platform removed over 10 million unverified videos overnight.\n\n**Backpage (2018)**: Executives faced federal charges for facilitating trafficking. The platform was seized by the FBI.\n\n**OnlyFans (2021)**: Announced plans to ban explicit content due to payment processor pressure. They reversed course, but the threat was real.\n\nThese examples show that non-compliance can destroy a platform – and the careers of everyone on it."
+      },
+      {
+        "title": "How Compliance Protects You",
+        "duration": "2:00",
+        "script": "Compliance isn't just about avoiding penalties. It creates a safer ecosystem for everyone:\n\n**For Users**: Age verification keeps minors away from adult content. Content moderation removes illegal and harmful material. GDPR ensures your personal data is protected.\n\n**For Creators**: Compliance means your content is protected from piracy. Your earnings are safe because payment processors trust the platform. You're protected from being associated with illegal content.\n\n**For the Platform**: Compliance enables partnerships with payment processors, advertisers, and other platforms. It builds trust with users and regulators.\n\nWhen everyone follows the rules, we all benefit. That's why your participation in compliance isn't just required – it's appreciated."
+      }
+    ]
+  },
+  "interactiveElements": [
+    {
+      "type": "timeline",
+      "title": "Evolution of Adult Content Regulation",
+      "items": [
+        {"year": "1996", "event": "Communications Decency Act (Section 230)", "description": "Established platform liability protections"},
+        {"year": "2008", "event": "2257 Regulations Updated", "description": "Expanded record-keeping requirements"},
+        {"year": "2018", "event": "FOSTA-SESTA Enacted", "description": "Platforms can be liable for trafficking"},
+        {"year": "2018", "event": "GDPR Takes Effect", "description": "EU data protection rights established"},
+        {"year": "2020", "event": "Pornhub Crisis", "description": "Payment processors enforce content policies"},
+        {"year": "2023", "event": "UK Online Safety Act", "description": "Mandatory age verification for UK users"},
+        {"year": "2024", "event": "EU DSA Enforcement", "description": "Content moderation requirements take effect"}
+      ]
+    },
+    {
+      "type": "caseStudy",
+      "title": "Case Study: Why Pornhub Lost Payment Processing",
+      "content": {
+        "background": "In December 2020, the New York Times published 'The Children of Pornhub,' documenting instances of CSAM and non-consensual content on the platform.",
+        "keyIssues": [
+          "Unverified uploaders could post anonymously",
+          "No robust age verification for performers",
+          "Inadequate content moderation",
+          "Slow response to CSAM reports"
+        ],
+        "consequences": [
+          "Visa and Mastercard suspended payment processing",
+          "10+ million videos removed overnight",
+          "Mandatory verification for all uploaders implemented",
+          "Major reputation damage",
+          "Multiple lawsuits filed"
+        ],
+        "lessonsLearned": [
+          "Age verification for uploaders is essential",
+          "Robust content moderation prevents disasters",
+          "Payment processors will enforce compliance",
+          "Proactive compliance is cheaper than reactive cleanup"
+        ]
+      }
+    },
+    {
+      "type": "quiz",
+      "title": "Match the Law to Its Consequence",
+      "questions": [
+        {
+          "law": "UK Online Safety Act",
+          "consequence": "Up to £18 million fine for missing age verification"
+        },
+        {
+          "law": "18 U.S.C. § 2257",
+          "consequence": "5-10 years imprisonment for inadequate record-keeping"
+        },
+        {
+          "law": "FOSTA-SESTA",
+          "consequence": "Platform liability for facilitating trafficking"
+        },
+        {
+          "law": "GDPR",
+          "consequence": "Up to €20 million fine for data protection violations"
+        }
+      ]
+    }
+  ],
+  "knowledgeCheck": {
+    "title": "Module 1 Knowledge Check",
+    "questions": [
+      {
+        "id": "m1q1",
+        "question": "Which UK law requires age verification for adult content platforms?",
+        "options": [
+          "GDPR",
+          "Online Safety Act 2023",
+          "Digital Economy Act",
+          "Communications Act"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The UK Online Safety Act 2023 mandates age verification for all platforms hosting pornographic content, with penalties up to £18 million or 10% of global revenue."
+      },
+      {
+        "id": "m1q2",
+        "question": "How many US states currently require age verification for adult content?",
+        "options": ["3", "5", "8", "12"],
+        "correctAnswer": 2,
+        "explanation": "As of 2024, 8 US states require age verification: Louisiana, Utah, Arkansas, Virginia, Mississippi, Texas, Montana, and North Carolina."
+      },
+      {
+        "id": "m1q3",
+        "question": "What is the maximum penalty for CSAM-related violations under federal law?",
+        "options": [
+          "5 years imprisonment",
+          "10 years imprisonment",
+          "15-30 years imprisonment",
+          "Life imprisonment"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CSAM violations under 18 U.S.C. § 2252 can result in 15-30 years imprisonment for production, distribution, or possession."
+      },
+      {
+        "id": "m1q4",
+        "question": "What does GDPR stand for?",
+        "options": [
+          "General Data Privacy Regulation",
+          "General Data Protection Regulation",
+          "Global Data Protection Rules",
+          "Government Data Privacy Requirements"
+        ],
+        "correctAnswer": 1,
+        "explanation": "GDPR stands for General Data Protection Regulation, the EU's comprehensive data privacy law that took effect in 2018."
+      },
+      {
+        "id": "m1q5",
+        "question": "True or False: Compliance only protects the platform, not individual users.",
+        "options": ["True", "False"],
+        "correctAnswer": 1,
+        "explanation": "False. Compliance protects everyone: users are protected from illegal content and data breaches, creators are protected from association with illegal content and have stable payment processing, and the platform maintains trust and operational stability."
+      }
+    ]
+  },
+  "resources": [
+    {
+      "title": "UK Online Safety Act Summary",
+      "type": "pdf",
+      "url": "/resources/uk-online-safety-act-summary.pdf"
+    },
+    {
+      "title": "US State Age Verification Laws Map",
+      "type": "interactive",
+      "url": "/resources/us-age-verification-map"
+    },
+    {
+      "title": "GDPR Quick Reference Guide",
+      "type": "pdf",
+      "url": "/resources/gdpr-quick-reference.pdf"
+    }
+  ]
+}

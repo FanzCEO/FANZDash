@@ -1,0 +1,1008 @@
+{
+  "version": "1.0",
+  "last_updated": "2024-12-23",
+  "category": "prohibited_content",
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": "prohib_001",
+      "question": "What content is prohibited on Fanz?",
+      "answer": "9 categories are strictly prohibited: (1) CSAM (child sexual abuse material), (2) Content depicting or appearing to depict minors, (3) Incest (including roleplay), (4) Bestiality, (5) Non-consensual content, (6) Necrophilia, (7) Excrement/bodily waste, (8) Extreme violence/gore, and (9) Human trafficking content. These categories are banned by federal/international law and payment processors (Visa/Mastercard GBPP).",
+      "category": "general",
+      "tags": ["prohibited-content", "rules", "violations"],
+      "related": ["prohib_002", "prohib_010", "comp_006"],
+      "url": "/kb/prohibited-content",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_002",
+      "question": "Why is incest roleplay prohibited?",
+      "answer": "Payment processors (Visa/Mastercard) ban ALL incest content, including roleplay and fantasy scenarios. Reasons: high chargeback rates, reputational risk, and legal concerns in many jurisdictions. Even with all participants verified adults 18+, incest-themed content is prohibited. This includes step-family scenarios and any familial relationship references in sexual context.",
+      "category": "incest",
+      "tags": ["incest", "roleplay", "payment-processors"],
+      "related": ["prohib_003", "prohib_015", "comp_014"],
+      "url": "/kb/prohibited-content#incest",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_003",
+      "question": "What counts as incest content?",
+      "answer": "Prohibited incest content includes: biological family relationships, step-family relationships, adopted family relationships, in-law relationships, any familial terms (mom, dad, brother, sister, etc.) in sexual context, family roleplay scenarios, and 'family' fantasies regardless of actual relationships. Text, audio, titles, tags, and visual content are all included.",
+      "category": "incest",
+      "tags": ["incest", "definitions", "examples"],
+      "related": ["prohib_002", "prohib_004"],
+      "url": "/kb/prohibited-content#incest-examples",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_004",
+      "question": "Can I use step-family terminology if we're not actually related?",
+      "answer": "No. The prohibition is on the content/framing, not actual relationships. Using step-family terminology, titles like 'Step-mom teaches...', or familial roleplay is prohibited regardless of whether performers are actually related. Payment processors prohibit any incest theme - there are no loopholes.",
+      "category": "incest",
+      "tags": ["step-family", "terminology", "prohibited"],
+      "related": ["prohib_002", "prohib_003"],
+      "url": "/kb/prohibited-content#step-family",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_005",
+      "question": "What is barely legal content and is it allowed?",
+      "answer": "Barely legal content emphasizes youth/just turning 18 in a sexual context. It is PROHIBITED. This includes: '18th birthday' sexual themes, 'just legal' framing, emphasis on youth/innocence, 'teen' in sexual titles (even if performer is 18+). Payment processors ban this as it creates CSAM-adjacent content and normalizes interest in minors.",
+      "category": "minors",
+      "tags": ["barely-legal", "teen", "prohibited"],
+      "related": ["prohib_006", "prohib_007", "comp_006"],
+      "url": "/kb/prohibited-content#barely-legal",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_006",
+      "question": "Can I use 'teen' in my content titles?",
+      "answer": "No, 'teen' is prohibited in sexual content titles, descriptions, and tags even if the performer is 18+. The term emphasizes youth in sexual context, which payment processors and many laws prohibit. Use 'young adult', 'college', or simply don't reference age. 18+ doesn't make youth-focused sexual content acceptable.",
+      "category": "minors",
+      "tags": ["teen", "titles", "prohibited"],
+      "related": ["prohib_005", "prohib_007"],
+      "url": "/kb/prohibited-content#teen-terminology",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_007",
+      "question": "Why are school uniforms prohibited in sexual content?",
+      "answer": "School uniforms suggest minors (students are typically under 18). Sexual content featuring school uniforms is prohibited because: it creates association between sexual content and minors, many jurisdictions criminalize this as pseudo-CSAM, and payment processors explicitly ban it. College apparel may be acceptable with clear adult context.",
+      "category": "minors",
+      "tags": ["school-uniform", "prohibited", "minors"],
+      "related": ["prohib_005", "prohib_008"],
+      "url": "/kb/prohibited-content#school-uniforms",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_008",
+      "question": "What is age play and is it allowed?",
+      "answer": "Age play (adults roleplaying as minors in sexual contexts) is PROHIBITED. This includes: acting/speaking like a child, using child-like items (diapers, bottles, pacifiers) in sexual context, 'daddy/little' dynamics that suggest minor, and any scenario suggesting a participant is under 18. Adult baby/diaper fetish without sexual content may be reviewed case-by-case.",
+      "category": "minors",
+      "tags": ["age-play", "roleplay", "prohibited"],
+      "related": ["prohib_005", "prohib_009"],
+      "url": "/kb/prohibited-content#age-play",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_009",
+      "question": "Can I create content with stuffed animals or 'innocent' props?",
+      "answer": "Context matters. Stuffed animals/props are fine in non-sexual context. In sexual content: if props suggest childishness or innocence in sexual context, they're prohibited. If clearly adult context (plushies in bedroom as decor, not integral to sexual scenario), typically allowed. When in doubt, remove props that could suggest minor/innocent framing.",
+      "category": "props",
+      "tags": ["props", "context", "evaluation"],
+      "related": ["prohib_008", "prohib_007"],
+      "url": "/kb/prohibited-content#props",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_010",
+      "question": "What is CSAM?",
+      "answer": "CSAM (Child Sexual Abuse Material) is any visual depiction of sexually explicit conduct involving a minor (under 18). This includes: photos, videos, computer-generated images, and AI-generated content depicting minors. CSAM is a federal crime (18 U.S.C. 2251-2260) with 15-30 year sentences. Fanz has zero tolerance - detection results in immediate permanent ban and NCMEC report.",
+      "category": "csam",
+      "tags": ["csam", "federal-crime", "definition"],
+      "related": ["prohib_011", "comp_006"],
+      "url": "/kb/prohibited-content#csam",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_011",
+      "question": "What happens if I post CSAM?",
+      "answer": "CSAM posting results in: immediate content blocking, immediate permanent account ban (no appeal), automatic report to NCMEC within 24 hours, preservation of evidence for law enforcement, potential criminal prosecution (15-30 years federal), all related accounts investigated and banned, and you may be arrested. This is the most serious violation possible.",
+      "category": "csam",
+      "tags": ["csam", "consequences", "criminal"],
+      "related": ["prohib_010", "comp_031"],
+      "url": "/kb/prohibited-content#csam-consequences",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_012",
+      "question": "Does CSAM include AI-generated content?",
+      "answer": "Yes. AI-generated CSAM is illegal under 18 U.S.C. 1466A and many state laws. Creating realistic images depicting minors in sexual situations - whether real or AI-generated - is a federal crime. Detection and reporting procedures are the same as for real CSAM. Claiming 'it's not real' is not a defense.",
+      "category": "csam",
+      "tags": ["ai", "csam", "illegal"],
+      "related": ["prohib_010", "prohib_013"],
+      "url": "/kb/prohibited-content#ai-csam",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_013",
+      "question": "What are CSAM detection methods?",
+      "answer": "Fanz uses multiple detection methods: PhotoDNA (Microsoft hash matching against NCMEC database), PDQ hashing (Meta's perceptual hashing), AI visual analysis (detecting apparent minors), text analysis (suspicious titles/descriptions), and user reports. Hash matches trigger immediate blocking. All detections verified and reported to NCMEC.",
+      "category": "csam",
+      "tags": ["detection", "photodna", "technology"],
+      "related": ["prohib_010", "comp_028"],
+      "url": "/kb/csam-detection",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "prohib_014",
+      "question": "What is bestiality content?",
+      "answer": "Bestiality is sexual activity between humans and animals. This is illegal in most jurisdictions and prohibited by all payment processors. Includes: actual bestiality, simulated bestiality, CGI/AI animal-human content, and anthropomorphic content that is sexual in nature. Animals in sexual content in any capacity is prohibited.",
+      "category": "bestiality",
+      "tags": ["bestiality", "animals", "prohibited"],
+      "related": ["prohib_001", "prohib_015"],
+      "url": "/kb/prohibited-content#bestiality",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_015",
+      "question": "Can I include my pet in non-sexual content?",
+      "answer": "Non-sexual content with pets is allowed (pet visible in background, vlog with pet, etc.). Prohibited: pets present during sexual activity, pets in sexually suggestive context, any sexual interaction with animals. If your pet accidentally appears in sexual content, edit them out before posting. Context is key.",
+      "category": "animals",
+      "tags": ["pets", "animals", "context"],
+      "related": ["prohib_014"],
+      "url": "/kb/prohibited-content#pets",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_016",
+      "question": "What is non-consensual content?",
+      "answer": "Non-consensual content depicts sexual activity without consent. Prohibited types: actual non-consent (always illegal), realistic depictions of assault, content without clear consent indicators, 'revenge porn' (sharing intimate images without consent), and hidden camera/voyeur content of non-consenting subjects. Some fantasy (CNC) is allowed with strict guidelines.",
+      "category": "consent",
+      "tags": ["non-consent", "consent", "prohibited"],
+      "related": ["prohib_017", "prohib_018"],
+      "url": "/kb/prohibited-content#non-consent",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_017",
+      "question": "What is CNC content and is it allowed?",
+      "answer": "CNC (Consensual Non-Consent) is fantasy content between consenting adults. Allowed WITH requirements: clear disclaimer before content, documented consent from all participants, no ambiguity about fictional nature, no weapons/extreme violence, and no drugging/unconscious scenarios. Prohibited: any ambiguity, realistic violence, content that could be mistaken for actual assault.",
+      "category": "consent",
+      "tags": ["cnc", "fantasy", "requirements"],
+      "related": ["prohib_016", "prohib_018"],
+      "url": "/kb/prohibited-content#cnc",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_018",
+      "question": "What disclaimer is required for CNC content?",
+      "answer": "CNC content requires clear disclaimer visible before viewing: 'This content depicts a consensual roleplay fantasy. All participants are consenting adults who negotiated this scenario beforehand. This is fictional and does not depict actual non-consensual activity.' Place in description and at beginning of video content.",
+      "category": "consent",
+      "tags": ["cnc", "disclaimer", "requirements"],
+      "related": ["prohib_017", "comp_085"],
+      "url": "/kb/prohibited-content#cnc-disclaimer",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_019",
+      "question": "Is drugging/unconscious content allowed?",
+      "answer": "No. Content depicting drugging, intoxication to incapacity, or unconscious persons in sexual situations is prohibited. This is non-consensual by definition (unconscious persons cannot consent). No exceptions even for fantasy/roleplay. This includes 'sleeping' scenarios where the sleeping person is engaged sexually.",
+      "category": "consent",
+      "tags": ["drugging", "unconscious", "prohibited"],
+      "related": ["prohib_016", "prohib_017"],
+      "url": "/kb/prohibited-content#unconscious",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_020",
+      "question": "What is revenge porn?",
+      "answer": "Revenge porn (non-consensual intimate images/NCII) is sharing intimate content without the depicted person's consent. This is illegal in most jurisdictions. Prohibited on Fanz. If you appear in content posted without your consent, report immediately for removal within 24 hours. We cooperate with law enforcement on NCII cases.",
+      "category": "consent",
+      "tags": ["revenge-porn", "ncii", "prohibited"],
+      "related": ["prohib_016", "comp_128"],
+      "url": "/kb/prohibited-content#ncii",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_021",
+      "question": "What is necrophilia content?",
+      "answer": "Necrophilia is sexual activity with corpses. All necrophilia content is prohibited including: actual (obviously illegal), simulated, fantasy/roleplay, zombie/undead in sexual context, and any depiction of sexual contact with deceased individuals. There are no exceptions - this is both illegal and banned by payment processors.",
+      "category": "necrophilia",
+      "tags": ["necrophilia", "prohibited", "definition"],
+      "related": ["prohib_001"],
+      "url": "/kb/prohibited-content#necrophilia",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_022",
+      "question": "What is excrement content?",
+      "answer": "Excrement/scat content involves feces, urine, or other bodily waste in sexual context. Prohibited because: most jurisdictions restrict it, all major payment processors ban it, and there are health concerns. This includes: actual excrement, simulated (fake scat), water sports/urine, vomit in sexual context, and related fetish content.",
+      "category": "scat",
+      "tags": ["scat", "excrement", "prohibited"],
+      "related": ["prohib_001", "prohib_023"],
+      "url": "/kb/prohibited-content#excrement",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_023",
+      "question": "Is water sports/urine content allowed?",
+      "answer": "No. Water sports (urine in sexual context) is prohibited under the excrement/bodily waste category. Payment processors ban this alongside scat content. Includes: visible urination in sexual context, 'golden shower' content, and urine play. No exceptions for quantity or context.",
+      "category": "scat",
+      "tags": ["watersports", "urine", "prohibited"],
+      "related": ["prohib_022"],
+      "url": "/kb/prohibited-content#watersports",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_024",
+      "question": "What is extreme violence content?",
+      "answer": "Extreme violence includes: content causing or depicting serious injury, gore/graphic wounds, torture scenes, mutilation, weapons causing injury, and realistic death depictions. Context matters: news/educational may be allowed, gratuitous violence is not. In sexual context, any significant violence is prohibited.",
+      "category": "violence",
+      "tags": ["violence", "gore", "prohibited"],
+      "related": ["prohib_001", "prohib_025"],
+      "url": "/kb/prohibited-content#violence",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_025",
+      "question": "What BDSM is allowed vs prohibited?",
+      "answer": "Allowed BDSM: consensual bondage, impact play without injury, dominant/submissive dynamics, restraints, sensory play. Prohibited: extreme edge play causing lasting injury, content suggesting non-consent without clear CNC disclaimer, branding/permanent marking, extreme restraint endangering safety, and anything without documented consent.",
+      "category": "bdsm",
+      "tags": ["bdsm", "allowed", "limits"],
+      "related": ["prohib_024", "prohib_026"],
+      "url": "/kb/prohibited-content#bdsm",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_026",
+      "question": "Is blood allowed in content?",
+      "answer": "Limited blood contexts are allowed: menstruation (natural function), minor needle play (with care), accidental minor injury. Prohibited: significant blood loss, gore, self-harm, intentional wounding, blood play for shock value, and any content suggesting serious injury. Content warnings required for any blood.",
+      "category": "blood",
+      "tags": ["blood", "limits", "warnings"],
+      "related": ["prohib_024", "prohib_025"],
+      "url": "/kb/prohibited-content#blood",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_027",
+      "question": "What is trafficking content?",
+      "answer": "Trafficking content indicates possible human trafficking/exploitation. Indicators: third-party control, coercion language, visible distress, branding/ownership marks, restricted communication, money going to others. 13 specific indicators are monitored. High/critical risk content is blocked and reported to FBI. We have zero tolerance for trafficking.",
+      "category": "trafficking",
+      "tags": ["trafficking", "exploitation", "indicators"],
+      "related": ["prohib_028", "comp_012"],
+      "url": "/kb/prohibited-content#trafficking",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "prohib_028",
+      "question": "What are the 13 trafficking indicators?",
+      "answer": "The 13 indicators: (1) Third-party control, (2) Frequent location changes, (3) Multiple performers/one account, (4) Suspicious pricing, (5) Coercion language, (6) Age ambiguity, (7) Restricted communication, (8) ID document requests in content, (9) Cash-only references, (10) Hotel/motel backgrounds consistently, (11) Branding/ownership marks, (12) Substance abuse indicators, (13) Distress signals. 6-8 = high risk, 9+ = critical.",
+      "category": "trafficking",
+      "tags": ["trafficking", "indicators", "detection"],
+      "related": ["prohib_027", "comp_012"],
+      "url": "/kb/trafficking-detection#indicators",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "prohib_029",
+      "question": "What is the risk score system?",
+      "answer": "Content receives a risk score 0-100 based on AI analysis, text analysis, and pattern matching. Ranges: 0-39 = Low (auto-approve), 40-59 = Medium (spot-check), 60-79 = High (mandatory review), 80-100 = Critical (auto-block). Higher scores mean higher priority review. Risk factors are cumulative.",
+      "category": "scoring",
+      "tags": ["risk-score", "system", "moderation"],
+      "related": ["prohib_030", "comp_027"],
+      "url": "/kb/prohibited-content#risk-scoring",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_030",
+      "question": "What factors affect my content's risk score?",
+      "answer": "Risk score factors: prohibited terms in text (+20-40), visual analysis flags (+10-30), hash matches to known violations (+50-100), metadata concerns (+5-20), account history (+/- 10), and pattern matches (+15-25). Multiple factors stack. Clean accounts with clear content score low. Borderline content with flags scores higher.",
+      "category": "scoring",
+      "tags": ["risk-factors", "scoring", "details"],
+      "related": ["prohib_029", "prohib_031"],
+      "url": "/kb/prohibited-content#risk-factors",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_031",
+      "question": "What happens if my content is flagged?",
+      "answer": "Flagged content process: Content placed in review queue (may be temporarily hidden), Moderator reviews within 24-72 hours (faster for high-risk), Decision made: approve/restrict/remove, You receive Statement of Reasons if actioned, You can appeal via Compliance Dashboard. During review, you can continue posting other content.",
+      "category": "process",
+      "tags": ["flagged", "review", "process"],
+      "related": ["prohib_032", "comp_103"],
+      "url": "/kb/troubleshooting-compliance#content-flagged",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_032",
+      "question": "How long does content review take?",
+      "answer": "Review times by priority: CSAM matches - immediate automated action, 2-hour human verification. High-risk (80+) - within 8 hours. Medium-risk (60-79) - within 24 hours. Standard flagged - within 72 hours. User reports - within 72 hours. Volume spikes may cause delays. Check content status in Creator Dashboard.",
+      "category": "process",
+      "tags": ["review-time", "duration", "sla"],
+      "related": ["prohib_031", "comp_101"],
+      "url": "/kb/content-moderation#review-times",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_033",
+      "question": "Can I appeal a content removal?",
+      "answer": "Yes, most removals can be appealed. Process: (1) Review Statement of Reasons, (2) Go to Compliance Dashboard > Appeals, (3) Select the content, (4) Provide reasoning why removal was incorrect, (5) Submit appeal. Appeals reviewed by different moderator within 7 days. Exception: CSAM violations cannot be appealed.",
+      "category": "appeals",
+      "tags": ["appeal", "removal", "process"],
+      "related": ["prohib_034", "comp_018"],
+      "url": "/kb/troubleshooting-compliance#appeals",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_034",
+      "question": "How do I write a successful appeal?",
+      "answer": "Effective appeals include: specific reason you disagree with removal, evidence supporting your position (context, consent documentation, etc.), acknowledgment of policy (show you understand rules), and concrete explanation why content complies. Avoid: emotional arguments, threats, insults, or re-uploading before appeal is resolved. Professional, fact-based appeals succeed more often.",
+      "category": "appeals",
+      "tags": ["appeal", "tips", "success"],
+      "related": ["prohib_033", "prohib_035"],
+      "url": "/kb/troubleshooting-compliance#appeal-tips",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_035",
+      "question": "What is the appeal success rate?",
+      "answer": "Appeal outcomes vary: approximately 30-40% of appeals result in reversal or modification. Most successful appeals: false positive from AI, context not clear in original review, edge cases. Least successful: clear policy violations, repeated similar content, lack of supporting evidence. Quality of appeal significantly affects outcome.",
+      "category": "appeals",
+      "tags": ["appeal", "statistics", "outcomes"],
+      "related": ["prohib_033", "prohib_034"],
+      "url": "/kb/troubleshooting-compliance#appeal-statistics",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_036",
+      "question": "What is the three-strike system?",
+      "answer": "Fanz uses progressive discipline: First strike - warning, content removed, refresher training required. Second strike - 7-day suspension, content removed, supervisor review. Third strike - permanent ban, all content removed, cannot create new account. Strikes expire after 12 months of clean record. CSAM/critical violations bypass system = immediate permanent ban.",
+      "category": "enforcement",
+      "tags": ["strikes", "system", "discipline"],
+      "related": ["prohib_037", "comp_077"],
+      "url": "/kb/enforcement#strike-system",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_037",
+      "question": "What happens on my first violation?",
+      "answer": "First violation: content removed, warning issued, you receive Statement of Reasons explaining violation, mandatory refresher training on violated policy area, violation logged (strike 1/3), account remains active, monetization continues. Take this seriously - two more strikes means permanent ban.",
+      "category": "enforcement",
+      "tags": ["first-violation", "warning", "consequences"],
+      "related": ["prohib_036", "prohib_038"],
+      "url": "/kb/enforcement#first-violation",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_038",
+      "question": "What happens on my second violation?",
+      "answer": "Second violation: content removed, 7-day account suspension, Statement of Reasons provided, additional training required, supervisor review of your account, strike logged (strike 2/3), monetization paused during suspension. Consider this your final warning - one more strike means permanent ban.",
+      "category": "enforcement",
+      "tags": ["second-violation", "suspension", "consequences"],
+      "related": ["prohib_036", "prohib_039"],
+      "url": "/kb/enforcement#second-violation",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_039",
+      "question": "What happens on my third violation?",
+      "answer": "Third violation: permanent account ban, all content removed, payout of any owed funds (within 30 days), account cannot be recovered, cannot create new accounts, may be reported to industry databases. This is final - there is no fourth chance. Appeal third strike within 30 days via compliance@fanz.com.",
+      "category": "enforcement",
+      "tags": ["third-violation", "permanent-ban", "consequences"],
+      "related": ["prohib_036", "prohib_040"],
+      "url": "/kb/enforcement#third-violation",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_040",
+      "question": "Can I get permanently banned for one violation?",
+      "answer": "Yes. Certain violations result in immediate permanent ban: CSAM (any amount), critical trafficking indicators (9+), repeated account creation after ban, identity fraud, threats of violence, and coordinated abuse. These bypass the strike system. No appeal for CSAM. Other immediate-ban violations may be appealable.",
+      "category": "enforcement",
+      "tags": ["immediate-ban", "serious-violations", "permanent"],
+      "related": ["prohib_036", "comp_078"],
+      "url": "/kb/enforcement#immediate-ban",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_041",
+      "question": "How long do strikes stay on my record?",
+      "answer": "Strikes expire after 12 months of no violations. After expiration, they don't count toward the three-strike threshold. However, violation history is retained permanently for pattern analysis. Serious violations (even expired) may be considered if future violations occur. Keep a clean record to reset your standing.",
+      "category": "enforcement",
+      "tags": ["strikes", "expiration", "duration"],
+      "related": ["prohib_036", "comp_079"],
+      "url": "/kb/enforcement#strike-expiration",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_042",
+      "question": "What is Visa/Mastercard GBPP?",
+      "answer": "GBPP (Global Brand Protection Program) is the content policy payment processors require of adult platforms. It prohibits the 9 content categories. Platforms must: actively moderate content, report violations, maintain detection systems, and undergo audits. Non-compliance = losing payment processing = platform shutdown. Fanz enforces GBPP to maintain payments.",
+      "category": "payment-processors",
+      "tags": ["gbpp", "visa", "mastercard"],
+      "related": ["prohib_001", "comp_014"],
+      "url": "/kb/payment-processor-requirements",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_043",
+      "question": "Why do payment processors care about content?",
+      "answer": "Payment processors face: reputational risk (association with illegal content), legal liability (facilitating illegal activity), chargeback costs (disputed transactions), and regulatory pressure. They protect their brands and legal standing by requiring content moderation. Platforms that don't comply lose processing ability.",
+      "category": "payment-processors",
+      "tags": ["payment-processors", "reasons", "compliance"],
+      "related": ["prohib_042", "comp_015"],
+      "url": "/kb/payment-processor-requirements#why",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_044",
+      "question": "Can I post content first and verify compliance later?",
+      "answer": "Content is reviewed before or during publication. You can't post prohibited content and 'fix it later'. Process: upload > risk assessment > queue for review if flagged > approval/rejection. High-risk content is blocked until reviewed. Don't assume content is approved until explicitly confirmed or you see it live without restriction.",
+      "category": "process",
+      "tags": ["process", "upload", "review"],
+      "related": ["prohib_031", "prohib_032"],
+      "url": "/kb/content-process#pre-publication-review",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_045",
+      "question": "How do I know if my content will be approved?",
+      "answer": "To maximize approval chances: review prohibited content list before creating, avoid any of the 9 prohibited categories, use clear titles/descriptions without prohibited terms, ensure all performers are verified 18+, include required disclaimers (CNC, etc.), and when in doubt, ask before creating. Most content from compliant creators is approved.",
+      "category": "guidance",
+      "tags": ["approval", "tips", "compliance"],
+      "related": ["prohib_001", "prohib_046"],
+      "url": "/kb/creator-compliance#content-approval",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_046",
+      "question": "Can I ask if content would be approved before creating it?",
+      "answer": "Yes. Contact compliance@fanz.com or use in-app support to describe your planned content concept. We'll provide guidance on whether it would likely be approved and any modifications needed. This prevents wasted effort and violations. Especially useful for edge cases or unfamiliar content types.",
+      "category": "guidance",
+      "tags": ["pre-approval", "guidance", "support"],
+      "related": ["prohib_045", "comp_100"],
+      "url": "/kb/creator-support#content-guidance",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_047",
+      "question": "What are content warnings and when are they required?",
+      "answer": "Content warnings alert viewers to potentially intense content. Required for: BDSM/kink, CNC content, blood (any), intense themes, trigger-potential content. Add during upload via content settings. Warnings appear before content loads. Missing required warnings = violation. Viewers can set preferences to skip certain categories.",
+      "category": "warnings",
+      "tags": ["content-warnings", "required", "disclosure"],
+      "related": ["prohib_048", "comp_085"],
+      "url": "/kb/content-guidelines#warnings",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_048",
+      "question": "What categories require content warnings?",
+      "answer": "Warning categories: BDSM/Kink (bondage, impact play), CNC/Fantasy non-consent, Blood (any amount), Intense themes (degradation, humiliation), Body modification, Specific fetishes (feet, etc. - optional but recommended). Select all applicable during upload. Under-warning may result in removal; over-warning is fine.",
+      "category": "warnings",
+      "tags": ["warning-categories", "list", "requirements"],
+      "related": ["prohib_047", "prohib_049"],
+      "url": "/kb/content-guidelines#warning-categories",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_049",
+      "question": "Do I need warnings for vanilla content?",
+      "answer": "Standard consensual adult content between verified adults doesn't require special warnings beyond the platform's default age-gate. The platform itself is age-restricted. Warnings are for content that may be intense, triggering, or unexpected even for adult audiences. When in doubt, add appropriate warnings.",
+      "category": "warnings",
+      "tags": ["vanilla", "warnings", "requirements"],
+      "related": ["prohib_047", "prohib_048"],
+      "url": "/kb/content-guidelines#vanilla-content",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_050",
+      "question": "What is deepfake content policy?",
+      "answer": "Deepfakes (AI-generated content using real people's likenesses): Non-consensual deepfake sexual content is PROHIBITED - creating sexual content using someone's likeness without consent. Consensual AI-generated content requires: documented consent from depicted person, clear labeling as AI-generated, all persons verified 18+. Non-consensual deepfakes treated as NCII.",
+      "category": "ai-content",
+      "tags": ["deepfake", "ai", "policy"],
+      "related": ["prohib_051", "comp_070"],
+      "url": "/kb/prohibited-content#deepfakes",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_051",
+      "question": "Can I create AI-generated adult content?",
+      "answer": "AI content rules: No AI-generated CSAM (federal crime), No non-consensual likenesses (deepfakes without consent), No AI content suggesting minors, Must label AI-generated content as such. Allowed: AI-generated content not depicting real people, AI enhancements to your own content, AI art that doesn't violate prohibited categories.",
+      "category": "ai-content",
+      "tags": ["ai", "generated", "rules"],
+      "related": ["prohib_050", "prohib_012"],
+      "url": "/kb/content-guidelines#ai-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_052",
+      "question": "What is public content policy?",
+      "answer": "Content filmed in public spaces: No non-consenting individuals visible, No actual public exposure to unwitting people, Comply with local laws (public indecency), Strip location metadata. Allowed: controlled 'public' sets, blurred backgrounds, locations without bystanders. Real public exposure to non-consenting people is prohibited and may be illegal.",
+      "category": "public",
+      "tags": ["public", "location", "policy"],
+      "related": ["prohib_053", "comp_074"],
+      "url": "/kb/prohibited-content#public-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_053",
+      "question": "Can I film in hotels?",
+      "answer": "Hotels are private spaces (you're renting the room). Considerations: consistent hotel backgrounds are a trafficking indicator, ensure location metadata is stripped, don't film staff or other guests without consent, avoid identifying hotel (protect your privacy). Occasional hotel content is fine; always-hotel-background raises flags.",
+      "category": "locations",
+      "tags": ["hotel", "location", "considerations"],
+      "related": ["prohib_052", "prohib_028"],
+      "url": "/kb/content-guidelines#hotel-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_054",
+      "question": "What is considered harassment?",
+      "answer": "Prohibited harassment: continued unwanted contact, threats, intimidation, doxxing (publishing private info), coordinated targeting, hate speech based on protected characteristics, and sexual harassment in messaging. Report harassment via content report or trust@fanz.com. Harassers are banned. We cooperate with law enforcement on serious cases.",
+      "category": "harassment",
+      "tags": ["harassment", "prohibited", "safety"],
+      "related": ["prohib_055", "comp_108"],
+      "url": "/kb/prohibited-content#harassment",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_055",
+      "question": "What is hate speech policy?",
+      "answer": "Prohibited hate speech: content attacking protected characteristics (race, ethnicity, religion, gender, sexuality, disability), slurs, dehumanization, calls for violence against groups, and symbols of hate groups. Context matters: discussing hate is different from promoting it. Report hate content via report button. Zero tolerance for hate speech.",
+      "category": "hate-speech",
+      "tags": ["hate-speech", "prohibited", "discrimination"],
+      "related": ["prohib_054", "comp_126"],
+      "url": "/kb/prohibited-content#hate-speech",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_056",
+      "question": "Can I block/restrict who sees my content?",
+      "answer": "Yes. Creator controls: Block specific users, Geo-restrict by country/region, Require subscription, Age-gate beyond platform default, Hide from search engines. Use Settings > Content > Distribution. Blocking doesn't override legal requirements (verification still required for restricted users in regulated jurisdictions).",
+      "category": "controls",
+      "tags": ["blocking", "restrictions", "control"],
+      "related": ["comp_146", "prohib_057"],
+      "url": "/kb/creator-tools#content-controls",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_057",
+      "question": "Can I remove content I've posted?",
+      "answer": "Yes, you can delete your content anytime. Process: select content, choose delete, confirm. Content removed from public view immediately. Note: may remain in backups for limited time, 2257 records must be retained even if content deleted, and CSAM-related content is preserved for law enforcement. You own your content and control its display.",
+      "category": "controls",
+      "tags": ["delete", "remove", "content"],
+      "related": ["prohib_056", "comp_140"],
+      "url": "/kb/content-management#deletion",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_058",
+      "question": "What if my content is stolen/reposted?",
+      "answer": "If your content appears elsewhere without permission: (1) Document the infringement (screenshots, URLs), (2) File DMCA takedown with the hosting platform, (3) For content on Fanz, report via Settings > Content Protection, (4) Consider DMCA registration for stronger protection. We watermark content to help identify original creators.",
+      "category": "protection",
+      "tags": ["stolen", "dmca", "protection"],
+      "related": ["comp_076", "prohib_057"],
+      "url": "/kb/content-protection",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_059",
+      "question": "What is content piracy and how is it handled?",
+      "answer": "Piracy is unauthorized redistribution of content. Fanz helps combat piracy through: invisible watermarking (identifies original), DMCA takedown support, content fingerprinting (detects re-uploads), and partnership with anti-piracy services. Report piracy via Settings > Content Protection > Report Piracy. We assist with takedowns on external sites.",
+      "category": "protection",
+      "tags": ["piracy", "protection", "support"],
+      "related": ["prohib_058", "comp_113"],
+      "url": "/kb/content-protection#piracy",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_060",
+      "question": "What metadata should I remove before posting?",
+      "answer": "Remove before posting: GPS/location data, device serial numbers, exact timestamps (if privacy concern), and any identifying information in EXIF data. Fanz automatically strips some metadata, but verify sensitive data is removed. Use metadata removal tools before upload if concerned. Location data is a common privacy leak.",
+      "category": "privacy",
+      "tags": ["metadata", "privacy", "removal"],
+      "related": ["prohib_052", "comp_086"],
+      "url": "/kb/creator-privacy#metadata",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_061",
+      "question": "What is catfishing and is it prohibited?",
+      "answer": "Catfishing is presenting as someone you're not (fake photos, false identity). Prohibited because: it's fraud, violates 2257 requirements, deceives users, and may facilitate scams. All creators must verify identity. Catfishing = permanent ban. If you suspect an account is catfishing, report it immediately.",
+      "category": "fraud",
+      "tags": ["catfishing", "fake", "prohibited"],
+      "related": ["prohib_062", "age_009"],
+      "url": "/kb/prohibited-content#catfishing",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_062",
+      "question": "Can I use a stage name instead of my real name?",
+      "answer": "Yes, stage names/aliases are allowed and common. Requirements: your legal identity must be verified behind the scenes (for 2257), your stage name appears publicly, stage name must be linked to your legal identity in records. You can use any stage name that doesn't impersonate another real person.",
+      "category": "identity",
+      "tags": ["stage-name", "alias", "allowed"],
+      "related": ["prohib_061", "comp_007"],
+      "url": "/kb/creator-compliance#stage-names",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_063",
+      "question": "What if I see prohibited content on Fanz?",
+      "answer": "If you see prohibited content: (1) Don't share/distribute it, (2) Click the Report button on the content, (3) Select the appropriate violation category, (4) Submit report. For CSAM: report immediately - federal law requires we act. Reports are reviewed within 24-72 hours. You can report anonymously if needed.",
+      "category": "reporting",
+      "tags": ["report", "prohibited", "action"],
+      "related": ["comp_039", "prohib_064"],
+      "url": "/kb/troubleshooting-compliance#reporting",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_064",
+      "question": "Are reports confidential?",
+      "answer": "Yes, reports are confidential. The reported user is never told who reported them. Your account is linked to reports for follow-up, but your identity is protected. For anonymous reporting, you can use the public report form without login, but we can't provide updates. Report without fear of retaliation.",
+      "category": "reporting",
+      "tags": ["confidential", "anonymous", "reporting"],
+      "related": ["prohib_063", "comp_041"],
+      "url": "/kb/troubleshooting-compliance#confidential-reporting",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_065",
+      "question": "What if I accidentally upload prohibited content?",
+      "answer": "If you realize you've uploaded prohibited content: Delete it immediately (don't wait for review), Contact support proactively explaining the situation, Genuine accidents with quick self-correction are treated more leniently than discovered violations. This doesn't apply to CSAM or other serious violations which are treated the same regardless of claimed intent.",
+      "category": "accidents",
+      "tags": ["accident", "mistake", "response"],
+      "related": ["prohib_037", "prohib_045"],
+      "url": "/kb/troubleshooting-compliance#accidents",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_066",
+      "question": "What is content that 'appears to depict minors'?",
+      "answer": "Content appearing to depict minors (even if performers are adults): youthful appearance + sexual context, childlike styling/behavior, minors' clothing (school uniforms), age-play elements, and anything suggesting persons under 18. Even with verified 18+ performers, content suggesting minors is prohibited. Appearance and context matter, not just actual age.",
+      "category": "minors",
+      "tags": ["appears-minor", "context", "prohibited"],
+      "related": ["prohib_005", "prohib_007"],
+      "url": "/kb/prohibited-content#appears-minor",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_067",
+      "question": "Can performers with youthful appearances create content?",
+      "answer": "Yes, but with care. Adult performers with youthful appearances should: avoid any 'young' framing in titles/descriptions, avoid childlike styling or behavior, present clearly as adults, avoid props suggesting youth. Focus on adult presentation. If content appears to depict a minor regardless of actual age, it may be restricted.",
+      "category": "minors",
+      "tags": ["youthful", "performers", "guidance"],
+      "related": ["prohib_066", "prohib_005"],
+      "url": "/kb/creator-compliance#youthful-performers",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_068",
+      "question": "What is simulated content policy?",
+      "answer": "Simulated content mimics prohibited acts without actually performing them. Generally: simulated prohibited content is still prohibited (simulated CSAM, simulated incest, etc.). The prohibition is on the content type, not whether it's 'real.' Exception: CNC (simulated non-consent) is allowed with proper safeguards. When in doubt, don't create simulated prohibited content.",
+      "category": "simulated",
+      "tags": ["simulated", "fake", "policy"],
+      "related": ["prohib_017", "prohib_021"],
+      "url": "/kb/prohibited-content#simulated",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_069",
+      "question": "What is written/audio content policy?",
+      "answer": "Prohibited content rules apply to all formats: Text/written content - prohibited categories apply to written erotica, Audio content - prohibited categories apply to audio, Scripts/descriptions - must not describe prohibited activities. Don't assume text-only content is exempt. CSAM in written form is still illegal under federal law (18 U.S.C. 1466A).",
+      "category": "formats",
+      "tags": ["text", "audio", "formats"],
+      "related": ["prohib_001", "prohib_070"],
+      "url": "/kb/prohibited-content#non-visual",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_070",
+      "question": "Can I post erotic stories/fiction?",
+      "answer": "Written erotica is allowed if it doesn't depict prohibited categories. Prohibited: CSAM fiction, incest fiction, bestiality fiction, non-consensual fiction without clear fantasy framing. Allowed: Adult fiction between consenting adults, fantasy scenarios that don't depict prohibited categories. Label fiction clearly as fiction.",
+      "category": "formats",
+      "tags": ["fiction", "stories", "written"],
+      "related": ["prohib_069", "prohib_001"],
+      "url": "/kb/content-guidelines#written-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_071",
+      "question": "What is spam and is it prohibited?",
+      "answer": "Spam is prohibited: mass unsolicited messages, repetitive/duplicate content, misleading titles/descriptions (clickbait), keyword stuffing, engagement manipulation, and promotional content outside designated areas. Spam degrades user experience. Repeated spam = strikes. Keep content genuine and use features as intended.",
+      "category": "spam",
+      "tags": ["spam", "prohibited", "quality"],
+      "related": ["prohib_072", "comp_107"],
+      "url": "/kb/prohibited-content#spam",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_072",
+      "question": "Can I promote my content on Fanz?",
+      "answer": "Legitimate promotion is allowed: sharing your content, engaging with followers, cross-promoting between your profiles. Prohibited: mass DMs to non-followers, fake engagement, paid promotion disguised as organic, misleading promotions. Use platform features (promotions, featured content) for visibility. Organic growth through quality content is best.",
+      "category": "promotion",
+      "tags": ["promotion", "marketing", "allowed"],
+      "related": ["prohib_071", "comp_107"],
+      "url": "/kb/creator-tools#promotion",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_073",
+      "question": "What is impersonation?",
+      "answer": "Impersonation is pretending to be another person/brand. Prohibited: posing as other creators, fake celebrity accounts, impersonating staff/moderators, using others' content as your own. Verification prevents most impersonation. Report suspected impersonation via Report > Impersonation. Impersonation = immediate ban.",
+      "category": "fraud",
+      "tags": ["impersonation", "fake", "prohibited"],
+      "related": ["prohib_061", "prohib_062"],
+      "url": "/kb/prohibited-content#impersonation",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_074",
+      "question": "Can I create parody content?",
+      "answer": "Parody may be allowed if: clearly labeled as parody, doesn't actually impersonate (satirizes instead), doesn't use others' content without permission, and doesn't violate prohibited categories. Parody of public figures in non-sexual context: generally allowed. Sexual parody using someone's likeness: requires consent or may be prohibited as non-consensual deepfake.",
+      "category": "parody",
+      "tags": ["parody", "satire", "allowed"],
+      "related": ["prohib_073", "prohib_050"],
+      "url": "/kb/content-guidelines#parody",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_075",
+      "question": "What is illegal content besides the 9 categories?",
+      "answer": "Beyond the 9 prohibited categories, also illegal/prohibited: fraud/scams, illegal drug sales, weapons trafficking, stolen content (copyright violation), money laundering, doxxing/privacy violations, threats, and any content illegal in major jurisdictions. Just because something isn't in the 9 categories doesn't mean it's allowed.",
+      "category": "illegal",
+      "tags": ["illegal", "other", "prohibited"],
+      "related": ["prohib_001", "comp_120"],
+      "url": "/kb/prohibited-content#other-illegal",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_076",
+      "question": "Can I sell physical items through Fanz?",
+      "answer": "Limited physical item sales are allowed: worn items, autographed merchandise, promotional items. Prohibited: illegal items, drugs/paraphernalia, weapons, regulated items. All sales must comply with shipping laws. You're responsible for tax and legal compliance on physical sales. Most creators focus on digital content.",
+      "category": "sales",
+      "tags": ["physical-items", "sales", "allowed"],
+      "related": ["prohib_077", "comp_129"],
+      "url": "/kb/monetization#physical-sales",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_077",
+      "question": "What payment methods can I request from fans?",
+      "answer": "All payments should go through Fanz payment system. Prohibited: requesting off-platform payment (circumvents protections), cryptocurrency for content access, gift cards, cash/wire transfers. Off-platform payments: no buyer protection, no creator protection, possible ToS violation, tax complications. Use the platform's built-in payment.",
+      "category": "payments",
+      "tags": ["payments", "off-platform", "prohibited"],
+      "related": ["prohib_076", "comp_136"],
+      "url": "/kb/monetization#payment-methods",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_078",
+      "question": "What is edge case content?",
+      "answer": "Edge cases are content that doesn't clearly fit categories - borderline situations requiring judgment. Examples: artistic nudity, medical/educational content, news documentation, satire. Edge cases receive: manual review, context consideration, senior moderator input. Provide context in descriptions to help reviewers understand intent.",
+      "category": "edge-cases",
+      "tags": ["edge-case", "borderline", "judgment"],
+      "related": ["prohib_079", "comp_104"],
+      "url": "/kb/content-moderation#edge-cases",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_079",
+      "question": "How is artistic content evaluated?",
+      "answer": "Artistic content considerations: Does it have artistic merit beyond sexual content? Is it part of a larger artistic work? Is the sexual content gratuitous or integral? Would it be shown in a gallery/museum context? Art doesn't automatically exempt content from prohibited categories, but genuine artistic context is considered in review.",
+      "category": "edge-cases",
+      "tags": ["art", "artistic", "evaluation"],
+      "related": ["prohib_078", "prohib_080"],
+      "url": "/kb/content-moderation#artistic-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_080",
+      "question": "How is educational content evaluated?",
+      "answer": "Educational content considerations: Is the primary purpose educational? Is explicit content necessary for the education? Is it presented in educational context (not disguised porn)? Legitimate sex education, medical content, and documentary are generally allowed. Educational framing doesn't exempt prohibited categories. Provide clear educational context.",
+      "category": "edge-cases",
+      "tags": ["educational", "medical", "evaluation"],
+      "related": ["prohib_078", "prohib_079"],
+      "url": "/kb/content-moderation#educational-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_081",
+      "question": "What about historical/documentary content?",
+      "answer": "Historical/documentary content is evaluated for: legitimate historical/documentary purpose, necessity of explicit content, professional production standards, and not being prohibited content with historical framing. Genuine documentaries about the adult industry may be allowed. Using 'documentary' as an excuse for prohibited content is not allowed.",
+      "category": "edge-cases",
+      "tags": ["documentary", "historical", "evaluation"],
+      "related": ["prohib_078", "prohib_080"],
+      "url": "/kb/content-moderation#documentary-content",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_082",
+      "question": "What is context in content moderation?",
+      "answer": "Context factors in review: creator intent, surrounding content, titles/descriptions, audience expectations, cultural context, and platform section. Context can: shift borderline content to approved, reveal disguised prohibited content, and explain edge cases. Provide context through descriptions and content settings to help accurate review.",
+      "category": "moderation",
+      "tags": ["context", "moderation", "factors"],
+      "related": ["prohib_078", "comp_104"],
+      "url": "/kb/content-moderation#context",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_083",
+      "question": "Can moderators be wrong?",
+      "answer": "Yes, moderators can make mistakes - that's why appeals exist. Reasons for errors: AI false positive, context not clear, edge case judgment call, or human error. If you believe a decision was wrong: appeal with clear explanation, provide missing context, and reference specific policy. About 30-40% of appeals result in reversal.",
+      "category": "moderation",
+      "tags": ["errors", "mistakes", "appeals"],
+      "related": ["prohib_033", "prohib_034"],
+      "url": "/kb/content-moderation#errors",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_084",
+      "question": "What is proactive moderation?",
+      "answer": "Proactive moderation identifies violations without user reports. Methods: AI scanning, hash matching, random sampling, pattern detection. Benefits: catches content users might not report, consistent enforcement, faster response. All proactive detections are verified by humans before action (except CSAM hash matches which auto-block immediately).",
+      "category": "moderation",
+      "tags": ["proactive", "detection", "moderation"],
+      "related": ["comp_111", "prohib_029"],
+      "url": "/kb/content-moderation#proactive",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_085",
+      "question": "What is reactive moderation?",
+      "answer": "Reactive moderation responds to user reports. Process: user reports > review queue > moderator reviews > decision. Reactive catches: violations AI misses, context-dependent issues, new violation patterns. Report content that seems to violate policies - user reports are valuable for catching what automated systems miss.",
+      "category": "moderation",
+      "tags": ["reactive", "reports", "moderation"],
+      "related": ["prohib_084", "prohib_063"],
+      "url": "/kb/content-moderation#reactive",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_086",
+      "question": "What qualifies as 'extreme' in extreme violence?",
+      "answer": "'Extreme' violence includes: causing or depicting serious injury, realistic death depictions, torture causing lasting harm, mutilation/dismemberment, weapons causing significant injury, and excessive gore. Not extreme: stage combat, wrestling, light impact play. The threshold is significant actual or simulated harm that would disturb typical viewers.",
+      "category": "violence",
+      "tags": ["extreme", "violence", "threshold"],
+      "related": ["prohib_024", "prohib_025"],
+      "url": "/kb/prohibited-content#extreme-violence-definition",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_087",
+      "question": "Can I create horror-themed content?",
+      "answer": "Horror-themed content may be allowed with care: fake blood/makeup is fine, jump scares are fine, spooky themes are fine. Prohibited: realistic gore, actual harm depiction, extreme violence even if fake-looking, and horror + sexual content of minors. Horror doesn't exempt prohibited categories. Add content warnings for intense horror.",
+      "category": "horror",
+      "tags": ["horror", "themes", "allowed"],
+      "related": ["prohib_086", "prohib_026"],
+      "url": "/kb/content-guidelines#horror",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_088",
+      "question": "What weapons are prohibited in content?",
+      "answer": "Weapons in sexual content: real firearms - prohibited in sexual context, realistic prop weapons - highly restricted, knives near bodies - caution required, weapons causing injury - prohibited. Non-sexual content: weapons may be shown if not threatening violence. Context matters - cosplay props treated differently than apparent real weapons.",
+      "category": "weapons",
+      "tags": ["weapons", "prohibited", "context"],
+      "related": ["prohib_086", "prohib_017"],
+      "url": "/kb/prohibited-content#weapons",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_089",
+      "question": "What is the difference between restriction and removal?",
+      "answer": "Restriction: content hidden but preserved, may be visible to creator, temporary pending review or appeal, can be reversed. Removal: content deleted from platform, may be preserved for legal/evidence, permanent (unless appealed), cannot be restored after appeals exhausted. You'll receive Statement of Reasons explaining which action and why.",
+      "category": "enforcement",
+      "tags": ["restriction", "removal", "difference"],
+      "related": ["comp_109", "prohib_033"],
+      "url": "/kb/enforcement#restriction-vs-removal",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_090",
+      "question": "What happens to my earnings if content is removed?",
+      "answer": "Content removal and earnings: earnings from before removal are retained (you earned them legitimately), future earnings from that content stop, refunds to buyers are case-by-case (fraud = refunded, borderline violation = typically no refund). Monetization continues for compliant content. Account suspension affects all pending payouts (released after compliance).",
+      "category": "monetization",
+      "tags": ["earnings", "removal", "money"],
+      "related": ["prohib_089", "comp_122"],
+      "url": "/kb/monetization#removal-earnings",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_091",
+      "question": "Can removed content be restored?",
+      "answer": "Restoration depends on appeal: successful appeal = content restored, partial success = modified restoration may be offered, failed appeal = permanent removal. After appeal deadline (30 days) or final rejection, content cannot be restored. You can re-upload corrected content as new upload (following policies). Never re-upload identical prohibited content.",
+      "category": "appeals",
+      "tags": ["restoration", "appeal", "removed"],
+      "related": ["prohib_033", "prohib_089"],
+      "url": "/kb/troubleshooting-compliance#content-restoration",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_092",
+      "question": "What if the same content is allowed on other platforms?",
+      "answer": "Each platform has different policies. Content allowed elsewhere may be prohibited on Fanz due to: stricter payment processor agreements, jurisdictional differences, policy choices. Fanz's policies are based on our legal obligations and partnerships. 'But X allows it' is not a valid appeal argument. Follow Fanz policies for Fanz content.",
+      "category": "comparison",
+      "tags": ["other-platforms", "comparison", "policies"],
+      "related": ["prohib_001", "comp_081"],
+      "url": "/kb/policies#platform-comparison",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_093",
+      "question": "Are policies the same across all Fanz platforms?",
+      "answer": "Core prohibited content policies are consistent across all Fanz platforms (boyfanz, girlfanz, etc.). Differences may exist in: content focus/niche, community guidelines, featured content, and promotional policies. The 9 prohibited categories are universal. Check specific platform guidelines for community-specific rules.",
+      "category": "platforms",
+      "tags": ["platforms", "consistency", "policies"],
+      "related": ["comp_082", "prohib_001"],
+      "url": "/kb/fanz-ecosystem#policy-consistency",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_094",
+      "question": "How often are content policies updated?",
+      "answer": "Policy updates: Content policy reviewed quarterly, Major changes announced 30 days in advance, Minor clarifications effective immediately, Legal requirement changes implemented as required. Stay informed: email notifications (opt-in), blog announcements, in-app notifications. Policy version and update date shown on policy pages.",
+      "category": "policies",
+      "tags": ["updates", "changes", "frequency"],
+      "related": ["comp_099", "prohib_095"],
+      "url": "/kb/policy-updates",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_095",
+      "question": "Can I provide feedback on content policies?",
+      "answer": "Yes, we welcome feedback. Channels: policy@fanz.com (formal feedback), Community forums (public discussion), Creator surveys (periodic), Support tickets (specific issues). Feedback informs policy reviews. We can't respond to all feedback individually but it's considered in aggregate. Policy decisions balance community needs, legal requirements, and platform viability.",
+      "category": "feedback",
+      "tags": ["feedback", "policies", "community"],
+      "related": ["prohib_094", "comp_100"],
+      "url": "/kb/community#policy-feedback",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_096",
+      "question": "What if I disagree with a policy?",
+      "answer": "Policy disagreement options: provide feedback through official channels, comply while advocating for change, choose platforms with different policies. What doesn't work: violating policies you disagree with, arguing with moderators about policy itself (they enforce, don't make policy). Policy reflects legal requirements and business needs - some aspects are non-negotiable.",
+      "category": "disagreement",
+      "tags": ["disagree", "policy", "options"],
+      "related": ["prohib_095", "prohib_033"],
+      "url": "/kb/community#policy-disagreement",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_097",
+      "question": "Are there regional content restrictions?",
+      "answer": "Some content may be restricted by region due to: local laws (illegal in certain countries), cultural considerations, regulatory requirements. Geo-restrictions apply automatically based on viewer location. You can also geo-restrict your own content via Settings > Content > Distribution. Regional restrictions don't affect other regions.",
+      "category": "regional",
+      "tags": ["regional", "geo-restriction", "local-laws"],
+      "related": ["comp_146", "prohib_056"],
+      "url": "/kb/content-distribution#regional",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_098",
+      "question": "What is considered 'sexual content'?",
+      "answer": "Sexual content includes: nudity in sexual context, sexual acts, sexually explicit text/audio, and content intended to arouse. Non-sexual nudity (artistic, educational, medical) may be treated differently. Context determines classification. When in doubt, treat content as sexual for policy purposes. Age verification requirements apply to all sexual content.",
+      "category": "definitions",
+      "tags": ["sexual-content", "definition", "scope"],
+      "related": ["prohib_001", "age_063"],
+      "url": "/kb/content-guidelines#sexual-content-definition",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "prohib_099",
+      "question": "What if content falls into multiple prohibited categories?",
+      "answer": "Multiple violations compound severity: content with multiple prohibited elements is treated as more serious, may result in immediate ban rather than strike, each category violation noted, and pattern of multi-category violations accelerates enforcement. One piece of content with CSAM + other violations = immediate permanent ban (CSAM alone triggers this).",
+      "category": "enforcement",
+      "tags": ["multiple", "violations", "severity"],
+      "related": ["prohib_040", "prohib_036"],
+      "url": "/kb/enforcement#multiple-violations",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "prohib_100",
+      "question": "Where can I find the complete prohibited content policy?",
+      "answer": "Complete policy available at: /policies/content (full legal document), /kb/prohibited-content (explanatory guide), FanzVarsity courses (interactive training), in-app help (quick reference). The Knowledge Base version explains policies in plain language with examples. Legal policy is definitive. When in doubt, ask compliance@fanz.com before creating content.",
+      "category": "resources",
+      "tags": ["policy", "documentation", "resources"],
+      "related": ["comp_100", "prohib_046"],
+      "url": "/policies/content",
+      "difficulty": "beginner"
+    }
+  ]
+}

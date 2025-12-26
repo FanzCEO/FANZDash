@@ -7,6 +7,12 @@ async function throwIfResNotOk(res: Response) {
   }
 }
 
+// Get auth token from localStorage
+export function getAuthToken(): string | null {
+  if (typeof window === 'undefined') return null;
+  return localStorage.getItem('authToken');
+}
+
 // Get CSRF token from cookies
 export function getCsrfToken(): string | null {
   const cookies = document.cookie.split(';');
@@ -17,6 +23,24 @@ export function getCsrfToken(): string | null {
     }
   }
   return null;
+}
+
+// Add auth and CSRF headers
+export function getAuthHeaders(headers: Record<string, string> = {}): Record<string, string> {
+  const authToken = getAuthToken();
+  const csrfToken = getCsrfToken();
+
+  const result = { ...headers };
+
+  if (authToken) {
+    result['Authorization'] = `Bearer ${authToken}`;
+  }
+  if (csrfToken) {
+    result['CSRF-Token'] = csrfToken;
+    result['X-CSRF-Token'] = csrfToken;
+  }
+
+  return result;
 }
 
 // Add CSRF token to request headers
@@ -37,18 +61,10 @@ export async function apiRequest(
   method: string,
   data?: unknown | undefined,
 ): Promise<Response> {
-  const headers: Record<string, string> = {
+  // Start with auth headers (includes Authorization token + CSRF)
+  const headers: Record<string, string> = getAuthHeaders({
     ...(data ? { "Content-Type": "application/json" } : {}),
-  };
-
-  // Add CSRF token for mutating requests
-  if (method !== 'GET' && method !== 'HEAD') {
-    const csrfToken = getCsrfToken();
-    if (csrfToken) {
-      headers['CSRF-Token'] = csrfToken;
-      headers['X-CSRF-Token'] = csrfToken;
-    }
-  }
+  });
 
   const res = await fetch(url, {
     method,
@@ -68,6 +84,7 @@ export const getQueryFn: <T>(options: {
   ({ on401: unauthorizedBehavior }) =>
   async ({ queryKey }) => {
     const res = await fetch(queryKey.join("/") as string, {
+      headers: getAuthHeaders(),
       credentials: "include",
     });
 

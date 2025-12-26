@@ -1,0 +1,66 @@
+{
+  "courseId": "creator-compliance",
+  "title": "Creator Compliance",
+  "subtitle": "Essential Legal & Business Training for Content Creators",
+  "description": "Comprehensive compliance training required for all content creators before monetization. Learn your legal responsibilities, 2257 record keeping, prohibited content deep dive, age verification, external platform rules, and violation consequences.",
+  "targetAudience": "Content Creators",
+  "duration": "2-3 hours",
+  "certification": "Creator Compliance Certificate",
+  "passRateRequired": 85,
+  "required": true,
+  "requiredFor": ["monetization", "payout_enabled", "creator_status"],
+  "prerequisites": ["compliance-101"],
+  "version": "1.0",
+  "lastUpdated": "2024-12-23",
+  "modules": [
+    {
+      "moduleId": "cc-module-1",
+      "title": "Your Legal Responsibilities",
+      "duration": 20,
+      "order": 1
+    },
+    {
+      "moduleId": "cc-module-2",
+      "title": "2257 Record Keeping",
+      "duration": 30,
+      "order": 2
+    },
+    {
+      "moduleId": "cc-module-3",
+      "title": "Prohibited Content Categories Deep Dive",
+      "duration": 30,
+      "order": 3
+    },
+    {
+      "moduleId": "cc-module-4",
+      "title": "Age Verification Requirements",
+      "duration": 20,
+      "order": 4
+    },
+    {
+      "moduleId": "cc-module-5",
+      "title": "External Platform Rules",
+      "duration": 20,
+      "order": 5
+    },
+    {
+      "moduleId": "cc-module-6",
+      "title": "What Happens If You Violate",
+      "duration": 20,
+      "order": 6
+    }
+  ],
+  "finalExam": {
+    "questionCount": 50,
+    "passRate": 85,
+    "timeLimit": 60
+  },
+  "completionBenefits": [
+    "Creator Compliance Certificate issued",
+    "Monetization enabled",
+    "Payment methods can be added",
+    "Creator status granted",
+    "Access to Creator Portal features",
+    "Certificate displayed on profile"
+  ]
+}

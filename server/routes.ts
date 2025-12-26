@@ -42,6 +42,8 @@ import {
 } from "@shared/schema";
 import { aiModerationService } from "./openaiService";
 import session from "express-session";
+import { createClient } from "redis";
+import RedisStore from "connect-redis";
 import passport from "passport";
 import authRoutes from "./auth/authRoutes";
 import lusca from "lusca";
@@ -281,9 +283,23 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.use('/api/system/', adminLimiter);
   app.use('/api/security/', adminLimiter);
 
-  // Initialize session middleware and passport
+  // Initialize Redis client for session storage
+  const redisClient = createClient({
+    url: process.env.REDIS_URL || "redis://localhost:6379",
+  });
+  redisClient.connect().catch((err) => {
+    console.error("Redis connection error:", err);
+    console.log("Falling back to memory store for sessions");
+  });
+
+  // Initialize session middleware with Redis store
+  const sessionStore = redisClient.isOpen
+    ? new RedisStore({ client: redisClient, prefix: "fanzdash:" })
+    : undefined;
+
   app.use(
     session({
+      store: sessionStore,
       secret:
         process.env.SESSION_SECRET || "your-secret-key-change-in-production",
       resave: false,
@@ -291,6 +307,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
       cookie: {
         secure: process.env.NODE_ENV === "production",
         maxAge: 24 * 60 * 60 * 1000, // 24 hours
+        httpOnly: true,
+        sameSite: "lax",
       },
     }),
   );

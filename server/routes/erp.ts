@@ -23,15 +23,63 @@ const erpLimiter = rateLimit({
   message: { error: 'Too many requests' }
 });
 
-// Mock data storage
-const inventory: any[] = [];
-const projects: any[] = [];
-const resources: any[] = [];
-const accounts: any[] = [];
-const budgets: any[] = [];
-const transactions: any[] = [];
-const purchaseOrders: any[] = [];
-const suppliers: any[] = [];
+// Mock data storage with seed data
+const inventory: any[] = [
+  { id: 'inv_001', sku: 'CAM-4K-001', name: '4K Streaming Camera', category: 'Equipment', description: 'Professional 4K streaming camera', quantity: 15, reorderLevel: 5, unitPrice: 899.99, cost: 650, supplier: 'TechPro Supplies', warehouse: 'Main', status: 'in_stock', lastRestocked: '2025-12-20' },
+  { id: 'inv_002', sku: 'MIC-PRO-002', name: 'Professional Microphone', category: 'Audio', description: 'Studio-grade condenser microphone', quantity: 25, reorderLevel: 10, unitPrice: 299.99, cost: 180, supplier: 'AudioMax', warehouse: 'Main', status: 'in_stock', lastRestocked: '2025-12-18' },
+  { id: 'inv_003', sku: 'LIGHT-LED-003', name: 'LED Ring Light Kit', category: 'Lighting', description: '18-inch LED ring light with stand', quantity: 3, reorderLevel: 8, unitPrice: 149.99, cost: 85, supplier: 'LightWorks', warehouse: 'Main', status: 'low_stock', lastRestocked: '2025-12-10' },
+  { id: 'inv_004', sku: 'TRIPOD-001', name: 'Heavy Duty Tripod', category: 'Equipment', description: 'Professional camera tripod', quantity: 20, reorderLevel: 5, unitPrice: 199.99, cost: 120, supplier: 'TechPro Supplies', warehouse: 'Main', status: 'in_stock', lastRestocked: '2025-12-15' },
+  { id: 'inv_005', sku: 'BACKDROP-GRN', name: 'Green Screen Backdrop', category: 'Studio', description: '10x12ft green screen', quantity: 8, reorderLevel: 3, unitPrice: 79.99, cost: 45, supplier: 'StudioGear', warehouse: 'Secondary', status: 'in_stock', lastRestocked: '2025-12-12' },
+];
+
+const projects: any[] = [
+  { id: 'proj_001', name: 'Platform Migration v2.0', description: 'Migrate all platforms to new infrastructure', status: 'in_progress', priority: 'high', startDate: '2025-12-01', endDate: '2026-02-28', budget: 150000, spent: 45000, progress: 35, manager: 'Sarah Chen', team: ['Dev Team A', 'DevOps'], client: 'Internal', milestones: [{ id: 'm1', name: 'Phase 1 Complete', dueDate: '2025-12-31', completed: true }, { id: 'm2', name: 'Phase 2 Complete', dueDate: '2026-01-31', completed: false }] },
+  { id: 'proj_002', name: 'Mobile App Launch', description: 'Launch iOS and Android apps', status: 'planning', priority: 'critical', startDate: '2026-01-15', endDate: '2026-04-30', budget: 200000, spent: 0, progress: 0, manager: 'Mike Johnson', team: ['Mobile Team'], client: 'Internal', milestones: [] },
+  { id: 'proj_003', name: 'Payment Gateway Integration', description: 'Integrate new payment processors', status: 'completed', priority: 'high', startDate: '2025-10-01', endDate: '2025-12-15', budget: 50000, spent: 48500, progress: 100, manager: 'Lisa Park', team: ['Payments Team'], client: 'Internal', milestones: [{ id: 'm1', name: 'Integration Complete', dueDate: '2025-12-15', completed: true }] },
+];
+
+const resources: any[] = [
+  { id: 'res_001', name: 'AWS EC2 Cluster', type: 'equipment', description: 'Primary compute cluster', quantity: 12, unit: 'instances', costPerUnit: 500, status: 'in_use', location: 'us-east-1', assignedTo: 'Platform Team', maintenanceSchedule: 'Monthly' },
+  { id: 'res_002', name: 'Video Encoding Servers', type: 'equipment', description: 'Dedicated encoding hardware', quantity: 4, unit: 'servers', costPerUnit: 2000, status: 'in_use', location: 'Data Center A', assignedTo: 'Media Team', maintenanceSchedule: 'Quarterly' },
+  { id: 'res_003', name: 'CDN Bandwidth', type: 'software', description: 'Content delivery network allocation', quantity: 100, unit: 'TB/month', costPerUnit: 50, status: 'available', location: 'Global', assignedTo: 'Operations', maintenanceSchedule: 'N/A' },
+  { id: 'res_004', name: 'Studio Space A', type: 'facility', description: 'Main production studio', quantity: 1, unit: 'room', costPerUnit: 5000, status: 'in_use', location: 'HQ Building', assignedTo: 'Content Team', maintenanceSchedule: 'Weekly' },
+];
+
+const accounts: any[] = [
+  { id: 'acc_001', name: 'Operating Account', type: 'asset', accountNumber: '1000-001', balance: 2500000, status: 'active', createdAt: '2025-01-01' },
+  { id: 'acc_002', name: 'Payroll Account', type: 'liability', accountNumber: '2000-001', balance: 450000, status: 'active', createdAt: '2025-01-01' },
+  { id: 'acc_003', name: 'Revenue - Subscriptions', type: 'revenue', accountNumber: '4000-001', balance: 1850000, status: 'active', createdAt: '2025-01-01' },
+  { id: 'acc_004', name: 'Revenue - Tips', type: 'revenue', accountNumber: '4000-002', balance: 320000, status: 'active', createdAt: '2025-01-01' },
+  { id: 'acc_005', name: 'Operating Expenses', type: 'expense', accountNumber: '5000-001', balance: 680000, status: 'active', createdAt: '2025-01-01' },
+];
+
+const budgets: any[] = [
+  { id: 'budget_001', department: 'Engineering', category: 'Development', year: 2025, allocated: 500000, spent: 385000, remaining: 115000, status: 'active', period: 'Annual' },
+  { id: 'budget_002', department: 'Marketing', category: 'Advertising', year: 2025, allocated: 200000, spent: 165000, remaining: 35000, status: 'active', period: 'Annual' },
+  { id: 'budget_003', department: 'Operations', category: 'Infrastructure', year: 2025, allocated: 350000, spent: 290000, remaining: 60000, status: 'active', period: 'Annual' },
+  { id: 'budget_004', department: 'HR', category: 'Training', year: 2025, allocated: 75000, spent: 42000, remaining: 33000, status: 'active', period: 'Annual' },
+];
+
+const transactions: any[] = [
+  { id: 'txn_001', type: 'credit', accountId: 'acc_003', amount: 125000, description: 'December subscription revenue', date: '2025-12-25', createdBy: 'system', status: 'completed', category: 'Revenue' },
+  { id: 'txn_002', type: 'debit', accountId: 'acc_005', amount: 45000, description: 'AWS infrastructure costs', date: '2025-12-24', createdBy: 'system', status: 'completed', category: 'Infrastructure' },
+  { id: 'txn_003', type: 'credit', accountId: 'acc_004', amount: 28500, description: 'Creator tips - weekly settlement', date: '2025-12-23', createdBy: 'system', status: 'completed', category: 'Revenue' },
+  { id: 'txn_004', type: 'debit', accountId: 'acc_002', amount: 85000, description: 'Bi-weekly payroll', date: '2025-12-20', createdBy: 'hr_admin', status: 'completed', category: 'Payroll' },
+  { id: 'txn_005', type: 'debit', accountId: 'acc_005', amount: 12500, description: 'Marketing campaign - December', date: '2025-12-18', createdBy: 'marketing', status: 'completed', category: 'Marketing' },
+];
+
+const purchaseOrders: any[] = [
+  { id: 'po_001', poNumber: 'PO-2025-001', supplierId: 'sup_001', supplierName: 'TechPro Supplies', items: [{ name: '4K Cameras', quantity: 10, unitPrice: 650 }], totalAmount: 6500, status: 'confirmed', orderDate: '2025-12-20', expectedDelivery: '2025-12-30', notes: 'Q1 inventory replenishment' },
+  { id: 'po_002', poNumber: 'PO-2025-002', supplierId: 'sup_002', supplierName: 'AudioMax', items: [{ name: 'Microphones', quantity: 20, unitPrice: 180 }, { name: 'Audio Cables', quantity: 50, unitPrice: 15 }], totalAmount: 4350, status: 'sent', orderDate: '2025-12-22', expectedDelivery: '2026-01-05', notes: 'Audio equipment upgrade' },
+  { id: 'po_003', poNumber: 'PO-2025-003', supplierId: 'sup_003', supplierName: 'LightWorks', items: [{ name: 'LED Ring Lights', quantity: 15, unitPrice: 85 }], totalAmount: 1275, status: 'pending', orderDate: '2025-12-26', expectedDelivery: '2026-01-10', notes: 'Low stock replenishment' },
+];
+
+const suppliers: any[] = [
+  { id: 'sup_001', name: 'TechPro Supplies', contact: 'vendor@techpro.com', phone: '555-0101' },
+  { id: 'sup_002', name: 'AudioMax', contact: 'sales@audiomax.com', phone: '555-0102' },
+  { id: 'sup_003', name: 'LightWorks', contact: 'orders@lightworks.com', phone: '555-0103' },
+];
+
 const assets: any[] = [];
 const workflows: any[] = [];
 
