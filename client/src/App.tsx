@@ -7,6 +7,11 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { CategorizedNavigation } from "@/components/CategorizedNavigation";
+import { lazy, Suspense } from "react";
+
+// Lazy load 3D/WebGL components to prevent Three.js module initialization errors
+const QuantumWarRoom = lazy(() => import("@/pages/QuantumWarRoom"));
+const QuantumWarRoomSimple = lazy(() => import("@/pages/QuantumWarRoomSimple"));
 import Dashboard from "@/pages/dashboard";
 import PlatformsPage from "@/pages/platforms";
 import AIAnalysisPage from "@/pages/ai-analysis";
@@ -89,8 +94,7 @@ import AICFODashboard from "@/pages/AICFODashboard";
 import ComplianceCenter from "@/pages/ComplianceCenter";
 import LegalLibrary from "@/pages/legal-library";
 import WikiPage from "@/pages/wiki";
-import QuantumWarRoom from "@/pages/QuantumWarRoom";
-import QuantumWarRoomSimple from "@/pages/QuantumWarRoomSimple";
+// QuantumWarRoom and QuantumWarRoomSimple are lazy-loaded at the top of the file
 import AnalyticsDashboardPage from "@/pages/analytics-dashboard";
 import AdminConfigPage from "@/pages/admin-config";
 import PlatformManager from "@/pages/platform-manager";
@@ -187,8 +191,8 @@ function Router() {
           <Route path="/compliance-center" component={ComplianceCenter} />
           <Route path="/legal-library" component={LegalLibrary} />
           <Route path="/wiki" component={WikiPage} />
-          <Route path="/quantum-war-room" component={QuantumWarRoomSimple} />
-          <Route path="/quantum-war-room-full" component={QuantumWarRoom} />
+          <Route path="/quantum-war-room">{() => <Suspense fallback={<div className="flex items-center justify-center h-screen text-cyan-400">Loading Quantum War Room...</div>}><QuantumWarRoomSimple /></Suspense>}</Route>
+          <Route path="/quantum-war-room-full">{() => <Suspense fallback={<div className="flex items-center justify-center h-screen text-cyan-400">Loading Quantum War Room...</div>}><QuantumWarRoom /></Suspense>}</Route>
           <Route path="/blog" component={BlogManagement} />
           <Route path="/blog/create" component={BlogCreate} />
           <Route path="/blog/edit/:id" component={BlogEdit} />
