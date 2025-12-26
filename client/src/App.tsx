@@ -4,6 +4,10 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { CategorizedNavigation } from "@/components/CategorizedNavigation";
+import { lazy, Suspense } from "react";
+
+// Lazy load 3D/WebGL components to prevent module initialization errors
+const QuantumWarRoom = lazy(() => import("@/pages/QuantumWarRoom"));
 import Dashboard from "@/pages/dashboard";
 import PlatformsPage from "@/pages/platforms";
 import AIAnalysisPage from "@/pages/ai-analysis";
@@ -79,8 +83,26 @@ import VRRenderingEngine from "@/pages/VRRenderingEngine";
 import FutureTechManager from "@/pages/FutureTechManager";
 import AICFODashboard from "@/pages/AICFODashboard";
 import ComplianceCenter from "@/pages/ComplianceCenter";
+import ComplianceDashboard from "@/pages/ComplianceDashboard";
+import PrivacyPolicy from "@/pages/PrivacyPolicy";
+import TermsOfService from "@/pages/TermsOfService";
+import Statement2257 from "@/pages/Statement2257";
 import LegalLibrary from "@/pages/legal-library";
-import QuantumWarRoom from "@/pages/QuantumWarRoom";
+// QuantumWarRoom is lazy-loaded above
+import CommandCenterDashboard from "@/pages/CommandCenterDashboard";
+import CreatorsPage from "@/pages/CreatorsPage";
+import ExplorePage from "@/pages/ExplorePage";
+import CategoriesPage from "@/pages/CategoriesPage";
+import BlogPage from "@/pages/BlogPage";
+import BlogPostPage from "@/pages/BlogPostPage";
+import HomePage from "@/pages/HomePage";
+import ContactPage from "@/pages/ContactPage";
+import GenericPage from "@/pages/GenericPage";
+import SystemConfiguration from "@/pages/system-configuration";
+import PaymentGatewaySetup from "@/pages/payment-gateway-setup";
+import LogoFaviconManagement from "@/pages/logo-favicon-management";
+import KYCVerificationSetup from "@/pages/kyc-verification-setup";
+import KnowledgeBase from "@/pages/KnowledgeBase";
 
 function Router() {
   return (
@@ -147,8 +169,13 @@ function Router() {
           <Route path="/ai-cfo" component={AICFODashboard} />
           <Route path="/starz-studio" component={StarzStudioAdmin} />
           <Route path="/compliance-center" component={ComplianceCenter} />
+          <Route path="/compliance-dashboard" component={ComplianceDashboard} />
+          <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/terms-of-service" component={TermsOfService} />
+          <Route path="/2257-statement" component={Statement2257} />
           <Route path="/legal-library" component={LegalLibrary} />
-          <Route path="/quantum-war-room" component={QuantumWarRoom} />
+          <Route path="/quantum-war-room">{() => <Suspense fallback={<div className="flex items-center justify-center h-screen">Loading...</div>}><QuantumWarRoom /></Suspense>}</Route>
+          <Route path="/command-center" component={CommandCenterDashboard} />
           <Route path="/blog" component={BlogManagement} />
           <Route path="/blog/create" component={BlogCreate} />
           <Route path="/blog/edit/:id" component={BlogEdit} />
@@ -194,7 +221,22 @@ function Router() {
           <Route path="/theme-generator" component={ThemeGeneratorPage} />
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
+          <Route path="/signup" component={Register} />
           <Route path="/password/reset" component={PasswordReset} />
+          <Route path="/creators" component={CreatorsPage} />
+          <Route path="/explore" component={ExplorePage} />
+          <Route path="/categories" component={CategoriesPage} />
+          <Route path="/blog-public" component={BlogPage} />
+          <Route path="/blog/:slug" component={BlogPostPage} />
+          <Route path="/home" component={HomePage} />
+          <Route path="/contact" component={ContactPage} />
+          <Route path="/page/:slug" component={GenericPage} />
+          <Route path="/system-configuration" component={SystemConfiguration} />
+          <Route path="/payment-gateway-setup" component={PaymentGatewaySetup} />
+          <Route path="/logo-favicon-management" component={LogoFaviconManagement} />
+          <Route path="/kyc-verification-setup" component={KYCVerificationSetup} />
+          <Route path="/knowledge-base" component={KnowledgeBase} />
+          <Route path="/kb" component={KnowledgeBase} />
           <Route path="/error/404" component={NotFound404} />
           <Route path="/error/500" component={ServerError500} />
           <Route path="/error/503" component={Maintenance503} />
